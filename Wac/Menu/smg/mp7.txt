@@ -1,0 +1,43 @@
+{
+	"menu_id" : "wac_menu_smg_mp7",
+	"parent_menu_id" : "wac_menu_smg",
+	"title" : "wac_menu_smg_mp7_title",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_mp7qd",
+			"title" : "wac_replace_mp7qd_title",
+			"callback" : "callback_toggle_replace_mp7qd",
+			"value" : "replace_mp7qd",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_mp7extmag",
+			"title" : "wac_replace_hideextmag_title",
+			"callback" : "callback_toggle_replace_mp7extmag",
+			"value" : "replace_mp7extmag",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_mp7foldst",
+			"title" : "wac_replace_unfoldst_title",
+			"callback" : "callback_toggle_replace_mp7foldst",		
+			"items" : [
+				"wac_default_multi",
+				"foldedst_multi"
+			],
+			"value" : "replace_mp7foldst",
+			"default_value" : 1
+		}
+	]
+}

@@ -1,0 +1,90 @@
+{
+	"menu_id" : "wac_menu_ar_m733",
+	"parent_menu_id" : "wac_menu_ar",
+	"title" : "wac_menu_ar_m733_title",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m733fg",
+			"title" : "wac_replace_stndfg_title",
+			"callback" : "callback_toggle_replace_m733fg",		
+			"items" : [
+				"wac_default_multi",
+				"m4fg_multi"
+			],
+			"value" : "replace_m733fg",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m733grip",
+			"title" : "wac_replace_stndgrip_title",
+			"callback" : "callback_toggle_replace_m733grip",		
+			"items" : [
+				"wac_default_multi",
+				"ergogrip_multi",
+				"ar15hgrip_multi",
+				"ar15mgrip_multi",
+				"hk416cgrip_multi"
+			],
+			"value" : "replace_m733grip",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m733stock",
+			"title" : "wac_replace_stockuseonly_title",
+			"callback" : "callback_toggle_replace_m733stock",		
+			"items" : [
+				"wac_default_multi",
+				"stndst_multi",
+				"m4_s_crane_multi",
+				"foldst_multi",
+				"m16solidst_multi",
+				"hk416cst_multi",
+				"hk417st_multi",
+				"m4_vltor_multi"
+			],
+			"value" : "replace_m733stock",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m733upperrec",
+			"title" : "wac_replace_upperrec_title",
+			"callback" : "callback_toggle_replace_m733upperrec",		
+			"items" : [
+				"wac_default_multi",
+				"lwuprec_multi",
+				"thrustuprec_multi",
+				"ar15vltorupper_multi"
+			],
+			"value" : "replace_m733upperrec",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m733lowerrec",
+			"title" : "wac_replace_lowerrec_title",
+			"callback" : "callback_toggle_replace_m733lowerrec",		
+			"items" : [
+				"wac_default_multi",
+				"corelowerrec_multi"
+			],
+			"value" : "replace_m733lowerrec",
+			"default_value" : 1
+		}
+	]
+}

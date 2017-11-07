@@ -1,0 +1,318 @@
+{
+	"menu_id" : "wac_menu_attch_ar15",
+	"parent_menu_id" : "wac_menu_attch",
+	"title" : "wac_menu_attch_ar15_title",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15sniper",
+			"title" : "wac_replace_ar15sniper_title",
+			"callback" : "callback_toggle_replace_ar15sniper",		
+			"items" : [
+				"wac_default_multi",
+				"ergogrip_multi",
+				"ar15hgrip_multi",
+				"ar15mgrip_multi",
+				"hk416cgrip_multi",
+				"stngrip_multi",
+				"ttitr1_grip_multi"
+			],
+			"value" : "replace_ar15sniper",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15hgrip",
+			"title" : "wac_replace_rubbergrip_title",
+			"callback" : "callback_toggle_replace_ar15hgrip",		
+			"items" : [
+				"wac_default_multi",
+				"ergogrip_multi",
+				"ar15sniper_multi",
+				"ar15mgrip_multi",
+				"hk416cgrip_multi",
+				"stngrip_multi",
+				"ttitr1_grip_multi"
+			],
+			"value" : "replace_ar15hgrip",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15mgrip",
+			"title" : "wac_replace_ar15mgrip_title",
+			"callback" : "callback_toggle_replace_ar15mgrip",		
+			"items" : [
+				"wac_default_multi",
+				"ergogrip_multi",
+				"ar15sniper_multi",
+				"ar15hgrip_multi",
+				"hk416cgrip_multi",
+				"stngrip_multi",
+				"ttitr1_grip_multi"
+			],
+			"value" : "replace_ar15mgrip",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_30rndstanag",
+			"title" : "wac_replace_ar15_30rndstanag_title",
+			"callback" : "callback_toggle_replace_ar15_30rndstanag",		
+			"items" : [
+				"wac_default_multi",
+				"20rndstanag_multi",
+				"pmag_multi",
+				"quadstack_multi",
+				"emag_multi",
+				"l5_multi",
+				"betacmag_multi",
+				"augmag_multi",
+				"hk416cmag_multi"
+			],
+			"value" : "replace_ar15_30rndstanag",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_20rndstanag",
+			"title" : "wac_replace_ar15_20rndstanag_title",
+			"callback" : "callback_toggle_replace_ar15_20rndstanag",		
+			"items" : [
+				"wac_default_multi",
+				"30rndstanag_multi",
+				"pmag_multi",
+				"quadstack_multi",
+				"emag_multi",
+				"l5_multi",
+				"betacmag_multi",
+				"augmag_multi",
+				"hk416cmag_multi"
+			],
+			"value" : "replace_ar15_20rndstanag",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_pmag",
+			"title" : "wac_replace_ar15_pmag_title",
+			"callback" : "callback_toggle_replace_ar15_pmag",		
+			"items" : [
+				"wac_default_multi",
+				"20rndstanag_multi",
+				"30rndstanag_multi",
+				"quadstack_multi",
+				"emag_multi",
+				"l5_multi",
+				"betacmag_multi",
+				"augmag_multi",
+				"hk416cmag_multi"
+			],
+			"value" : "replace_ar15_pmag",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_mag5",
+			"title" : "wac_replace_ar15_mag5_title",
+			"callback" : "callback_toggle_replace_ar15_mag5",		
+			"items" : [
+				"wac_default_multi",
+				"20rndstanag_multi",
+				"30rndstanag_multi",
+				"pmag_multi",
+				"emag_multi",
+				"l5_multi",
+				"betacmag_multi",
+				"augmag_multi",
+				"hk416cmag_multi"
+			],
+			"value" : "replace_ar15_mag5",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_emag",
+			"title" : "wac_replace_ar15_emag_title",
+			"callback" : "callback_toggle_replace_ar15_emag",		
+			"items" : [
+				"wac_default_multi",
+				"20rndstanag_multi",
+				"30rndstanag_multi",
+				"pmag_multi",
+				"quadstack_multi",
+				"l5_multi",
+				"betacmag_multi",
+				"augmag_multi",
+				"hk416cmag_multi"
+			],
+			"value" : "replace_ar15_emag",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_l5",
+			"title" : "wac_replace_ar15_l5_title",
+			"callback" : "callback_toggle_replace_ar15_l5",		
+			"items" : [
+				"wac_default_multi",
+				"20rndstanag_multi",
+				"30rndstanag_multi",
+				"pmag_multi",
+				"quadstack_multi",
+				"emag_multi",
+				"betacmag_multi",
+				"augmag_multi",
+				"hk416cmag_multi"
+			],
+			"value" : "replace_ar15_l5",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_magpulassiststanag",
+			"title" : "wac_replace_magpulmagassist_title",
+			"callback" : "callback_toggle_replace_ar15_magpulassiststanag",		
+			"items" : [
+				"wac_default_multi",
+				"20rndstanag_multi",
+				"30rndstanag_multi",
+				"pmag_multi",
+				"quadstack_multi",
+				"emag_multi",
+				"l5_multi",
+				"betacmag_multi",
+				"augmag_multi",
+				"hk416cmag_multi"
+			],
+			"value" : "replace_ar15_magpulassiststanag",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4_s_ubr",
+			"title" : "wac_replace_ar15_ubr_title",
+			"callback" : "callback_toggle_replace_m4_s_ubr",		
+			"items" : [
+				"wac_default_multi",
+				"m4_s_crane_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi"
+			],
+			"value" : "replace_m4_s_ubr",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4_s_mk46",
+			"title" : "wac_replace_ar15_m4mk46_title",
+			"callback" : "callback_toggle_replace_m4_s_mk46",		
+			"items" : [
+				"wac_default_multi",
+				"m4_s_crane_multi",
+				"m4_s_ubr_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi"
+			],
+			"value" : "replace_m4_s_mk46",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4_s_crane",
+			"title" : "wac_replace_ar15_crane_title",
+			"callback" : "callback_toggle_replace_m4_s_crane",		
+			"items" : [
+				"wac_default_multi",
+				"m4_s_ubr_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi"
+			],
+			"value" : "replace_m4_s_crane",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15charginhandle",
+			"title" : "wac_replace_ar15charginhandle_title",
+			"callback" : "callback_toggle_replace_ar15charginhandle",		
+			"items" : [
+				"wac_default_multi",
+				"lwhandle_multi",
+				"thrusthandle_multi",
+				"stndhandle_multi"
+			],
+			"value" : "replace_ar15charginhandle",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15vltorupper",
+			"title" : "wac_replace_ar15vltorupper_title",
+			"callback" : "callback_toggle_replace_ar15vltorupper",		
+			"items" : [
+				"wac_default_multi",
+				"lwuprec_multi",
+				"thrustuprec_multi",
+				"stnduprec_multi"
+			],
+			"value" : "replace_ar15vltorupper",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15coreupper",
+			"title" : "wac_replace_ar15coreupper_title",
+			"callback" : "callback_toggle_replace_ar15coreupper",		
+			"items" : [
+				"wac_default_multi",
+				"thrustuprec_multi",
+				"ar15vltorupper_multi",
+				"stnduprec_multi"
+			],
+			"value" : "replace_ar15coreupper",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15baliosupper",
+			"title" : "wac_replace_ar15baliosupper_title",
+			"callback" : "callback_toggle_replace_ar15baliosupper",		
+			"items" : [
+				"wac_default_multi",
+				"lwuprec_multi",
+				"ar15vltorupper_multi",
+				"stnduprec_multi"
+			],
+			"value" : "replace_ar15baliosupper",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15corelower",
+			"title" : "wac_replace_ar15corelower_title",
+			"callback" : "callback_toggle_replace_ar15corelower",		
+			"items" : [
+				"wac_default_multi",
+				"stndlowerrec_multi"
+			],
+			"value" : "replace_ar15corelower",
+			"default_value" : 1
+		}
+	]
+}
