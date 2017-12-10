@@ -62,28 +62,55 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_m733upperrec",
-			"title" : "wac_replace_upperrec_title",
-			"callback" : "callback_toggle_replace_m733upperrec",		
+			"id" : "toggle_replace_m733lower",
+			"title" : "wac_replace_lowerrec_title",
+			"callback" : "callback_toggle_replace_m733lower",		
 			"items" : [
 				"wac_default_multi",
-				"lwuprec_multi",
-				"thrustuprec_multi",
-				"ar15vltorupper_multi"
+				"wac_ar15lowercore_multi"
 			],
-			"value" : "replace_m733upperrec",
+			"value" : "replace_m733lower",
 			"default_value" : 1
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_m733lowerrec",
-			"title" : "wac_replace_lowerrec_title",
-			"callback" : "callback_toggle_replace_m733lowerrec",		
+			"id" : "toggle_replace_m733upper",
+			"title" : "wac_replace_ar15roundupper_title",
+			"callback" : "callback_toggle_replace_m733upper",		
 			"items" : [
 				"wac_default_multi",
-				"corelowerrec_multi"
+				"wac_ar15vltorupper_multi",
+				"wac_ar15baliosupper_multi",
+				"wac_ar15coreupper_multi"
 			],
-			"value" : "replace_m733lowerrec",
+			"value" : "replace_m733upper",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m733bolt",
+			"title" : "wac_replace_ar15roundbolt_title",
+			"callback" : "callback_toggle_replace_m733bolt",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15vltorbolt_multi",
+				"wac_ar15baliosbolt_multi",
+				"wac_ar15corebolt_multi"
+			],
+			"value" : "replace_m733bolt",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m733handle",
+			"title" : "wac_replace_ar15roundhandle_title",
+			"callback" : "callback_toggle_replace_m733handle",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15balioshandle_multi",
+				"wac_ar15corehandle_multi"
+			],
+			"value" : "replace_m733handle",
 			"default_value" : 1
 		}
 	]

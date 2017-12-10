@@ -248,16 +248,43 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_ar15charginhandle",
-			"title" : "wac_replace_ar15charginhandle_title",
-			"callback" : "callback_toggle_replace_ar15charginhandle",		
+			"id" : "toggle_replace_ar15roundupper",
+			"title" : "wac_replace_ar15roundupper_title",
+			"callback" : "callback_toggle_replace_ar15roundupper",		
 			"items" : [
 				"wac_default_multi",
-				"lwhandle_multi",
-				"thrusthandle_multi",
-				"stndhandle_multi"
+				"wac_ar15vltorupper_multi",
+				"wac_ar15baliosupper_multi",
+				"wac_ar15coreupper_multi"
 			],
-			"value" : "replace_ar15charginhandle",
+			"value" : "replace_ar15roundupper",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15roundbolt",
+			"title" : "wac_replace_ar15roundbolt_title",
+			"callback" : "callback_toggle_replace_ar15roundbolt",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15vltorbolt_multi",
+				"wac_ar15baliosbolt_multi",
+				"wac_ar15corebolt_multi"
+			],
+			"value" : "replace_ar15roundbolt",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15roundhandle",
+			"title" : "wac_replace_ar15roundhandle_title",
+			"callback" : "callback_toggle_replace_ar15roundhandle",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15balioshandle_multi",
+				"wac_ar15corehandle_multi"
+			],
+			"value" : "replace_ar15roundhandle",
 			"default_value" : 1
 		},
 		{
@@ -267,25 +294,38 @@
 			"callback" : "callback_toggle_replace_ar15vltorupper",		
 			"items" : [
 				"wac_default_multi",
-				"lwuprec_multi",
-				"thrustuprec_multi",
-				"stnduprec_multi"
+				"wac_ar15roundupper_multi",
+				"wac_ar15baliosupper_multi",
+				"wac_ar15coreupper_multi"
 			],
 			"value" : "replace_ar15vltorupper",
 			"default_value" : 1
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_ar15coreupper",
-			"title" : "wac_replace_ar15coreupper_title",
-			"callback" : "callback_toggle_replace_ar15coreupper",		
+			"id" : "toggle_replace_ar15vltorbolt",
+			"title" : "wac_replace_ar15vltorbolt_title",
+			"callback" : "callback_toggle_replace_ar15vltorbolt",		
 			"items" : [
 				"wac_default_multi",
-				"thrustuprec_multi",
-				"ar15vltorupper_multi",
-				"stnduprec_multi"
+				"wac_ar15roundbolt_multi",
+				"wac_ar15baliosbolt_multi",
+				"wac_ar15corebolt_multi"
 			],
-			"value" : "replace_ar15coreupper",
+			"value" : "replace_ar15vltorbolt",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15vltorhandle",
+			"title" : "wac_replace_ar15vltorhandle_title",
+			"callback" : "callback_toggle_replace_ar15vltorhandle",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15balioshandle_multi",
+				"wac_ar15corehandle_multi"
+			],
+			"value" : "replace_ar15vltorhandle",
 			"default_value" : 1
 		},
 		{
@@ -295,11 +335,52 @@
 			"callback" : "callback_toggle_replace_ar15baliosupper",		
 			"items" : [
 				"wac_default_multi",
-				"lwuprec_multi",
-				"ar15vltorupper_multi",
-				"stnduprec_multi"
+				"wac_ar15roundupper_multi",
+				"wac_ar15vltorupper_multi",
+				"wac_ar15coreupper_multi"
 			],
 			"value" : "replace_ar15baliosupper",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15baliosbolt",
+			"title" : "wac_replace_ar15baliosbolt_title",
+			"callback" : "callback_toggle_replace_ar15baliosbolt",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15roundbolt_multi",
+				"wac_ar15vltorbolt_multi",
+				"wac_ar15corebolt_multi"
+			],
+			"value" : "replace_ar15baliosbolt",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15balioshandle",
+			"title" : "wac_replace_ar15balioshandle_title",
+			"callback" : "callback_toggle_replace_ar15balioshandle",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15roundhandle_multi",
+				"wac_ar15corehandle_multi"
+			],
+			"value" : "replace_ar15balioshandle",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15coreupper",
+			"title" : "wac_replace_ar15coreupper_title",
+			"callback" : "callback_toggle_replace_ar15coreupper",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15roundupper_multi",
+				"wac_ar15vltorupper_multi",
+				"wac_ar15baliosupper_multi"
+			],
+			"value" : "replace_ar15coreupper",
 			"default_value" : 1
 		},
 		{
@@ -309,9 +390,36 @@
 			"callback" : "callback_toggle_replace_ar15corelower",		
 			"items" : [
 				"wac_default_multi",
-				"stndlowerrec_multi"
+				"wac_ar15lower_multi"
 			],
 			"value" : "replace_ar15corelower",
+			"default_value" : 1
+		}
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15corebolt",
+			"title" : "wac_replace_ar15corebolt_title",
+			"callback" : "callback_toggle_replace_ar15corebolt",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15roundbolt_multi",
+				"wac_ar15vltorbolt_multi",
+				"wac_ar15baliosbolt_multi"
+			],
+			"value" : "replace_ar15corebolt",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15corehandle",
+			"title" : "wac_replace_ar15corehandle_title",
+			"callback" : "callback_toggle_replace_ar15corehandle",		
+			"items" : [
+				"wac_default_multi",
+				"wac_ar15roundhandle_multi",
+				"wac_ar15balioshandle_multi"
+			],
+			"value" : "replace_ar15corehandle",
 			"default_value" : 1
 		}
 	]

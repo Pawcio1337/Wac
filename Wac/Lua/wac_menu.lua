@@ -12,11 +12,6 @@ Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_WacRealWpn
 	loc:load_localization_file( WacMenu._path .. "Loc/en_wpn_realnames.txt" )
 end)
 end
-if WacMenu._data.pd2attachmentnames == 2 then
-Hooks:Add("LocalizationManagerPostInit", "LocalizationManagerPostInit_WacRealAttachNames", function( loc )
-	loc:load_localization_file( WacMenu._path .. "Loc/en_attach_realnames.txt" )
-end)
-end
 Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( menu_manager )
 	MenuCallbackHandler.callback_wac_applychanges = function(self, item)
 		if SystemFS:exists("mods/Wac Custom Mods Addon/mod.txt") then
@@ -630,12 +625,20 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_m733stock = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_m733upperrec = function(self, item)
-		WacMenu._data.replace_m733upperrec = item:value()
+	MenuCallbackHandler.callback_toggle_replace_m733lower = function(self, item)
+		WacMenu._data.replace_m733lower = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_m733lowerrec = function(self, item)
-		WacMenu._data.replace_m733lowerrec = item:value()
+	MenuCallbackHandler.callback_toggle_replace_m733upper = function(self, item)
+		WacMenu._data.replace_m733upper = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m733bolt = function(self, item)
+		WacMenu._data.replace_m733bolt = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m733handle = function(self, item)
+		WacMenu._data.replace_m733handle = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_scarhlongb = function(self, item)
@@ -2034,20 +2037,52 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_m4_s_crane = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_ar15charginhandle = function(self, item)
-		WacMenu._data.replace_ar15charginhandle = item:value()
+	MenuCallbackHandler.callback_toggle_replace_ar15roundupper = function(self, item)
+		WacMenu._data.replace_ar15roundupper = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15roundbolt = function(self, item)
+		WacMenu._data.replace_ar15roundbolt = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15roundhandle = function(self, item)
+		WacMenu._data.replace_ar15roundhandle = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_ar15vltorupper = function(self, item)
 		WacMenu._data.replace_ar15vltorupper = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_ar15coreupper = function(self, item)
-		WacMenu._data.replace_ar15coreupper = item:value()
+	MenuCallbackHandler.callback_toggle_replace_ar15vltorbolt = function(self, item)
+		WacMenu._data.replace_ar15vltorbolt = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15vltorhandle = function(self, item)
+		WacMenu._data.replace_ar15vltorhandle = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_ar15baliosupper = function(self, item)
 		WacMenu._data.replace_ar15baliosupper = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15baliosbolt = function(self, item)
+		WacMenu._data.replace_ar15baliosbolt = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15balioshandle = function(self, item)
+		WacMenu._data.replace_ar15balioshandle = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15coreupper = function(self, item)
+		WacMenu._data.replace_ar15coreupper = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15corebolt = function(self, item)
+		WacMenu._data.replace_ar15corebolt = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15corehandle = function(self, item)
+		WacMenu._data.replace_ar15corehandle = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_jprifles = function(self, item)
