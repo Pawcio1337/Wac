@@ -301,6 +301,26 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_famasg1grip = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_fnf2000longb = function(self, item)
+		WacMenu._data.replace_fnf2000longb = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_fnf2000stndb = function(self, item)
+		WacMenu._data.replace_fnf2000stndb = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_fnf2000flashhider = function(self, item)
+		WacMenu._data.replace_fnf2000flashhider = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_fnf2000stndbody = function(self, item)
+		WacMenu._data.replace_fnf2000stndbody = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_fnf2000tanbody = function(self, item)
+		WacMenu._data.replace_fnf2000tanbody = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_g3barrel = function(self, item)
 		WacMenu._data.replace_g3barrel = item:value()
 		WacMenu:Save()
@@ -1737,6 +1757,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_mp9skeletalst = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_mp40flashhider = function(self, item)
+		WacMenu._data.replace_mp40flashhider = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_mp40_foldedst = function(self, item)
 		WacMenu._data.replace_mp40_foldedst = item:value()
 		WacMenu:Save()
@@ -2329,10 +2353,6 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.pd2weaponnames = item:value()
 		WacMenu:Save()
 	end
---	MenuCallbackHandler.callback_toggle_pd2attachmentnames = function(self, item)
---		WacMenu._data.pd2attachmentnames = item:value()
---		WacMenu:Save()
---	end
 if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/wacmenu.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/wacmenu_ar.txt", WacMenu, WacMenu._data )
@@ -2343,8 +2363,10 @@ if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/akmgold.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/asval.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/aug.txt", WacMenu, WacMenu._data )
+	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/m733.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/fal.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/famas.txt", WacMenu, WacMenu._data )
+	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/fnf2000.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/g3.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/g36.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/galil.txt", WacMenu, WacMenu._data )
@@ -2355,7 +2377,6 @@ if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/m1garand.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/m4a1.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/m16a4.txt", WacMenu, WacMenu._data )
-	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/m733.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/scarh.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/sg552.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/sub2000.txt", WacMenu, WacMenu._data )
@@ -2485,6 +2506,7 @@ else
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/m1a.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/l85.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/aug.txt", WacMenu, WacMenu._data )
+	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/fnf2000.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/ar/asval.txt", WacMenu, WacMenu._data )
 
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/wacmenu_sh.txt", WacMenu, WacMenu._data )

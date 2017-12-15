@@ -288,6 +288,22 @@ if WacMenu._data.replace_famasg1grip == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_famas_g_retro.third_unit = "units/pd2_dlc_gage_assault/weapons/wpn_third_ass_famas_pts/wpn_third_ass_famas_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_famas_g_retro.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_famas_pts/wpn_fps_ass_famas_g_standard"
 end
+if WacMenu._data.replace_fnf2000longb == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_b_long.third_unit = "units/pd2_dlc_rvd/weapons/wpn_third_ass_corgi_pts/wpn_third_ass_corgi_b_short"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_b_long.unit = "units/pd2_dlc_rvd/weapons/wpn_fps_ass_corgi_pts/wpn_fps_ass_corgi_b_short"
+end
+if WacMenu._data.replace_fnf2000stndb == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_b_short.third_unit = "units/pd2_dlc_rvd/weapons/wpn_third_ass_corgi_pts/wpn_third_ass_corgi_b_long"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_b_short.unit = "units/pd2_dlc_rvd/weapons/wpn_fps_ass_corgi_pts/wpn_fps_ass_corgi_b_long"
+end
+if WacMenu._data.replace_fnf2000stndbody == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_body_lower_standard.third_unit = "units/pd2_dlc_rvd/weapons/wpn_third_ass_corgi_pts/wpn_third_ass_corgi_body_lower_strap"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_body_lower_standard.unit = "units/pd2_dlc_rvd/weapons/wpn_fps_ass_corgi_pts/wpn_fps_ass_corgi_body_lower_strap"
+end
+if WacMenu._data.replace_fnf2000tanbody == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_body_lower_strap.third_unit = "units/pd2_dlc_rvd/weapons/wpn_third_ass_corgi_pts/wpn_third_ass_corgi_body_lower_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_body_lower_strap.unit = "units/pd2_dlc_rvd/weapons/wpn_fps_ass_corgi_pts/wpn_fps_ass_corgi_body_lower_standard"
+end
 if WacMenu._data.replace_g3barrel == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_long.third_unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_third_ass_g3_b_short"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_long.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_fps_ass_g3_b_short"
@@ -4686,6 +4702,8 @@ parts_list.pis_meatgrinder = " = {unit = \"units/pd2_crimefest_2014/oct22/weapon
 parts_list.pis_ipsccomp = " = {unit = \"units/pd2_crimefest_2014/oct22/weapons/wpn_fps_upg_ns_pis_ipsccomp/wpn_fps_upg_ns_pis_ipsccomp\",third_unit = \"units/pd2_crimefest_2014/oct22/weapons/wpn_third_upg_ns_pis_ipsccomp/wpn_third_upg_ns_pis_ipsccomp\""
 parts_list.m1911_co1 = " = {unit = \"units/payday2/weapons/wpn_fps_pis_1911_pts/wpn_fps_pis_1911_co_1\",third_unit = \"units/payday2/weapons/wpn_third_pis_1911_pts/wpn_third_pis_1911_co_1\""
 parts_list.m1911_co2 = " = {unit = \"units/payday2/weapons/wpn_fps_pis_1911_pts/wpn_fps_pis_1911_co_2\",third_unit = \"units/payday2/weapons/wpn_third_pis_1911_pts/wpn_third_pis_1911_co_2\""
+parts_list.flashhider_mp40 = " = {unit = \"units/pd2_dlc_old/weapons/wpn_fps_smg_erma_pts/wpn_fps_smg_erma_ns_standard\",third_unit = \"units/pd2_dlc_old/weapons/wpn_fps_smg_erma_pts/wpn_third_smg_erma_ns_standard\"}"
+parts_list.flashhider_fnf2000 = " = {unit = \"units/pd2_dlc_rvd/weapons/wpn_fps_ass_corgi_pts/wpn_fps_ass_corgi_ns_standard\",third_unit = \"units/pd2_dlc_rvd/weapons/wpn_third_ass_corgi_pts/wpn_third_ass_corgi_ns_standard\"}"
 
 parts_list.akgoldfg = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_fg_standard_gold\",third_unit = \"units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_fg_standard_gold\",forbids = {},override = {} }"
 parts_list.akstndfg = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_fg_standard\",third_unit = \"units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_fg_standard\",forbids = {} }"
@@ -4844,6 +4862,8 @@ ovr_ids.g26_x = "tweak_data.weapon.factory.wpn_fps_jowi.override."
 ovr_ids.sr2_x = "tweak_data.weapon.factory.wpn_fps_smg_x_sr2.override."
 ovr_ids.p30l_x = "tweak_data.weapon.factory.wpn_fps_x_packrat.override."
 ovr_ids.m1911_x = "tweak_data.weapon.factory.wpn_fps_x_1911.override."
+ovr_ids.mp40 = "tweak_data.weapon.factory.wpn_fps_smg_erma.override."
+ovr_ids.fnf2000 = "tweak_data.weapon.factory.wpn_fps_ass_corgi.override."
 -- AK74
 if not tweak_data.weapon.factory.wpn_fps_ass_74.override.wpn_fps_upg_ass_ak_b_zastava then
 log("WAC Warning: Missing override table for AK-74 wpn_fps_upg_ass_ak_b_zastava - Option not executed")
@@ -6666,4 +6686,42 @@ mp5parts.string = parts_list.dummy_unit_open .. mp5parts.override .. "}"
 assert(loadstring(ovr_ids.mp5 .. unit_list.suppsmall .. mp5parts.string))()
 assert(loadstring(ovr_ids.mp5 .. unit_list.suppmedium .. mp5parts.string))()
 assert(loadstring(ovr_ids.mp5 .. unit_list.supplarge .. mp5parts.string))()
+end
+-- MP40
+if not tweak_data.weapon.factory.wpn_fps_smg_erma.override then
+	tweak_data.weapon.factory.wpn_fps_smg_erma.override = {}
+end
+if WacMenu._data.replace_mp40flashhider == true or WacMenu._data.replace_hidebarrelextarsmg == true then
+assert(loadstring(ovr_ids.mp40 .. unit_list.firepig .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.stubby .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.tank .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.jprifles .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.linear .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.surefire .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.battle .. parts_list.flashhider_mp40))()
+end
+if WacMenu._data.replace_hidesuppressors == true and wac_nosuppressedsnds == true then
+assert(loadstring(ovr_ids.mp40 .. unit_list.suppsmall .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.suppmedium .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.supplarge .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40 .. unit_list.pbs1 .. parts_list.flashhider_mp40))()
+end
+-- FN F2000 Tactical
+if not tweak_data.weapon.factory.wpn_fps_ass_corgi.override then
+	tweak_data.weapon.factory.wpn_fps_ass_corgi.override = {}
+end
+if WacMenu._data.replace_fnf2000flashhider == true or WacMenu._data.replace_hidebarrelextarsmg == true then
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.firepig .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.stubby .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.tank .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.jprifles .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.linear .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.surefire .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.battle .. parts_list.flashhider_fnf2000))()
+end
+if WacMenu._data.replace_hidesuppressors == true and wac_nosuppressedsnds == true then
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.suppsmall .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.suppmedium .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.supplarge .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.fnf2000 .. unit_list.pbs1 .. parts_list.flashhider_fnf2000))()
 end

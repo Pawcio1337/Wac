@@ -25,6 +25,7 @@
 	"wac_menu_ar_m1a_title" : "M308",
 	"wac_menu_ar_l85_title" : "Queen's Wrath",
 	"wac_menu_ar_aug_title" : "UAR",
+	"wac_menu_ar_fnf2000_title" : "Union 5.56",
 	"wac_menu_ar_asval_title" : "Valkyria",
 
 	"wac_menu_sh_title" : "Shotguns",
@@ -171,6 +172,8 @@
 	"wac_replace_wa200longb_title" : "Langer Barrel",
 	"wac_replace_m1garand_shortb_title" : "Tanker Barrel",
 	"wac_replace_lugerp08_reinforcedb_title" : "Reinforced Barrel",
+	"wac_replace_fnf2000longb_title" : "Standard Barrel",
+	"wac_replace_fnf2000stndb_title" : "Short Barrel",
 
 	"wac_replace_cqbfg_title" : "CQB Foregrip",
 	"wac_replace_woodenfg_title" : "Wooden Foregrip",
@@ -261,6 +264,8 @@
 	"wac_replace_ove9ksilentmotor_title" : "Silent Motor",
 	"wac_replace_ove9kbainmotor_title" : "Fast Motor",
 	"wac_replace_g26bodytan_title" : "Striking Body Kit",
+	"wac_replace_fnf2000stndbody_title" : "Standard Body",
+	"wac_replace_fnf2000tanbody_title" : "Dunes Tactical Body",
 
 	"wac_replace_stndmag_title" : "Standard Magazine",
 	"wac_replace_extmag_title" : "Extended Magazine",
@@ -601,6 +606,8 @@
 	"ove9kstndmotor_multi" : "Standard Motor",
 	"wac_ar15lowercore_multi" : "THRUST Lower Rec.",
 	"wac_ar15lower_multi" : "Standard Lower",
+	"wac_fnf2000stndbody_multi" : "Standard Body",
+	"wac_fnf2000tanbody_multi" : "Dunes Tactical",
 
 	"stndmag_multi" : "Standard Magazine",
 	"extmag_multi" : "Extended Magazine",
