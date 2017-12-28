@@ -139,7 +139,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_akmgoldfg",
-			"title" : "wac_replace_akmgoldfg_title",
+			"title" : "wac_replace_usestndfg_title",
 			"callback" : "callback_toggle_replace_akmgoldfg",
 			"value" : "replace_akmgoldfg",
 			"default_value" : false

@@ -21,6 +21,22 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_92fscomp2",
+			"title" : "wac_replace_92fscomp2_title",
+			"callback" : "callback_toggle_replace_92fscomp2",		
+			"items" : [
+				"wac_default_multi",
+				"92fscomp1_multi",
+				"pisflashhider_multi",
+				"pistenderizer_multi",
+				"ipsccomp_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_92fscomp2",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_ipsccomp",
 			"title" : "wac_replace_ipsccomp_title",
 			"callback" : "callback_toggle_replace_92fs_ipsccomp",		

@@ -4,6 +4,24 @@
 	"title" : "wac_menu_smg_vector_title",
 	"items" : [
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_vectorcrb_model",
+			"title" : "wac_replace_precisionb_title",
+			"callback" : "callback_toggle_replace_vectorcrb_model",		
+			"items" : [
+				"wac_default_multi",
+				"jprifles_multi",
+				"firepig_multi",
+				"tank_multi",
+				"surefire_multi",
+				"linear_multi",
+				"battle_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_vectorcrb_model",
+			"default_value" : 1
+		},
+		{
 			"type" : "toggle",
 			"id" : "toggle_replace_vectorcrb",
 			"title" : "wac_replace_vectorcrb_title",

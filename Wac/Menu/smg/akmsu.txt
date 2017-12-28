@@ -101,7 +101,10 @@
 				"nostock_multi",
 				"skelst_multi",
 				"akpslst_multi",
-				"akclassst_multi"
+				"akclassst_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi"
 			],
 			"value" : "replace_akmsustock1",
 			"default_value" : 1
@@ -119,6 +122,9 @@
 				"akclassst_multi",
 				"rpkst_multi",
 				"rpkwoodst_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi",
 				"nostock_multi"
 			],
 			"value" : "replace_akmsustock2",
@@ -136,6 +142,9 @@
 				"akpslst_multi",
 				"rpkst_multi",
 				"rpkwoodst_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi",
 				"nostock_multi"
 			],
 			"value" : "replace_akmsustock3",

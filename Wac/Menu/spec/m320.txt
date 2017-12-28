@@ -1,0 +1,15 @@
+{
+	"menu_id" : "wac_menu_spec_m320",
+	"parent_menu_id" : "wac_menu_spec",
+	"title" : "wac_menu_spec_m320_title",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_m320_nosight",
+			"title" : "wac_replace_disableladdersight_title",
+			"callback" : "callback_toggle_replace_m320_nosight",
+			"value" : "replace_m320_nosight",
+			"default_value" : false
+		}
+	]
+}

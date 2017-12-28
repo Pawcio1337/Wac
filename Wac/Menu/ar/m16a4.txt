@@ -10,7 +10,8 @@
 			"callback" : "callback_toggle_replace_m16longb",
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_stndb_multi",
+				"wac_shortb_multi"
 			],
 			"value" : "replace_m16longb",
 			"default_value" : 1
@@ -23,7 +24,8 @@
 			"items" : [
 				"wac_default_multi",
 				"wac_stndb_multi",
-				"wac_longb_multi"
+				"wac_longb_multi",
+				"wac_shortb_multi"
 			],
 			"value" : "replace_m16dmrb",
 			"default_value" : 1

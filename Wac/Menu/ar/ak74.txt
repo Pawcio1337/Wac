@@ -115,6 +115,9 @@
 				"skelst_multi",
 				"akpslst_multi",
 				"akclassst_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi",
 				"akgalilst_multi"
 			],
 			"value" : "replace_ak74stock1",
@@ -133,6 +136,9 @@
 				"akclassst_multi",
 				"rpkst_multi",
 				"rpkwoodst_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi",
 				"akgalilst_multi",
 				"nostock_multi"
 			],
@@ -152,6 +158,9 @@
 				"akclassst_multi",
 				"rpkst_multi",
 				"rpkwoodst_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi",
 				"akgalilst_multi",
 				"nostock_multi"
 			],
@@ -170,6 +179,9 @@
 				"akpslst_multi",
 				"rpkst_multi",
 				"rpkwoodst_multi",
+				"m4_s_stnd_multi",
+				"m4_s_pts_multi",
+				"m4_vltor_multi",
 				"akgalilst_multi",
 				"nostock_multi"
 			],
