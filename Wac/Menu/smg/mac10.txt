@@ -24,6 +24,18 @@
 			"size" : 16
 		},
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_mac10riskit",
+			"title" : "wac_replace_mac10riskit_title",
+			"callback" : "callback_toggle_replace_mac10riskit",
+			"value" : "replace_mac10riskit",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10extmag",
 			"title" : "wac_replace_extmag_title",

@@ -10,6 +10,28 @@
 			"callback" : "callback_toggle_replace_m320_nosight",
 			"value" : "replace_m320_nosight",
 			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m320_vertgrip",
+			"title" : "wac_replace_stndvertgrip_title",
+			"callback" : "callback_toggle_replace_m320_vertgrip",		
+			"items" : [
+				"wac_default_multi",
+				"stubbygrip_multi",
+				"vertgrip_multi",
+				"afg2_multi",
+				"hk416cvert_multi",
+				"vectorvert_multi",
+				"surefirem900_multi",
+				"novertgrip_multi"
+			],
+			"value" : "replace_m320_vertgrip",
+			"default_value" : 1
 		}
 	]
 }

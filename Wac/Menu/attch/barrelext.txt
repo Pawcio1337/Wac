@@ -126,6 +126,7 @@
 				"wac_default_multi",
 				"sharkbrake_multi",
 				"firepig_multi",
+				"stubby_multi",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_kingbreach",
@@ -140,6 +141,7 @@
 				"wac_default_multi",
 				"kingbreach_multi",
 				"firepig_multi",
+				"stubby_multi",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_sharkbrake",

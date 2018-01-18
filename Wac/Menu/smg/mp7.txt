@@ -16,12 +16,28 @@
 			"size" : 16
 		},
 		{
-			"type" : "toggle",
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_mp7stndmag",
+			"title" : "wac_replace_stndmag_title",
+			"callback" : "callback_toggle_replace_mp7stndmag",		
+			"items" : [
+				"wac_default_multi",
+				"extmag_multi"
+			],
+			"value" : "replace_mp7stndmag",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7extmag",
-			"title" : "wac_replace_hideextmag_title",
-			"callback" : "callback_toggle_replace_mp7extmag",
+			"title" : "wac_replace_extmag_title",
+			"callback" : "callback_toggle_replace_mp7extmag",		
+			"items" : [
+				"wac_default_multi",
+				"stndmag_multi"
+			],
 			"value" : "replace_mp7extmag",
-			"default_value" : false
+			"default_value" : 1
 		},
 		{
 			"type" : "divider",
@@ -37,6 +53,26 @@
 				"foldedst_multi"
 			],
 			"value" : "replace_mp7foldst",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_mp7vertgrip",
+			"title" : "wac_replace_stndvertgrip_title",
+			"callback" : "callback_toggle_replace_mp7vertgrip",		
+			"items" : [
+				"wac_default_multi",
+				"vertgrip_multi",
+				"hk416cvert_multi",
+				"hk416cvert_multi",
+				"hkfoldvert_multi",
+				"novertgrip_multi"
+			],
+			"value" : "replace_mp7vertgrip",
 			"default_value" : 1
 		}
 	]

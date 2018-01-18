@@ -197,6 +197,18 @@
 			"size" : 16
 		},
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_keep_frontpost",
+			"title" : "wac_replace_keep_frontpost_title",
+			"callback" : "callback_toggle_replace_keep_frontpost",
+			"value" : "replace_keep_frontpost",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m4_s_ubr",
 			"title" : "wac_replace_ar15_ubr_title",

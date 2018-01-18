@@ -28,6 +28,18 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_deaglel6b",
+			"title" : "wac_replace_deaglel6b_title",
+			"callback" : "callback_toggle_replace_deaglel6b",		
+			"items" : [
+				"wac_default_multi",
+				"wac_stndb_multi"
+			],
+			"value" : "replace_deaglel6b",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

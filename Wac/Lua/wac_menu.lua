@@ -1241,6 +1241,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_deaglelongb = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_deaglel6b = function(self, item)
+		WacMenu._data.replace_deaglel6b = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_deagleergogrip = function(self, item)
 		WacMenu._data.replace_deagleergogrip = item:value()
 		WacMenu:Save()
@@ -1653,6 +1657,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_mac10werbellssup = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_mac10riskit = function(self, item)
+		WacMenu._data.replace_mac10riskit = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_mac10extmag = function(self, item)
 		WacMenu._data.replace_mac10extmag = item:value()
 		WacMenu:Save()
@@ -1737,12 +1745,20 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_mp7qd = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_mp7stndmag = function(self, item)
+		WacMenu._data.replace_mp7stndmag = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_mp7extmag = function(self, item)
-		WacMenu._data.replace_mp7extmag = (item:value() == "on" and true or false)
+		WacMenu._data.replace_mp7extmag = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_mp7foldst = function(self, item)
 		WacMenu._data.replace_mp7foldst = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_mp7vertgrip = function(self, item)
+		WacMenu._data.replace_mp7vertgrip = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_mp9supp = function(self, item)
@@ -1933,6 +1949,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_m320_nosight = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_m320_vertgrip = function(self, item)
+		WacMenu._data.replace_m320_vertgrip = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_longbowexplosive = function(self, item)
 		WacMenu._data.replace_longbowexplosive = item:value()
 		WacMenu:Save()
@@ -2059,6 +2079,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 	end
 	MenuCallbackHandler.callback_toggle_replace_ar15_magpulassiststanag = function(self, item)
 		WacMenu._data.replace_ar15_magpulassiststanag = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_keep_frontpost = function(self, item)
+		WacMenu._data.replace_keep_frontpost = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_m4_s_ubr = function(self, item)

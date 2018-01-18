@@ -22,7 +22,8 @@
 			"callback" : "callback_toggle_replace_g3barreldmr",
 			"items" : [
 				"wac_default_multi",
-				"wac_longb_multi"
+				"wac_longb_multi",
+				"wac_shortb_multi"
 			],
 			"value" : "replace_g3barreldmr",
 			"default_value" : 1

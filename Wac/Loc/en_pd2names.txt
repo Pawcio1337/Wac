@@ -175,6 +175,7 @@
 	"wac_replace_lugerp08_reinforcedb_title" : "Reinforced Barrel",
 	"wac_replace_fnf2000longb_title" : "Standard Barrel",
 	"wac_replace_fnf2000stndb_title" : "Short Barrel",
+	"wac_replace_deaglel6b_title" : "Custom Mill Barrel",
 
 	"wac_replace_cqbfg_title" : "CQB Foregrip",
 	"wac_replace_woodenfg_title" : "Wooden Foregrip",
@@ -429,6 +430,8 @@
 	"wac_replace_hidesuppbarrels_title" : "Replace Supp. Barrels with Stand. Barrels*",
 	"wac_replace_usettitr1grip_title" : "Use only Grippy Grip",
 	"wac_replace_selectablemodel_title" : "Selectable model",
+	"wac_replace_keep_frontpost_title" : "Keep Front-Post with Sights",
+	"wac_replace_hideriskit_title" : "Hide Railed Handguard Model",
 
 	"wac_replace_1911aggressorcomp_title" : "Aggressor Comp.",
 	"wac_replace_92fscomp1_title" : "Professional Comp.",
@@ -577,6 +580,7 @@
 	"surefirem900_multi" : "Twinkle Grip",
 	"nogadget_multi" : "Disable gadget",
 	"cobratact_multi" : "Contractor AFG",
+	"hkfoldvert_multi" : "Compact 40mm Grip",
 
 	"stngrip_multi" : "Standard Grip",
 	"akhgrip_multi" : "Rubber Grip",

@@ -175,6 +175,7 @@
 	"wac_replace_lugerp08_reinforcedb_title" : "Reinforced Barrel",
 	"wac_replace_fnf2000longb_title" : "FS2000 Long Barrel",
 	"wac_replace_fnf2000stndb_title" : "F2000 Barrel",
+	"wac_replace_deaglel6b_title" : "L6 Barrel",
 
 	"wac_replace_cqbfg_title" : "CQB Foregrip",
 	"wac_replace_woodenfg_title" : "Wooden Foregrip",
@@ -429,6 +430,8 @@
 	"wac_replace_hidesuppbarrels_title" : "Replace Supp. Barrels with Stand. Barrels*",
 	"wac_replace_usettitr1grip_title" : "Use only TTI TR-1 Grip",
 	"wac_replace_selectablemodel_title" : "Selectable model",
+	"wac_replace_keep_frontpost_title" : "Keep Front-Post with Sights",
+	"wac_replace_hideriskit_title" : "Hide RIS Kit Model",
 
 	"wac_replace_1911aggressorcomp_title" : "Aggressor Comp.",
 	"wac_replace_92fscomp1_title" : "Professional Comp.",
@@ -577,6 +580,7 @@
 	"surefirem900_multi" : "Surefire M900",
 	"nogadget_multi" : "Disable gadget",
 	"cobratact_multi" : "Cobra Tactical AFG",
+	"hkfoldvert_multi" : "HK Folding VG",
 
 	"stngrip_multi" : "Standard Grip",
 	"akhgrip_multi" : "Rubber Grip",
@@ -722,10 +726,10 @@
 	"wac_ar15vltorbolt_multi" : "Stnd. Bolt (Gray)",
 	"wac_ar15baliosupper_multi" : "Balios Upper",
 	"wac_ar15baliosbolt_multi" : "Fathom Enhanced",
-	"wac_ar15balioshandle_multi" : "Fortis Hammer",
+	"wac_ar15balioshandle_multi" : "Fortis Hammer Handle",
 	"wac_ar15coreupper_multi" : "CORE15 Upper",
 	"wac_ar15corebolt_multi" : "Fathom Enhanced (Gold)",
-	"wac_ar15corehandle_multi" : "Geissele Super",
+	"wac_ar15corehandle_multi" : "AXTS Raptor Handle",
 
 	"ironsightdd_multi" : "DD A1.5",
 	"ironsightmbus_multi" : "MBUS",
