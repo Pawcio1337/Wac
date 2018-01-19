@@ -2535,6 +2535,7 @@ if WacMenu._data.replace_mac10riskit == true then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_body_ris.adds = nil
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_body_ris.stance_mod = nil
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_body_ris.forbids = nil
+end
 if WacMenu._data.replace_mac10extmag == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_m_extended.third_unit = "units/payday2/weapons/wpn_third_smg_mac10_pts/wpn_third_smg_mac10_m_short"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_m_extended.unit = "units/payday2/weapons/wpn_fps_smg_mac10_pts/wpn_fps_smg_mac10_m_short"
