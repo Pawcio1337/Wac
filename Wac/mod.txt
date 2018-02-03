@@ -8,7 +8,7 @@
 	"blt_version" : 2,
 	"undisablable" : false,
 	"disable_safe_mode" : false,
-	"version" : "1.9.15.0",
+	"version" : "1.9.15.1",
 	"updates" : [
 		{
 			"identifier" : "wac"

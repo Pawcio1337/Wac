@@ -3546,20 +3546,20 @@ end
 if not tweak_data.weapon.factory.wpn_fps_ass_amcar.adds then
 	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds = {}
 end
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_specter = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_aimpoint = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_aimpoint_2 = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_docter = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_eotech = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_t1micro = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_cmore = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_acog = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_eotech_xps = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_rx01 = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_rx30 = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_cs = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_reflex = {"wpn_fps_ass_m16_os_frontsight"}
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_spot = {"wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_specter = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_aimpoint = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_aimpoint_2 = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_docter = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_eotech = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_t1micro = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_cmore = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_acog = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_eotech_xps = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_rx01 = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_rx30 = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_cs = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_reflex = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
+	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds.wpn_fps_upg_o_spot = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_m4_uupg_fg_rail_ext","wpn_fps_ass_m16_os_frontsight"}
 if not tweak_data.weapon.factory.wpn_fps_ass_m16.adds then
 	tweak_data.weapon.factory.wpn_fps_ass_m16.adds = {}
 end
@@ -4405,14 +4405,19 @@ elseif WacMenu._data.replace_specter_zoom == 6 then
 end
 if WacMenu._data.replace_aimpoint_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint.stats.zoom = 1
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint_2.stats.zoom = 1
 elseif WacMenu._data.replace_aimpoint_zoom == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint.stats.zoom = 2
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint_2.stats.zoom = 2
 elseif WacMenu._data.replace_aimpoint_zoom == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint.stats.zoom = 3
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint_2.stats.zoom = 3
 elseif WacMenu._data.replace_aimpoint_zoom == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint.stats.zoom = 5
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint_2.stats.zoom = 5
 elseif WacMenu._data.replace_aimpoint_zoom == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint.stats.zoom = 0
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_aimpoint_2.stats.zoom = 0
 end
 if WacMenu._data.replace_docter_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_docter.stats.zoom = 1
