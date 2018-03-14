@@ -292,6 +292,7 @@
 	"wac_replace_cmag_title" : "Drum Magazine",
 	"wac_replace_magpulmagassist_title" : "Speed Pull Magazine",
 	"wac_replace_magstrap_title" : "Speed Pull Magazine",
+	"wac_replace_sgmtact_title" : "Extended Magazine",
 
 	"wac_replace_1911longventsl_title" : "Long Vented Slide",
 	"wac_replace_92fselite2_title" : "Elite Slide",
@@ -642,6 +643,7 @@
 	"g26tanmag_multi" : "Striking Magazine",
 	"ak12mag_multi" : "AK17 Magazine",
 	"uspalm_ak30_multi" : "Low Drag Magazine",
+	"wac_saiga12kdrum_multi" : "Drum Magazine",
 
 	"twotonetsl_multi" : "Two Tone Slide",
 	"custsl_multi" : "Custom Slide",

@@ -64,12 +64,17 @@
 			"size" : 16
 		},
 		{
-			"type" : "toggle",
-			"id" : "toggle_replace_s12k_drummag",
-			"title" : "wac_replace_usedrummag_title",
-			"callback" : "callback_toggle_replace_s12k_drummag",
-			"value" : "replace_s12k_drummag",
-			"default_value" : false
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_s12kextmag",
+			"title" : "wac_replace_sgmtact_title",
+			"callback" : "callback_toggle_replace_s12kextmag",
+			"items" : [
+				"wac_default_multi",
+				"stndmag_multi",
+				"wac_saiga12kdrum_multi"
+			],
+			"value" : "replace_s12kextmag",
+			"default_value" : 1
 		},
 		{
 			"type" : "divider",

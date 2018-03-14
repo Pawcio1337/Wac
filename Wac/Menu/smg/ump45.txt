@@ -64,7 +64,8 @@
 			"items" : [
 				"wac_default_multi",
 				"stndst_multi",
-				"foldedst_multi"
+				"foldedst_multi",
+				"nostock_multi"
 			],
 			"value" : "replace_usc45st",
 			"default_value" : 1
@@ -76,7 +77,8 @@
 			"callback" : "callback_toggle_replace_ump45foldedst",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"stndst_multi",
+				"nostock_multi"
 			],
 			"value" : "replace_ump45foldedst",
 			"default_value" : 1

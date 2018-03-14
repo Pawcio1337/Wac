@@ -897,8 +897,8 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_s12fuglystickcobra = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_s12k_drummag = function(self, item)
-		WacMenu._data.replace_s12k_drummag = (item:value() == "on" and true or false)
+	MenuCallbackHandler.callback_toggle_replace_s12kextmag = function(self, item)
+		WacMenu._data.replace_s12kextmag = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_s12kstock1 = function(self, item)
@@ -955,6 +955,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 	end
 	MenuCallbackHandler.callback_toggle_replace_spikex1saigashortfg = function(self, item)
 		WacMenu._data.replace_spikex1saigashortfg = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_spikex1saigaextmag = function(self, item)
+		WacMenu._data.replace_spikex1saigaextmag = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_strikerlongb = function(self, item)
@@ -2457,7 +2461,6 @@ if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/92fs.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/c96.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/coltdef.txt", WacMenu, WacMenu._data )
-	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/coltssa.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/deagle.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/fs.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/g18c.txt", WacMenu, WacMenu._data )
@@ -2472,6 +2475,7 @@ if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/p226r.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/pl14.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/ragingbull.txt", WacMenu, WacMenu._data )
+	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/coltssa.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/swm29.txt", WacMenu, WacMenu._data )
 	MenuHelper:LoadFromJsonFile( WacMenu._path .. "Menu/pis/waltherppk.txt", WacMenu, WacMenu._data )
 
