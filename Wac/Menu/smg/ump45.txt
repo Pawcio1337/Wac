@@ -84,6 +84,20 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ump45x_st",
+			"title" : "wac_replace_akimbost_title",
+			"callback" : "callback_toggle_replace_ump45x_st",		
+			"items" : [
+				"wac_default_multi",
+				"stndst_multi",
+				"wac_usc45st_multi",
+				"nostock_multi"
+			],
+			"value" : "replace_ump45x_st",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

@@ -101,6 +101,19 @@
 			],
 			"value" : "replace_microuzinunfoldst",
 			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_microuzix_st",
+			"title" : "wac_replace_akimbost_title",
+			"callback" : "callback_toggle_replace_microuzix_st",		
+			"items" : [
+				"wac_default_multi",
+				"nostock_multi",
+				"unfoldst_multi"
+			],
+			"value" : "replace_microuzix_st",
+			"default_value" : 1
 		}
 	]
 }

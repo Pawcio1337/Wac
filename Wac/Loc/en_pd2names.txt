@@ -116,7 +116,8 @@
 	"wac_menu_spec_m79_title" : "GL40",
 	"wac_menu_spec_ove9000_title" : "OVE9000",
 	"wac_menu_spec_m134_title" : "Vulcan Minigun",
-
+	"wac_menu_spec_xm556_title" : "XL 5.56 Microgun",
+	
 	"wac_menu_attch_title" : "Attachments",
 	"wac_menu_attch_desc" : "Common used attachments",
 	"wac_menu_attch_ak_title" : "AK Attachments",
@@ -176,6 +177,9 @@
 	"wac_replace_fnf2000longb_title" : "Standard Barrel",
 	"wac_replace_fnf2000stndb_title" : "Short Barrel",
 	"wac_replace_deaglel6b_title" : "Custom Mill Barrel",
+	"wac_replace_xm556longheatb_title" : "Heat Sink Barrel",
+	"wac_replace_xm556shortheatb_title" : "XS Heat Sink Barrel",
+	"wac_replace_xm556shortb_title" : "XS Barrel",
 
 	"wac_replace_cqbfg_title" : "CQB Foregrip",
 	"wac_replace_woodenfg_title" : "Wooden Foregrip",
@@ -518,6 +522,9 @@
 	"wac_vhssniperb_multi" : "Precision Barrel",
 	"wac_sniperb_multi" : "Sniper Barrel",
 	"wac_stubbyb_multi" : "Stubby Barrel",
+	"wac_xm556longheatb_multi" : "Heat Sink Barrel",
+	"wac_xm556shortheatb_multi" : "XS Heat Sink Barrel",
+	"wac_xm556shortb_multi" : "XS Barrel",
 
 	"stndfg_multi" : "Standard Foregrip",
 	"cqbfg_multi" : "CQB Foregrip",
@@ -710,6 +717,7 @@
 	"mp5pdw_multi" : "Spartan Stock",
 	"wac_slingst_multi" : "QD Sling Stock",
 	"wac_discretest_multi" : "Discrete Stock",
+	"wac_usc45st_multi" : "Civilian Stock",
 
 	"stndbody_multi" : "Standard Body",
 	"noextrail_multi" : "No extra rail",

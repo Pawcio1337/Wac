@@ -96,7 +96,7 @@
 	"wac_menu_smg_k23_title" : "K23",
 	"wac_menu_smg_l2a1_title" : "L2A3",
 	"wac_menu_smg_m1928a1_title" : "M1928A1",
-	"wac_menu_smg_mac10_title" : "MAC-11",
+	"wac_menu_smg_mac10_title" : "MAC-10",
 	"wac_menu_smg_microuzi_title" : "Micro UZI",
 	"wac_menu_smg_m45_title" : "M/45",
 	"wac_menu_smg_mp9_title" : "MP9",
@@ -116,6 +116,7 @@
 	"wac_menu_spec_m79_title" : "M79",
 	"wac_menu_spec_ove9000_title" : "OVE9000",
 	"wac_menu_spec_xm25_title" : "XM25",
+	"wac_menu_spec_xm556_title" : "XM556 Microgun",
 
 	"wac_menu_attch_title" : "Attachments",
 	"wac_menu_attch_desc" : "Common used attachments",
@@ -176,6 +177,9 @@
 	"wac_replace_fnf2000longb_title" : "FS2000 Long Barrel",
 	"wac_replace_fnf2000stndb_title" : "F2000 Barrel",
 	"wac_replace_deaglel6b_title" : "L6 Barrel",
+	"wac_replace_xm556longheatb_title" : "Heat Sink Barrel",
+	"wac_replace_xm556shortheatb_title" : "XS Heat Sink Barrel",
+	"wac_replace_xm556shortb_title" : "XS Barrel",
 
 	"wac_replace_cqbfg_title" : "CQB Foregrip",
 	"wac_replace_woodenfg_title" : "Wooden Foregrip",
@@ -350,7 +354,7 @@
 	"wac_replace_shortst_title" : "Short Stock",
 	"wac_replace_bs09shortst_title" : "Wrist Wrecker Stock",
 	"wac_replace_longst_title" : "Long Stock",
-	"wac_replace_usc45st_title" : "Civilian Stock",
+	"wac_replace_usc45st_title" : "USC 45 Stock",
 	"wac_replace_m1aebr_title" : "Sage EBR Stock",
 	"wac_replace_svdpolymerst_title" : "Lightweight Stock",
 	"wac_replace_mp5pdwst_title" : "PDW Stock",
@@ -518,6 +522,9 @@
 	"wac_vhssniperb_multi" : "Precision Barrel",
 	"wac_sniperb_multi" : "Sniper Barrel",
 	"wac_stubbyb_multi" : "Stubby Barrel",
+	"wac_xm556longheatb_multi" : "Heat Sink Barrel",
+	"wac_xm556shortheatb_multi" : "XS Heat Sink Barrel",
+	"wac_xm556shortb_multi" : "XS Barrel",
 
 	"stndfg_multi" : "Standard Foregrip",
 	"cqbfg_multi" : "CQB Foregrip",
@@ -710,7 +717,8 @@
 	"mp5pdw_multi" : "MP5KA4 PDW Stock",
 	"wac_slingst_multi" : "QD Sling Stock",
 	"wac_discretest_multi" : "Discrete Stock",
-
+	"wac_usc45st_multi" : "USC 45 Stock",
+	
 	"stndbody_multi" : "Standard Receiver",
 	"noextrail_multi" : "No extra rail",
 	"akribbedcover_multi" : "Ribbed Top Cover",

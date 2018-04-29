@@ -106,6 +106,23 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_k23x_st",
+			"title" : "wac_replace_akimbost_title",
+			"callback" : "callback_toggle_replace_k23x_st",		
+			"items" : [
+				"wac_default_multi",
+				"nostock_multi",
+				"stndst_multi",
+				"m4_s_stnd_multi",
+				"m16solidst_multi",
+				"m4_s_ubr_multi",
+				"m4_vltor_multi"
+			],
+			"value" : "replace_k23x_st",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

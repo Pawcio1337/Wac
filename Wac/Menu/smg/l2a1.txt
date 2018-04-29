@@ -87,6 +87,20 @@
 			],
 			"value" : "replace_l2a1solidstock",
 			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_l2a1x_st",
+			"title" : "wac_replace_akimbost_title",
+			"callback" : "callback_toggle_replace_l2a1x_st",		
+			"items" : [
+				"wac_default_multi",
+				"stndst_multi",
+				"nostock_multi",
+				"solidst_multi"
+			],
+			"value" : "replace_l2a1x_st",
+			"default_value" : 1
 		}
 	]
 }

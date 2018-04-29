@@ -112,6 +112,19 @@
 			],
 			"value" : "replace_m1928a1blackst",
 			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m1928a1x_st",
+			"title" : "wac_replace_akimbost_title",
+			"callback" : "callback_toggle_replace_m1928a1x_st",		
+			"items" : [
+				"wac_default_multi",
+				"stndst_multi",
+				"wac_discretest_multi"
+			],
+			"value" : "replace_m1928a1x_st",
+			"default_value" : 1
 		}
 	]
 }

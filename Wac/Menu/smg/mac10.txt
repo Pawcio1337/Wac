@@ -26,7 +26,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_mac10riskit",
-			"title" : "wac_replace_mac10riskit_title",
+			"title" : "wac_replace_hideriskit_title",
 			"callback" : "callback_toggle_replace_mac10riskit",
 			"value" : "replace_mac10riskit",
 			"default_value" : false
@@ -63,6 +63,22 @@
 		{
 			"type" : "divider",
 			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_mac10_stndst",
+			"title" : "wac_replace_stndst_title",
+			"callback" : "callback_toggle_replace_mac10_stndst",		
+			"items" : [
+				"wac_default_multi",
+				"nostock_multi",
+				"m4_s_stnd_multi",
+				"m4_s_crane_multi",
+				"m4_s_ubr_multi",
+				"m4_vltor_multi"
+			],
+			"value" : "replace_mac10_stndst",
+			"default_value" : 1
 		},
 		{
 			"type" : "multiple_choice",
