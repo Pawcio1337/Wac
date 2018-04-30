@@ -1925,6 +1925,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 		WacMenu._data.replace_uzitacfg = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_uzix_removevg = function(self, item)
+		WacMenu._data.replace_uzix_removevg = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_uziergostock = function(self, item)
 		WacMenu._data.replace_uziergostock = item:value()
 		WacMenu:Save()
@@ -2043,6 +2047,10 @@ Hooks:Add( "MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function( m
 	end
 	MenuCallbackHandler.callback_toggle_replace_xm25longb = function(self, item)
 		WacMenu._data.replace_xm25longb = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_xm556stndb = function(self, item)
+		WacMenu._data.replace_xm556stndb = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_xm556longheatb = function(self, item)

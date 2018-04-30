@@ -28,6 +28,14 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_uzix_removevg",
+			"title" : "wac_replace_uzix_removevg_title",
+			"callback" : "callback_toggle_replace_uzix_removevg",
+			"value" : "replace_uzix_removevg",
+			"default_value" : false
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

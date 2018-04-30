@@ -437,6 +437,7 @@
 	"wac_replace_selectablemodel_title" : "Selectable model",
 	"wac_replace_keep_frontpost_title" : "Keep Front-Post with Sights",
 	"wac_replace_hideriskit_title" : "Hide Railed Handguard Model",
+	"wac_replace_uzix_removevg_title" : "Akimbo - Remove Vert. Grip from Tactical FG",
 
 	"wac_replace_1911aggressorcomp_title" : "Aggressor Comp.",
 	"wac_replace_92fscomp1_title" : "Professional Comp.",

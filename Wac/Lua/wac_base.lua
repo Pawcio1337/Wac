@@ -3176,6 +3176,18 @@ if WacMenu._data.replace_xm25longb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_gre_arbiter_b_long.third_unit = "units/pd2_dlc_tng/weapons/wpn_third_gre_arbiter_pts/wpn_third_gre_arbiter_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_gre_arbiter_b_long.unit = "units/pd2_dlc_tng/weapons/wpn_fps_gre_arbiter_pts/wpn_fps_gre_arbiter_b_standard"
 end
+if WacMenu._data.replace_xm556stndb == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_heat_long"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_heat_long"
+elseif WacMenu._data.replace_xm556stndb == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.override = {wpn_fps_lmg_shuno_b_dummy_long = {unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_dummy_short"}}
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_short"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_short"
+elseif WacMenu._data.replace_xm556stndb == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.override = {wpn_fps_lmg_shuno_b_dummy_long = {unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_dummy_short"}}
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_heat_short"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_standard.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_heat_short"
+end
 if WacMenu._data.replace_xm556longheatb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_long.override = {wpn_fps_lmg_shuno_b_dummy_long = {unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_dummy_short"}}
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_long.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_short"
@@ -3184,7 +3196,7 @@ elseif WacMenu._data.replace_xm556longheatb == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_long.override = {wpn_fps_lmg_shuno_b_dummy_long = {unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_dummy_short"}}
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_long.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_heat_short"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_long.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_heat_short"
-elseif WacMenu._data.replace_xm556longheatb == 3 then
+elseif WacMenu._data.replace_xm556longheatb == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_long.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_long.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_standard"
 end
@@ -3195,7 +3207,7 @@ elseif WacMenu._data.replace_xm556shortheatb == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_short.override = nil
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_short.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_heat_long"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_short.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_heat_long"
-elseif WacMenu._data.replace_xm556shortheatb == 3 then
+elseif WacMenu._data.replace_xm556shortheatb == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_short.override = nil
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_short.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_heat_short.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_standard"
@@ -3207,7 +3219,7 @@ elseif WacMenu._data.replace_xm556shortb == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.override = nil
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_heat_long"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_heat_long"
-elseif WacMenu._data.replace_xm556shortb == 3 then
+elseif WacMenu._data.replace_xm556shortb == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.override = nil
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_standard"
@@ -6909,19 +6921,22 @@ assert(loadstring(ovr_ids.ump45_x .. unit_list.suppmedium .. parts_list.umpgemte
 assert(loadstring(ovr_ids.ump45_x .. unit_list.supplarge .. parts_list.umpgemtech))()
 end
 -- UZI
-if WacMenu._data.replace_uzisuppb == true and not wac_nosuppressedsnds then
 if not tweak_data.weapon.factory.wpn_fps_smg_uzi.override then
 	tweak_data.weapon.factory.wpn_fps_smg_uzi.override = {}
 end
 if not tweak_data.weapon.factory.wpn_fps_smg_x_uzi.override then
 	tweak_data.weapon.factory.wpn_fps_smg_x_uzi.override = {}
 end
+if WacMenu._data.replace_uzisuppb == true and not wac_nosuppressedsnds then
 assert(loadstring(ovr_ids.uzi .. unit_list.suppsmall .. parts_list.uzisupp))()
 assert(loadstring(ovr_ids.uzi .. unit_list.suppmedium .. parts_list.uzisupp))()
 assert(loadstring(ovr_ids.uzi .. unit_list.supplarge .. parts_list.uzisupp))()
 assert(loadstring(ovr_ids.uzi_x .. unit_list.suppsmall .. parts_list.uzisupp))()
 assert(loadstring(ovr_ids.uzi_x .. unit_list.suppmedium .. parts_list.uzisupp))()
 assert(loadstring(ovr_ids.uzi_x .. unit_list.supplarge .. parts_list.uzisupp))()
+end
+if WacMenu._data.replace_uzix_removevg == true then
+assert(loadstring(ovr_ids.uzi_x .. "wpn_fps_smg_uzi_fg_rail = {adds = {}}"))()
 end
 -- Vector
 if not tweak_data.weapon.factory.wpn_fps_smg_polymer.override then
