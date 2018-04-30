@@ -11,8 +11,8 @@
 			"callback" : "callback_toggle_replace_xm556longheatb",		
 			"items" : [
 				"wac_default_multi",
+				"wac_xm556shortb_multi",
 				"wac_xm556shortheatb_multi",
-				"wac_xm556longheatb_multi",
 				"wac_stndb_multi"
 			],
 			"value" : "replace_xm556longheatb",
@@ -39,8 +39,8 @@
 			"callback" : "callback_toggle_replace_xm556shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_xm556shortb_multi",
 				"wac_xm556shortheatb_multi",
+				"wac_xm556longheatb_multi",
 				"wac_stndb_multi"
 			],
 			"value" : "replace_xm556shortb",
