@@ -50,14 +50,6 @@
 			"callback" : "callback_toggle_replace_hidemarksman",
 			"value" : "replace_hidemarksman",
 			"default_value" : false
-		},
-		{
-			"type" : "toggle",
-			"id" : "toggle_replace_hidermr",
-			"title" : "wac_replace_hidermr_title",
-			"callback" : "callback_toggle_replace_hidermr",
-			"value" : "replace_hidermr",
-			"default_value" : false
 		}
 	]
 }

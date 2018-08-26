@@ -21,8 +21,6 @@ WacMenu:Load()
 if SystemFS:exists("mods/Use Non-Silenced Sound/mod.txt") then
 	wac_nosuppressedsnds = true
 end
--- Various attachment/weapon fixes
-local wac_fixes = true
 -- Assault Rifles
 if WacMenu._data.replace_ak5shortb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_ak5_b_short.third_unit = "units/payday2/weapons/wpn_third_ass_ak5_pts/wpn_third_ass_ak5_b_std"
@@ -2836,6 +2834,13 @@ if WacMenu._data.replace_mp9extmag == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_m_extended.third_unit = "units/payday2/weapons/wpn_third_smg_mp9_pts/wpn_third_smg_mp9_m_short"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_m_extended.unit = "units/payday2/weapons/wpn_fps_smg_mp9_pts/wpn_fps_smg_mp9_m_short"
 end
+if WacMenu._data.replace_mp9stndst == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_s_fold.third_unit = "units/payday2/weapons/wpn_third_smg_mp9_pts/wpn_third_smg_mp9_s_skel"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_s_fold.unit = "units/payday2/weapons/wpn_fps_smg_mp9_pts/wpn_fps_smg_mp9_s_skel"
+elseif WacMenu._data.replace_mp9stndst == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_s_fold.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_s_fold.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+end
 if WacMenu._data.replace_mp9skeletalst == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_s_skel.third_unit = "units/payday2/weapons/wpn_third_smg_mp9_pts/wpn_third_smg_mp9_s_fold"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_s_skel.unit = "units/payday2/weapons/wpn_fps_smg_mp9_pts/wpn_fps_smg_mp9_s_fold"
@@ -2865,6 +2870,24 @@ end
 if WacMenu._data.replace_p90strap == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_p90_m_strap.third_unit = "units/payday2/weapons/wpn_third_smg_p90_pts/wpn_third_smg_p90_m_std"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_p90_m_strap.unit = "units/payday2/weapons/wpn_fps_smg_p90_pts/wpn_fps_smg_p90_m_std"
+end
+if WacMenu._data.replace_sigmpxk_handguard == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_body_short.override.wpn_fps_smg_shepheard_b_standard = {unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_b_standard",third_unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_third_smg_shepheard_b_standard"}
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_body_short.override.wpn_fps_smg_shepheard_o_standard = {unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_o_standard",third_unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_third_smg_shepheard_o_standard"}
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_body_short.third_unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_third_smg_shepheard_body"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_body_short.unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_body"
+end
+if WacMenu._data.replace_sigmpx_stnd_st == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_s_standard.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_s_standard.unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_s_no"
+end
+if WacMenu._data.replace_sigmpx_st_removed == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_s_no.third_unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_third_smg_shepheard_s_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_s_no.unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_s_standard"
+end
+if WacMenu._data.replace_sigmpx_akimbo_st == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_s_no_vanilla.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_s_no_vanilla.unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_s_standard"
 end
 if WacMenu._data.replace_sr2magpulassist == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_sr2_m_quick.third_unit = "units/pd2_dlc_coco/weapons/wpn_fps_smg_sr2_parts/wpn_third_smg_sr2_m_mag"
@@ -3698,7 +3721,7 @@ elseif WacMenu._data.replace_ar15_magpulassiststanag == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_upg_m_quick.unit = "units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_fps_ass_tecci_m_drum"
 end
 if WacMenu._data.replace_keep_frontpost == true then
-local unforbids = {"wpn_fps_ass_m16_os_frontsight"}	
+local unforbids = {"wpn_fps_ass_m16_os_frontsight"}
 for id, data in pairs(tweak_data.weapon.factory.parts) do
 	if data.forbids then
 		for i = #data.forbids, 1, -1 do
@@ -3896,6 +3919,7 @@ elseif WacMenu._data.replace_ar15corehandle == 3 then
 end
 local usebarrelext = {}
 usebarrelext.tweak = "tweak_data.weapon.factory.parts."
+usebarrelext.dummy = " = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
 if WacMenu._data.replace_selectablebarrelext == 2 then
 usebarrelext.model = " = \"units/pd2_dlc_clover/weapons/wpn_fps_ass_l85a2_pts/wpn_fps_ass_l85a2_ns_standard\""
 usebarrelext.thirdmodel = " = \"units/pd2_dlc_clover/weapons/wpn_third_ass_l85a2_pts/wpn_third_ass_l85a2_ns_standard\""
@@ -3914,6 +3938,25 @@ usebarrelext.thirdmodel = " = \"units/pd2_dlc_born/weapons/wpn_third_smg_hajk_pt
 else
 usebarrelext.model = " = \"units/pd2_dlc_dec5/weapons/wpn_fps_ass_scar_pts/wpn_fps_ass_scar_ns_standard\""
 usebarrelext.thirdmodel = " = \"units/pd2_dlc_dec5/weapons/wpn_third_ass_scar_pts/wpn_third_ass_scar_ns_standard\""
+end
+if WacMenu._data.replace_selectablebarrelext2 == 2 then
+usebarrelext.model2 = " = \"units/pd2_dlc_clover/weapons/wpn_fps_ass_l85a2_pts/wpn_fps_ass_l85a2_ns_standard\""
+usebarrelext.thirdmodel2 = " = \"units/pd2_dlc_clover/weapons/wpn_third_ass_l85a2_pts/wpn_third_ass_l85a2_ns_standard\""
+elseif WacMenu._data.replace_selectablebarrelext2 == 3 then
+usebarrelext.model2 = " = \"units/pd2_dlc_dragan/weapons/wpn_fps_ass_vhs_pts/wpn_fps_ass_vhs_ns_vhs\""
+usebarrelext.thirdmodel2 = " = \"units/pd2_dlc_dragan/weapons/wpn_fps_ass_vhs_pts/wpn_third_ass_vhs_ns_vhs\""
+elseif WacMenu._data.replace_selectablebarrelext2 == 4 then
+usebarrelext.model2 = " = \"units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_fps_ass_tecci_ns_standard\""
+usebarrelext.thirdmodel2 = " = \"nits/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_third_ass_tecci_ns_standard\""
+elseif WacMenu._data.replace_selectablebarrelext2 == 5 then
+usebarrelext.model2 = " = \"units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_fps_ass_tecci_ns_special\""
+usebarrelext.thirdmodel2 = " = \"units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_third_ass_tecci_ns_special\""
+elseif WacMenu._data.replace_selectablebarrelext2 == 6 then
+usebarrelext.model2 = " = \"units/pd2_dlc_born/weapons/wpn_fps_smg_hajk_pts/wpn_fps_smg_hajk_ns_standard\""
+usebarrelext.thirdmodel2 = " = \"units/pd2_dlc_born/weapons/wpn_third_smg_hajk_pts/wpn_third_smg_hajk_ns_standard\""
+else
+usebarrelext.model2 = " = \"units/pd2_dlc_dec5/weapons/wpn_fps_ass_scar_pts/wpn_fps_ass_scar_ns_standard\""
+usebarrelext.thirdmodel2 = " = \"units/pd2_dlc_dec5/weapons/wpn_third_ass_scar_pts/wpn_third_ass_scar_ns_standard\""
 end
 if WacMenu._data.replace_jprifles == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_ns_jprifles.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_firepig/wpn_third_upg_ns_ass_smg_firepig"
@@ -3937,6 +3980,9 @@ elseif WacMenu._data.replace_jprifles == 8 then
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_jprifles.third_unit" .. usebarrelext.thirdmodel))()
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_jprifles.unit" .. usebarrelext.model))()
 elseif WacMenu._data.replace_jprifles == 9 then
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_jprifles.third_unit" .. usebarrelext.thirdmodel2))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_jprifles.unit" .. usebarrelext.model2))()
+elseif WacMenu._data.replace_jprifles == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_ns_jprifles.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_ns_jprifles.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
@@ -3962,6 +4008,9 @@ elseif WacMenu._data.replace_firepig == 8 then
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.third_unit" .. usebarrelext.thirdmodel))()
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.unit" .. usebarrelext.model))()
 elseif WacMenu._data.replace_firepig == 9 then
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.third_unit" .. usebarrelext.thirdmodel2))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.unit" .. usebarrelext.model2))()
+elseif WacMenu._data.replace_firepig == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_firepig.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_firepig.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
@@ -3987,6 +4036,9 @@ elseif WacMenu._data.replace_linear == 8 then
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_linear.third_unit" .. usebarrelext.thirdmodel))()
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_linear.unit" .. usebarrelext.model))()
 elseif WacMenu._data.replace_linear == 9 then
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_linear.third_unit" .. usebarrelext.thirdmodel2))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_linear.unit" .. usebarrelext.model2))()
+elseif WacMenu._data.replace_linear == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_ns_linear.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_ns_linear.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
@@ -4012,6 +4064,9 @@ elseif WacMenu._data.replace_stubby == 8 then
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.third_unit" .. usebarrelext.thirdmodel))()
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.unit" .. usebarrelext.model))()
 elseif WacMenu._data.replace_stubby == 9 then
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.third_unit" .. usebarrelext.thirdmodel2))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.unit" .. usebarrelext.model2))()
+elseif WacMenu._data.replace_stubby == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_stubby.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_stubby.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
@@ -4036,6 +4091,9 @@ elseif WacMenu._data.replace_surefire == 7 then
 elseif WacMenu._data.replace_surefire == 8 then
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_surefire.third_unit" .. usebarrelext.thirdmodel))()
 assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_surefire.unit" .. usebarrelext.model))()
+elseif WacMenu._data.replace_surefire == 9 then
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_surefire.third_unit" .. usebarrelext.thirdmodel2))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_surefire.unit" .. usebarrelext.model2))()
 elseif WacMenu._data.replace_surefire == 9 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_ns_surefire.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_ns_surefire.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
@@ -4066,6 +4124,22 @@ elseif WacMenu._data.replace_sharkbrake == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_shot_shark.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_shot_shark.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
+if WacMenu._data.replace_duckbill == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.third_unit = "units/payday2/weapons/wpn_third_upg_ns_shot_shark/wpn_third_upg_ns_shot_shark"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.unit = "units/payday2/weapons/wpn_fps_upg_ns_shot_shark/wpn_fps_upg_ns_shot_shark"
+elseif WacMenu._data.replace_duckbill == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_barrel_extentions/wpn_third_upg_shot_ns_king"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_shot_ns_king"
+elseif WacMenu._data.replace_duckbill == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_firepig/wpn_third_upg_ns_ass_smg_firepig"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.unit = "units/payday2/weapons/wpn_fps_upg_ns_ass_smg_firepig/wpn_fps_upg_ns_ass_smg_firepig"
+elseif WacMenu._data.replace_duckbill == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_stubby/wpn_third_upg_ns_ass_smg_stubby"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.unit = "units/payday2/weapons/wpn_fps_upg_ns_ass_smg_stubby/wpn_fps_upg_ns_ass_smg_stubby"
+elseif WacMenu._data.replace_duckbill == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_duck.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+end
 if WacMenu._data.replace_pisflashhider == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_pis_ns_flash.third_unit = "units/pd2_crimefest_2014/oct22/weapons/wpn_third_upg_ns_pis_meatgrinder/wpn_third_upg_ns_pis_meatgrinder"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_pis_ns_flash.unit = "units/pd2_crimefest_2014/oct22/weapons/wpn_fps_upg_ns_pis_meatgrinder/wpn_fps_upg_ns_pis_meatgrinder"
@@ -4090,85 +4164,65 @@ elseif WacMenu._data.replace_ipsccomp == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_pis_ipsccomp.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_pis_ipsccomp.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
-local hidesupp = {}
-if WacMenu._data.replace_hidesuppressorscomp == 2 then
-hidesupp.suppmodel = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_firepig/wpn_fps_upg_ns_ass_smg_firepig\""
-elseif WacMenu._data.replace_hidesuppressorscomp == 3 then
-hidesupp.suppmodel = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_tank/wpn_fps_upg_ns_ass_smg_tank\""
-elseif WacMenu._data.replace_hidesuppressorscomp == 4 then
-hidesupp.suppmodel = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_stubby/wpn_fps_upg_ns_ass_smg_stubby\""
-elseif WacMenu._data.replace_hidesuppressorscomp == 5 then
-hidesupp.suppmodel = " = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_ass_ns_jprifles\""
-elseif WacMenu._data.replace_hidesuppressorscomp == 6 then
-hidesupp.suppmodel = " = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_ass_ns_surefire\""
-elseif WacMenu._data.replace_hidesuppressorscomp == 7 then
-hidesupp.suppmodel = " = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_ass_ns_linear\""
-elseif WacMenu._data.replace_hidesuppressorscomp == 8 then
-hidesupp.suppmodel = " = \"uunits/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ass_ns_battle/wpn_fps_upg_ass_ns_battle\""
-else
-hidesupp.suppmodel = " = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
-end
-hidesupp.dummy = " = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
-hidesupp.tweak = "tweak_data.weapon.factory.parts."
 if WacMenu._data.replace_hidebarrelextarsmg == true then
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_tank.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_tank.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_jprifles.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_jprifles.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_linear.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_linear.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_surefire.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_surefire.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_battle.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ass_ns_battle.unit" .. hidesupp.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_firepig.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_stubby.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_tank.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_ass_smg_tank.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_jprifles.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_jprifles.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_linear.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_linear.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_surefire.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_surefire.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_battle.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ass_ns_battle.unit" .. usebarrelext.dummy))()
 end
 if WacMenu._data.replace_hidebarrelextsh == true then
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_shot_shark.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_shot_shark.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_shot_ns_king.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_shot_ns_king.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_duck.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_duck.unit" .. hidesupp.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_shot_shark.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_shot_shark.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_shot_ns_king.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_shot_ns_king.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_duck.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_duck.unit" .. usebarrelext.dummy))()
 end
 if WacMenu._data.replace_hidebarrelextpis == true then
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_pis_ns_flash.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_pis_ns_flash.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_meatgrinder.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_meatgrinder.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_ipsccomp.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_ipsccomp.unit" .. hidesupp.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_pis_ns_flash.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_pis_ns_flash.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_pis_meatgrinder.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_pis_meatgrinder.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_pis_ipsccomp.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_upg_ns_pis_ipsccomp.unit" .. usebarrelext.dummy))()
 end
 if WacMenu._data.replace_hidebarrelextunique == true then
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_g18c_co_1.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_g18c_co_1.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_g18c_co_comp_2.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_g18c_co_comp_2.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_deagle_co_long.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_deagle_co_long.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_deagle_co_short.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_deagle_co_short.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_1911_co_1.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_1911_co_1.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_1911_co_2.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_1911_co_2.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_beretta_co_co1.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_beretta_co_co1.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_beretta_co_co2.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_beretta_co_co2.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_usp_co_comp_1.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_usp_co_comp_1.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_usp_co_comp_2.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_usp_co_comp_2.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_p226_co_comp_1.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_p226_co_comp_1.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_p226_co_comp_2.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_p226_co_comp_2.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_c96_nozzle.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_pis_c96_nozzle.unit" .. hidesupp.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_g18c_co_1.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_g18c_co_1.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_g18c_co_comp_2.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_g18c_co_comp_2.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_deagle_co_long.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_deagle_co_long.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_deagle_co_short.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_deagle_co_short.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_1911_co_1.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_1911_co_1.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_1911_co_2.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_1911_co_2.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_beretta_co_co1.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_beretta_co_co1.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_beretta_co_co2.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_beretta_co_co2.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_usp_co_comp_1.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_usp_co_comp_1.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_usp_co_comp_2.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_usp_co_comp_2.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_p226_co_comp_1.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_p226_co_comp_1.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_p226_co_comp_2.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_p226_co_comp_2.unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_c96_nozzle.third_unit" .. usebarrelext.dummy))()
+assert(loadstring(usebarrelext.tweak .. "wpn_fps_pis_c96_nozzle.unit" .. usebarrelext.dummy))()
 end
 if WacMenu._data.replace_compactlaser == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_laser.third_unit = "units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_peqbox/wpn_third_upg_fl_ass_smg_sho_peqbox"
@@ -4227,11 +4281,58 @@ if WacMenu._data.replace_glockgriphogue == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_pis_g18c_g_ergo.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_pis_g18c_g_ergo.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
-if WacMenu._data.replace_hidermr == true then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rmr.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rmr.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rmr.stance_mod = nil
-	tweak_data.weapon.factory.parts.wpn_fps_bow_hunter_body_standard.adds = {"wpn_fps_bow_hunter_o_standard"}
+local usesupp = {}
+usesupp.tweak = "tweak_data.weapon.factory.parts."
+usesupp.dummy = " = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
+usesupp.mp7third = " = \"units/pd2_dlc_dec5/weapons/wpn_third_smg_mp7_pts/wpn_third_smg_mp7_b_suppressed\""
+usesupp.mp7 = " = \"units/pd2_dlc_dec5/weapons/wpn_fps_smg_mp7_pts/wpn_fps_smg_mp7_b_suppressed\""
+usesupp.vectorthird = " = \"units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_ns_silencer\""
+usesupp.vector = " = \"units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_ns_silencer\""
+usesupp.cobraythird = " = \"units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_third_smg_cobray_ns_silencer\""
+usesupp.cobray = " = \"units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_fps_smg_cobray_ns_silencer\""
+usesupp.sr2third = " = \"units/pd2_dlc_coco/weapons/wpn_fps_smg_sr2_parts/wpn_third_smg_sr2_ns_silencer\""
+usesupp.sr2 = " = \"units/pd2_dlc_coco/weapons/wpn_fps_smg_sr2_parts/wpn_fps_smg_sr2_ns_silencer\""
+usesupp.mp9third = " = \"units/pd2_dlc_butcher_mods/weapons/wpn_third_smg_mp9_b_suppressed/wpn_third_smg_mp9_b_suppressed\""
+usesupp.mp9 = " = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_smg_mp9_b_suppressed/wpn_fps_smg_mp9_b_suppressed\""
+usesupp.gm45third = " = \"units/pd2_dlc_pim/weapons/wpn_third_smg_schakal_pts/wpn_third_smg_schakal_ns_silencer\""
+usesupp.gm45 = " = \"units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_ns_silencer\""
+if WacMenu._data.replace_selectablesupp == 2 then
+usesupp.thirdmodel = usesupp.vectorthird
+usesupp.model = usesupp.vector
+elseif WacMenu._data.replace_selectablesupp == 3 then
+usesupp.thirdmodel = usesupp.cobraythird
+usesupp.model = usesupp.cobray
+elseif WacMenu._data.replace_selectablesupp == 4 then
+usesupp.thirdmodel = usesupp.mp9third
+usesupp.model = usesupp.mp9
+elseif WacMenu._data.replace_selectablesupp == 5 then
+usesupp.thirdmodel = usesupp.sr2third
+usesupp.model = usesupp.sr2
+elseif WacMenu._data.replace_selectablesupp == 6 then
+usesupp.thirdmodel = usesupp.gm45third
+usesupp.model = usesupp.gm45
+else
+usesupp.thirdmodel = usesupp.mp7third
+usesupp.model = usesupp.mp7
+end
+if WacMenu._data.replace_selectablesupp2 == 2 then
+usesupp.thirdmodel2 = usesupp.vectorthird
+usesupp.model2 = usesupp.vector
+elseif WacMenu._data.replace_selectablesupp2 == 3 then
+usesupp.thirdmodel2 = usesupp.cobraythird
+usesupp.model2 = usesupp.cobray
+elseif WacMenu._data.replace_selectablesupp2 == 4 then
+usesupp.thirdmodel2 = usesupp.mp9third
+usesupp.model2 = usesupp.mp9
+elseif WacMenu._data.replace_selectablesupp2 == 5 then
+usesupp.thirdmodel2 = usesupp.sr2third
+usesupp.model2 = usesupp.sr2
+elseif WacMenu._data.replace_selectablesupp2 == 6 then
+usesupp.thirdmodel2 = usesupp.gm45third
+usesupp.model2 = usesupp.gm45
+else
+usesupp.thirdmodel2 = usesupp.mp7third
+usesupp.model2 = usesupp.mp7
 end
 if WacMenu._data.replace_arsupp_bigger == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_small/wpn_third_upg_ns_ass_smg_small"
@@ -4240,29 +4341,26 @@ elseif WacMenu._data.replace_arsupp_bigger == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_medium/wpn_third_upg_ns_ass_smg_medium"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/payday2/weapons/wpn_fps_upg_ns_ass_smg_medium/wpn_fps_upg_ns_ass_smg_medium"
 elseif WacMenu._data.replace_arsupp_bigger == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/pd2_dlc_dec5/weapons/wpn_third_smg_mp7_pts/wpn_third_smg_mp7_b_suppressed"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/pd2_dlc_dec5/weapons/wpn_fps_smg_mp7_pts/wpn_fps_smg_mp7_b_suppressed"
-elseif WacMenu._data.replace_arsupp_bigger == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_ns_silencer"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_ns_silencer"
-elseif WacMenu._data.replace_arsupp_bigger == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_third_smg_cobray_ns_silencer"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_fps_smg_cobray_ns_silencer"
-elseif WacMenu._data.replace_arsupp_bigger == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/payday2/weapons/wpn_third_upg_ns_shot_thick/wpn_third_upg_ns_shot_thick"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick"
-elseif WacMenu._data.replace_arsupp_bigger == 8 then
+elseif WacMenu._data.replace_arsupp_bigger == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_sho_salvo/wpn_third_upg_ns_sho_salvo_large"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_sho_salvo/wpn_fps_upg_ns_sho_salvo_large"
-elseif WacMenu._data.replace_arsupp_bigger == 9 then
+elseif WacMenu._data.replace_arsupp_bigger == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/payday2/weapons/wpn_third_upg_ns_pis_large/wpn_third_upg_ns_pis_large"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/payday2/weapons/wpn_fps_upg_ns_pis_large/wpn_fps_upg_ns_pis_large"
-elseif WacMenu._data.replace_arsupp_bigger == 10 then
+elseif WacMenu._data.replace_arsupp_bigger == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ns_pis_medium_slim/wpn_third_upg_ns_pis_medium_slim"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ns_pis_medium_slim/wpn_fps_upg_ns_pis_medium_slim"
-elseif WacMenu._data.replace_arsupp_bigger == 11 then
+elseif WacMenu._data.replace_arsupp_bigger == 8 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_ass_filter/wpn_third_upg_ns_ass_filter"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_large.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_ass_filter/wpn_fps_upg_ns_ass_filter"
+elseif WacMenu._data.replace_arsupp_bigger == 9 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.third_unit" .. usesupp.thirdmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. usesupp.model))()
+elseif WacMenu._data.replace_arsupp_bigger == 10 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.third_unit" .. usesupp.thirdmodel2))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. usesupp.model2))()
 end
 if WacMenu._data.replace_arsupp_medium == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_small/wpn_third_upg_ns_ass_smg_small"
@@ -4271,29 +4369,26 @@ elseif WacMenu._data.replace_arsupp_medium == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_large/wpn_third_upg_ns_ass_smg_large"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/payday2/weapons/wpn_fps_upg_ns_ass_smg_large/wpn_fps_upg_ns_ass_smg_large"
 elseif WacMenu._data.replace_arsupp_medium == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/pd2_dlc_dec5/weapons/wpn_third_smg_mp7_pts/wpn_third_smg_mp7_b_suppressed"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/pd2_dlc_dec5/weapons/wpn_fps_smg_mp7_pts/wpn_fps_smg_mp7_b_suppressed"
-elseif WacMenu._data.replace_arsupp_medium == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_ns_silencer"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_ns_silencer"
-elseif WacMenu._data.replace_arsupp_medium == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_third_smg_cobray_ns_silencer"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_fps_smg_cobray_ns_silencer"
-elseif WacMenu._data.replace_arsupp_medium == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/payday2/weapons/wpn_third_upg_ns_shot_thick/wpn_third_upg_ns_shot_thick"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick"
-elseif WacMenu._data.replace_arsupp_medium == 8 then
+elseif WacMenu._data.replace_arsupp_medium == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_sho_salvo/wpn_third_upg_ns_sho_salvo_large"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_sho_salvo/wpn_fps_upg_ns_sho_salvo_large"
-elseif WacMenu._data.replace_arsupp_medium == 9 then
+elseif WacMenu._data.replace_arsupp_medium == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/payday2/weapons/wpn_third_upg_ns_pis_large/wpn_third_upg_ns_pis_large"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/payday2/weapons/wpn_fps_upg_ns_pis_large/wpn_fps_upg_ns_pis_large"
-elseif WacMenu._data.replace_arsupp_medium == 10 then
+elseif WacMenu._data.replace_arsupp_medium == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ns_pis_medium_slim/wpn_third_upg_ns_pis_medium_slim"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ns_pis_medium_slim/wpn_fps_upg_ns_pis_medium_slim"
-elseif WacMenu._data.replace_arsupp_medium == 11 then
+elseif WacMenu._data.replace_arsupp_medium == 8 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_ass_filter/wpn_third_upg_ns_ass_filter"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_medium.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_ass_filter/wpn_fps_upg_ns_ass_filter"
+elseif WacMenu._data.replace_arsupp_medium == 9 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.third_unit" .. usesupp.thirdmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. usesupp.model))()
+elseif WacMenu._data.replace_arsupp_medium == 10 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.third_unit" .. usesupp.thirdmodel2))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. usesupp.model2))()
 end
 if WacMenu._data.replace_arsupp_lowprofile == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_large/wpn_third_upg_ns_ass_smg_large"
@@ -4302,29 +4397,26 @@ elseif WacMenu._data.replace_arsupp_lowprofile == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_medium/wpn_third_upg_ns_ass_smg_medium"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/payday2/weapons/wpn_fps_upg_ns_ass_smg_medium/wpn_fps_upg_ns_ass_smg_medium"
 elseif WacMenu._data.replace_arsupp_lowprofile == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/pd2_dlc_dec5/weapons/wpn_third_smg_mp7_pts/wpn_third_smg_mp7_b_suppressed"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/pd2_dlc_dec5/weapons/wpn_fps_smg_mp7_pts/wpn_fps_smg_mp7_b_suppressed"
-elseif WacMenu._data.replace_arsupp_lowprofile == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_ns_silencer"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_ns_silencer"
-elseif WacMenu._data.replace_arsupp_lowprofile == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_third_smg_cobray_ns_silencer"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_fps_smg_cobray_ns_silencer"
-elseif WacMenu._data.replace_arsupp_lowprofile == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/payday2/weapons/wpn_third_upg_ns_shot_thick/wpn_third_upg_ns_shot_thick"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick"
-elseif WacMenu._data.replace_arsupp_lowprofile == 8 then
+elseif WacMenu._data.replace_arsupp_lowprofile == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_sho_salvo/wpn_third_upg_ns_sho_salvo_large"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_sho_salvo/wpn_fps_upg_ns_sho_salvo_large"
-elseif WacMenu._data.replace_arsupp_lowprofile == 9 then
+elseif WacMenu._data.replace_arsupp_lowprofile == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/payday2/weapons/wpn_third_upg_ns_pis_large/wpn_third_upg_ns_pis_large"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/payday2/weapons/wpn_fps_upg_ns_pis_large/wpn_fps_upg_ns_pis_large"
-elseif WacMenu._data.replace_arsupp_lowprofile == 10 then
+elseif WacMenu._data.replace_arsupp_lowprofile == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ns_pis_medium_slim/wpn_third_upg_ns_pis_medium_slim"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ns_pis_medium_slim/wpn_fps_upg_ns_pis_medium_slim"
-elseif WacMenu._data.replace_arsupp_lowprofile == 11 then
+elseif WacMenu._data.replace_arsupp_lowprofile == 8 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_ass_filter/wpn_third_upg_ns_ass_filter"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_ass_smg_small.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_ass_filter/wpn_fps_upg_ns_ass_filter"
+elseif WacMenu._data.replace_arsupp_lowprofile == 9 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.third_unit" .. usesupp.thirdmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. usesupp.model))()
+elseif WacMenu._data.replace_arsupp_lowprofile == 10 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.third_unit" .. usesupp.thirdmodel2))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. usesupp.model2))()
 end
 if WacMenu._data.replace_salvo12 == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_sho_salvo_large.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_large/wpn_third_upg_ns_ass_smg_large"
@@ -4483,79 +4575,96 @@ elseif WacMenu._data.replace_pis_small == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_pis_small.third_unit = "units/payday2/weapons/wpn_third_upg_ns_shot_thick/wpn_third_upg_ns_shot_thick"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_pis_small.unit = "units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick"
 end
+if WacMenu._data.replace_hidesuppressorscomp == 2 then
+usesupp.replacedmodel = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_firepig/wpn_fps_upg_ns_ass_smg_firepig\""
+elseif WacMenu._data.replace_hidesuppressorscomp == 3 then
+usesupp.replacedmodel = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_tank/wpn_fps_upg_ns_ass_smg_tank\""
+elseif WacMenu._data.replace_hidesuppressorscomp == 4 then
+usesupp.replacedmodel = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_stubby/wpn_fps_upg_ns_ass_smg_stubby\""
+elseif WacMenu._data.replace_hidesuppressorscomp == 5 then
+usesupp.replacedmodel = " = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_ass_ns_jprifles\""
+elseif WacMenu._data.replace_hidesuppressorscomp == 6 then
+usesupp.replacedmodel = " = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_ass_ns_surefire\""
+elseif WacMenu._data.replace_hidesuppressorscomp == 7 then
+usesupp.replacedmodel = " = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_ass_ns_linear\""
+elseif WacMenu._data.replace_hidesuppressorscomp == 8 then
+usesupp.replacedmodel = " = \"uunits/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ass_ns_battle/wpn_fps_upg_ass_ns_battle\""
+else
+usesupp.replacedmodel = " = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
+end
 if WacMenu._data.replace_hidesuppressors == true and wac_nosuppressedsnds == true then
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_pbs1.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_pbs1.unit" .. hidesupp.suppmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_pbs1.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_pbs1.unit" .. usesupp.replacedmodel))()
 
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_large.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_medium.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_medium.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_small.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_large_kac.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_filter.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_ass_filter.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_jungle.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. hidesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_large.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_medium.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_medium.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_small.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_large_kac.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_filter.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_ass_filter.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_jungle.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. usesupp.dummy))()
 
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_shot_thick.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. hidesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_shot_thick.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. usesupp.dummy))()
 
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_msr_ns_suppressor.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_msr_ns_suppressor.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_scorpion_b_suppressed.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_scorpion_b_suppressed.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_uzi_b_suppressed.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_uzi_b_suppressed.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_cobray_ns_silencer.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_cobray_ns_silencer.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_mp9_b_suppressed.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_mp9_b_suppressed.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_polymer_ns_silencer.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_polymer_ns_silencer.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_baka_b_midsupp.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_baka_b_midsupp.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_baka_b_smallsupp.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_baka_b_smallsupp.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_baka_b_longsupp.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_baka_b_longsupp.unit" .. hidesupp.suppmodel))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_model70_ns_suppressor.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_model70_ns_suppressor.unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_sr2_ns_silencer.third_unit" .. hidesupp.dummy))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_sr2_ns_silencer.unit" .. hidesupp.suppmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_msr_ns_suppressor.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_msr_ns_suppressor.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_scorpion_b_suppressed.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_scorpion_b_suppressed.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_uzi_b_suppressed.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_uzi_b_suppressed.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_cobray_ns_silencer.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_cobray_ns_silencer.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_mp9_b_suppressed.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_mp9_b_suppressed.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_polymer_ns_silencer.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_polymer_ns_silencer.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_baka_b_midsupp.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_baka_b_midsupp.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_baka_b_smallsupp.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_baka_b_smallsupp.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_baka_b_longsupp.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_baka_b_longsupp.unit" .. usesupp.replacedmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_model70_ns_suppressor.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_model70_ns_suppressor.unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_sr2_ns_silencer.third_unit" .. usesupp.dummy))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_sr2_ns_silencer.unit" .. usesupp.replacedmodel))()
 end
 if WacMenu._data.replace_hidesuppbarrels == true and wac_nosuppressedsnds == true then
-assert(loadstring(hidesupp.tweak .. "wpn_fps_m4_uupg_b_sd.unit" ..  " = \"units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_b_medium\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_mp5_fg_mp5sd.unit" ..  " = \"units/payday2/weapons/wpn_fps_smg_mp5_pts/wpn_fps_smg_mp5_fg_mp5a4\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_m95_barrel_suppressed.unit" ..  " = \"units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_r93_b_suppressed.unit" ..  " = \"units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93_pts/wpn_fps_snp_r93_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_sho_striker_b_suppressed.unit" ..  " = \"units/pd2_dlc_gage_shot/weapons/wpn_fps_sho_striker_pts/wpn_fps_sho_striker_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_ass_famas_b_suppressed.unit" ..  " = \"units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_famas_pts/wpn_fps_ass_famas_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_lmg_mg42_b_vg38.unit" ..  " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_b_mg42\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_sterling_b_suppressed.unit" ..  " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_sterling_b_e11.unit" ..  " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_mosin_b_sniper.unit" ..  " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_snp_mosin_pts/wpn_fps_snp_mosin_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_ass_vhs_b_silenced.unit" ..  " = \"units/pd2_dlc_dragan/weapons/wpn_fps_ass_vhs_pts/wpn_fps_ass_vhs_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_smg_p90_b_ninja.unit" ..  " = \"units/payday2/weapons/wpn_fps_smg_p90_pts/wpn_fps_smg_p90_b_short\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_sho_aa12_barrel_silenced.unit" ..  " = \"units/pd2_dlc_bbq/weapons/wpn_fps_sho_aa12_pts/wpn_fps_sho_aa12_barrel\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_winchester_b_suppressed.unit" ..  " = \"units/pd2_dlc_west/weapons/wpn_fps_snp_winchester_pts/wpn_fps_snp_winchester_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_wa2000_b_suppressed.unit" ..  " = \"units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_siltstone_b_silenced.unit" ..  " = \"units/pd2_dlc_grv/weapons/wpn_fps_snp_siltstone_pts/wpn_fps_snp_siltstone_b_standard\""))()
-assert(loadstring(hidesupp.tweak .. "wpn_fps_snp_tti_ns_hex.unit" ..  " = \"units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_ns_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_m4_uupg_b_sd.unit" ..	" = \"units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_b_medium\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_mp5_fg_mp5sd.unit" ..	" = \"units/payday2/weapons/wpn_fps_smg_mp5_pts/wpn_fps_smg_mp5_fg_mp5a4\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_m95_barrel_suppressed.unit" ..	 " = \"units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_r93_b_suppressed.unit" ..	" = \"units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93_pts/wpn_fps_snp_r93_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_sho_striker_b_suppressed.unit" ..	" = \"units/pd2_dlc_gage_shot/weapons/wpn_fps_sho_striker_pts/wpn_fps_sho_striker_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_ass_famas_b_suppressed.unit" ..  " = \"units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_famas_pts/wpn_fps_ass_famas_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_lmg_mg42_b_vg38.unit" ..  " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_b_mg42\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_sterling_b_suppressed.unit" ..	 " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_sterling_b_e11.unit" ..  " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_smg_sterling_pts/wpn_fps_smg_sterling_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_mosin_b_sniper.unit" ..  " = \"units/pd2_dlc_gage_historical/weapons/wpn_fps_snp_mosin_pts/wpn_fps_snp_mosin_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_ass_vhs_b_silenced.unit" ..  " = \"units/pd2_dlc_dragan/weapons/wpn_fps_ass_vhs_pts/wpn_fps_ass_vhs_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_smg_p90_b_ninja.unit" ..  " = \"units/payday2/weapons/wpn_fps_smg_p90_pts/wpn_fps_smg_p90_b_short\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_sho_aa12_barrel_silenced.unit" ..	" = \"units/pd2_dlc_bbq/weapons/wpn_fps_sho_aa12_pts/wpn_fps_sho_aa12_barrel\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_winchester_b_suppressed.unit" ..  " = \"units/pd2_dlc_west/weapons/wpn_fps_snp_winchester_pts/wpn_fps_snp_winchester_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_wa2000_b_suppressed.unit" ..  " = \"units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_siltstone_b_silenced.unit" ..	" = \"units/pd2_dlc_grv/weapons/wpn_fps_snp_siltstone_pts/wpn_fps_snp_siltstone_b_standard\""))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_snp_tti_ns_hex.unit" ..  " = \"units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_ns_standard\""))()
 end
 if WacMenu._data.replace_specter_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_specter.stats.zoom = 1
@@ -4854,22 +4963,24 @@ end
 if WacMenu._data.replace_ump45single == true then
 	tweak_data.weapon.schakal.FIRE_MODE = "single"
 end
-if wac_fixes == true then
-	tweak_data.weapon.factory.parts.wpn_fps_shot_r870_body_standard.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_ass_g36_body_standard.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_ass_g36_body_sl8.forbids = {"wpn_fps_addon_ris" }
-	tweak_data.weapon.factory.parts.wpn_fps_lmg_m249_fg_mk46.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_smg_mp7_body_standard.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_body_mp9.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_smg_p90_body_p90.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_ass_scar_body_standard.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_sho_striker_body_standard.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_ass_asval_body_standard.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_smg_uzi_fg_rail.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_snp_model70_body_standard.forbids = {"wpn_fps_addon_ris"}
-	tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_body_standard.forbids = {"wpn_fps_addon_ris"}
+if WacMenu._data.fixes == true then
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_shot_r870_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_g36_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_g36_body_sl8, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_lmg_m249_fg_mk46, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_smg_mp7_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_smg_mp9_body_mp9, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_smg_p90_body_p90, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_scar_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_sho_striker_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_smg_uzi_fg_rail, {forbids = {"wpn_fps_addon_ris","wpn_fps_shot_r870_gadget_rail"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_snp_model70_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	tweak_data.weapon.factory.parts.wpn_fps_ass_g36_m_quick.bullet_objects = {prefix = "g_bullet_", amount = 28}
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_par_m_standard.bullet_objects = {prefix = "g_bullet_", amount = 5}
-	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_body_standard.forbids = {"wpn_fps_addon_ris"}
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_body_standard, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_asval_b_proto, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_asval_b_standard, {forbids = {"wpn_fps_addon_ris"}})
 end
 -- Parts IDs
 local unit_list = {}
@@ -5613,7 +5724,7 @@ end
 -- FAMAS
 if WacMenu._data.replace_famassuppb == true and not wac_nosuppressedsnds then
 local famasparts = {}
-famasparts.override  = ", override = {" .. "wpn_fps_ass_famas_b_standard" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_long" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_short" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_sniper" .. parts_list.famassuppb .. "},"
+famasparts.override	 = ", override = {" .. "wpn_fps_ass_famas_b_standard" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_long" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_short" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_sniper" .. parts_list.famassuppb .. "},"
 famasparts.string = parts_list.dummy_unit_open .. famasparts.override .. "}"
 assert(loadstring(ovr_ids.famas .. unit_list.suppsmall .. famasparts.string))()
 assert(loadstring(ovr_ids.famas .. unit_list.suppmedium .. famasparts.string))()
@@ -5742,7 +5853,7 @@ assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15beowulf .. parts_list.ar15shortb
 end
 if WacMenu._data.replace_m4a1suppb == true and not wac_nosuppressedsnds then
 local m4a1parts = {}
-m4a1parts.override  = ", override = {" .. unit_list.ar15long .. parts_list.m4a1suppb .. unit_list.ar15short .. parts_list.m4a1suppb .. unit_list.ar15medium .. parts_list.m4a1suppb .. unit_list.ar15beowulf .. parts_list.m4a1suppb .. "}"
+m4a1parts.override	= ", override = {" .. unit_list.ar15long .. parts_list.m4a1suppb .. unit_list.ar15short .. parts_list.m4a1suppb .. unit_list.ar15medium .. parts_list.m4a1suppb .. unit_list.ar15beowulf .. parts_list.m4a1suppb .. "}"
 m4a1parts.string = parts_list.dummy_unit_open .. m4a1parts.override .. "}"
 assert(loadstring(ovr_ids.m4a1 .. unit_list.suppsmall .. m4a1parts.string))()
 assert(loadstring(ovr_ids.m4a1 .. unit_list.suppmedium .. m4a1parts.string))()
@@ -6135,7 +6246,7 @@ end
 -- SUB2000
 if WacMenu._data.replace_sub2ksupp == true and not wac_nosuppressedsnds then
 local sub2kparts = {}
-sub2kparts.override  = ",parent = \"foregrip\",override = {" .. "wpn_fps_ass_sub2000_fg_gen1" .. parts_list.sub2ksuppb .. "wpn_fps_ass_sub2000_fg_gen2" .. parts_list.sub2ksuppb .. "wpn_fps_ass_sub2000_fg_railed" .. parts_list.sub2ksuppb .. "}"
+sub2kparts.override	 = ",parent = \"foregrip\",override = {" .. "wpn_fps_ass_sub2000_fg_gen1" .. parts_list.sub2ksuppb .. "wpn_fps_ass_sub2000_fg_gen2" .. parts_list.sub2ksuppb .. "wpn_fps_ass_sub2000_fg_railed" .. parts_list.sub2ksuppb .. "}"
 sub2kparts.string = parts_list.dummy_unit_open .. sub2kparts.override .. "}"
 assert(loadstring(ovr_ids.sub2k .. unit_list.suppsmall .. sub2kparts.string))()
 assert(loadstring(ovr_ids.sub2k .. unit_list.suppmedium .. sub2kparts.string))()
@@ -6201,7 +6312,7 @@ if not tweak_data.weapon.factory.wpn_fps_sho_aa12.override then
 	tweak_data.weapon.factory.wpn_fps_sho_aa12.override = {}
 end
 local aa12parts = {}
-aa12parts.override  = ",override = {" .. "wpn_fps_sho_aa12_barrel" .. parts_list.aa12suppb .. "wpn_fps_sho_aa12_barrel_long" .. parts_list.aa12suppb .. "}"
+aa12parts.override	= ",override = {" .. "wpn_fps_sho_aa12_barrel" .. parts_list.aa12suppb .. "wpn_fps_sho_aa12_barrel_long" .. parts_list.aa12suppb .. "}"
 aa12parts.string = parts_list.dummy_unit_open .. aa12parts.override .. "}"
 assert(loadstring(ovr_ids.aa12 .. unit_list.shsupp .. aa12parts.string))()
 assert(loadstring(ovr_ids.aa12 .. unit_list.salvo12 .. aa12parts.string))()
@@ -6319,7 +6430,7 @@ if not tweak_data.weapon.factory.wpn_fps_lmg_mg42.override then
 end
 if WacMenu._data.replace_mg42_dlt19 == true and not wac_nosuppressedsnds then
 local mg42parts = {}
-mg42parts.override  = ", override = {" .. "wpn_fps_lmg_mg42_b_mg42" .. unit_list.mg42swb .. "wpn_fps_lmg_mg42_b_mg34" .. unit_list.mg42swb .. "}"
+mg42parts.override	= ", override = {" .. "wpn_fps_lmg_mg42_b_mg42" .. unit_list.mg42swb .. "wpn_fps_lmg_mg42_b_mg34" .. unit_list.mg42swb .. "}"
 mg42parts.string = parts_list.dummy_unit_open .. mg42parts.override .. "}"
 assert(loadstring(ovr_ids.mg42 .. unit_list.suppsmall .. mg42parts.string))()
 assert(loadstring(ovr_ids.mg42 .. unit_list.suppmedium .. mg42parts.string))()
@@ -6496,7 +6607,7 @@ end
 -- Jericho 941
 if WacMenu._data.replace_jericho941comp == true then
 local j941parts = {}
-j941parts.override  = ", override = {" .. "wpn_fps_pis_sparrow_b_941" .. parts_list.jericho941comp .. "wpn_fps_pis_sparrow_b_rpl" .. parts_list.jericho941comp .. "wpn_fps_pis_sparrow_b_threaded" .. parts_list.jericho941comp .. "}"
+j941parts.override	= ", override = {" .. "wpn_fps_pis_sparrow_b_941" .. parts_list.jericho941comp .. "wpn_fps_pis_sparrow_b_rpl" .. parts_list.jericho941comp .. "wpn_fps_pis_sparrow_b_threaded" .. parts_list.jericho941comp .. "}"
 j941parts.string = parts_list.dummy_unit_open .. j941parts.override .. "}"
 assert(loadstring(ovr_ids.jericho941 .. unit_list.pisflash .. j941parts.string))()
 assert(loadstring(ovr_ids.jericho941 .. unit_list.ipsccomp .. j941parts.string))()
@@ -6779,9 +6890,9 @@ if not tweak_data.weapon.factory.wpn_fps_smg_sterling.override then
 	tweak_data.weapon.factory.wpn_fps_smg_sterling.override = {}
 end
 local l2a3parts = {}
-l2a3parts.override1  = ", override = {" .. "wpn_fps_smg_sterling_b_standard" .. unit_list.l2a3suppb .. "wpn_fps_smg_sterling_b_short" .. unit_list.l2a3suppb .. "wpn_fps_smg_sterling_b_long" .. unit_list.l2a3suppb .. "}"
+l2a3parts.override1	 = ", override = {" .. "wpn_fps_smg_sterling_b_standard" .. unit_list.l2a3suppb .. "wpn_fps_smg_sterling_b_short" .. unit_list.l2a3suppb .. "wpn_fps_smg_sterling_b_long" .. unit_list.l2a3suppb .. "}"
 l2a3parts.string1 = parts_list.dummy_unit_open .. l2a3parts.override1 .. "}"
-l2a3parts.override2  = ", override = {" .. "wpn_fps_smg_sterling_b_standard" .. unit_list.l2a3e11 .. "wpn_fps_smg_sterling_b_short" .. unit_list.l2a3e11 .. "wpn_fps_smg_sterling_b_long" .. unit_list.l2a3e11 .. "}"
+l2a3parts.override2	 = ", override = {" .. "wpn_fps_smg_sterling_b_standard" .. unit_list.l2a3e11 .. "wpn_fps_smg_sterling_b_short" .. unit_list.l2a3e11 .. "wpn_fps_smg_sterling_b_long" .. unit_list.l2a3e11 .. "}"
 l2a3parts.string2 = parts_list.dummy_unit_open .. l2a3parts.override2 .. "}"
 if WacMenu._data.replace_l2a1supp == 2 and not wac_nosuppressedsnds then
 assert(loadstring(ovr_ids.l2a3 .. unit_list.suppsmall .. l2a3parts.string1))()
@@ -6983,7 +7094,7 @@ if not tweak_data.weapon.factory.wpn_fps_smg_scorpion.override then
 	tweak_data.weapon.factory.wpn_fps_smg_scorpion.override = {}
 end
 local vz61parts = {}
-vz61parts.override  = ", override = {" .. "wpn_fps_smg_scorpion_b_standard" .. parts_list.vz61supp .. "}"
+vz61parts.override	= ", override = {" .. "wpn_fps_smg_scorpion_b_standard" .. parts_list.vz61supp .. "}"
 vz61parts.string1 = parts_list.dummy_unit_open .. vz61parts.override .. "}"
 assert(loadstring(ovr_ids.vz61 .. unit_list.suppsmall .. vz61parts.string1))()
 assert(loadstring(ovr_ids.vz61 .. unit_list.suppmedium .. vz61parts.string1))()
@@ -7019,7 +7130,7 @@ if not tweak_data.weapon.factory.wpn_fps_sho_x_rota.override then
 	tweak_data.weapon.factory.wpn_fps_sho_x_rota.override = {}
 end
 local six12parts = {}
-six12parts.override  = ", override = {" .. "wpn_fps_sho_rota_b_long" .. parts_list.six12suppb .. "wpn_fps_sho_rota_b_short" .. parts_list.six12suppb .. "}"
+six12parts.override	 = ", override = {" .. "wpn_fps_sho_rota_b_long" .. parts_list.six12suppb .. "wpn_fps_sho_rota_b_short" .. parts_list.six12suppb .. "}"
 six12parts.string1 = parts_list.dummy_unit_open .. six12parts.override .. "}"
 assert(loadstring(ovr_ids.six12 .. unit_list.shsupp .. six12parts.string1))()
 assert(loadstring(ovr_ids.six12 .. unit_list.salvo12 .. six12parts.string1))()

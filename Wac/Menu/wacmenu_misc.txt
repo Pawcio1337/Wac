@@ -29,6 +29,15 @@
 			],
 			"value" : "pd2weaponnames",
 			"default_value" : 1
+		},
+		{
+			"type" : "toggle",
+			"id" : "toggle_fixes",
+			"title" : "wac_fixes_title",
+			"description" : "wac_fixes_desc",
+			"callback" : "callback_toggle_fixes",
+			"value" : "fixes",
+			"default_value" : false
 		}
 	]
 }

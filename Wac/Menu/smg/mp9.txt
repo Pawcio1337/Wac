@@ -45,6 +45,19 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_mp9stndst",
+			"title" : "wac_replace_stndst_title",
+			"callback" : "callback_toggle_replace_mp9stndst",		
+			"items" : [
+				"wac_default_multi",
+				"skelst_multi",
+				"nostock_multi"
+			],
+			"value" : "replace_mp9stndst",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9skeletalst",
 			"title" : "wac_replace_skelst_title",
 			"callback" : "callback_toggle_replace_mp9skeletalst",		

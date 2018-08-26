@@ -12,14 +12,13 @@
 				"wac_default_multi",
 				"lowprofile_multi",
 				"mediumsupp_multi",
-				"mp7qdsupp_multi",
-				"vectorhps_multi",
-				"cobraysupp_multi",
 				"silentkiller_multi",
 				"salvo12_multi",
 				"pis_large_multi",
 				"pis_medium_slim_multi",
-				"oil_filter_multi"
+				"oil_filter_multi",
+				"wac_selectable_multi",
+				"wac_selectable2_multi"
 			],
 			"value" : "replace_arsupp_bigger",
 			"default_value" : 1
@@ -33,14 +32,13 @@
 				"wac_default_multi",
 				"lowprofile_multi",
 				"biggersupp_multi",
-				"mp7qdsupp_multi",
-				"vectorhps_multi",
-				"cobraysupp_multi",
 				"silentkiller_multi",
 				"salvo12_multi",
 				"pis_large_multi",
 				"pis_medium_slim_multi",
-				"oil_filter_multi"
+				"oil_filter_multi",
+				"wac_selectable_multi",
+				"wac_selectable2_multi"
 			],
 			"value" : "replace_arsupp_medium",
 			"default_value" : 1
@@ -54,16 +52,47 @@
 				"wac_default_multi",
 				"biggersupp_multi",
 				"mediumsupp_multi",
-				"mp7qdsupp_multi",
-				"vectorhps_multi",
-				"cobraysupp_multi",
 				"silentkiller_multi",
 				"salvo12_multi",
 				"pis_large_multi",
 				"pis_medium_slim_multi",
-				"oil_filter_multi"
+				"oil_filter_multi",
+				"wac_selectable_multi",
+				"wac_selectable2_multi"
 			],
 			"value" : "replace_arsupp_lowprofile",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_selectablesupp",
+			"title" : "wac_replace_selectablemodel_title",
+			"callback" : "callback_toggle_replace_selectablesupp",		
+			"items" : [
+				"mp7qdsupp_multi",
+				"vectorhps_multi",
+				"cobraysupp_multi",
+				"mp9supp_multi",
+				"wac_sr2supp_multi",
+				"wac_gm45_multi"
+			],
+			"value" : "replace_selectablesupp",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_selectablesupp2",
+			"title" : "wac_replace_selectablemodel2_title",
+			"callback" : "callback_toggle_replace_selectablesupp2",		
+			"items" : [
+				"mp7qdsupp_multi",
+				"vectorhps_multi",
+				"cobraysupp_multi",
+				"mp9supp_multi",
+				"wac_sr2supp_multi",
+				"wac_gm45_multi"
+			],
+			"value" : "replace_selectablesupp2",
 			"default_value" : 1
 		},
 		{
