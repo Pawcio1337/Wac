@@ -30,6 +30,7 @@
 
 	"wac_menu_sh_title" : "Shotguns",
 	"wac_menu_sh_m1887_title" : "Breaker 12G",
+	"wac_menu_sh_winchsxs_title" : "Claire 12G",
 	"wac_menu_sh_spikex1saiga_title" : "Grimm 12G",
 	"wac_menu_sh_cyresix12_title" : "Goliath 12G",
 	"wac_menu_sh_ithaca37_title" : "GSPS 12G",
