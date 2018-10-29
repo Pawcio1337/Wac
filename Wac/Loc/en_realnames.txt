@@ -72,6 +72,7 @@
 	"wac_menu_pis_g18c_title" : "Glock 18C",
 	"wac_menu_pis_g22c_title" : "Glock 22C",
 	"wac_menu_pis_g26_title" : "Glock 26",
+	"wac_menu_pis_p7_title" : "HK P7",
 	"wac_menu_pis_p30l_title" : "HK P30L",
 	"wac_menu_pis_usp_title" : "HK USP45 Tactical",
 	"wac_menu_pis_hs2k_title" : "HS2000",
@@ -183,6 +184,7 @@
 	"wac_replace_xm556longheatb_title" : "Heat Sink Barrel",
 	"wac_replace_xm556shortheatb_title" : "XS Heat Sink Barrel",
 	"wac_replace_xm556shortb_title" : "XS Barrel",
+	"wac_replace_threadb_title" : "Threaded Barrel",
 
 	"wac_replace_cqbfg_title" : "CQB Foregrip",
 	"wac_replace_woodenfg_title" : "Wooden Foregrip",
@@ -301,6 +303,7 @@
 	"wac_replace_magpulmagassist_title" : "MAGPUL Mag Assist",
 	"wac_replace_magstrap_title" : "Magazine Strap",
 	"wac_replace_sgmtact_title" : "SGM Tactical Magazine",
+	"wac_replace_1911bigmag_title" : "Ameritude Magazine",
 
 	"wac_replace_1911longventsl_title" : "Long Vented Slide",
 	"wac_replace_92fselite2_title" : "Elite Slide",
@@ -658,6 +661,7 @@
 	"ak12mag_multi" : "AK-12 Magazine",
 	"uspalm_ak30_multi" : "US PALM AK30 Mag",
 	"wac_saiga12kdrum_multi" : "MG Arms Drum Mag",
+	"wac_1911bigmag_multi" : "Ameritude Magazine",
 
 	"twotonetsl_multi" : "Two Tone Slide",
 	"custsl_multi" : "Custom Slide",

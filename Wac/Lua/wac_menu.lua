@@ -1187,7 +1187,11 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_1911extmag = function(self, item)
-		WacMenu._data.replace_1911extmag = (item:value() == "on" and true or false)
+		WacMenu._data.replace_1911extmag = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_1911bigmag = function(self, item)
+		WacMenu._data.replace_1911bigmag = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_1911vent = function(self, item)
@@ -1356,6 +1360,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_m2006blinggrip = function(self, item)
 		WacMenu._data.replace_m2006blinggrip = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_p7threadb = function(self, item)
+		WacMenu._data.replace_p7threadb = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_p7gripwood = function(self, item)
+		WacMenu._data.replace_p7gripwood = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_p30lwickcomp = function(self, item)
@@ -1858,6 +1870,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_pp19stndgrip = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_sigmpxflashhider = function(self, item)
+		WacMenu._data.replace_sigmpxflashhider = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_sigmpxk_handguard = function(self, item)
 		WacMenu._data.replace_sigmpxk_handguard = item:value()
 		WacMenu:Save()
@@ -1868,6 +1884,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_sigmpx_st_removed = function(self, item)
 		WacMenu._data.replace_sigmpx_st_removed = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_sigmpxstock = function(self, item)
+		WacMenu._data.replace_sigmpxstock = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_sigmpx_akimbo_st = function(self, item)
@@ -2567,6 +2587,7 @@ if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/g18c.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/g22c.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/g26.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/p7.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/p30l.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/usp.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/hs2k.txt", WacMenu, WacMenu._data)
@@ -2613,17 +2634,6 @@ if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/spec/ove9000.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/spec/xm25.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/spec/xm556.txt", WacMenu, WacMenu._data)
-
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/wacmenu_attch.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/ak.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/ar15.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/barrelext.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/gadget.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/pis.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/sight.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/supp.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/vertgrip.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/wacmenu_misc.txt", WacMenu, WacMenu._data)
 else
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/wacmenu_ar.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/ar/ak5.txt", WacMenu, WacMenu._data)
@@ -2703,6 +2713,7 @@ else
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/usp.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/hs2k.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/mateba.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/p7.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/lugerp08.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/coltssa.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/pis/p226r.txt", WacMenu, WacMenu._data)
@@ -2742,7 +2753,7 @@ else
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/spec/ove9000.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/spec/m134.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/spec/xm556.txt", WacMenu, WacMenu._data)
-
+end
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/wacmenu_attch.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/ak.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/ar15.txt", WacMenu, WacMenu._data)
@@ -2753,5 +2764,4 @@ else
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/supp.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/attch/vertgrip.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/wacmenu_misc.txt", WacMenu, WacMenu._data)
-end
 end)

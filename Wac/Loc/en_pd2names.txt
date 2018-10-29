@@ -71,6 +71,7 @@
 	"wac_menu_pis_swm29_title" : "Castigo .44",
 	"wac_menu_pis_g26_title" : "Chimano Compact",
 	"wac_menu_pis_g22c_title" : "Chimano Custom",
+	"wac_menu_pis_p7_title" : "M13",
 	"wac_menu_pis_p30l_title" : "Contractor",
 	"wac_menu_pis_1911_title" : "Crosskill",
 	"wac_menu_pis_coltdef_title" : "Crosskill Guard",
@@ -183,6 +184,7 @@
 	"wac_replace_xm556longheatb_title" : "Heat Sink Barrel",
 	"wac_replace_xm556shortheatb_title" : "XS Heat Sink Barrel",
 	"wac_replace_xm556shortb_title" : "XS Barrel",
+	"wac_replace_threadb_title" : "Threaded Barrel",
 
 	"wac_replace_cqbfg_title" : "CQB Foregrip",
 	"wac_replace_woodenfg_title" : "Wooden Foregrip",
@@ -301,6 +303,7 @@
 	"wac_replace_magpulmagassist_title" : "Speed Pull Magazine",
 	"wac_replace_magstrap_title" : "Speed Pull Magazine",
 	"wac_replace_sgmtact_title" : "Extended Magazine",
+	"wac_replace_1911bigmag_title" : "Ameritude Magazine",
 
 	"wac_replace_1911longventsl_title" : "Long Vented Slide",
 	"wac_replace_92fselite2_title" : "Elite Slide",
@@ -658,6 +661,7 @@
 	"ak12mag_multi" : "AK17 Magazine",
 	"uspalm_ak30_multi" : "Low Drag Magazine",
 	"wac_saiga12kdrum_multi" : "Drum Magazine",
+	"wac_1911bigmag_multi" : "Ameritude Magazine",
 
 	"twotonetsl_multi" : "Two Tone Slide",
 	"custsl_multi" : "Custom Slide",

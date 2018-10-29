@@ -4,6 +4,18 @@
 	"title" : "wac_menu_smg_sigmpx_title",
 	"items" : [
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_sigmpxflashhider",
+			"title" : "wac_replace_useownflashhider_title",
+			"callback" : "callback_toggle_replace_sigmpxflashhider",
+			"value" : "replace_sigmpxflashhider",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sigmpxk_handguard",
 			"title" : "wac_replace_sigmpxk_title",
@@ -42,6 +54,14 @@
 			],
 			"value" : "replace_sigmpx_st_removed",
 			"default_value" : 1
+		},
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_sigmpxstock",
+			"title" : "wac_replace_usestndst_title",
+			"callback" : "callback_toggle_replace_sigmpxstock",
+			"value" : "replace_sigmpxstock",
+			"default_value" : false
 		},
 		{
 			"type" : "multiple_choice",
