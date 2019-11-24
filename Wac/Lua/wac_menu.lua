@@ -754,7 +754,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_vhsironsights = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
-
 	MenuCallbackHandler.callback_toggle_replace_aa12b = function(self, item)
 		WacMenu._data.replace_aa12b = item:value()
 		WacMenu:Save()
@@ -2455,10 +2454,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_acog_zoom = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_rmr_zoom = function(self, item)
-		WacMenu._data.replace_rmr_zoom = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_eotech_xps_zoom = function(self, item)
 		WacMenu._data.replace_eotech_xps_zoom = item:value()
 		WacMenu:Save()
@@ -2485,6 +2480,30 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_g36zf_zoom = function(self, item)
 		WacMenu._data.replace_g36zf_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ta648_zoom = function(self, item)
+		WacMenu._data.replace_ta648_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_uh1_zoom = function(self, item)
+		WacMenu._data.replace_uh1_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_di_fc1_zoom = function(self, item)
+		WacMenu._data.replace_di_fc1_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_rmr_zoom = function(self, item)
+		WacMenu._data.replace_rmr_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_shieldrms_zoom = function(self, item)
+		WacMenu._data.replace_shieldrms_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_p1_zoom = function(self, item)
+		WacMenu._data.replace_p1_zoom = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_45delta_zoom = function(self, item)

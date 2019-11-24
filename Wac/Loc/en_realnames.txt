@@ -494,7 +494,6 @@
 	"wac_replace_t1micro_title" : "Aimpoint Micro T-1",
 	"wac_replace_cmore_title" : "C-MORE Railway Sight",
 	"wac_replace_acog_title" : "Trijicon ACOG Scope",
-	"wac_replace_rmr_title" : "Trijicon RMR Sight",
 	"wac_replace_eotech_xps_title" : "EOTech EXPS3 Sight",
 	"wac_replace_reflex_title" : "Reflex Sight",
 	"wac_replace_rx01_title" : "Trijicon RX01 Sight",
@@ -502,6 +501,12 @@
 	"wac_replace_cs_title" : "Aimpoint CS Sight",
 	"wac_replace_spot_title" : "Reconnaissance Sight",
 	"wac_replace_g36zf_title" : "ZF 3x4 Optical Sight",
+	"wac_replace_ta648_title" : "Trijicon TA648",
+	"wac_replace_uh1_title" : "AMG UH-1",
+	"wac_replace_di_fc1_title" : "DI FC1",
+	"wac_replace_rmr_title" : "Trijicon RMR Sight",
+	"wac_replace_shieldrms_title" : "SHIELD Reflex Mini Sight",
+	"wac_replace_p1_title" : "Aimpoint P-1",
 	"wac_replace_45delta_title" : "45 degree DeltaPoint",
 	"wac_replace_45t1micro_title" : "45 degree Micro T-1",
 
@@ -730,7 +735,9 @@
 	"wac_slingst_multi" : "QD Sling Stock",
 	"wac_discretest_multi" : "Discrete Stock",
 	"wac_usc45st_multi" : "USC 45 Stock",
-	
+	"wac_bs09shortst_multi" : "Wrist Wrecker Stock",
+	"wac_bs09ammost_multi" : "Luxurious Ammo Pouch",
+
 	"stndbody_multi" : "Standard Receiver",
 	"noextrail_multi" : "No extra rail",
 	"akribbedcover_multi" : "Ribbed Top Cover",

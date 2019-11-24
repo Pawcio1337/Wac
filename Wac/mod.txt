@@ -6,7 +6,7 @@
 	"image" : "wac.png",
 	"color" : "0.01 0.62 0.98",
 	"blt_version" : 2,
-	"version" : "1.9.15.9",
+	"version" : "1.9.16.0",
 	"updates" : [
 		{
 			"identifier" : "wac"

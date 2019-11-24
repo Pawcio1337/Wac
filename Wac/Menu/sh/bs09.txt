@@ -26,7 +26,8 @@
 			"callback" : "callback_toggle_replace_bs09shortst",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"stndst_multi",
+				"wac_bs09ammost_multi"
 			],
 			"value" : "replace_bs09shortst",
 			"default_value" : 1
@@ -38,7 +39,8 @@
 			"callback" : "callback_toggle_replace_bs09ammopouch",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"stndst_multi",
+				"wac_bs09shortst_multi"
 			],
 			"value" : "replace_bs09ammopouch",
 			"default_value" : 1

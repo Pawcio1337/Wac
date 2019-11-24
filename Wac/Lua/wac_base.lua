@@ -1357,10 +1357,16 @@ end
 if WacMenu._data.replace_bs09shortst == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_short.third_unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_third_shot_b682_s_long"
 	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_short.unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_fps_shot_b682_s_long"
+elseif WacMenu._data.replace_bs09shortst == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_short.third_unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_third_shot_b682_s_ammopouch"
+	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_short.unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_fps_shot_b682_s_ammopouch"
 end
 if WacMenu._data.replace_bs09ammopouch == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_ammopouch.third_unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_third_shot_b682_s_long"
 	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_ammopouch.unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_fps_shot_b682_s_long"
+elseif WacMenu._data.replace_bs09ammopouch == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_ammopouch.third_unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_third_shot_b682_s_short"
+	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_s_ammopouch.unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_fps_shot_b682_s_short"
 end
 if WacMenu._data.replace_cyresix12shortb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_sho_rota_b_short.third_unit = "units/pd2_dlc_rota/weapons/wpn_fps_sho_rota_pts/wpn_third_sho_rota_b_long"
@@ -4870,6 +4876,53 @@ elseif WacMenu._data.replace_45t1micro_zoom == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45rds_v2.stats.gadget_zoom = 3
 elseif WacMenu._data.replace_45t1micro_zoom == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45rds_v2.stats.gadget_zoom = 4
+end
+if WacMenu._data.replace_ta648_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 1
+elseif WacMenu._data.replace_ta648_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 2
+elseif WacMenu._data.replace_ta648_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 3
+elseif WacMenu._data.replace_ta648_zoom == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 4
+elseif WacMenu._data.replace_ta648_zoom == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 0
+end
+if WacMenu._data.replace_shieldrms_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rms.stats.zoom = 1
+elseif WacMenu._data.replace_shieldrms_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rms.stats.zoom = 2
+elseif WacMenu._data.replace_shieldrms_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rms.stats.zoom = 0
+end
+if WacMenu._data.replace_p1_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rikt.stats.zoom = 1
+elseif WacMenu._data.replace_p1_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rikt.stats.zoom = 2
+elseif WacMenu._data.replace_p1_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rikt.stats.zoom = 0
+end
+if WacMenu._data.replace_uh1_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_uh.stats.zoom = 1
+elseif WacMenu._data.replace_uh1_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_uh.stats.zoom = 2
+elseif WacMenu._data.replace_uh1_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_uh.stats.zoom = 4
+elseif WacMenu._data.replace_uh1_zoom == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_uh.stats.zoom = 5
+elseif WacMenu._data.replace_uh1_zoom == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_uh.stats.zoom = 0
+end
+if WacMenu._data.replace_di_fc1_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_fc1.stats.zoom = 1
+elseif WacMenu._data.replace_di_fc1_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_fc1.stats.zoom = 2
+elseif WacMenu._data.replace_di_fc1_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_fc1.stats.zoom = 4
+elseif WacMenu._data.replace_di_fc1_zoom == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_fc1.stats.zoom = 5
+elseif WacMenu._data.replace_di_fc1_zoom == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_fc1.stats.zoom = 0
 end
 if WacMenu._data.replace_afg2 == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.third_unit = "units/payday2/weapons/wpn_third_upg_vg_ass_smg_stubby/wpn_third_upg_vg_ass_smg_stubby"
