@@ -1,0 +1,19 @@
+{
+	"menu_id" : "wac_menu_lmg_m60",
+	"parent_menu_id" : "wac_menu_lmg",
+	"title" : "wac_menu_lmg_m60_title",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m60shortb",
+			"title" : "wac_replace_shortb_title",
+			"callback" : "callback_toggle_replace_m60shortb",		
+			"items" : [
+				"wac_default_multi",
+				"wac_stndb_multi"
+			],
+			"value" : "replace_m60shortb",
+			"default_value" : 1
+		}
+	]
+}

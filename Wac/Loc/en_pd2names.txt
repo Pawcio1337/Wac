@@ -61,6 +61,7 @@
 	"wac_menu_lmg_mg42_title" : "Buzzsaw 42",
 	"wac_menu_lmg_m249_title" : "KSP",
 	"wac_menu_lmg_m240_title" : "KSP 58",
+	"wac_menu_lmg_m60_title" : "M60",
 	"wac_menu_lmg_rpk_title" : "RPK",
 
 	"wac_menu_pis_title" : "Pistols",
@@ -464,6 +465,8 @@
 	"wac_replace_ipsccomp_title" : "IPSC Compensator",
 	"wac_replace_svdcomp_title" : "Grievky Compensator",
 	"wac_replace_hk416jpre_title" : "Bootstrap Compensator",
+	"wac_replace_tk_gc_title" : "Hurricane Compensator",
+	"wac_replace_v6mb_title" : "Marmon Compensator",
 
 	"wac_replace_compactlaser_title" : "Compact Laser Module",
 	"wac_replace_utg_title" : "LED Combo",

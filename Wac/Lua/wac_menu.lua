@@ -1070,6 +1070,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_hk21egrip = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_m60shortb = function(self, item)
+		WacMenu._data.replace_m60shortb = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_m240shortb = function(self, item)
 		WacMenu._data.replace_m240shortb = item:value()
 		WacMenu:Save()
@@ -2278,6 +2282,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_surefire = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_v6mb = function(self, item)
+		WacMenu._data.replace_v6mb = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_selectablebarrelext = function(self, item)
 		WacMenu._data.replace_selectablebarrelext = item:value()
 		WacMenu:Save()
@@ -2308,6 +2316,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_ipsccomp = function(self, item)
 		WacMenu._data.replace_ipsccomp = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_tk_gc = function(self, item)
+		WacMenu._data.replace_tk_gc = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_hidebarrelextarsmg = function(self, item)
@@ -2603,6 +2615,7 @@ if WacMenu._data.weaponnames == 2 then
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/m240.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/m249.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/hk21e.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/m60.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/mg42.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/rpk.txt", WacMenu, WacMenu._data)
 
@@ -2724,6 +2737,7 @@ else
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/mg42.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/m249.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/m240.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/m60.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/lmg/rpk.txt", WacMenu, WacMenu._data)
 
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "Menu/wacmenu_pis.txt", WacMenu, WacMenu._data)

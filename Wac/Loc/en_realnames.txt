@@ -60,6 +60,7 @@
 	"wac_menu_lmg_m240_title" : "FN M240",
 	"wac_menu_lmg_m249_title" : "FN M249",
 	"wac_menu_lmg_hk21e_title" : "HK21E",
+	"wac_menu_lmg_m60_title" : "M60",
 	"wac_menu_lmg_mg42_title" : "MG42",
 	"wac_menu_lmg_rpk_title" : "RPK",
 
@@ -464,6 +465,8 @@
 	"wac_replace_ipsccomp_title" : "IPSC Compensator",
 	"wac_replace_svdcomp_title" : "Grievky Compensator",
 	"wac_replace_hk416jpre_title" : "JP Recoil Eliminator",
+	"wac_replace_tk_gc_title" : "TK Game Changer Comp.",
+	"wac_replace_v6mb_title" : "V6 Muzzle Brake",
 
 	"wac_replace_compactlaser_title" : "Compact Laser Module",
 	"wac_replace_utg_title" : "LED Combo",

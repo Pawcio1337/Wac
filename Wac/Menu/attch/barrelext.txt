@@ -105,6 +105,26 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_v6mb",
+			"title" : "wac_replace_v6mb_title",
+			"callback" : "callback_toggle_replace_v6mb",		
+			"items" : [
+				"wac_default_multi",
+				"jprifles_multi",
+				"firepig_multi",
+				"tank_multi",
+				"stubby_multi",
+				"linear_multi",
+				"battle_multi",
+				"wac_selectable_multi",
+				"wac_selectable2_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_v6mb",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_selectablebarrelext",
 			"title" : "wac_replace_selectablemodel_title",
 			"callback" : "callback_toggle_replace_selectablebarrelext",		
@@ -225,6 +245,20 @@
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_ipsccomp",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_tk_gc",
+			"title" : "wac_replace_tk_gc_title",
+			"callback" : "callback_toggle_replace_tk_gc",		
+			"items" : [
+				"wac_default_multi",
+				"pisflashhider_multi",
+				"pistenderizer_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_tk_gc",
 			"default_value" : 1
 		},
 		{
