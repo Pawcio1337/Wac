@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_usp",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_usp_title",
+	"title" : "bm_w_usp",
 	"items" : [
 		{
 			"type" : "multiple_choice",

@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_sr_msr",
 	"parent_menu_id" : "wac_menu_sr",
-	"title" : "wac_menu_sr_msr_title",
+	"title" : "bm_w_msr",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_msrlongb",
-			"title" : "wac_replace_longb_title",
+			"title" : "bm_wp_aug_b_long",
 			"callback" : "callback_toggle_replace_msrlongb",		
 			"items" : [
 				"wac_default_multi",
@@ -22,7 +22,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_msrbodyst",
-			"title" : "wac_replace_woodenst_title",
+			"title" : "bm_wp_fal_s_wood",
 			"callback" : "callback_toggle_replace_msrbodyst",		
 			"items" : [
 				"wac_default_multi",

@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar",
 	"parent_menu_id" : "wac_menu",
-	"title" : "wac_menu_ar_title",
+	"title" : "menu_assault_rifle",
 	"items" : [
 		{
 		}

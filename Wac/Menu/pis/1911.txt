@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_1911",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_1911_title",
+	"title" : "bm_w_colt_1911",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -79,7 +79,7 @@
 				"wac_default_multi",
 				"blinggrip_multi",
 				"engravedgrip_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_1911ergogrip",
 			"default_value" : 1
@@ -92,7 +92,7 @@
 			"items" : [
 				"wac_default_multi",
 				"engravedgrip_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_1911woodgrip",
 			"default_value" : 1
@@ -105,7 +105,7 @@
 			"items" : [
 				"wac_default_multi",
 				"blinggrip_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_1911engravedgrip",
 			"default_value" : 1
@@ -117,7 +117,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911extmag",
-			"title" : "wac_replace_extmag_title",
+			"title" : "bm_wp_fal_m_01",
 			"callback" : "callback_toggle_replace_1911extmag",		
 			"items" : [
 				"wac_default_multi",
@@ -135,7 +135,7 @@
 			"items" : [
 				"wac_default_multi",
 				"stndmag_multi",
-				"extmag_multi"
+				"bm_wp_fal_m_01"
 			],
 			"value" : "replace_1911bigmag",
 			"default_value" : 1

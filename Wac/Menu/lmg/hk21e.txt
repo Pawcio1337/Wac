@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_lmg_hk21e",
 	"parent_menu_id" : "wac_menu_lmg",
-	"title" : "wac_menu_lmg_hk21e_title",
+	"title" : "bm_w_hk21",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk21elongb",
-			"title" : "wac_replace_longb_title",
+			"title" : "bm_wp_aug_b_long",
 			"callback" : "callback_toggle_replace_hk21elongb",		
 			"items" : [
 				"wac_default_multi",
@@ -42,9 +42,9 @@
 			"callback" : "callback_toggle_replace_hk21egrip",		
 			"items" : [
 				"wac_default_multi",
-				"g3psg1grip_multi",
-				"g3retrogrip_multi",
-				"stngrip_multi"
+				"bm_wp_g3_g_sniper",
+				"bm_wp_g3_g_retro",
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_hk21egrip",
 			"default_value" : 1

@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar_ak12",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_ak12_title",
+	"title" : "bm_w_ak12",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -38,7 +38,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12quad",
-			"title" : "wac_replace_akquad_title",
+			"title" : "bm_wp_upg_ak_m_quad",
 			"callback" : "callback_toggle_replace_ak12quad",		
 			"items" : [
 				"wac_default_multi",
@@ -47,7 +47,7 @@
 				"ak12mag_multi",
 				"ak74mag_multi",
 				"akmmag_multi",
-				"uspalm_ak30_multi"
+				"bm_wp_upg_ak_m_uspalm"
 			],
 			"value" : "replace_ak12quad",
 			"default_value" : 1
@@ -55,7 +55,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12uspalm",
-			"title" : "wac_replace_akuspalm_title",
+			"title" : "bm_wp_upg_ak_m_uspalm",
 			"callback" : "callback_toggle_replace_ak12uspalm",		
 			"items" : [
 				"wac_default_multi",
@@ -69,7 +69,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12magpulassist",
-			"title" : "wac_replace_magpulmagassist_title",
+			"title" : "bm_wp_ak_m_quick",
 			"callback" : "callback_toggle_replace_ak12magpulassist",		
 			"items" : [
 				"wac_default_multi",

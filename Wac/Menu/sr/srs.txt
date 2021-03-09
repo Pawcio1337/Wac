@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sr_srs",
 	"parent_menu_id" : "wac_menu_sr",
-	"title" : "wac_menu_sr_srs_title",
+	"title" : "bm_w_desertfox",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_srsshortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_longb_multi"
+				"bm_wp_famas_b_long"
 			],
 			"value" : "replace_srsshortb",
 			"default_value" : 1
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_srslongb",
-			"title" : "wac_replace_longb_title",
+			"title" : "bm_wp_aug_b_long",
 			"callback" : "callback_toggle_replace_srslongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_shortb_multi"
+				"bm_wp_aug_b_short"
 			],
 			"value" : "replace_srslongb",
 			"default_value" : 1

@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_smg_microuzi",
 	"parent_menu_id" : "wac_menu_smg",
-	"title" : "wac_menu_smg_microuzi_title",
+	"title" : "bm_w_baka",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -70,7 +70,7 @@
 			"callback" : "callback_toggle_replace_microuzifoldedst",		
 			"items" : [
 				"wac_default_multi",
-				"unfoldst_multi",
+				"unbm_wp_ak_s_folding",
 				"nostock_multi"
 			],
 			"value" : "replace_microuzifoldedst",
@@ -83,7 +83,7 @@
 			"callback" : "callback_toggle_replace_microuzinost",		
 			"items" : [
 				"wac_default_multi",
-				"unfoldst_multi",
+				"unbm_wp_ak_s_folding",
 				"foldedst_multi"
 			],
 			"value" : "replace_microuzinost",
@@ -110,7 +110,7 @@
 			"items" : [
 				"wac_default_multi",
 				"nostock_multi",
-				"unfoldst_multi"
+				"unbm_wp_ak_s_folding"
 			],
 			"value" : "replace_microuzix_st",
 			"default_value" : 1

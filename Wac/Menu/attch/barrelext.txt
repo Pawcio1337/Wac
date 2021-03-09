@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_attch_barrelext",
 	"parent_menu_id" : "wac_menu_attch",
-	"title" : "wac_menu_attch_barrelext_title",
+	"title" : "bm_menu_barrel_ext",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -10,12 +10,12 @@
 			"callback" : "callback_toggle_replace_jprifles",		
 			"items" : [
 				"wac_default_multi",
-				"firepig_multi",
-				"tank_multi",
-				"stubby_multi",
-				"surefire_multi",
-				"linear_multi",
-				"battle_multi",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_ns_battle",
 				"wac_selectable_multi",
 				"wac_selectable2_multi",
 				"wac_nomodel_multi"
@@ -30,12 +30,12 @@
 			"callback" : "callback_toggle_replace_firepig",		
 			"items" : [
 				"wac_default_multi",
-				"jprifles_multi",
-				"tank_multi",
-				"stubby_multi",
-				"surefire_multi",
-				"linear_multi",
-				"battle_multi",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_ns_battle",
 				"wac_selectable_multi",
 				"wac_selectable2_multi",
 				"wac_nomodel_multi"
@@ -50,12 +50,12 @@
 			"callback" : "callback_toggle_replace_linear",		
 			"items" : [
 				"wac_default_multi",
-				"jprifles_multi",
-				"firepig_multi",
-				"tank_multi",
-				"stubby_multi",
-				"surefire_multi",
-				"battle_multi",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_wp_ns_battle",
 				"wac_selectable_multi",
 				"wac_selectable2_multi",
 				"wac_nomodel_multi"
@@ -70,12 +70,12 @@
 			"callback" : "callback_toggle_replace_stubby",		
 			"items" : [
 				"wac_default_multi",
-				"jprifles_multi",
-				"firepig_multi",
-				"tank_multi",
-				"surefire_multi",
-				"linear_multi",
-				"battle_multi",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_ns_battle",
 				"wac_selectable_multi",
 				"wac_selectable2_multi",
 				"wac_nomodel_multi"
@@ -90,12 +90,12 @@
 			"callback" : "callback_toggle_replace_surefire",		
 			"items" : [
 				"wac_default_multi",
-				"jprifles_multi",
-				"firepig_multi",
-				"tank_multi",
-				"stubby_multi",
-				"linear_multi",
-				"battle_multi",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_ns_battle",
 				"wac_selectable_multi",
 				"wac_selectable2_multi",
 				"wac_nomodel_multi"
@@ -110,12 +110,12 @@
 			"callback" : "callback_toggle_replace_v6mb",		
 			"items" : [
 				"wac_default_multi",
-				"jprifles_multi",
-				"firepig_multi",
-				"tank_multi",
-				"stubby_multi",
-				"linear_multi",
-				"battle_multi",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_ns_battle",
 				"wac_selectable_multi",
 				"wac_selectable2_multi",
 				"wac_nomodel_multi"
@@ -129,11 +129,11 @@
 			"title" : "wac_replace_selectablemodel_title",
 			"callback" : "callback_toggle_replace_selectablebarrelext",		
 			"items" : [
-				"wac_menu_ar_scarh_title",
-				"wac_menu_ar_vhs_title",
-				"wac_menu_ar_hk416c_title",
-				"hk416jpre_multi",
-				"wac_menu_smg_cz805_title"
+				"bm_w_scar",
+				"bm_w_vhs",
+				"bm_w_tecci",
+				"bm_wp_tecci_ns_special",
+				"bm_w_hajk"
 			],
 			"value" : "replace_selectablebarrelext",
 			"default_value" : 1
@@ -144,11 +144,11 @@
 			"title" : "wac_replace_selectablemodel2_title",
 			"callback" : "callback_toggle_replace_selectablebarrelext2",		
 			"items" : [
-				"wac_menu_ar_scarh_title",
-				"wac_menu_ar_vhs_title",
-				"wac_menu_ar_hk416c_title",
-				"hk416jpre_multi",
-				"wac_menu_smg_cz805_title"
+				"bm_w_scar",
+				"bm_w_vhs",
+				"bm_w_tecci",
+				"bm_wp_tecci_ns_special",
+				"bm_w_hajk"
 			],
 			"value" : "replace_selectablebarrelext2",
 			"default_value" : 1
@@ -165,8 +165,8 @@
 			"items" : [
 				"wac_default_multi",
 				"sharkbrake_multi",
-				"firepig_multi",
-				"stubby_multi",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_stubby",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_kingbreach",
@@ -180,8 +180,8 @@
 			"items" : [
 				"wac_default_multi",
 				"kingbreach_multi",
-				"firepig_multi",
-				"stubby_multi",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_stubby",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_sharkbrake",
@@ -196,8 +196,8 @@
 				"wac_default_multi",
 				"sharkbrake_multi",
 				"kingbreach_multi",
-				"firepig_multi",
-				"stubby_multi",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_stubby",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_duckbill",

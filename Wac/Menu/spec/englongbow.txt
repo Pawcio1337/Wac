@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_spec_englongbow",
 	"parent_menu_id" : "wac_menu_spec",
-	"title" : "wac_menu_spec_englongbow_title",
+	"title" : "bm_w_long",
 	"items" : [
 		{
 			"type" : "multiple_choice",

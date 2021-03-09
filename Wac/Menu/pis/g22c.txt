@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_g22c",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_g22c_title",
+	"title" : "bm_w_g22c",
 	"items" : [
 		{
 			"type" : "multiple_choice",

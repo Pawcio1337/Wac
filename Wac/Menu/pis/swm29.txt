@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_swm29",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_swm29_title",
+	"title" : "bm_w_chinchilla",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -27,7 +27,7 @@
 			"items" : [
 				"wac_default_multi",
 				"swm29_ripgrip_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_swm29_blackgrip",
 			"default_value" : 1
@@ -40,7 +40,7 @@
 			"items" : [
 				"wac_default_multi",
 				"swm29_blackgrip_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_swm29_ripgrip",
 			"default_value" : 1

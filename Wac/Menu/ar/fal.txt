@@ -1,18 +1,18 @@
 {
 	"menu_id" : "wac_menu_ar_fal",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_fal_title",
+	"title" : "bm_w_fal",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sa58fg",
-			"title" : "wac_replace_cqbfg_title",
+			"title" : "bm_wp_fal_body_standard",
 			"callback" : "callback_toggle_replace_sa58fg",		
 			"items" : [
 				"wac_default_multi",
 				"fallbfg_multi",
 				"falsniperfg_multi",
-				"woodenfg_multi",
+				"bm_wp_fal_fg_wood",
 				"stndfg_multi"
 			],
 			"value" : "replace_sa58fg",
@@ -21,13 +21,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_falsniperfg",
-			"title" : "wac_replace_falsniperfg_title",
+			"title" : "bm_wp_fal_fg_04",
 			"callback" : "callback_toggle_replace_falsniperfg",		
 			"items" : [
 				"wac_default_multi",
-				"cqbfg_multi",
+				"bm_wp_fal_body_standard",
 				"fallbfg_multi",
-				"woodenfg_multi",
+				"bm_wp_fal_fg_wood",
 				"stndfg_multi"
 			],
 			"value" : "replace_falsniperfg",
@@ -36,11 +36,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_falwoodfg",
-			"title" : "wac_replace_woodenfg_title",
+			"title" : "bm_wp_fal_fg_wood",
 			"callback" : "callback_toggle_replace_falwoodfg",		
 			"items" : [
 				"wac_default_multi",
-				"cqbfg_multi",
+				"bm_wp_fal_body_standard",
 				"fallbfg_multi",
 				"falsniperfg_multi",
 				"stndfg_multi"
@@ -55,11 +55,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_faltacgrip",
-			"title" : "wac_replace_faltacgrip_title",
+			"title" : "bm_wp_fal_g_01",
 			"callback" : "callback_toggle_replace_faltacgrip",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_faltacgrip",
 			"default_value" : 1
@@ -75,7 +75,7 @@
 			"callback" : "callback_toggle_replace_falmag",		
 			"items" : [
 				"wac_default_multi",
-				"extmag_multi"
+				"bm_wp_fal_m_01"
 			],
 			"value" : "replace_falmag",
 			"default_value" : 1
@@ -83,7 +83,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_falextmag",
-			"title" : "wac_replace_extmag_title",
+			"title" : "bm_wp_fal_m_01",
 			"callback" : "callback_toggle_replace_falextmag",		
 			"items" : [
 				"wac_default_multi",
@@ -99,18 +99,18 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sa58stock",
-			"title" : "wac_replace_sa58st_title",
+			"title" : "bm_wp_fal_s_01",
 			"callback" : "callback_toggle_replace_sa58stock",		
 			"items" : [
 				"wac_default_multi",
-				"falprs2stock_multi",
-				"woodenstock_multi",
-				"stndst_multi",
+				"bm_wp_fal_s_03",
+				"bm_wp_fal_s_wood",
+				"bm_wp_m4_s_standard",
 				"nostock_multi",
-				"m4_s_stnd_multi",
-				"m4_s_crane_multi",
-				"m4_s_ubr_multi",
-				"m4_vltor_multi"
+				"bm_wp_m4_s_standard",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_sa58stock",
 			"default_value" : 1
@@ -118,18 +118,18 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_falprs2stock",
-			"title" : "wac_replace_falprs2st_title",
+			"title" : "bm_wp_fal_s_03",
 			"callback" : "callback_toggle_replace_falprs2stock",		
 			"items" : [
 				"wac_default_multi",
-				"sa58stock_multi",
-				"woodenstock_multi",
-				"stndst_multi",
+				"bm_wp_fal_s_01",
+				"bm_wp_fal_s_wood",
+				"bm_wp_m4_s_standard",
 				"nostock_multi",
-				"m4_s_stnd_multi",
-				"m4_s_crane_multi",
-				"m4_s_ubr_multi",
-				"m4_vltor_multi"
+				"bm_wp_m4_s_standard",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_falprs2stock",
 			"default_value" : 1
@@ -137,18 +137,18 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_woodenstock",
-			"title" : "wac_replace_woodenst_title",
+			"title" : "bm_wp_fal_s_wood",
 			"callback" : "callback_toggle_replace_falwoodenstock",		
 			"items" : [
 				"wac_default_multi",
-				"sa58stock_multi",
-				"falprs2stock_multi",
-				"stndst_multi",
+				"bm_wp_fal_s_01",
+				"bm_wp_fal_s_03",
+				"bm_wp_m4_s_standard",
 				"nostock_multi",
-				"m4_s_stnd_multi",
-				"m4_s_crane_multi",
-				"m4_s_ubr_multi",
-				"m4_vltor_multi"
+				"bm_wp_m4_s_standard",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_falwoodenstock",
 			"default_value" : 1

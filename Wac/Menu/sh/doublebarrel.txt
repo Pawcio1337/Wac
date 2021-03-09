@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sh_doublebarrel",
 	"parent_menu_id" : "wac_menu_sh",
-	"title" : "wac_menu_sh_doublebarrel_title",
+	"title" : "bm_w_huntsman",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -34,7 +34,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_doublebarrelst",
-			"title" : "wac_replace_stndst_title",
+			"title" : "bm_wp_m4_s_standard",
 			"callback" : "callback_toggle_replace_doublebarrelst",		
 			"items" : [
 				"wac_default_multi",
@@ -50,7 +50,7 @@
 			"callback" : "callback_toggle_replace_doublesawedoffst",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_doublesawedoffst",
 			"default_value" : 1

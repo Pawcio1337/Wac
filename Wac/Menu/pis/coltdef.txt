@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_coltdef",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_coltdef_title",
+	"title" : "bm_w_shrew",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_coltdefblinggrip",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_coltdefblinggrip",
 			"default_value" : 1
@@ -22,7 +22,7 @@
 			"callback" : "callback_toggle_replace_coltdefergogrip",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_coltdefergogrip",
 			"default_value" : 1

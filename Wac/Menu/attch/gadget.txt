@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_attch_gadget",
 	"parent_menu_id" : "wac_menu_attch",
-	"title" : "wac_menu_attch_gadget_title",
+	"title" : "bm_menu_gadget",
 	"items" : [
 		{
 			"type" : "multiple_choice",

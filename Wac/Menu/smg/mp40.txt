@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_smg_mp40",
 	"parent_menu_id" : "wac_menu_smg",
-	"title" : "wac_menu_smg_mp40_title",
+	"title" : "bm_w_erma",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -22,7 +22,7 @@
 			"callback" : "callback_toggle_replace_mp40_foldedst",		
 			"items" : [
 				"wac_default_multi",
-				"unfoldst_multi"
+				"unbm_wp_ak_s_folding"
 			],
 			"value" : "replace_mp40_foldedst",
 			"default_value" : 1
@@ -34,7 +34,7 @@
 			"callback" : "callback_toggle_replace_mp40x_st",		
 			"items" : [
 				"wac_default_multi",
-				"unfoldst_multi"
+				"unbm_wp_ak_s_folding"
 			],
 			"value" : "replace_mp40x_st",
 			"default_value" : 1

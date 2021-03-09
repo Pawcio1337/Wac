@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_92fs",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_92fs_title",
+	"title" : "bm_w_b92fs",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -94,7 +94,7 @@
 			"callback" : "callback_toggle_replace_92fsergogrip",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_92fsergogrip",
 			"default_value" : 1
@@ -106,7 +106,7 @@
 			"callback" : "callback_toggle_replace_92fsengravedgrip",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_92fsengravedgrip",
 			"default_value" : 1

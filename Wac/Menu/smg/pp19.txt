@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_smg_pp19",
 	"parent_menu_id" : "wac_menu_smg",
-	"title" : "wac_menu_smg_pp19_title",
+	"title" : "bm_w_coal",
 	"items" : [
 		{
 			"type" : "toggle",

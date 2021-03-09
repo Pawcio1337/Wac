@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_smg_vz61",
 	"parent_menu_id" : "wac_menu_smg",
-	"title" : "wac_menu_smg_vz61_title",
+	"title" : "bm_w_scorpion",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -23,7 +23,7 @@
 			"items" : [
 				"wac_default_multi",
 				"woodengrip_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_vz61ergo",
 			"default_value" : 1
@@ -36,7 +36,7 @@
 			"items" : [
 				"wac_default_multi",
 				"ergogrip_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_vz61woodgrip",
 			"default_value" : 1
@@ -64,7 +64,7 @@
 			"callback" : "callback_toggle_replace_vz61nost",		
 			"items" : [
 				"wac_default_multi",
-				"unfoldst_multi",
+				"unbm_wp_ak_s_folding",
 				"foldedst_multi"
 			],
 			"value" : "replace_vz61nost",

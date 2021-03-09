@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_fs",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_fs_title",
+	"title" : "bm_w_lemming",
 	"items" : [
 		{
 			"type" : "multiple_choice",

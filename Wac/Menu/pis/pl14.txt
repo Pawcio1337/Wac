@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_pis_pl14",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_pl14_title",
+	"title" : "bm_w_pl14",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pl14protob",
-			"title" : "wac_replace_protob_title",
+			"title" : "bm_wp_asval_b_proto",
 			"callback" : "callback_toggle_replace_pl14protob",		
 			"items" : [
 				"wac_default_multi",

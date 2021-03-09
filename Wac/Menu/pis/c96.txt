@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_pis_c96",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_c96_title",
+	"title" : "bm_w_c96",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_c96longb",
-			"title" : "wac_replace_longb_title",
+			"title" : "bm_wp_aug_b_long",
 			"callback" : "callback_toggle_replace_c96longb",		
 			"items" : [
 				"wac_default_multi",

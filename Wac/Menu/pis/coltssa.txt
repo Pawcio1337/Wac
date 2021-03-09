@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_coltssa",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_coltssa_title",
+	"title" : "bm_w_peacemaker",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -27,7 +27,7 @@
 			"callback" : "callback_toggle_replace_coltssabling",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_coltssabling",
 			"default_value" : 1

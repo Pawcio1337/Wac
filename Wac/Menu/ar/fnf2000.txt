@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar_fnf2000",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_fnf2000_title",
+	"title" : "bm_w_corgi",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_fnf2000longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"bm_wp_corgi_b_short"
 			],
 			"value" : "replace_fnf2000longb",
 			"default_value" : 1
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000stndb",
-			"title" : "wac_replace_fnf2000stndb_title",
+			"title" : "bm_wp_corgi_b_short",
 			"callback" : "callback_toggle_replace_fnf2000stndb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_longb_multi"
+				"bm_wp_famas_b_long"
 			],
 			"value" : "replace_fnf2000stndb",
 			"default_value" : 1
@@ -46,7 +46,7 @@
 			"callback" : "callback_toggle_replace_fnf2000stndbody",		
 			"items" : [
 				"wac_default_multi",
-				"wac_fnf2000tanbody_multi"
+				"bm_wp_corgi_body_strap"
 			],
 			"value" : "replace_fnf2000stndbody",
 			"default_value" : 1
@@ -54,7 +54,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000tanbody",
-			"title" : "wac_replace_fnf2000tanbody_title",
+			"title" : "bm_wp_corgi_body_strap",
 			"callback" : "callback_toggle_replace_fnf2000tanbody",		
 			"items" : [
 				"wac_default_multi",
@@ -79,7 +79,7 @@
 				"afg2_multi",
 				"hk416cvert_multi",
 				"vectorvert_multi",
-				"surefirem900_multi",
+				"bm_wp_schakal_vg_surefire",
 				"novertgrip_multi"
 			],
 			"value" : "replace_cz805vertgrip",

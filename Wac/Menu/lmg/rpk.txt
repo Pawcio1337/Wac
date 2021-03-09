@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_lmg_rpk",
 	"parent_menu_id" : "wac_menu_lmg",
-	"title" : "wac_menu_lmg_rpk_title",
+	"title" : "bm_w_rpk",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -22,7 +22,7 @@
 			"callback" : "callback_toggle_replace_rpkforegrip",	
 			"items" : [
 				"wac_default_multi",
-				"tactfg_multi"
+				"bm_wp_g3_fg_railed"
 			],
 			"value" : "replace_rpkforegrip",
 			"default_value" : 1
@@ -38,7 +38,7 @@
 			"callback" : "callback_toggle_replace_rpkdrum",		
 			"items" : [
 				"wac_default_multi",
-				"quadstack_multi",
+				"bm_wp_upg_m4_m_quad",
 				"rpkmag_multi",
 				"akmmag_multi",
 				"ak74mag_multi",
@@ -54,16 +54,16 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_rpkstock1",
-			"title" : "wac_replace_ar15_m4mk46_title",
+			"title" : "bm_wp_upg_m4_s_mk46",
 			"callback" : "callback_toggle_replace_rpkstock1",		
 			"items" : [
 				"wac_default_multi",
-				"skelst_multi",
-				"foldst_multi",
-				"akpslst_multi",
-				"plasticst_multi",
-				"stndst_multi",
-				"akclassst_multi"
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_psl",
+				"bm_wp_galil_s_plastic",
+				"bm_wp_m4_s_standard",
+				"bm_wp_upg_ak_s_solidstock"
 			],
 			"value" : "replace_rpkstock1",
 			"default_value" : 1
@@ -71,15 +71,15 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_rpkstock2",
-			"title" : "wac_replace_akclassicst_title",
+			"title" : "bm_wp_upg_ak_s_solidstock",
 			"callback" : "callback_toggle_replace_rpkstock2",		
 			"items" : [
 				"wac_default_multi",
-				"skelst_multi",
-				"foldst_multi",
-				"akpslst_multi",
-				"plasticst_multi",
-				"stndst_multi"
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_psl",
+				"bm_wp_galil_s_plastic",
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_rpkstock2",
 			"default_value" : 1

@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sh_870",
 	"parent_menu_id" : "wac_menu_sh",
-	"title" : "wac_menu_sh_870_title",
+	"title" : "bm_w_r870",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -40,10 +40,10 @@
 			"callback" : "callback_toggle_replace_r870stock1",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"r870railst_multi",
 				"r870railnost_multi",
-				"870foldst_multi"
+				"870bm_wp_ak_s_folding"
 			],
 			"value" : "replace_r870stock1",
 			"default_value" : 1
@@ -55,7 +55,7 @@
 			"callback" : "callback_toggle_replace_r870stock2",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"r870nost_multi",
 				"r870railnost_multi"
 			],
@@ -65,11 +65,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870stock3",
-			"title" : "wac_replace_ar15_m4mk46_title",
+			"title" : "bm_wp_upg_m4_s_mk46",
 			"callback" : "callback_toggle_replace_r870stock3",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"r870railst_multi",
 				"r870nost_multi",
 				"r870railnost_multi"

@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_ar_asval",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_asval_title",
+	"title" : "bm_w_asval",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_asvalprotob",
-			"title" : "wac_replace_protob_title",
+			"title" : "bm_wp_asval_b_proto",
 			"callback" : "callback_toggle_replace_asvalprotob",		
 			"items" : [
 				"wac_default_multi",
@@ -26,8 +26,8 @@
 			"callback" : "callback_toggle_replace_asvalstock",		
 			"items" : [
 				"wac_default_multi",
-				"foldst_multi",
-				"vssst_multi",
+				"bm_wp_ak_s_folding",
+				"bm_wp_asval_s_solid",
 				"nostock_multi"
 			],
 			"value" : "replace_asvalstock",

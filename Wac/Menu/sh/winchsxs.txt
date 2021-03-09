@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sh_winchsxs",
 	"parent_menu_id" : "wac_menu_sh",
-	"title" : "wac_menu_sh_winchsxs_title",
+	"title" : "bm_w_coach",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -26,7 +26,7 @@
 			"callback" : "callback_toggle_replace_winchsxsshortst",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_winchsxsshortst",
 			"default_value" : 1

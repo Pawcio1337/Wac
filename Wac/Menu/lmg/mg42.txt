@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_lmg_mg42",
 	"parent_menu_id" : "wac_menu_lmg",
-	"title" : "wac_menu_lmg_mg42_title",
+	"title" : "bm_w_mg42",
 	"items" : [
 		{
 			"type" : "multiple_choice",

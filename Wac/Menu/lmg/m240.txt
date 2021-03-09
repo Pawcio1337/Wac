@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_lmg_m240",
 	"parent_menu_id" : "wac_menu_lmg",
-	"title" : "wac_menu_lmg_m240_title",
+	"title" : "bm_w_par",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m240shortb",
-			"title" : "wac_replace_shortb_title",
+			"title" : "bm_wp_famas_b_short",
 			"callback" : "callback_toggle_replace_m240shortb",		
 			"items" : [
 				"wac_default_multi",
@@ -22,11 +22,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m240plasticst",
-			"title" : "wac_replace_plasticst_title",
+			"title" : "bm_wp_galil_s_plastic",
 			"callback" : "callback_toggle_replace_m240plasticst",		
 			"items" : [
 				"wac_default_multi",
-				"woodenstock_multi"
+				"bm_wp_fal_s_wood"
 			],
 			"value" : "replace_m240plasticst",
 			"default_value" : 1

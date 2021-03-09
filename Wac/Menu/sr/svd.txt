@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sr_svd",
 	"parent_menu_id" : "wac_menu_sr",
-	"title" : "wac_menu_sr_svd_title",
+	"title" : "bm_w_siltstone",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -42,7 +42,7 @@
 			"callback" : "callback_toggle_replace_svdpolymerst",
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_svdpolymerst",
 			"default_value" : 1

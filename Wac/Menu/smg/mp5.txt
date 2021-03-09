@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_smg_mp5",
 	"parent_menu_id" : "wac_menu_smg",
-	"title" : "wac_menu_smg_mp5_title",
+	"title" : "bm_w_mp5",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -100,7 +100,7 @@
 			"items" : [
 				"wac_default_multi",
 				"mp5kst_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"mp5pdw_multi"
 			],
 			"value" : "replace_mp5a3st",
@@ -114,7 +114,7 @@
 			"items" : [
 				"wac_default_multi",
 				"mp5a3st_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"mp5pdw_multi"
 			],
 			"value" : "replace_mp5kcap",
@@ -129,7 +129,7 @@
 				"wac_default_multi",
 				"mp5kst_multi",
 				"mp5a3st_multi",
-				"stndst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_mp5pdwst",
 			"default_value" : 1
@@ -142,7 +142,7 @@
 			"items" : [
 				"wac_default_multi",
 				"mp5a3st_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"mp5pdw_multi"
 			],
 			"value" : "replace_xmp5kcap",

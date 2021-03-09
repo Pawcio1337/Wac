@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sh_bs09",
 	"parent_menu_id" : "wac_menu_sh",
-	"title" : "wac_menu_sh_bs09_title",
+	"title" : "bm_w_b682",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -26,7 +26,7 @@
 			"callback" : "callback_toggle_replace_bs09shortst",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"wac_bs09ammost_multi"
 			],
 			"value" : "replace_bs09shortst",
@@ -39,7 +39,7 @@
 			"callback" : "callback_toggle_replace_bs09ammopouch",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"wac_bs09shortst_multi"
 			],
 			"value" : "replace_bs09ammopouch",

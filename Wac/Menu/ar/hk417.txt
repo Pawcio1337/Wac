@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar_hk417",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_hk417_title",
+	"title" : "bm_w_contraband",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -18,15 +18,15 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk417stndst",
-			"title" : "wac_replace_stndst_title",
+			"title" : "bm_wp_m4_s_standard",
 			"callback" : "callback_toggle_replace_hk417stndst",		
 			"items" : [
 				"wac_default_multi",
-				"m4_s_stnd_multi",
-				"m4_s_pts_multi",
-				"m4_s_crane_multi",
-				"m4_s_ubr_multi",
-				"m4_vltor_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_tti_s_vltor",
 				"hk416cst_multi"
 			],
 			"value" : "replace_hk417stndst",

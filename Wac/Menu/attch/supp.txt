@@ -260,13 +260,13 @@
 			"callback" : "callback_toggle_replace_hidesuppressorscomp",		
 			"items" : [
 				"wac_nomodel_multi",
-				"firepig_multi",
-				"tank_multi",
-				"stubby_multi",
-				"jprifles_multi",
-				"surefire_multi",
-				"linear_multi",
-				"battle_multi"
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_ns_battle"
 			],
 			"value" : "replace_hidesuppressorscomp",
 			"default_value" : 1

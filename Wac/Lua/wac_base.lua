@@ -3,16 +3,16 @@ WacMenu._path = ModPath
 WacMenu._data_path = SavePath .. "wpnattach_data.txt"
 WacMenu._data = {}
 function WacMenu:Save()
-	local file = io.open( self._data_path, "w+" )
+	local file = io.open(self._data_path, "w+")
 	if file then
-		file:write( json.encode( self._data ) )
+		file:write(json.encode(self._data ))
 		file:close()
 	end
 end
 function WacMenu:Load()
-	local file = io.open( self._data_path, "r" )
+	local file = io.open(self._data_path, "r")
 	if file then
-		self._data = json.decode( file:read("*all") )
+		self._data = json.decode(file:read("*all"))
 		file:close()
 	end
 end
@@ -867,6 +867,20 @@ elseif WacMenu._data.replace_m1a_jagerstock == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_jae.forbids = nil
 	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_jae.third_unit = "units/payday2/weapons/wpn_third_ass_m14_pts/wpn_third_ass_m14_body_dmr"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_jae.unit = "units/payday2/weapons/wpn_fps_ass_m14_pts/wpn_fps_ass_m14_body_dmr"
+end
+if WacMenu._data.replace_m1a_rugerst == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.override = nil
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.third_unit = "units/payday2/weapons/wpn_third_ass_m14_pts/wpn_third_ass_m14_body_jae"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.unit = "units/payday2/weapons/wpn_fps_ass_m14_pts/wpn_fps_ass_m14_body_jae"
+elseif WacMenu._data.replace_m1a_rugerst == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.override = nil
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.third_unit = "units/payday2/weapons/wpn_third_ass_m14_pts/wpn_third_ass_m14_body_ebr"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.unit = "units/payday2/weapons/wpn_fps_ass_m14_pts/wpn_fps_ass_m14_body_ebr"
+elseif WacMenu._data.replace_m1a_rugerst == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.forbids = nil
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.override = nil
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.third_unit = "units/payday2/weapons/wpn_third_ass_m14_pts/wpn_third_ass_m14_body_dmr"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_m14_body_ruger.unit = "units/payday2/weapons/wpn_fps_ass_m14_pts/wpn_fps_ass_m14_body_dmr"
 end
 if WacMenu._data.replace_m1garand_shortb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_ching_b_short.third_unit = "units/pd2_dlc_old/weapons/wpn_fps_ass_ching_pts/wpn_third_ass_ching_b_standar"
@@ -4818,7 +4832,7 @@ elseif WacMenu._data.replace_acog_zoom == 4 then
 elseif WacMenu._data.replace_acog_zoom == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_acog.stats.zoom = 4
 elseif WacMenu._data.replace_acog_zoom == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_acog.stats.zoom = 0
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_acog.stats.zoom = 5
 end
 if WacMenu._data.replace_rmr_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rmr.stats.zoom = 1
@@ -4854,7 +4868,7 @@ if WacMenu._data.replace_rx01_zoom == 2 then
 elseif WacMenu._data.replace_rx01_zoom == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx01.stats.zoom = 2
 elseif WacMenu._data.replace_rx01_zoom == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx01.stats.zoom = 3
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx01.stats.zoom = 4
 elseif WacMenu._data.replace_rx01_zoom == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx01.stats.zoom = 5
 elseif WacMenu._data.replace_rx01_zoom == 6 then
@@ -4865,7 +4879,7 @@ if WacMenu._data.replace_rx30_zoom == 2 then
 elseif WacMenu._data.replace_rx30_zoom == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx30.stats.zoom = 2
 elseif WacMenu._data.replace_rx30_zoom == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx30.stats.zoom = 3
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx30.stats.zoom = 4
 elseif WacMenu._data.replace_rx30_zoom == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rx30.stats.zoom = 5
 elseif WacMenu._data.replace_rx30_zoom == 6 then
@@ -4876,7 +4890,7 @@ if WacMenu._data.replace_cs_zoom == 2 then
 elseif WacMenu._data.replace_cs_zoom == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_cs.stats.zoom = 2
 elseif WacMenu._data.replace_cs_zoom == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_cs.stats.zoom = 4
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_cs.stats.zoom = 3
 elseif WacMenu._data.replace_cs_zoom == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_cs.stats.zoom = 5
 elseif WacMenu._data.replace_cs_zoom == 6 then
@@ -4927,7 +4941,7 @@ elseif WacMenu._data.replace_ta648_zoom == 4 then
 elseif WacMenu._data.replace_ta648_zoom == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 4
 elseif WacMenu._data.replace_ta648_zoom == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 0
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 5
 end
 if WacMenu._data.replace_shieldrms_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_rms.stats.zoom = 1
@@ -4964,6 +4978,17 @@ elseif WacMenu._data.replace_di_fc1_zoom == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_fc1.stats.zoom = 5
 elseif WacMenu._data.replace_di_fc1_zoom == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_fc1.stats.zoom = 0
+end
+if WacMenu._data.replace_tf90_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_tf90.stats.zoom = 1
+elseif WacMenu._data.replace_tf90_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_tf90.stats.zoom = 2
+elseif WacMenu._data.replace_tf90_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_tf90.stats.zoom = 3
+elseif WacMenu._data.replace_tf90_zoom == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_tf90.stats.zoom = 4
+elseif WacMenu._data.replace_tf90_zoom == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_tf90.stats.zoom = 0
 end
 if WacMenu._data.replace_afg2 == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.third_unit = "units/payday2/weapons/wpn_third_upg_vg_ass_smg_stubby/wpn_third_upg_vg_ass_smg_stubby"
@@ -5469,6 +5494,7 @@ ovr_ids.pp19_x = "tweak_data.weapon.factory.wpn_fps_smg_x_coal.override."
 ovr_ids.mp40_x = "tweak_data.weapon.factory.wpn_fps_smg_x_erma.override."
 ovr_ids.sigmpx = "tweak_data.weapon.factory.wpn_fps_smg_shepheard.override."
 ovr_ids.sigmpx_x = "tweak_data.weapon.factory.wpn_fps_smg_x_shepheard.override."
+ovr_ids.x95 = "tweak_data.weapon.factory.wpn_fps_ass_komodo.override."
 -- AK74
 if not tweak_data.weapon.factory.wpn_fps_ass_74.override.wpn_fps_upg_ass_ak_b_zastava then
 log("[ERROR] WAC: Missing override table for AK-74 wpn_fps_upg_ass_ak_b_zastava - Option not executed")
@@ -5778,6 +5804,13 @@ elseif WacMenu._data.replace_akmgoldmodernb == 3 then
 assert(loadstring(ovr_ids.akmgold .. unit_list.ak105b .. parts_list.akmb .. parts_list.ak105ns_forbid))()
 elseif WacMenu._data.replace_akmgoldmodernb == 4 then
 assert(loadstring(ovr_ids.akmgold .. unit_list.ak105b .. parts_list.ak74b .. parts_list.ak105ns_forbid))()
+end
+if WacMenu._data.replace_akmgoldzastava == 2 then
+assert(loadstring(ovr_ids.akmgold .. unit_list.akzastava .. parts_list.akmgoldb .. "}"))()
+elseif WacMenu._data.replace_akmgoldzastava == 3 then
+assert(loadstring(ovr_ids.akmgold .. unit_list.akzastava .. parts_list.akmb .. "}"))()
+elseif WacMenu._data.replace_akmgoldzastava == 4 then
+assert(loadstring(ovr_ids.akmgold .. unit_list.akzastava .. parts_list.ak74b .. "}"))()
 end
 if WacMenu._data.replace_akmgoldquad == 2 then
 assert(loadstring(ovr_ids.akmgold .. unit_list.akquad .. parts_list.rpkmag))()
@@ -7602,4 +7635,76 @@ assert(loadstring(ovr_ids.sigmpx .. unit_list.m4crane .. parts_list.mpxst))()
 assert(loadstring(ovr_ids.sigmpx .. unit_list.m4mk46 .. parts_list.mpxst))()
 assert(loadstring(ovr_ids.sigmpx .. unit_list.m4ubr .. parts_list.mpxst))()
 assert(loadstring(ovr_ids.sigmpx .. unit_list.m4vltor .. parts_list.mpxst))()
+end
+-- Tavor X95
+if not tweak_data.weapon.factory.wpn_fps_ass_komodo.override then
+	tweak_data.weapon.factory.wpn_fps_ass_komodo.override = {}
+end
+if WacMenu._data.replace_x95_stanag20 == 2 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanag20 .. parts_list.stanag30))()
+elseif WacMenu._data.replace_x95_stanag20 == 3 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanag20 .. parts_list.pmag))()
+elseif WacMenu._data.replace_x95_stanag20 == 4 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanag20 .. parts_list.mag5))()
+elseif WacMenu._data.replace_x95_stanag20 == 5 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanag20 .. parts_list.emag))()
+elseif WacMenu._data.replace_x95_stanag20 == 6 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanag20 .. parts_list.l5awm))()
+end
+if WacMenu._data.replace_x95_pmag == 2 then
+assert(loadstring(ovr_ids.x95 .. unit_list.pmag .. parts_list.stanag30))()
+elseif WacMenu._data.replace_x95_pmag == 3 then
+assert(loadstring(ovr_ids.x95 .. unit_list.pmag .. parts_list.stanag20))()
+elseif WacMenu._data.replace_x95_pmag == 4 then
+assert(loadstring(ovr_ids.x95 .. unit_list.pmag .. parts_list.mag5))()
+elseif WacMenu._data.replace_x95_pmag == 5 then
+assert(loadstring(ovr_ids.x95 .. unit_list.pmag .. parts_list.emag))()
+elseif WacMenu._data.replace_x95_pmag == 6 then
+assert(loadstring(ovr_ids.x95 .. unit_list.pmag .. parts_list.l5awm))()
+end
+if WacMenu._data.replace_x95_mag5 == 2 then
+assert(loadstring(ovr_ids.x95 .. unit_list.mag5 .. parts_list.stanag30))()
+elseif WacMenu._data.replace_x95_mag5 == 3 then
+assert(loadstring(ovr_ids.x95 .. unit_list.mag5 .. parts_list.stanag20))()
+elseif WacMenu._data.replace_x95_mag5 == 4 then
+assert(loadstring(ovr_ids.x95 .. unit_list.mag5 .. parts_list.pmag))()
+elseif WacMenu._data.replace_x95_mag5 == 5 then
+assert(loadstring(ovr_ids.x95 .. unit_list.mag5 .. parts_list.emag))()
+elseif WacMenu._data.replace_x95_mag5 == 6 then
+assert(loadstring(ovr_ids.x95 .. unit_list.mag5 .. parts_list.l5awm))()
+end
+if WacMenu._data.replace_x95_emag == 2 then
+assert(loadstring(ovr_ids.x95 .. unit_list.emag .. parts_list.stanag30))()
+elseif WacMenu._data.replace_x95_emag == 3 then
+assert(loadstring(ovr_ids.x95 .. unit_list.emag .. parts_list.stanag20))()
+elseif WacMenu._data.replace_x95_emag == 4 then
+assert(loadstring(ovr_ids.x95 .. unit_list.emag .. parts_list.pmag))()
+elseif WacMenu._data.replace_x95_emag == 5 then
+assert(loadstring(ovr_ids.x95 .. unit_list.emag .. parts_list.mag5))()
+elseif WacMenu._data.replace_x95_emag == 6 then
+assert(loadstring(ovr_ids.x95 .. unit_list.emag .. parts_list.l5awm))()
+end
+if WacMenu._data.replace_x95_l5awm == 2 then
+assert(loadstring(ovr_ids.x95 .. unit_list.l5awm .. parts_list.stanag30))()
+elseif WacMenu._data.replace_x95_l5awm == 3 then
+assert(loadstring(ovr_ids.x95 .. unit_list.l5awm .. parts_list.stanag20))()
+elseif WacMenu._data.replace_x95_l5awm == 4 then
+assert(loadstring(ovr_ids.x95 .. unit_list.l5awm .. parts_list.pmag))()
+elseif WacMenu._data.replace_x95_l5awm == 5 then
+assert(loadstring(ovr_ids.x95 .. unit_list.l5awm .. parts_list.mag5))()
+elseif WacMenu._data.replace_x95_l5awm == 6 then
+assert(loadstring(ovr_ids.x95 .. unit_list.l5awm .. parts_list.emag))()
+end
+if WacMenu._data.replace_x95_stanagmagpul == 2 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanagmagpul .. parts_list.stanag30))()
+elseif WacMenu._data.replace_x95_stanagmagpul == 3 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanagmagpul .. parts_list.stanag20))()
+elseif WacMenu._data.replace_x95_stanagmagpul == 4 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanagmagpul .. parts_list.pmag))()
+elseif WacMenu._data.replace_x95_stanagmagpul == 5 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanagmagpul .. parts_list.mag5))()
+elseif WacMenu._data.replace_x95_stanagmagpul == 6 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanagmagpul .. parts_list.emag))()
+elseif WacMenu._data.replace_x95_stanagmagpul == 7 then
+assert(loadstring(ovr_ids.x95 .. unit_list.stanagmagpul .. parts_list.l5awm))()
 end

@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_glockcrimsonlaser",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_glockcrimsonlaser",
 			"default_value" : 1
@@ -22,7 +22,7 @@
 			"callback" : "callback_toggle_replace_glockgripcytec",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_glockgripcytec",
 			"default_value" : 1
@@ -34,7 +34,7 @@
 			"callback" : "callback_toggle_replace_glockgriphogue",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_glockgriphogue",
 			"default_value" : 1

@@ -107,7 +107,7 @@
 				"akpgrip_multi",
 				"akwgrip_multi",
 				"akrk3grip_multi",
-				"stngrip_multi",
+				"bm_wp_1911_g_standard",
 				"pp19_grip_multi"
 			],
 			"value" : "replace_akhgrip",
@@ -123,7 +123,7 @@
 				"akhgrip_multi",
 				"akwgrip_multi",
 				"akrk3grip_multi",
-				"stngrip_multi",
+				"bm_wp_1911_g_standard",
 				"pp19_grip_multi"
 			],
 			"value" : "replace_akpgrip",
@@ -139,7 +139,7 @@
 				"akhgrip_multi",
 				"akpgrip_multi",
 				"akrk3grip_multi",
-				"stngrip_multi",
+				"bm_wp_1911_g_standard",
 				"pp19_grip_multi"
 			],
 			"value" : "replace_akwgrip",
@@ -155,7 +155,7 @@
 				"akhgrip_multi",
 				"akpgrip_multi",
 				"akwgrip_multi",
-				"stngrip_multi",
+				"bm_wp_1911_g_standard",
 				"pp19_grip_multi"
 			],
 			"value" : "replace_akrk3grip",

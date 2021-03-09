@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_ar_sg552",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_sg552_title",
+	"title" : "bm_w_s552",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sg552longb",
-			"title" : "wac_replace_longb_title",
+			"title" : "bm_wp_aug_b_long",
 			"callback" : "callback_toggle_replace_sg552longb",		
 			"items" : [
 				"wac_default_multi",
@@ -56,7 +56,7 @@
 			"callback" : "callback_toggle_replace_sg552grip",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_sg552grip",
 			"default_value" : 1
@@ -72,7 +72,7 @@
 			"callback" : "callback_toggle_replace_sg552stock",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"sgenhst_multi",
 				"nostock_multi"
 			],

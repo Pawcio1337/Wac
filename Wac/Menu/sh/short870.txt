@@ -1,16 +1,16 @@
 {
 	"menu_id" : "wac_menu_sh_short870",
 	"parent_menu_id" : "wac_menu_sh",
-	"title" : "wac_menu_sh_short870_title",
+	"title" : "bm_w_serbu",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870b",
-			"title" : "wac_replace_shortb_title",
+			"title" : "bm_wp_famas_b_short",
 			"callback" : "callback_toggle_replace_short870b",		
 			"items" : [
 				"wac_default_multi",
-				"wac_longb_multi"
+				"bm_wp_famas_b_long"
 			],
 			"value" : "replace_short870b",
 			"default_value" : 1
@@ -39,7 +39,7 @@
 			"items" : [
 				"wac_default_multi",
 				"nostock_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"short870strail_multi"
 			],
 			"value" : "replace_short870stock1",
@@ -53,7 +53,7 @@
 			"items" : [
 				"wac_default_multi",
 				"nostock_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"short870nostrail_multi"
 			],
 			"value" : "replace_short870stock2",
@@ -62,12 +62,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870stock3",
-			"title" : "wac_replace_ar15_m4mk46_title",
+			"title" : "bm_wp_upg_m4_s_mk46",
 			"callback" : "callback_toggle_replace_short870stock3",		
 			"items" : [
 				"wac_default_multi",
 				"nostock_multi",
-				"stndst_multi",
+				"bm_wp_m4_s_standard",
 				"short870strail_multi",
 				"short870nostrail_multi"
 			],

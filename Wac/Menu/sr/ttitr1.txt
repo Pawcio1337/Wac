@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sr_ttit1",
 	"parent_menu_id" : "wac_menu_sr",
-	"title" : "wac_menu_sr_ttitr1_title",
+	"title" : "bm_w_tti",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -22,11 +22,11 @@
 			"callback" : "callback_toggle_replace_ttitr1stock",
 			"items" : [
 				"wac_default_multi",
-				"m4_vltor_multi",
-				"foldst_multi",
-				"m4_s_stnd_multi",
-				"m4_s_pts_multi",
-				"m4_s_crane_multi",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_upg_m4_s_crane",
 				"hk417st_multi"
 			],
 			"value" : "replace_ttitr1stock",

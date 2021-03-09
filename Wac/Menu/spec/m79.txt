@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_spec_m79",
 	"parent_menu_id" : "wac_menu_spec",
-	"title" : "wac_menu_spec_m79_title",
+	"title" : "bm_w_gre_m79",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -26,7 +26,7 @@
 			"callback" : "callback_toggle_replace_m79sawoffst",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_m79sawoffst",
 			"default_value" : 1

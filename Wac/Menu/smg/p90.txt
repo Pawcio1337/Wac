@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_smg_p90",
 	"parent_menu_id" : "wac_menu_smg",
-	"title" : "wac_menu_smg_p90_title",
+	"title" : "bm_w_p90",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p90longb",
-			"title" : "wac_replace_longb_title",
+			"title" : "bm_wp_aug_b_long",
 			"callback" : "callback_toggle_replace_p90longb",		
 			"items" : [
 				"wac_default_multi",
@@ -23,7 +23,7 @@
 			"items" : [
 				"wac_default_multi",
 				"wac_stndb_multi",
-				"wac_longb_multi"
+				"bm_wp_famas_b_long"
 			],
 			"value" : "replace_p90civb",
 			"default_value" : 1

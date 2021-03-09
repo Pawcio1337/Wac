@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar_m733",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_m733_title",
+	"title" : "bm_w_amcar",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -45,13 +45,13 @@
 			"callback" : "callback_toggle_replace_m733stock",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
-				"m4_s_crane_multi",
-				"foldst_multi",
-				"m16solidst_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_m4_uupg_s_fold",
+				"m16bm_wp_g36_fg_k",
 				"hk416cst_multi",
 				"hk417st_multi",
-				"m4_vltor_multi"
+				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_m733stock",
 			"default_value" : 1

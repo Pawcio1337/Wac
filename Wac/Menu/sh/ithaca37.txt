@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_sh_ithaca37",
 	"parent_menu_id" : "wac_menu_sh",
-	"title" : "wac_menu_sh_ithaca37_title",
+	"title" : "bm_w_m37",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_ithaca37b",		
 			"items" : [
 				"wac_default_multi",
-				"wac_shortb_multi"
+				"bm_wp_aug_b_short"
 			],
 			"value" : "replace_ithaca37b",
 			"default_value" : 1
@@ -38,7 +38,7 @@
 			"callback" : "callback_toggle_replace_ithaca37sawedoffst",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_ithaca37sawedoffst",
 			"default_value" : 1

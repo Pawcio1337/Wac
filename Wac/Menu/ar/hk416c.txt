@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar_hk416c",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_hk416c_title",
+	"title" : "bm_w_tecci",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -18,17 +18,17 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk416jpre",
-			"title" : "wac_replace_hk416jpre_title",
+			"title" : "bm_wp_tecci_ns_special",
 			"callback" : "callback_toggle_replace_hk416jpre",		
 			"items" : [
 				"wac_default_multi",
-				"firepig_multi",
-				"tank_multi",
-				"stubby_multi",
-				"surefire_multi",
-				"linear_multi",
-				"jprifles_multi",
-				"battle_multi",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_ns_battle",
 				"stndfhider_multi"
 			],
 			"value" : "replace_hk416jpre",
@@ -42,7 +42,7 @@
 			"items" : [
 				"wac_default_multi",
 				"stndfhider_multi",
-				"hk416jpre_multi"
+				"bm_wp_tecci_ns_special"
 			],
 			"value" : "replace_hk416ccomp",
 			"default_value" : 1
@@ -66,17 +66,17 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk416ccmag",
-			"title" : "wac_replace_cmag_title",
+			"title" : "bm_wp_m4_m_drum",
 			"callback" : "callback_toggle_replace_hk416ccmag",
 			"items" : [
 				"wac_default_multi",
-				"quadstack_multi",
-				"betacmag_multi",
-				"20rndstanag_multi",
-				"30rndstanag_multi",
-				"pmag_multi",
-				"l5_multi",
-				"emag_multi",
+				"bm_wp_upg_m4_m_quad",
+				"bm_wp_m4_m_drum",
+				"bm_wp_m4_m_straight",
+				"bm_wp_m4_uupg_m_std",
+				"bm_wp_m4_m_pmag",
+				"bm_wp_upg_m4_m_l5",
+				"bm_wp_l85a2_m_emag",
 				"augmag_multi"
 			],
 			"value" : "replace_hk416ccmag",
@@ -93,14 +93,14 @@
 			"callback" : "callback_toggle_replace_hk416stock",		
 			"items" : [
 				"wac_default_multi",
-				"stndst_multi",
-				"m4_s_pts_multi",
-				"foldst_multi",
-				"m4_s_crane_multi",
-				"m16solidst_multi",
-				"m4_s_stnd_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_upg_m4_s_crane",
+				"m16bm_wp_g36_fg_k",
+				"bm_wp_m4_s_standard",
 				"hk417st_multi",
-				"m4_vltor_multi"
+				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_hk416stock",
 			"default_value" : 1
@@ -120,7 +120,7 @@
 				"vertgrip_multi",
 				"afg2_multi",
 				"vectorvert_multi",
-				"surefirem900_multi",
+				"bm_wp_schakal_vg_surefire",
 				"novertgrip_multi"
 			],
 			"value" : "replace_hk416cvertgrip",

@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar_sub2000",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_sub2000_title",
+	"title" : "bm_w_sub2000",
 	"items" : [
 		{
 			"type" : "multiple_choice",

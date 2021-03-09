@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_spec",
 	"parent_menu_id" : "wac_menu",
-	"title" : "wac_menu_spec_title",
+	"title" : "menu_wpn_special",
 	"items" : [
 		{
 		}

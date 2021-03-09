@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_smg_vector",
 	"parent_menu_id" : "wac_menu_smg",
-	"title" : "wac_menu_smg_vector_title",
+	"title" : "bm_w_polymer",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -10,12 +10,12 @@
 			"callback" : "callback_toggle_replace_vectorcrb_model",		
 			"items" : [
 				"wac_default_multi",
-				"jprifles_multi",
-				"firepig_multi",
-				"tank_multi",
-				"surefire_multi",
-				"linear_multi",
-				"battle_multi",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_ns_battle",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_vectorcrb_model",

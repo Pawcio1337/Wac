@@ -1,12 +1,12 @@
 {
 	"menu_id" : "wac_menu_sh_saiga",
 	"parent_menu_id" : "wac_menu_sh",
-	"title" : "wac_menu_sh_saiga_title",
+	"title" : "bm_w_saiga",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kshortb",
-			"title" : "wac_replace_shortb_title",
+			"title" : "bm_wp_famas_b_short",
 			"callback" : "callback_toggle_replace_s12kshortb",
 			"items" : [
 				"wac_default_multi",
@@ -83,15 +83,15 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kstock1",
-			"title" : "wac_replace_skelst_title",
+			"title" : "bm_wp_ak_s_skfoldable",
 			"callback" : "callback_toggle_replace_s12kstock1",
 			"items" : [
 				"wac_default_multi",
 				"nostock_multi",
-				"foldst_multi",
-				"akpslst_multi",
-				"akclassst_multi",
-				"rpkst_multi",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_psl",
+				"bm_wp_upg_ak_s_solidstock",
+				"bm_wp_rpk_s_standard",
 				"rpkwoodst_multi"
 			],
 			"value" : "replace_s12kstock1",
@@ -100,15 +100,15 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kstock2",
-			"title" : "wac_replace_ar15_m4mk46_title",
+			"title" : "bm_wp_upg_m4_s_mk46",
 			"callback" : "callback_toggle_replace_s12kstock2",
 			"items" : [
 				"wac_default_multi",
-				"skelst_multi",
-				"foldst_multi",
-				"akpslst_multi",
-				"akclassst_multi",
-				"rpkst_multi",
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_psl",
+				"bm_wp_upg_ak_s_solidstock",
+				"bm_wp_rpk_s_standard",
 				"rpkwoodst_multi"
 			],
 			"value" : "replace_s12kstock2",
@@ -117,14 +117,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kstock3",
-			"title" : "wac_replace_akclassicst_title",
+			"title" : "bm_wp_upg_ak_s_solidstock",
 			"callback" : "callback_toggle_replace_s12kstock3",
 			"items" : [
 				"wac_default_multi",
-				"skelst_multi",
-				"foldst_multi",
-				"akpslst_multi",
-				"rpkst_multi",
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_psl",
+				"bm_wp_rpk_s_standard",
 				"rpkwoodst_multi"
 			],
 			"value" : "replace_s12kstock3",

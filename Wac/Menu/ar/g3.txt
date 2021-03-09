@@ -1,16 +1,16 @@
 {
 	"menu_id" : "wac_menu_ar_g3",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_g3_title",
+	"title" : "bm_w_g3",
 	"items" : [
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3barrel",
-			"title" : "wac_replace_longb_title",
+			"title" : "bm_wp_aug_b_long",
 			"callback" : "callback_toggle_replace_g3barrel",
 			"items" : [
 				"wac_default_multi",
-				"wac_shortb_multi"
+				"bm_wp_g3_b_short"
 			],
 			"value" : "replace_g3barrel",
 			"default_value" : 1
@@ -18,12 +18,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3barreldmr",
-			"title" : "wac_replace_dmrb_title",
+			"title" : "bm_wp_g3_b_sniper",
 			"callback" : "callback_toggle_replace_g3barreldmr",
 			"items" : [
 				"wac_default_multi",
-				"wac_longb_multi",
-				"wac_shortb_multi"
+				"bm_wp_famas_b_long",
+				"bm_wp_g3_b_short"
 			],
 			"value" : "replace_g3barreldmr",
 			"default_value" : 1
@@ -35,13 +35,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3foregripprecision",
-			"title" : "wac_replace_g3foregripprecision_title",
+			"title" : "bm_wp_g3_fg_psg",
 			"callback" : "callback_toggle_replace_g3foregripprecision",
 			"items" : [
 				"wac_default_multi",
-				"tactfg_multi",
-				"woodenfg_multi",
-				"g3foregripplastic_multi",
+				"bm_wp_g3_fg_railed",
+				"bm_wp_fal_fg_wood",
+				"bm_wp_g3_fg_retro_plastic",
 				"stndfg_multi"
 			],
 			"value" : "replace_g3foregripprecision",
@@ -50,13 +50,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3foregriptactical",
-			"title" : "wac_replace_tactfg_title",
+			"title" : "bm_wp_g3_fg_railed",
 			"callback" : "callback_toggle_replace_g3foregriptactical",
 			"items" : [
 				"wac_default_multi",
-				"g3foregripprecision_multi",
-				"woodenfg_multi",
-				"g3foregripplastic_multi",
+				"bm_wp_g3_fg_psg",
+				"bm_wp_g3_fg_retro",
+				"bm_wp_g3_fg_retro_plastic",
 				"stndfg_multi"
 			],
 			"value" : "replace_g3foregriptactical",
@@ -65,13 +65,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3foregripwooden",
-			"title" : "wac_replace_woodenfg_title",
+			"title" : "bm_wp_g3_fg_retro",
 			"callback" : "callback_toggle_replace_g3foregripwooden",
 			"items" : [
 				"wac_default_multi",
-				"g3foregripprecision_multi",
-				"tactfg_multi",
-				"g3foregripplastic_multi",
+				"bm_wp_g3_fg_psg",
+				"bm_wp_g3_fg_railed",
+				"bm_wp_g3_fg_retro_plastic",
 				"stndfg_multi"
 			],
 			"value" : "replace_g3foregripwooden",
@@ -80,13 +80,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3handguardplastic",
-			"title" : "wac_replace_plasticfg_title",
+			"title" : "bm_wp_g3_fg_retro_plastic",
 			"callback" : "callback_toggle_replace_g3handguardplastic",
 			"items" : [
 				"wac_default_multi",
-				"g3foregripprecision_multi",
-				"tactfg_multi",
-				"woodenfg_multi",
+				"bm_wp_g3_fg_psg",
+				"bm_wp_g3_fg_railed",
+				"bm_wp_g3_fg_retro",
 				"stndfg_multi"
 			],
 			"value" : "replace_g3handguardplastic",
@@ -99,12 +99,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3psg1grip",
-			"title" : "wac_replace_g3psg1grip_title",
+			"title" : "bm_wp_g3_g_sniper",
 			"callback" : "callback_toggle_replace_g3psg1grip",
 			"items" : [
 				"wac_default_multi",
-				"g3retrogrip_multi",
-				"stngrip_multi"
+				"bm_wp_g3_g_retro",
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_g3psg1grip",
 			"default_value" : 1
@@ -112,12 +112,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3retrogrip",
-			"title" : "wac_replace_g3retrogrip_title",
+			"title" : "bm_wp_g3_g_retro",
 			"callback" : "callback_toggle_replace_g3retrogrip",
 			"items" : [
 				"wac_default_multi",
-				"g3psg1grip_multi",
-				"stngrip_multi"
+				"bm_wp_g3_g_sniper",
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_g3retrogrip",
 			"default_value" : 1
@@ -129,12 +129,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3sniperstock",
-			"title" : "wac_replace_g3sniperst_title",
+			"title" : "bm_wp_g3_s_sniper",
 			"callback" : "callback_toggle_replace_g3sniperstock",
 			"items" : [
 				"wac_default_multi",
-				"woodenstock_multi",
-				"stndst_multi"
+				"bm_wp_g3_s_wood",
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_g3sniperstock",
 			"default_value" : 1
@@ -142,12 +142,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3woodstock",
-			"title" : "wac_replace_woodenst_title",
+			"title" : "bm_wp_g3_s_wood",
 			"callback" : "callback_toggle_replace_g3woodstock",
 			"items" : [
 				"wac_default_multi",
-				"g3sniperstock_multi",
-				"stndst_multi"
+				"bm_wp_g3_s_sniper",
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_g3woodstock",
 			"default_value" : 1

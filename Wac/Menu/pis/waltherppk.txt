@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_pis_waltherppk",
 	"parent_menu_id" : "wac_menu_pis",
-	"title" : "wac_menu_pis_waltherppk_title",
+	"title" : "bm_w_ppk",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_walterpplasergrip",		
 			"items" : [
 				"wac_default_multi",
-				"stngrip_multi"
+				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_walterpplasergrip",
 			"default_value" : 1

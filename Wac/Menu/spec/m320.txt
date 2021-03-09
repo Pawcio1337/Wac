@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_spec_m320",
 	"parent_menu_id" : "wac_menu_spec",
-	"title" : "wac_menu_spec_m320_title",
+	"title" : "bm_w_slap",
 	"items" : [
 		{
 			"type" : "toggle",
@@ -27,7 +27,7 @@
 				"afg2_multi",
 				"hk416cvert_multi",
 				"vectorvert_multi",
-				"surefirem900_multi",
+				"bm_wp_schakal_vg_surefire",
 				"novertgrip_multi"
 			],
 			"value" : "replace_m320_vertgrip",

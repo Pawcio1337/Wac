@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_attch_vertgrip",
 	"parent_menu_id" : "wac_menu_attch",
-	"title" : "wac_menu_attch_vertgrip_title",
+	"title" : "bm_menu_vertical_grip",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -14,7 +14,7 @@
 				"afg2_multi",
 				"hk416cvert_multi",
 				"vectorvert_multi",
-				"surefirem900_multi",
+				"bm_wp_schakal_vg_surefire",
 				"cobratact_multi",
 				"novertgrip_multi"
 			],
@@ -31,7 +31,7 @@
 				"stubbygrip_multi",
 				"hk416cvert_multi",
 				"vectorvert_multi",
-				"surefirem900_multi",
+				"bm_wp_schakal_vg_surefire",
 				"cobratact_multi",
 				"novertgrip_multi"
 			],

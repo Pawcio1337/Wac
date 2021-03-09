@@ -1,7 +1,7 @@
 {
 	"menu_id" : "wac_menu_ar_vhs",
 	"parent_menu_id" : "wac_menu_ar",
-	"title" : "wac_menu_ar_vhs_title",
+	"title" : "bm_w_vhs",
 	"items" : [
 		{
 			"type" : "multiple_choice",
@@ -24,7 +24,7 @@
 			"items" : [
 				"wac_default_multi",
 				"wac_stndb_multi",
-				"wac_shortb_multi"
+				"bm_wp_aug_b_short"
 			],
 			"value" : "replace_vhslongb",
 			"default_value" : 1
