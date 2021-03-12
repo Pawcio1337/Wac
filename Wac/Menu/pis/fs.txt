@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fsnitrideb",
-			"title" : "wac_replace_fsnitrideb_title",
+			"title" : "bm_wp_lemming_b_nitride",
 			"callback" : "callback_toggle_replace_fsnitrideb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_fsnitrideb",
 			"default_value" : 1

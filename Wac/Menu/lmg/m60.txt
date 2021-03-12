@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m60shortb",
-			"title" : "bm_wp_famas_b_short",
+			"title" : "bm_wp_m60_b_short",
 			"callback" : "callback_toggle_replace_m60shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_m60shortb",
 			"default_value" : 1

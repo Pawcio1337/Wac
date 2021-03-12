@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m79sawoffb",
-			"title" : "wac_replace_m79sawoffb_title",
+			"title" : "bm_wp_m79_barrel_short",
 			"callback" : "callback_toggle_replace_m79sawoffb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_m79sawoffb",
 			"default_value" : 1
@@ -22,7 +22,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m79sawoffst",
-			"title" : "wac_replace_m79sawoffst_title",
+			"title" : "bm_wp_gre_m79_s_leather",
 			"callback" : "callback_toggle_replace_m79sawoffst",		
 			"items" : [
 				"wac_default_multi",
@@ -30,18 +30,6 @@
 			],
 			"value" : "replace_m79sawoffst",
 			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "toggle",
-			"id" : "toggle_replace_m79disablesight",
-			"title" : "wac_replace_disableladdersight_title",
-			"callback" : "callback_toggle_replace_m79disablesight",
-			"value" : "replace_m79disablesight",
-			"default_value" : false
 		}
 	]
 }

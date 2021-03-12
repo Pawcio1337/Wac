@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_asvalprotob",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_asvalprotob",
 			"default_value" : 1
@@ -22,13 +22,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_asvalstock",
-			"title" : "wac_replace_stockuseonly_title",
+			"title" : "wac_replace_usestnd_title",
 			"callback" : "callback_toggle_replace_asvalstock",		
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_folding",
 				"bm_wp_asval_s_solid",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_asvalstock",
 			"default_value" : 1

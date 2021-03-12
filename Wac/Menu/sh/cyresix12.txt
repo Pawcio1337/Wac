@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cyresix12shortb",
-			"title" : "bm_wp_famas_b_short",
+			"title" : "bm_wp_rota_b_standard",
 			"callback" : "callback_toggle_replace_cyresix12shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_cyresix12shortb",
 			"default_value" : 1
@@ -18,7 +18,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_cyresix12suppb",
-			"title" : "wac_replace_usesuppb_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_cyresix12suppb",
 			"value" : "replace_cyresix12suppb",
 			"default_value" : false

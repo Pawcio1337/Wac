@@ -6,13 +6,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockcomp2",
-			"title" : "wac_replace_velocitycomp_title",
+			"title" : "bm_wp_g18c_co_comp_2",
 			"callback" : "callback_toggle_replace_glockcomp2",		
 			"items" : [
 				"wac_default_multi",
-				"ventcomp_multi",
-				"pisflashhider_multi",
-				"pistenderizer_multi"
+				"bm_wp_g18c_co_1",
+				"bm_wp_upg_pis_ns_flash",
+				"bm_wp_upg_ns_meatgrinder"
 			],
 			"value" : "replace_glockcomp2",
 			"default_value" : 1
@@ -36,11 +36,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g18c_glr440",
-			"title" : "wac_replace_g18c_glr440_title",
+			"title" : "bm_wp_g18c_s_stock",
 			"callback" : "callback_toggle_replace_g18c_glr440",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_g18c_glr440",
 			"default_value" : 1

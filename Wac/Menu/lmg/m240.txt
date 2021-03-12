@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m240shortb",
-			"title" : "bm_wp_famas_b_short",
+			"title" : "bm_wp_par_b_short",
 			"callback" : "callback_toggle_replace_m240shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_m240shortb",
 			"default_value" : 1
@@ -22,11 +22,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m240plasticst",
-			"title" : "bm_wp_galil_s_plastic",
+			"title" : "bm_wp_par_s_plastic",
 			"callback" : "callback_toggle_replace_m240plasticst",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_fal_s_wood"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_m240plasticst",
 			"default_value" : 1

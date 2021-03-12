@@ -6,14 +6,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fscomp1",
-			"title" : "wac_replace_92fscomp1_title",
+			"title" : "bm_wp_beretta_co_co1",
 			"callback" : "callback_toggle_replace_92fscomp1",		
 			"items" : [
 				"wac_default_multi",
-				"92fscomp2_multi",
-				"pisflashhider_multi",
-				"pistenderizer_multi",
-				"ipsccomp_multi",
+				"bm_wp_beretta_co_co2",
+				"bm_wp_upg_pis_ns_flash",
+				"bm_wp_upg_ns_meatgrinder",
+				"bm_wp_upg_ns_ipsccomp",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_92fscomp1",
@@ -22,14 +22,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fscomp2",
-			"title" : "wac_replace_92fscomp2_title",
+			"title" : "bm_wp_beretta_co_co2",
 			"callback" : "callback_toggle_replace_92fscomp2",		
 			"items" : [
 				"wac_default_multi",
-				"92fscomp1_multi",
-				"pisflashhider_multi",
-				"pistenderizer_multi",
-				"ipsccomp_multi",
+				"bm_wp_beretta_co_co1",
+				"bm_wp_upg_pis_ns_flash",
+				"bm_wp_upg_ns_meatgrinder",
+				"bm_wp_upg_ns_ipsccomp",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_92fscomp2",
@@ -38,14 +38,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_ipsccomp",
-			"title" : "wac_replace_ipsccomp_title",
+			"title" : "bm_wp_upg_ns_ipsccomp",
 			"callback" : "callback_toggle_replace_92fs_ipsccomp",		
 			"items" : [
 				"wac_default_multi",
-				"92fscomp2_multi",
-				"92fscomp1_multi",
-				"pistenderizer_multi",
-				"pisflashhider_multi",
+				"bm_wp_beretta_co_co2",
+				"bm_wp_beretta_co_co1",
+				"bm_wp_upg_ns_meatgrinder",
+				"bm_wp_upg_pis_ns_flash",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_92fs_ipsccomp",
@@ -54,14 +54,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_meatgrinder",
-			"title" : "wac_replace_pistenderizer_title",
+			"title" : "bm_wp_upg_ns_meatgrinder",
 			"callback" : "callback_toggle_replace_92fs_meatgrinder",		
 			"items" : [
 				"wac_default_multi",
-				"92fscomp2_multi",
-				"92fscomp1_multi",
-				"ipsccomp_multi",
-				"pisflashhider_multi",
+				"bm_wp_beretta_co_co2",
+				"bm_wp_beretta_co_co1",
+				"bm_wp_upg_ns_ipsccomp",
+				"bm_wp_upg_pis_ns_flash",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_92fs_meatgrinder",
@@ -70,14 +70,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_pisflash",
-			"title" : "wac_replace_pisflashhider_title",
+			"title" : "bm_wp_upg_pis_ns_flash",
 			"callback" : "callback_toggle_replace_92fs_pisflash",		
 			"items" : [
 				"wac_default_multi",
-				"92fscomp2_multi",
-				"92fscomp1_multi",
-				"ipsccomp_multi",
-				"pistenderizer_multi",
+				"bm_wp_beretta_co_co2",
+				"bm_wp_beretta_co_co1",
+				"bm_wp_upg_ns_ipsccomp",
+				"bm_wp_upg_ns_meatgrinder",
 				"wac_nomodel_multi"
 			],
 			"value" : "replace_92fs_pisflash",
@@ -90,7 +90,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fsergogrip",
-			"title" : "wac_replace_ergogrip_title",
+			"title" : "bm_wp_beretta_g_ergo",
 			"callback" : "callback_toggle_replace_92fsergogrip",		
 			"items" : [
 				"wac_default_multi",
@@ -102,7 +102,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fsengravedgrip",
-			"title" : "wac_replace_engravedgrip_title",
+			"title" : "bm_wp_beretta_g_engraved",
 			"callback" : "callback_toggle_replace_92fsengravedgrip",		
 			"items" : [
 				"wac_default_multi",
@@ -130,11 +130,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fselite2",
-			"title" : "wac_replace_92fselite2_title",
+			"title" : "bm_wp_beretta_sl_brigadier",
 			"callback" : "callback_toggle_replace_92fselite2",		
 			"items" : [
 				"wac_default_multi",
-				"stndslide_multi"
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_92fselite2",
 			"default_value" : 1

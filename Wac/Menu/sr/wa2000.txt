@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000longb",
-			"title" : "wac_replace_wa200longb_title",
+			"title" : "bm_wp_wa2000_b_long",
 			"callback" : "callback_toggle_replace_wa2000longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_wa2000longb",
 			"default_value" : 1
@@ -22,12 +22,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000lightgrip",
-			"title" : "wac_replace_wa2000lightgrip_title",
+			"title" : "bm_wp_wa2000_g_light",
 			"callback" : "callback_toggle_replace_wa2000lightgrip",		
 			"items" : [
 				"wac_default_multi",
-				"wa2000stealthgrip_multi",
-				"wa2000walnutgrip_multi",
+				"bm_wp_wa2000_g_stealth",
+				"bm_wp_wa2000_g_walnut",
 				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_wa2000lightgrip",
@@ -36,12 +36,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000stealthgrip",
-			"title" : "wac_replace_wa2000stealthgrip_title",
+			"title" : "bm_wp_wa2000_g_stealth",
 			"callback" : "callback_toggle_replace_wa2000stealthgrip",		
 			"items" : [
 				"wac_default_multi",
-				"wa2000lightgrip_multi",
-				"wa2000walnutgrip_multi",
+				"bm_wp_wa2000_g_light",
+				"bm_wp_wa2000_g_walnut",
 				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_wa2000stealthgrip",
@@ -50,12 +50,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000walnutgrip",
-			"title" : "wac_replace_wa2000walnutgrip_title",
+			"title" : "bm_wp_wa2000_g_walnut",
 			"callback" : "callback_toggle_replace_wa2000walnutgrip",		
 			"items" : [
 				"wac_default_multi",
-				"wa2000lightgrip_multi",
-				"wa2000stealthgrip_multi",
+				"bm_wp_wa2000_g_light",
+				"bm_wp_wa2000_g_stealth",
 				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_wa2000walnutgrip",

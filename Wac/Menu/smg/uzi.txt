@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_uzisuppb",
-			"title" : "wac_replace_uzisuppb_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_uzisuppb",
 			"value" : "replace_uzisuppb",
 			"default_value" : false
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uzitacfg",
-			"title" : "bm_wp_g3_fg_railed",
+			"title" : "bm_wp_uzi_fg_rail",
 			"callback" : "callback_toggle_replace_uzitacfg",		
 			"items" : [
 				"wac_default_multi",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_uzitacfg",
 			"default_value" : 1
@@ -30,7 +30,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_uzix_removevg",
-			"title" : "wac_replace_uzix_removevg_title",
+			"title" : "wac_replace_hidevg_title",
 			"callback" : "callback_toggle_replace_uzix_removevg",
 			"value" : "replace_uzix_removevg",
 			"default_value" : false
@@ -42,14 +42,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uziergostock",
-			"title" : "wac_replace_ergost_title",
+			"title" : "bm_wp_uzi_s_leather",
 			"callback" : "callback_toggle_replace_uziergostock",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_g36_fg_k",
-				"foldedst_multi",
-				"unbm_wp_ak_s_folding",
-				"nostock_multi"
+				"bm_wp_uzi_s_solid",
+				"bm_wp_uzi_s_standard",
+				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_uziergostock",
 			"default_value" : 1
@@ -57,14 +57,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uzisolidstock",
-			"title" : "wac_replace_solidst_title",
+			"title" : "bm_wp_uzi_s_solid",
 			"callback" : "callback_toggle_replace_uzisolidstock",		
 			"items" : [
 				"wac_default_multi",
-				"ergost_multi",
-				"foldedst_multi",
-				"unbm_wp_ak_s_folding",
-				"nostock_multi"
+				"bm_wp_uzi_s_leather",
+				"bm_wp_uzi_s_standard",
+				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_uzisolidstock",
 			"default_value" : 1
@@ -72,14 +72,14 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uzifoldstock",
-			"title" : "wac_replace_foldedst_title",
+			"title" : "bm_wp_uzi_s_standard",
 			"callback" : "callback_toggle_replace_uzifoldstock",		
 			"items" : [
 				"wac_default_multi",
-				"ergost_multi",
-				"bm_wp_g36_fg_k",
-				"unbm_wp_ak_s_folding",
-				"nostock_multi"
+				"bm_wp_uzi_s_leather",
+				"bm_wp_uzi_s_solid",
+				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_uzifoldstock",
 			"default_value" : 1
@@ -91,10 +91,10 @@
 			"callback" : "callback_toggle_replace_uzix_st",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
-				"unbm_wp_ak_s_folding",
-				"ergost_multi",
-				"bm_wp_g36_fg_k"
+				"bm_wp_baka_s_standard",
+				"bm_wp_uzi_s_standard",
+				"bm_wp_uzi_s_leather",
+				"bm_wp_uzi_s_solid"
 			],
 			"value" : "replace_uzix_st",
 			"default_value" : 1

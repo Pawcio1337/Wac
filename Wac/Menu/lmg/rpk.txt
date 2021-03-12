@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_rpkpbs1",
-			"title" : "wac_replace_pbs1supp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_rpkpbs1",
 			"value" : "replace_rpkpbs1",
 			"default_value" : false
@@ -22,7 +22,7 @@
 			"callback" : "callback_toggle_replace_rpkforegrip",	
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_g3_fg_railed"
+				"bm_wp_rpk_fg_standard"
 			],
 			"value" : "replace_rpkforegrip",
 			"default_value" : 1
@@ -34,15 +34,15 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_rpkdrum",
-			"title" : "wac_replace_rpkdrum_title",
+			"title" : "bm_wp_g18c_m_mag_17rnd",
 			"callback" : "callback_toggle_replace_rpkdrum",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_upg_m4_m_quad",
-				"rpkmag_multi",
-				"akmmag_multi",
-				"ak74mag_multi",
-				"akmgoldmag_multi"
+				"bm_wp_upg_ak_m_quad",
+				"bm_w_rpk",
+				"bm_w_akm",
+				"bm_w_ak74",
+				"bm_w_akm_gold"
 			],
 			"value" : "replace_rpkdrum",
 			"default_value" : 1
@@ -83,18 +83,6 @@
 			],
 			"value" : "replace_rpkstock2",
 			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "toggle",
-			"id" : "toggle_replace_rpkbipod",
-			"title" : "wac_replace_m249bipod_title",
-			"callback" : "callback_toggle_replace_rpkbipod",
-			"value" : "replace_rpkbipod",
-			"default_value" : false
 		}
 	]
 }

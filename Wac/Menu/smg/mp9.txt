@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9stndmag",
-			"title" : "wac_replace_stndmag_title",
+			"title" : "bm_wp_g18c_m_mag_17rnd",
 			"callback" : "callback_toggle_replace_mp9stndmag",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_fal_m_01"
+				"bm_wp_mp9_m_extended"
 			],
 			"value" : "replace_mp9stndmag",
 			"default_value" : 1
@@ -30,11 +30,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9extmag",
-			"title" : "bm_wp_fal_m_01",
+			"title" : "bm_wp_mp9_m_extended",
 			"callback" : "callback_toggle_replace_mp9extmag",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi"
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_mp9extmag",
 			"default_value" : 1
@@ -50,8 +50,8 @@
 			"callback" : "callback_toggle_replace_mp9stndst",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_ak_s_skfoldable",
-				"nostock_multi"
+				"bm_wp_mp9_s_skel",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_mp9stndst",
 			"default_value" : 1
@@ -59,12 +59,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9skeletalst",
-			"title" : "bm_wp_ak_s_skfoldable",
+			"title" : "bm_wp_mp9_s_skel",
 			"callback" : "callback_toggle_replace_mp9skeletalst",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_ak_s_folding",
-				"nostock_multi"
+				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_mp9skeletalst",
 			"default_value" : 1

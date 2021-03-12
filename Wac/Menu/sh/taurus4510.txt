@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_judgegrip",
-			"title" : "wac_replace_stndgrip_title",
+			"title" : "bm_wp_1911_g_standard",
 			"callback" : "callback_toggle_replace_judgegrip",		
 			"items" : [
 				"wac_default_multi",
-				"rbullgrip_multi",
-				"rbullergogrip_multi"
+				"bm_w_raging_bull",
+				"bm_wp_rage_g_ergo"
 			],
 			"value" : "replace_judgegrip",
 			"default_value" : 1

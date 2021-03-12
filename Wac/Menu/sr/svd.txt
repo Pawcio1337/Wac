@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_svdcomp",
-			"title" : "wac_replace_svdcomp_title",
+			"title" : "bm_wp_siltstone_ns_variation_b",
 			"callback" : "callback_toggle_replace_svdcomp",
 			"items" : [
 				"wac_default_multi",
-				"stndcomp_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_svdcomp",
 			"default_value" : 1
@@ -22,11 +22,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_svdpolymerfg",
-			"title" : "wac_replace_svdpolymerfg_title",
+			"title" : "bm_wp_siltstone_fg_polymer",
 			"callback" : "callback_toggle_replace_svdpolymerfg",
 			"items" : [
 				"wac_default_multi",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_svdpolymerfg",
 			"default_value" : 1
@@ -38,7 +38,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_svdpolymerst",
-			"title" : "wac_replace_svdpolymerst_title",
+			"title" : "bm_wp_siltstone_s_polymer",
 			"callback" : "callback_toggle_replace_svdpolymerst",
 			"items" : [
 				"wac_default_multi",

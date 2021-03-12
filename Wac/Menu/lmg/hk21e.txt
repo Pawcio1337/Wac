@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk21elongb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_hk21_b_long",
 			"callback" : "callback_toggle_replace_hk21elongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_hk21elongb",
 			"default_value" : 1
@@ -26,7 +26,7 @@
 			"callback" : "callback_toggle_replace_hk21estndfg",		
 			"items" : [
 				"wac_default_multi",
-				"shortfg_multi"
+				"bm_wp_hk21_fg_short"
 			],
 			"value" : "replace_hk21estndfg",
 			"default_value" : 1
@@ -38,7 +38,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk21egrip",
-			"title" : "wac_replace_ergogrip_title",
+			"title" : "bm_wp_hk21_g_ergo",
 			"callback" : "callback_toggle_replace_hk21egrip",		
 			"items" : [
 				"wac_default_multi",

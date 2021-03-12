@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm25comp",
-			"title" : "wac_replace_xm25comp_title",
+			"title" : "bm_wp_arbiter_b_comp",
 			"callback" : "callback_toggle_replace_xm25comp",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_xm25comp",
 			"default_value" : 1
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm25longb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_arbiter_b_long",
 			"callback" : "callback_toggle_replace_xm25longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_xm25longb",
 			"default_value" : 1

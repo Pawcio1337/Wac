@@ -6,7 +6,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_walterpplasergrip",
-			"title" : "wac_replace_lasergrip_title",
+			"title" : "bm_wp_pis_ppk_g_laser",
 			"callback" : "callback_toggle_replace_walterpplasergrip",		
 			"items" : [
 				"wac_default_multi",
@@ -22,11 +22,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_walterppslide",
-			"title" : "wac_replace_longsl_title",
+			"title" : "bm_wp_pis_ppk_b_long",
 			"callback" : "callback_toggle_replace_walterppslide",		
 			"items" : [
 				"wac_default_multi",
-				"stndslide_multi"
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_walterppslide",
 			"default_value" : 1

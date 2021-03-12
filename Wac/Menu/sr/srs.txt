@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_srsshortb",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_famas_b_long"
+				"bm_wp_desertfox_b_long"
 			],
 			"value" : "replace_srsshortb",
 			"default_value" : 1
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_srslongb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_desertfox_b_long",
 			"callback" : "callback_toggle_replace_srslongb",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_aug_b_short"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_srslongb",
 			"default_value" : 1

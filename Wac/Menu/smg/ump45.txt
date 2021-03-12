@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_usc45b",
-			"title" : "wac_replace_civb_title",
+			"title" : "bm_wp_schakal_b_civil",
 			"callback" : "callback_toggle_replace_usc45b",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_usc45b",
 			"default_value" : 1
@@ -18,7 +18,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_ump45supp",
-			"title" : "wac_replace_ump45gem_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_ump45supp",
 			"value" : "replace_ump45supp",
 			"default_value" : false
@@ -30,12 +30,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45extmag",
-			"title" : "bm_wp_fal_m_01",
+			"title" : "bm_wp_schakal_m_long",
 			"callback" : "callback_toggle_replace_ump45extmag",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi",
-				"shortmag_multi"
+				"bm_wp_g18c_m_mag_17rnd",
+				"bm_wp_schakal_m_short"
 			],
 			"value" : "replace_ump45extmag",
 			"default_value" : 1
@@ -43,11 +43,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45shortmag",
-			"title" : "wac_replace_shortmag_title",
+			"title" : "bm_wp_schakal_m_short",
 			"callback" : "callback_toggle_replace_ump45shortmag",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi"
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_ump45shortmag",
 			"default_value" : 1
@@ -59,13 +59,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_usc45st",
-			"title" : "wac_replace_usc45st_title",
+			"title" : "bm_wp_schakal_s_civil",
 			"callback" : "callback_toggle_replace_usc45st",		
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
-				"foldedst_multi",
-				"nostock_multi"
+				"bm_wp_schakal_s_folded",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_usc45st",
 			"default_value" : 1
@@ -73,12 +73,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45foldedst",
-			"title" : "wac_replace_foldedst_title",
+			"title" : "bm_wp_schakal_s_folded",
 			"callback" : "callback_toggle_replace_ump45foldedst",		
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_ump45foldedst",
 			"default_value" : 1
@@ -91,8 +91,8 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
-				"wac_usc45st_multi",
-				"nostock_multi"
+				"bm_wp_schakal_s_civil",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_ump45x_st",
 			"default_value" : 1
@@ -104,13 +104,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45m900",
-			"title" : "wac_replace_ump45m900_title",
+			"title" : "bm_wp_schakal_vg_surefire",
 			"callback" : "callback_toggle_replace_ump45m900",		
 			"items" : [
 				"wac_default_multi",
 				"nogadget_multi",
-				"vertgrip_multi",
-				"stubbygrip_multi"
+				"wac_replace_vggeneric_title",
+				"wac_replace_stubbygrip_title"
 			],
 			"value" : "replace_ump45m900",
 			"default_value" : 1

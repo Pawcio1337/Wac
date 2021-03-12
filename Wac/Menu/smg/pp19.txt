@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_pp19pbs1",
-			"title" : "wac_replace_pbs1supp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_pp19pbs1",
 			"value" : "replace_pp19pbs1",
 			"default_value" : false
@@ -14,7 +14,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_pp19flashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_pp19flashhider",
 			"value" : "replace_pp19flashhider",
 			"default_value" : false

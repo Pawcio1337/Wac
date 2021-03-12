@@ -10,9 +10,9 @@
 			"callback" : "callback_toggle_replace_akmdracob",		
 			"items" : [
 				"wac_default_multi",
-				"wac_akmb_multi",
-				"wac_ak74b_multi",
-				"wac_rpkb_multi"
+				"bm_w_akm",
+				"bm_w_ak74",
+				"bm_w_rpk"
 			],
 			"value" : "replace_akmdracob",
 			"default_value" : 1
@@ -24,10 +24,10 @@
 			"callback" : "callback_toggle_replace_akmmodernb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_akmb_multi",
-				"wac_ak74b_multi",
+				"bm_w_akm",
+				"bm_w_ak74",
 				"bm_wp_upg_ak_b_draco",
-				"wac_rpkb_multi"
+				"bm_w_rpk"
 			],
 			"value" : "replace_akmmodernb",
 			"default_value" : 1
@@ -39,9 +39,9 @@
 			"callback" : "callback_toggle_replace_akmzastava",		
 			"items" : [
 				"wac_default_multi",
-				"wac_akmb_multi",
-				"wac_ak74b_multi",
-				"wac_rpkb_multi"
+				"bm_w_akm",
+				"bm_w_ak74",
+				"bm_w_rpk"
 			],
 			"value" : "replace_akmzastava",
 			"default_value" : 1
@@ -49,7 +49,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_akmpbs1",
-			"title" : "wac_replace_pbs1supp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_akmpbs1",
 			"value" : "replace_akmpbs1",
 			"default_value" : false
@@ -65,10 +65,10 @@
 			"callback" : "callback_toggle_replace_akmquad",		
 			"items" : [
 				"wac_default_multi",
-				"rpkmag_multi",
-				"rpkdrummag_multi",
-				"akmmag_multi",
-				"ak74mag_multi",
+				"bm_w_rpk",
+				"bm_wp_aa12_mag_drum",
+				"bm_w_akm",
+				"bm_w_ak74",
 				"bm_wp_upg_ak_m_uspalm"
 			],
 			"value" : "replace_akmquad",
@@ -81,8 +81,8 @@
 			"callback" : "callback_toggle_replace_akmuspalm",		
 			"items" : [
 				"wac_default_multi",
-				"akmmag_multi",
-				"ak74mag_multi"
+				"bm_w_akm",
+				"bm_w_ak74"
 			],
 			"value" : "replace_akmuspalm",
 			"default_value" : 1
@@ -94,8 +94,8 @@
 			"callback" : "callback_toggle_replace_akmmagpulassist",		
 			"items" : [
 				"wac_default_multi",
-				"akmmag_multi",
-				"ak74mag_multi"
+				"bm_w_akm",
+				"bm_w_ak74"
 			],
 			"value" : "replace_akmmagpulassist",
 			"default_value" : 1
@@ -111,14 +111,14 @@
 			"callback" : "callback_toggle_replace_akmstock1",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_ak_s_folding",
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi"
+				"bm_w_galil"
 			],
 			"value" : "replace_akmstock1",
 			"default_value" : 1
@@ -135,12 +135,12 @@
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi",
-				"nostock_multi"
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_akmstock4",
 			"default_value" : 1
@@ -157,12 +157,12 @@
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi",
-				"nostock_multi"
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_akmstock2",
 			"default_value" : 1
@@ -178,12 +178,12 @@
 				"bm_wp_ak_s_skfoldable",
 				"bm_wp_ak_s_psl",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi",
-				"nostock_multi"
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_akmstock3",
 			"default_value" : 1
@@ -195,11 +195,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmupperrec",
-			"title" : "wac_replace_upperrec_title",
+			"title" : "bm_menu_upper_reciever",
 			"callback" : "callback_toggle_replace_akmupperrec",		
 			"items" : [
 				"wac_default_multi",
-				"aksmoothcover_multi"
+				"bm_wp_74_body_upperreceiver"
 			],
 			"value" : "replace_akmupperrec",
 			"default_value" : 1

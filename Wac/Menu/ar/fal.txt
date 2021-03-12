@@ -13,7 +13,7 @@
 				"fallbfg_multi",
 				"falsniperfg_multi",
 				"bm_wp_fal_fg_wood",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_sa58fg",
 			"default_value" : 1
@@ -28,7 +28,7 @@
 				"bm_wp_fal_body_standard",
 				"fallbfg_multi",
 				"bm_wp_fal_fg_wood",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_falsniperfg",
 			"default_value" : 1
@@ -43,7 +43,7 @@
 				"bm_wp_fal_body_standard",
 				"fallbfg_multi",
 				"falsniperfg_multi",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_falwoodfg",
 			"default_value" : 1
@@ -71,7 +71,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_falmag",
-			"title" : "wac_replace_stndmag_title",
+			"title" : "bm_wp_g18c_m_mag_17rnd",
 			"callback" : "callback_toggle_replace_falmag",		
 			"items" : [
 				"wac_default_multi",
@@ -106,7 +106,7 @@
 				"bm_wp_fal_s_03",
 				"bm_wp_fal_s_wood",
 				"bm_wp_m4_s_standard",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
@@ -125,7 +125,7 @@
 				"bm_wp_fal_s_01",
 				"bm_wp_fal_s_wood",
 				"bm_wp_m4_s_standard",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
@@ -144,7 +144,7 @@
 				"bm_wp_fal_s_01",
 				"bm_wp_fal_s_03",
 				"bm_wp_m4_s_standard",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",

@@ -6,7 +6,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vectorcrb_model",
-			"title" : "wac_replace_precisionb_title",
+			"title" : "bm_wp_polymer_barrel_precision",
 			"callback" : "callback_toggle_replace_vectorcrb_model",		
 			"items" : [
 				"wac_default_multi",
@@ -24,7 +24,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_vectorcrb",
-			"title" : "wac_replace_vectorcrb_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_vectorcrb",
 			"value" : "replace_vectorcrb",
 			"default_value" : false
@@ -32,7 +32,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_vectorhps",
-			"title" : "wac_replace_vectorhps_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_vectorhps",
 			"value" : "replace_vectorhps",
 			"default_value" : false
@@ -44,12 +44,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vectorvertgrip",
-			"title" : "wac_replace_vertgrip_title",
+			"title" : "wac_replace_stndvg_title",
 			"callback" : "callback_toggle_replace_vectorvertgrip",		
 			"items" : [
 				"wac_default_multi",
-				"hk416cvert_multi",
-				"novertgrip_multi"
+				"bm_w_tecci",
+				"wac_replace_novg_title"
 			],
 			"value" : "replace_vectorvertgrip",
 			"default_value" : 1

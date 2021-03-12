@@ -6,14 +6,14 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_p30lwickcomp",
-			"title" : "wac_replace_p30lwickcomp_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_p30lwickcomp",
 			"value" : "replace_p30lwickcomp",
 			"default_value" : false
 		},		{
 			"type" : "toggle",
 			"id" : "toggle_replace_p30lwickcompsupp",
-			"title" : "wac_replace_p30lwickcompsupp_title",
+			"title" : "wac_replace_hidesuppressors_title",
 			"description" : "wac_requireadditionalmod_desc",
 			"callback" : "callback_toggle_replace_p30lwickcompsupp",
 			"value" : "replace_p30lwickcompsupp",
@@ -38,11 +38,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p30lfibersights",
-			"title" : "wac_replace_p30lfibersights_title",
+			"title" : "bm_wp_packrat_o_expert",
 			"callback" : "callback_toggle_replace_p30lfibersights",		
 			"items" : [
 				"wac_default_multi",
-				"stndsights_multi"
+				"wac_replace_stndsight_title"
 			],
 			"value" : "replace_p30lfibersights",
 			"default_value" : 1

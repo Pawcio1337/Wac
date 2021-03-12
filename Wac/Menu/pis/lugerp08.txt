@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_lugerp08_reinforcedb",
-			"title" : "wac_replace_lugerp08_reinforcedb_title",
+			"title" : "bm_wp_breech_b_reinforced",
 			"callback" : "callback_toggle_replace_lugerp08_reinforcedb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_lugerp08_reinforcedb",
 			"default_value" : 1
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_lugerp08_shortb",
-			"title" : "bm_wp_famas_b_short",
+			"title" : "bm_wp_breech_b_short",
 			"callback" : "callback_toggle_replace_lugerp08_shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_lugerp08_shortb",
 			"default_value" : 1

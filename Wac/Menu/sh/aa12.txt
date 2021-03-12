@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_aa12b",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_aa12_barrel_long",
 			"callback" : "callback_toggle_replace_aa12b",
 			"items" : [
 				"wac_default_multi",
-				"wac_cqbb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_aa12b",
 			"default_value" : 1
@@ -18,7 +18,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_aa12suppb",
-			"title" : "wac_replace_usesuppb_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_aa12suppb",
 			"value" : "replace_aa12suppb",
 			"default_value" : false

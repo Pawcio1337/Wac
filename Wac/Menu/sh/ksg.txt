@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ksgshortb",
-			"title" : "bm_wp_famas_b_short",
+			"title" : "bm_wp_ksg_b_short",
 			"callback" : "callback_toggle_replace_ksgshortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
-				"bm_wp_famas_b_long"
+				"wac_replace_stndb_title",
+				"bm_wp_ksg_b_long"
 			],
 			"value" : "replace_ksgshortb",
 			"default_value" : 1
@@ -19,12 +19,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ksglongb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_ksg_b_long",
 			"callback" : "callback_toggle_replace_ksglongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
-				"bm_wp_aug_b_short"
+				"wac_replace_stndb_title",
+				"bm_wp_ksg_b_short"
 			],
 			"value" : "replace_ksglongb",
 			"default_value" : 1
@@ -36,11 +36,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ksgmbus",
-			"title" : "wac_replace_ksgmbus_title",
+			"title" : "bm_wp_upg_o_mbus_rear",
 			"callback" : "callback_toggle_replace_ksgmbus",		
 			"items" : [
 				"wac_default_multi",
-				"stndsights_multi"
+				"wac_replace_stndsight_title"
 			],
 			"value" : "replace_ksgmbus",
 			"default_value" : 1

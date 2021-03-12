@@ -6,7 +6,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_chinasawoffst",
-			"title" : "wac_replace_chinasawoffst_title",
+			"title" : "bm_wp_china_stock_short",
 			"callback" : "callback_toggle_replace_chinasawoffst",		
 			"items" : [
 				"wac_default_multi",
@@ -14,18 +14,6 @@
 			],
 			"value" : "replace_chinasawoffst",
 			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "toggle",
-			"id" : "toggle_replace_m79disablesight",
-			"title" : "wac_replace_disableladdersight_title",
-			"callback" : "callback_toggle_replace_m79disablesight",
-			"value" : "replace_m79disablesight",
-			"default_value" : false
 		}
 	]
 }

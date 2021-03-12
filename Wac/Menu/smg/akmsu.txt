@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_akmsupbs1",
-			"title" : "wac_replace_pbs1supp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_akmsupbs1",
 			"value" : "replace_akmsupbs1",
 			"default_value" : false
@@ -18,12 +18,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsurail",
-			"title" : "wac_replace_akmsurail_title",
+			"title" : "bm_wp_akmsu_fg_rail",
 			"callback" : "callback_toggle_replace_akmsurail",		
 			"items" : [
 				"wac_default_multi",
-				"akmsuzenit_multi",
-				"stndfg_multi"
+				"bm_wp_upg_ak_fg_zenit",
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_akmsurail",
 			"default_value" : 1
@@ -31,12 +31,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsuzenit",
-			"title" : "wac_replace_akmsuzenit_title",
+			"title" : "bm_wp_upg_ak_fg_zenit",
 			"callback" : "callback_toggle_replace_akmsuzenit",		
 			"items" : [
 				"wac_default_multi",
-				"akmsurail_multi",
-				"stndfg_multi"
+				"bm_wp_akmsu_fg_rail",
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_akmsuzenit",
 			"default_value" : 1
@@ -52,10 +52,10 @@
 			"callback" : "callback_toggle_replace_akmsuquad",		
 			"items" : [
 				"wac_default_multi",
-				"rpkmag_multi",
-				"rpkdrummag_multi",
-				"akmmag_multi",
-				"ak74mag_multi",
+				"bm_w_rpk",
+				"bm_wp_aa12_mag_drum",
+				"bm_w_akm",
+				"bm_w_ak74",
 				"bm_wp_upg_ak_m_uspalm"
 			],
 			"value" : "replace_akmsuquad",
@@ -68,8 +68,8 @@
 			"callback" : "callback_toggle_replace_akmsuuspalm",		
 			"items" : [
 				"wac_default_multi",
-				"akmmag_multi",
-				"ak74mag_multi"
+				"bm_w_akm",
+				"bm_w_ak74"
 			],
 			"value" : "replace_akmsuuspalm",
 			"default_value" : 1
@@ -81,8 +81,8 @@
 			"callback" : "callback_toggle_replace_akmsumagpulassist",		
 			"items" : [
 				"wac_default_multi",
-				"akmmag_multi",
-				"ak74mag_multi"
+				"bm_w_akm",
+				"bm_w_ak74"
 			],
 			"value" : "replace_akmsumagpulassist",
 			"default_value" : 1
@@ -98,7 +98,7 @@
 			"callback" : "callback_toggle_replace_akmsustock1",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_ak_s_skfoldable",
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
@@ -121,11 +121,11 @@
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_akmsustock2",
 			"default_value" : 1
@@ -141,11 +141,11 @@
 				"bm_wp_ak_s_folding",
 				"bm_wp_ak_s_psl",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_akmsustock3",
 			"default_value" : 1
@@ -157,11 +157,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsuupperrec",
-			"title" : "wac_replace_upperrec_title",
+			"title" : "bm_menu_upper_reciever",
 			"callback" : "callback_toggle_replace_akmsuupperrec",		
 			"items" : [
 				"wac_default_multi",
-				"aksmoothcover_multi"
+				"bm_wp_74_body_upperreceiver"
 			],
 			"value" : "replace_akmsuupperrec",
 			"default_value" : 1

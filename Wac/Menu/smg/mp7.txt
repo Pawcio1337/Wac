@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_mp7qd",
-			"title" : "wac_replace_mp7qd_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_mp7qd",
 			"value" : "replace_mp7qd",
 			"default_value" : false
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7stndmag",
-			"title" : "wac_replace_stndmag_title",
+			"title" : "bm_wp_g18c_m_mag_17rnd",
 			"callback" : "callback_toggle_replace_mp7stndmag",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_fal_m_01"
+				"bm_wp_mp7_m_extended"
 			],
 			"value" : "replace_mp7stndmag",
 			"default_value" : 1
@@ -30,11 +30,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7extmag",
-			"title" : "bm_wp_fal_m_01",
+			"title" : "bm_wp_mp7_m_extended",
 			"callback" : "callback_toggle_replace_mp7extmag",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi"
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_mp7extmag",
 			"default_value" : 1
@@ -46,11 +46,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7foldst",
-			"title" : "wac_replace_unfoldst_title",
+			"title" : "bm_wp_mp7_s_long",
 			"callback" : "callback_toggle_replace_mp7foldst",		
 			"items" : [
 				"wac_default_multi",
-				"foldedst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_mp7foldst",
 			"default_value" : 1
@@ -62,15 +62,15 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7vertgrip",
-			"title" : "wac_replace_stndvertgrip_title",
+			"title" : "wac_replace_stndvg_title",
 			"callback" : "callback_toggle_replace_mp7vertgrip",		
 			"items" : [
 				"wac_default_multi",
-				"vertgrip_multi",
-				"hk416cvert_multi",
-				"hk416cvert_multi",
+				"wac_replace_vggeneric_title",
+				"bm_w_tecci",
+				"bm_w_hajk",
 				"hkfoldvert_multi",
-				"novertgrip_multi"
+				"wac_replace_novg_title"
 			],
 			"value" : "replace_mp7vertgrip",
 			"default_value" : 1

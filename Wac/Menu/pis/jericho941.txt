@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_jericho941comp",
-			"title" : "wac_replace_jericho941comp_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_jericho941comp",
 			"value" : "replace_jericho941comp",
 			"default_value" : false
@@ -18,7 +18,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jericho941grip",
-			"title" : "wac_replace_jericho941grip_title",
+			"title" : "bm_wp_sparrow_g_cowboy",
 			"callback" : "callback_toggle_replace_jericho941grip",		
 			"items" : [
 				"wac_default_multi",
@@ -34,11 +34,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jericho941body",
-			"title" : "wac_replace_jericho941spike_title",
+			"title" : "bm_wp_sparrow_body_941",
 			"callback" : "callback_toggle_replace_jericho941body",		
 			"items" : [
 				"wac_default_multi",
-				"stndbody_multi"
+				"wac_replace_stndframe_itle"
 			],
 			"value" : "replace_jericho941body",
 			"default_value" : 1

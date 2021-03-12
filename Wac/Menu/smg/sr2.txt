@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sr2magpulassist",
-			"title" : "bm_wp_ak_m_quick",
+			"title" : "bm_wp_sr2_m_quick",
 			"callback" : "callback_toggle_replace_sr2magpulassist",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi"
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_sr2magpulassist",
 			"default_value" : 1
@@ -34,12 +34,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sr2unfoldst",
-			"title" : "wac_replace_unfoldst_title",
+			"title" : "bm_wp_sr2_s_unfolded",
 			"callback" : "callback_toggle_replace_sr2unfoldst",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
-				"foldedst_multi"
+				"bm_wp_baka_s_standard",
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_sr2unfoldst",
 			"default_value" : 1

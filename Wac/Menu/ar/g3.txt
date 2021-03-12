@@ -40,9 +40,9 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g3_fg_railed",
-				"bm_wp_fal_fg_wood",
+				"bm_wp_g3_fg_retro",
 				"bm_wp_g3_fg_retro_plastic",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_g3foregripprecision",
 			"default_value" : 1
@@ -57,7 +57,7 @@
 				"bm_wp_g3_fg_psg",
 				"bm_wp_g3_fg_retro",
 				"bm_wp_g3_fg_retro_plastic",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_g3foregriptactical",
 			"default_value" : 1
@@ -72,7 +72,7 @@
 				"bm_wp_g3_fg_psg",
 				"bm_wp_g3_fg_railed",
 				"bm_wp_g3_fg_retro_plastic",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_g3foregripwooden",
 			"default_value" : 1
@@ -87,7 +87,7 @@
 				"bm_wp_g3_fg_psg",
 				"bm_wp_g3_fg_railed",
 				"bm_wp_g3_fg_retro",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_g3handguardplastic",
 			"default_value" : 1

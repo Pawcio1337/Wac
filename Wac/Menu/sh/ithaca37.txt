@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_ithaca37b",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_aug_b_short"
+				"bm_wp_m37_b_short"
 			],
 			"value" : "replace_ithaca37b",
 			"default_value" : 1
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ithaca37shortb",
-			"title" : "wac_replace_ithaca37shortb_title",
+			"title" : "bm_wp_m37_b_short",
 			"callback" : "callback_toggle_replace_ithaca37shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_ithaca37shortb",
 			"default_value" : 1
@@ -34,7 +34,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ithaca37sawedoffst",
-			"title" : "wac_replace_ithaca37sawedoffst_title",
+			"title" : "bm_wp_m37_s_short",
 			"callback" : "callback_toggle_replace_ithaca37sawedoffst",		
 			"items" : [
 				"wac_default_multi",

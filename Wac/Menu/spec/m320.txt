@@ -4,31 +4,19 @@
 	"title" : "bm_w_slap",
 	"items" : [
 		{
-			"type" : "toggle",
-			"id" : "toggle_replace_m320_nosight",
-			"title" : "wac_replace_disableladdersight_title",
-			"callback" : "callback_toggle_replace_m320_nosight",
-			"value" : "replace_m320_nosight",
-			"default_value" : false
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m320_vertgrip",
-			"title" : "wac_replace_stndvertgrip_title",
+			"title" : "wac_replace_stndvg_title",
 			"callback" : "callback_toggle_replace_m320_vertgrip",		
 			"items" : [
 				"wac_default_multi",
-				"stubbygrip_multi",
-				"vertgrip_multi",
-				"afg2_multi",
-				"hk416cvert_multi",
-				"vectorvert_multi",
+				"wac_replace_stubbygrip_title",
+				"wac_replace_vggeneric_title",
+				"wac_replace_afg2_title",
+				"bm_w_tecci",
+				"bm_w_polymer",
 				"bm_wp_schakal_vg_surefire",
-				"novertgrip_multi"
+				"wac_replace_novg_title"
 			],
 			"value" : "replace_m320_vertgrip",
 			"default_value" : 1

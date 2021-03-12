@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_sigmpxflashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_sigmpxflashhider",
 			"value" : "replace_sigmpxflashhider",
 			"default_value" : false
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sigmpxk_handguard",
-			"title" : "wac_replace_sigmpxk_title",
+			"title" : "bm_wp_shepheard_body_short",
 			"callback" : "callback_toggle_replace_sigmpxk_handguard",		
 			"items" : [
 				"wac_default_multi",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_sigmpxk_handguard",
 			"default_value" : 1
@@ -38,7 +38,7 @@
 			"callback" : "callback_toggle_replace_sigmpx_stnd_st",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_sigmpx_stnd_st",
 			"default_value" : 1
@@ -46,7 +46,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sigmpx_st_removed",
-			"title" : "wac_replace_nostock_title",
+			"title" : "bm_wp_shepheard_s_no",
 			"callback" : "callback_toggle_replace_sigmpx_st_removed",		
 			"items" : [
 				"wac_default_multi",

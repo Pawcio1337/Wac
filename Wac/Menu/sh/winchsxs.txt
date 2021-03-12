@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_winchsxsshortb",
-			"title" : "wac_replace_bs09shortb_title",
+			"title" : "bm_wp_coach_b_short",
 			"callback" : "callback_toggle_replace_winchsxsshortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_winchsxsshortb",
 			"default_value" : 1
@@ -22,7 +22,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_winchsxsshortst",
-			"title" : "wac_replace_m79sawoffst_title",
+			"title" : "bm_wp_coach_s_short",
 			"callback" : "callback_toggle_replace_winchsxsshortst",		
 			"items" : [
 				"wac_default_multi",

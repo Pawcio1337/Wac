@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_msrlongb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_snp_msr_b_long",
 			"callback" : "callback_toggle_replace_msrlongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_msrlongb",
 			"default_value" : 1
@@ -22,11 +22,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_msrbodyst",
-			"title" : "bm_wp_fal_s_wood",
+			"title" : "bm_wp_msr_body_msr",
 			"callback" : "callback_toggle_replace_msrbodyst",		
 			"items" : [
 				"wac_default_multi",
-				"msrstock_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_msrbodyst",
 			"default_value" : 1

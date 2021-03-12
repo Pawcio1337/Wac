@@ -18,7 +18,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ttitr1stock",
-			"title" : "wac_replace_stockuseonly_title",
+			"title" : "wac_replace_usestnd_title",
 			"callback" : "callback_toggle_replace_ttitr1stock",
 			"items" : [
 				"wac_default_multi",
@@ -27,7 +27,7 @@
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_upg_m4_s_crane",
-				"hk417st_multi"
+				"bm_w_contraband"
 			],
 			"value" : "replace_ttitr1stock",
 			"default_value" : 1

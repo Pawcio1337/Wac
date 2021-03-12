@@ -6,7 +6,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000longb",
-			"title" : "wac_replace_fnf2000longb_title",
+			"title" : "wac_replace_stndb_title",
 			"callback" : "callback_toggle_replace_fnf2000longb",		
 			"items" : [
 				"wac_default_multi",
@@ -22,7 +22,7 @@
 			"callback" : "callback_toggle_replace_fnf2000stndb",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_famas_b_long"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_fnf2000stndb",
 			"default_value" : 1
@@ -30,7 +30,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_fnf2000flashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_fnf2000flashhider",
 			"value" : "replace_fnf2000flashhider",
 			"default_value" : false
@@ -42,7 +42,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000stndbody",
-			"title" : "wac_replace_fnf2000stndbody_title",
+			"title" : "bm_wp_m4_s_standard",
 			"callback" : "callback_toggle_replace_fnf2000stndbody",		
 			"items" : [
 				"wac_default_multi",
@@ -58,7 +58,7 @@
 			"callback" : "callback_toggle_replace_fnf2000tanbody",		
 			"items" : [
 				"wac_default_multi",
-				"wac_fnf2000stndbody_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_fnf2000tanbody",
 			"default_value" : 1
@@ -70,17 +70,17 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805vertgrip",
-			"title" : "wac_replace_stndvertgrip_title",
+			"title" : "wac_replace_stndvg_title",
 			"callback" : "callback_toggle_replace_cz805vertgrip",		
 			"items" : [
 				"wac_default_multi",
 				"stubbygrip_multi",
-				"vertgrip_multi",
+				"wac_replace_vggeneric_title",
 				"afg2_multi",
-				"hk416cvert_multi",
-				"vectorvert_multi",
+				"bm_w_tecci",
+				"bm_w_polymer",
 				"bm_wp_schakal_vg_surefire",
-				"novertgrip_multi"
+				"wac_replace_novg_title"
 			],
 			"value" : "replace_cz805vertgrip",
 			"default_value" : 1

@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1928a1longb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_m1928_b_long",
 			"callback" : "callback_toggle_replace_m1928a1longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
-				"wac_stubbyb_multi"
+				"wac_replace_stndb_title",
+				"bm_wp_m1928_b_short"
 			],
 			"value" : "replace_m1928a1longb",
 			"default_value" : 1
@@ -27,7 +27,7 @@
 			"callback" : "callback_toggle_replace_m1928a1fg",		
 			"items" : [
 				"wac_default_multi",
-				"wac_discretefg_multi"
+				"bm_wp_m1928_fg_discrete"
 			],
 			"value" : "replace_m1928a1fg",
 			"default_value" : 1
@@ -35,11 +35,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1928a1blackfg",
-			"title" : "wac_replace_discretefg_title",
+			"title" : "bm_wp_m1928_fg_discrete",
 			"callback" : "callback_toggle_replace_m1928a1blackfg",		
 			"items" : [
 				"wac_default_multi",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_m1928a1blackfg",
 			"default_value" : 1
@@ -51,11 +51,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1928a1grip",
-			"title" : "wac_replace_stndgrip_title",
+			"title" : "bm_wp_1911_g_standard",
 			"callback" : "callback_toggle_replace_m1928a1grip",		
 			"items" : [
 				"wac_default_multi",
-				"wac_discretegrip_multi"
+				"bm_wp_m1928_g_discrete"
 			],
 			"value" : "replace_m1928a1grip",
 			"default_value" : 1
@@ -63,7 +63,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1928a1blackgrip",
-			"title" : "wac_replace_stndgrip_title",
+			"title" : "bm_wp_m1928_g_discrete",
 			"callback" : "callback_toggle_replace_m1928a1blackgrip",		
 			"items" : [
 				"wac_default_multi",
@@ -83,8 +83,8 @@
 			"callback" : "callback_toggle_replace_m1928a1st",		
 			"items" : [
 				"wac_default_multi",
-				"wac_slingst_multi",
-				"wac_discretest_multi"
+				"bm_wp_m1928_s_nostock",
+				"bm_wp_m1928_s_discrete"
 			],
 			"value" : "replace_m1928a1st",
 			"default_value" : 1
@@ -92,7 +92,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1928a1slingst",
-			"title" : "wac_replace_slingst_title",
+			"title" : "bm_wp_m1928_s_nostock",
 			"callback" : "callback_toggle_replace_m1928a1slingst",		
 			"items" : [
 				"wac_default_multi",
@@ -104,7 +104,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1928a1blackst",
-			"title" : "wac_replace_discretest_title",
+			"title" : "bm_wp_m1928_s_discrete",
 			"callback" : "callback_toggle_replace_m1928a1blackst",		
 			"items" : [
 				"wac_default_multi",
@@ -121,7 +121,7 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
-				"wac_discretest_multi"
+				"bm_wp_m1928_s_discrete"
 			],
 			"value" : "replace_m1928a1x_st",
 			"default_value" : 1

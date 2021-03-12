@@ -13,7 +13,7 @@
 				"bm_wp_galil_fg_mar",
 				"bm_wp_galil_fg_sar",
 				"bm_wp_galil_fg_sniper",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_galiltacfg",
 			"default_value" : 1
@@ -28,7 +28,7 @@
 				"bm_wp_galil_fg_fab",
 				"bm_wp_galil_fg_sar",
 				"bm_wp_galil_fg_sniper",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_galilmicro",
 			"default_value" : 1
@@ -43,7 +43,7 @@
 				"bm_wp_galil_fg_fab",
 				"bm_wp_galil_fg_mar",
 				"bm_wp_galil_fg_sniper",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_galilsarfg",
 			"default_value" : 1
@@ -58,7 +58,7 @@
 				"bm_wp_galil_fg_mar",
 				"bm_wp_galil_fg_fab",
 				"bm_wp_galil_fg_sar",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_galatzfg",
 			"default_value" : 1
@@ -96,7 +96,7 @@
 				"bm_wp_galil_s_sniper",
 				"bm_wp_galil_s_wood",
 				"bm_wp_m4_s_standard",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
@@ -118,7 +118,7 @@
 				"bm_wp_galil_s_sniper",
 				"bm_wp_galil_s_wood",
 				"bm_wp_m4_s_standard",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
@@ -140,7 +140,7 @@
 				"bm_wp_galil_s_skeletal",
 				"bm_wp_galil_s_wood",
 				"bm_wp_m4_s_standard",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
@@ -162,7 +162,7 @@
 				"bm_wp_galil_s_skeletal",
 				"bm_wp_galil_s_sniper",
 				"bm_wp_m4_s_standard",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",

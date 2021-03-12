@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_ak12pbs1",
-			"title" : "wac_replace_pbs1supp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_ak12pbs1",
 			"value" : "replace_ak12pbs1",
 			"default_value" : false
@@ -14,7 +14,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_ak12flashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_ak12flashhider",
 			"value" : "replace_ak12flashhider",
 			"default_value" : false
@@ -42,11 +42,11 @@
 			"callback" : "callback_toggle_replace_ak12quad",		
 			"items" : [
 				"wac_default_multi",
-				"rpkmag_multi",
-				"rpkdrummag_multi",
-				"ak12mag_multi",
-				"ak74mag_multi",
-				"akmmag_multi",
+				"bm_w_rpk",
+				"bm_wp_aa12_mag_drum",
+				"bm_w_ak12",
+				"bm_w_ak74",
+				"bm_w_akm",
 				"bm_wp_upg_ak_m_uspalm"
 			],
 			"value" : "replace_ak12quad",
@@ -59,9 +59,9 @@
 			"callback" : "callback_toggle_replace_ak12uspalm",		
 			"items" : [
 				"wac_default_multi",
-				"ak12mag_multi",
-				"ak74mag_multi",
-				"akmmag_multi"
+				"bm_w_ak12",
+				"bm_w_ak74",
+				"bm_w_akm"
 			],
 			"value" : "replace_ak12uspalm",
 			"default_value" : 1
@@ -73,9 +73,9 @@
 			"callback" : "callback_toggle_replace_ak12magpulassist",		
 			"items" : [
 				"wac_default_multi",
-				"ak12mag_multi",
-				"ak74mag_multi",
-				"akmmag_multi"
+				"bm_w_ak12",
+				"bm_w_ak74",
+				"bm_w_akm"
 			],
 			"value" : "replace_ak12magpulassist",
 			"default_value" : 1

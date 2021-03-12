@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspcomp2",
-			"title" : "wac_replace_velocitycomp_title",
+			"title" : "bm_wp_usp_co_comp_2",
 			"callback" : "callback_toggle_replace_uspcomp2",		
 			"items" : [
 				"wac_default_multi",
-				"pisflashhider_multi",
-				"pistenderizer_multi"
+				"bm_wp_upg_pis_ns_flash",
+				"bm_wp_upg_ns_meatgrinder"
 			],
 			"value" : "replace_uspcomp2",
 			"default_value" : 1
@@ -35,12 +35,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspexpert",
-			"title" : "wac_replace_uspexpert_title",
+			"title" : "bm_wp_pis_usp_b_expert",
 			"callback" : "callback_toggle_replace_uspexpert",		
 			"items" : [
 				"wac_default_multi",
-				"uspmatchsl_multi",
-				"stndslide_multi"
+				"bm_wp_pis_usp_b_match",
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_uspexpert",
 			"default_value" : 1
@@ -48,12 +48,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspmatch",
-			"title" : "wac_replace_uspmatch_title",
+			"title" : "bm_wp_pis_usp_b_match",
 			"callback" : "callback_toggle_replace_uspmatch",		
 			"items" : [
 				"wac_default_multi",
-				"uspexpertsl_multi",
-				"stndslide_multi"
+				"bm_wp_pis_usp_b_expert",
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_uspmatch",
 			"default_value" : 1

@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltbuntlineb",
-			"title" : "wac_replace_precisionb_title",
+			"title" : "bm_wp_peacemaker_barrel_long",
 			"callback" : "callback_toggle_replace_coltbuntlineb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_coltsaashortb_multi",
-				"wac_stndb_multi"
+				"bm_wp_peacemaker_barrel_short",
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_coltbuntlineb",
 			"default_value" : 1
@@ -23,7 +23,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltssabling",
-			"title" : "wac_replace_coltssabling_title",
+			"title" : "bm_wp_peacemaker_handle_bling",
 			"callback" : "callback_toggle_replace_coltssabling",		
 			"items" : [
 				"wac_default_multi",
@@ -39,11 +39,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltsaastock",
-			"title" : "wac_replace_coltsaast_title",
+			"title" : "bm_wp_peacemaker_rifle_stock",
 			"callback" : "callback_toggle_replace_coltsaastock",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_coltsaastock",
 			"default_value" : 1

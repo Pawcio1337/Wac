@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_scarhlongb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_scar_b_long",
 			"callback" : "callback_toggle_replace_scarhlongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
-				"bm_wp_aug_b_short"
+				"wac_replace_stndb_title",
+				"bm_wp_scar_b_short"
 			],
 			"value" : "replace_scarhlongb",
 			"default_value" : 1
@@ -19,7 +19,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_scarhflashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_scarhflashhider",
 			"value" : "replace_scarhflashhider",
 			"default_value" : false
@@ -31,11 +31,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_scarsrxrail",
-			"title" : "wac_replace_scarsrxrail_title",
+			"title" : "bm_wp_scar_fg_railext",
 			"callback" : "callback_toggle_replace_scarsrxrail",		
 			"items" : [
 				"wac_default_multi",
-				"noextrail_multi"
+				"wac_replace_noextrarail_title"
 			],
 			"value" : "replace_scarsrxrail",
 			"default_value" : 1
@@ -51,11 +51,11 @@
 			"callback" : "callback_toggle_replace_afg2",		
 			"items" : [
 				"wac_default_multi",
-				"stubbygrip_multi",
-				"vertgrip_multi",
-				"hk416cvert_multi",
-				"vectorvert_multi",
-				"novertgrip_multi",
+				"wac_replace_stubbygrip_title",
+				"wac_replace_vggeneric_title",
+				"bm_w_tecci",
+				"bm_w_polymer",
+				"wac_replace_novg_title",
 				"bm_wp_schakal_vg_surefire"
 			],
 			"value" : "replace_afg2",
@@ -68,12 +68,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_scarhsnipstock",
-			"title" : "bm_wp_g36_s_sl8",
+			"title" : "bm_wp_scar_s_sniper",
 			"callback" : "callback_toggle_replace_scarhsnipstock",		
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
-				"bm_wp_m4_s_standard",
+				"bm_w_m4",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
 				"bm_wp_tti_s_vltor"

@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rcomp2",
-			"title" : "wac_replace_velocitycomp_title",
+			"title" : "bm_wp_p226_co_comp_2",
 			"callback" : "callback_toggle_replace_p226rcomp2",		
 			"items" : [
 				"wac_default_multi",
-				"pisflashhider_multi",
-				"pistenderizer_multi"
+				"bm_wp_upg_pis_ns_flash",
+				"bm_wp_upg_ns_meatgrinder"
 			],
 			"value" : "replace_p226rcomp2",
 			"default_value" : 1
@@ -23,7 +23,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rergogrip",
-			"title" : "wac_replace_ergogrip_title",
+			"title" : "bm_wp_p226_g_ergo",
 			"callback" : "callback_toggle_replace_p226rergogrip",		
 			"items" : [
 				"wac_default_multi",
@@ -51,12 +51,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226requinox",
-			"title" : "wac_replace_twotonesl_title",
+			"title" : "bm_wp_p226_b_equinox",
 			"callback" : "callback_toggle_replace_p226requinox",		
 			"items" : [
 				"wac_default_multi",
-				"longsl_multi",
-				"stndslide_multi"
+				"bm_wp_p226_b_long",
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_p226requinox",
 			"default_value" : 1
@@ -64,12 +64,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rlong",
-			"title" : "wac_replace_longsl_title",
+			"title" : "bm_wp_p226_b_long",
 			"callback" : "callback_toggle_replace_p226rlong",		
 			"items" : [
 				"wac_default_multi",
-				"twotonetsl_multi",
-				"stndslide_multi"
+				"bm_wp_p226_b_equinox",
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_p226rlong",
 			"default_value" : 1

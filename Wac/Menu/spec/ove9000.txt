@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ove9ksilentmotor",
-			"title" : "wac_replace_ove9ksilentmotor_title",
+			"title" : "bm_wp_saw_body_silent",
 			"callback" : "callback_toggle_replace_ove9ksilentmotor",		
 			"items" : [
 				"wac_default_multi",
-				"ove9kbainmotor_multi",
-				"ove9kstndmotor_multi"
+				"bm_wp_saw_body_speed",
+				"wac_replace_stndrec_title"
 			],
 			"value" : "replace_ove9ksilentmotor",
 			"default_value" : 1
@@ -19,12 +19,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ove9kbainmotor",
-			"title" : "wac_replace_ove9kbainmotor_title",
+			"title" : "bm_wp_saw_body_speed",
 			"callback" : "callback_toggle_replace_ove9kbainmotor",		
 			"items" : [
 				"wac_default_multi",
-				"ove9ksilentmotor_multi",
-				"ove9kstndmotor_multi"
+				"bm_wp_saw_body_silent",
+				"wac_replace_stndrec_title"
 			],
 			"value" : "replace_ove9kbainmotor",
 			"default_value" : 1
@@ -36,12 +36,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ovk9kdurableblade",
-			"title" : "wac_replace_durableblade_title",
+			"title" : "bm_wp_saw_m_blade_durable",
 			"callback" : "callback_toggle_replace_ovk9kdurableblade",		
 			"items" : [
 				"wac_default_multi",
-				"ove9ksharpblade_multi",
-				"ove9kstndblade_multi"
+				"bm_wp_saw_m_blade_sharp",
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_ovk9kdurableblade",
 			"default_value" : 1
@@ -49,12 +49,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ovk9ksharpblade",
-			"title" : "wac_replace_sharpblade_title",
+			"title" : "bm_wp_saw_m_blade_sharp",
 			"callback" : "callback_toggle_replace_ovk9ksharpblade",		
 			"items" : [
 				"wac_default_multi",
-				"ove9kdurableblade_multi",
-				"ove9kstndblade_multi"
+				"bm_wp_saw_m_blade_durable",
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_ovk9ksharpblade",
 			"default_value" : 1

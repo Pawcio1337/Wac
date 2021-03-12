@@ -6,17 +6,17 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_arsupp_bigger",
-			"title" : "wac_replace_arsupp_bigger_title",
+			"title" : "bm_wp_upg_ns_ass_smg_large",
 			"callback" : "callback_toggle_replace_arsupp_bigger",		
 			"items" : [
 				"wac_default_multi",
-				"lowprofile_multi",
-				"mediumsupp_multi",
-				"silentkiller_multi",
-				"salvo12_multi",
-				"pis_large_multi",
-				"pis_medium_slim_multi",
-				"oil_filter_multi",
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick",
+				"bm_wp_upg_ns_sho_salvo_large",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_ass_filter",
 				"wac_selectable_multi",
 				"wac_selectable2_multi"
 			],
@@ -26,17 +26,17 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_arsupp_medium",
-			"title" : "wac_replace_arsupp_medium_title",
+			"title" : "bm_wp_upg_ns_ass_smg_medium",
 			"callback" : "callback_toggle_replace_arsupp_medium",		
 			"items" : [
 				"wac_default_multi",
-				"lowprofile_multi",
-				"biggersupp_multi",
-				"silentkiller_multi",
-				"salvo12_multi",
-				"pis_large_multi",
-				"pis_medium_slim_multi",
-				"oil_filter_multi",
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_large",
+				"bm_wp_upg_ns_shot_thick",
+				"bm_wp_upg_ns_sho_salvo_large",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_ass_filter",
 				"wac_selectable_multi",
 				"wac_selectable2_multi"
 			],
@@ -46,17 +46,17 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_arsupp_lowprofile",
-			"title" : "wac_replace_arsupp_lowprofile_title",
+			"title" : "bm_wp_upg_ns_ass_smg_small",
 			"callback" : "callback_toggle_replace_arsupp_lowprofile",		
 			"items" : [
 				"wac_default_multi",
-				"biggersupp_multi",
-				"mediumsupp_multi",
-				"silentkiller_multi",
-				"salvo12_multi",
-				"pis_large_multi",
-				"pis_medium_slim_multi",
-				"oil_filter_multi",
+				"bm_wp_upg_ns_ass_smg_large",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick",
+				"bm_wp_upg_ns_sho_salvo_large",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_ass_filter",
 				"wac_selectable_multi",
 				"wac_selectable2_multi"
 			],
@@ -69,12 +69,12 @@
 			"title" : "wac_replace_selectablemodel_title",
 			"callback" : "callback_toggle_replace_selectablesupp",		
 			"items" : [
-				"mp7qdsupp_multi",
-				"vectorhps_multi",
-				"cobraysupp_multi",
-				"mp9supp_multi",
-				"wac_sr2supp_multi",
-				"wac_gm45_multi"
+				"bm_w_mp7",
+				"bm_w_polymer",
+				"bm_w_cobray",
+				"bm_w_mp9",
+				"bm_w_sr2",
+				"bm_w_schakal"
 			],
 			"value" : "replace_selectablesupp",
 			"default_value" : 1
@@ -85,12 +85,12 @@
 			"title" : "wac_replace_selectablemodel2_title",
 			"callback" : "callback_toggle_replace_selectablesupp2",		
 			"items" : [
-				"mp7qdsupp_multi",
-				"vectorhps_multi",
-				"cobraysupp_multi",
-				"mp9supp_multi",
-				"wac_sr2supp_multi",
-				"wac_gm45_multi"
+				"bm_w_mp7",
+				"bm_w_polymer",
+				"bm_w_cobray",
+				"bm_w_mp9",
+				"bm_w_sr2",
+				"bm_w_schakal"
 			],
 			"value" : "replace_selectablesupp2",
 			"default_value" : 1
@@ -102,12 +102,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_salvo12",
-			"title" : "wac_replace_salvo12_title",
+			"title" : "bm_wp_upg_ns_sho_salvo_large",
 			"callback" : "callback_toggle_replace_salvo12",		
 			"items" : [
 				"wac_default_multi",
-				"biggersupp_multi",
-				"silentkiller_multi"
+				"bm_wp_upg_ns_ass_smg_large",
+				"bm_wp_upg_ns_shot_thick"
 			],
 			"value" : "replace_salvo12",
 			"default_value" : 1
@@ -115,12 +115,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shotsupp_silent",
-			"title" : "wac_replace_shotsupp_silent_title",
+			"title" : "bm_wp_upg_ns_shot_thick",
 			"callback" : "callback_toggle_replace_shotsupp_silent",		
 			"items" : [
 				"wac_default_multi",
-				"biggersupp_multi",
-				"salvo12_multi"
+				"bm_wp_upg_ns_ass_smg_large",
+				"bm_wp_upg_ns_sho_salvo_large"
 			],
 			"value" : "replace_shotsupp_silent",
 			"default_value" : 1
@@ -132,19 +132,19 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_medium_slim",
-			"title" : "wac_replace_pis_medium_slim_title",
+			"title" : "bm_wp_upg_ns_pis_medium_slim",
 			"callback" : "callback_toggle_replace_pis_medium_slim",		
 			"items" : [
 				"wac_default_multi",
-				"pis_stndsupp_multi",
-				"pis_large_multi",
-				"pis_medium_gem_multi",
-				"pis_large_kac_multi",
-				"snakesupp_multi",
-				"oil_filter_multi",
-				"lowprofile_multi",
-				"mediumsupp_multi",
-				"silentkiller_multi"
+				"bm_wp_upg_ns_pis_medium",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_medium_gem",
+				"bm_wp_upg_ns_large_kac",
+				"bm_wp_upg_ns_pis_jungle",
+				"bm_wp_upg_ns_ass_filter",
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick"
 			],
 			"value" : "replace_pis_medium_slim",
 			"default_value" : 1
@@ -152,19 +152,19 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_large_kac",
-			"title" : "wac_replace_pis_large_kac_title",
+			"title" : "bm_wp_upg_ns_large_kac",
 			"callback" : "callback_toggle_replace_pis_large_kac",		
 			"items" : [
 				"wac_default_multi",
-				"pis_stndsupp_multi",
-				"pis_large_multi",
-				"pis_medium_slim_multi",
-				"pis_medium_gem_multi",
-				"snakesupp_multi",
-				"oil_filter_multi",
-				"lowprofile_multi",
-				"mediumsupp_multi",
-				"silentkiller_multi"
+				"bm_wp_upg_ns_pis_medium",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_medium_gem",
+				"bm_wp_upg_ns_pis_jungle",
+				"bm_wp_upg_ns_ass_filter",
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick"
 			],
 			"value" : "replace_pis_large_kac",
 			"default_value" : 1
@@ -172,19 +172,19 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_snakesupp",
-			"title" : "wac_replace_snakesupp_title",
+			"title" : "bm_wp_upg_ns_pis_jungle",
 			"callback" : "callback_toggle_replace_snakesupp",		
 			"items" : [
 				"wac_default_multi",
-				"pis_stndsupp_multi",
-				"pis_large_multi",
-				"pis_medium_slim_multi",
-				"pis_medium_gem_multi",
-				"pis_large_kac_multi",
-				"oil_filter_multi",
-				"lowprofile_multi",
-				"mediumsupp_multi",
-				"silentkiller_multi"
+				"bm_wp_upg_ns_pis_medium",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_medium_gem",
+				"bm_wp_upg_ns_large_kac",
+				"bm_wp_upg_ns_ass_filter",
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick"
 			],
 			"value" : "replace_snakesupp",
 			"default_value" : 1
@@ -192,19 +192,19 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_medium_gem",
-			"title" : "wac_replace_pis_medium_gem_title",
+			"title" : "bm_wp_upg_ns_medium_gem",
 			"callback" : "callback_toggle_replace_pis_medium_gem",		
 			"items" : [
 				"wac_default_multi",
-				"pis_stndsupp_multi",
-				"pis_large_multi",
-				"pis_medium_slim_multi",
-				"pis_large_kac_multi",
-				"snakesupp_multi",
-				"oil_filter_multi",
-				"lowprofile_multi",
-				"mediumsupp_multi",
-				"silentkiller_multi"
+				"bm_wp_upg_ns_pis_medium",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_large_kac",
+				"bm_wp_upg_ns_pis_jungle",
+				"bm_wp_upg_ns_ass_filter",
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick"
 			],
 			"value" : "replace_pis_medium_gem",
 			"default_value" : 1
@@ -212,20 +212,20 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_small",
-			"title" : "wac_replace_pis_small_title",
+			"title" : "bm_wp_upg_ns_pis_small",
 			"callback" : "callback_toggle_replace_pis_small",		
 			"items" : [
 				"wac_default_multi",
-				"pis_stndsupp_multi",
-				"pis_large_multi",
-				"pis_medium_slim_multi",
-				"pis_medium_gem_multi",
-				"pis_large_kac_multi",
-				"snakesupp_multi",
-				"oil_filter_multi",
-				"lowprofile_multi",
-				"mediumsupp_multi",
-				"silentkiller_multi"
+				"bm_wp_upg_ns_pis_medium",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_medium_gem",
+				"bm_wp_upg_ns_large_kac",
+				"bm_wp_upg_ns_pis_jungle",
+				"bm_wp_upg_ns_ass_filter",
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick"
 			],
 			"value" : "replace_pis_small",
 			"default_value" : 1

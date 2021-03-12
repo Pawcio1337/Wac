@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61ergo",
-			"title" : "wac_replace_ergogrip_title",
+			"title" : "bm_wp_scorpion_g_ergo",
 			"callback" : "callback_toggle_replace_vz61ergo",		
 			"items" : [
 				"wac_default_multi",
-				"woodengrip_multi",
+				"bm_wp_scorpion_g_wood",
 				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_vz61ergo",
@@ -31,11 +31,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61woodgrip",
-			"title" : "wac_replace_woodengrip_title",
+			"title" : "bm_wp_scorpion_g_wood",
 			"callback" : "callback_toggle_replace_vz61woodgrip",		
 			"items" : [
 				"wac_default_multi",
-				"ergogrip_multi",
+				"bm_wp_scorpion_g_ergo",
 				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_vz61woodgrip",
@@ -60,12 +60,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61nost",
-			"title" : "wac_replace_nostock_title",
+			"title" : "bm_wp_baka_s_standard",
 			"callback" : "callback_toggle_replace_vz61nost",		
 			"items" : [
 				"wac_default_multi",
-				"unbm_wp_ak_s_folding",
-				"foldedst_multi"
+				"bm_wp_scorpion_s_unfolded",
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_vz61nost",
 			"default_value" : 1
@@ -73,12 +73,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61unfoldst",
-			"title" : "wac_replace_unfoldst_title",
+			"title" : "bm_wp_scorpion_s_unfolded",
 			"callback" : "callback_toggle_replace_vz61unfoldst",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
-				"foldedst_multi"
+				"bm_wp_baka_s_standard",
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_vz61unfoldst",
 			"default_value" : 1

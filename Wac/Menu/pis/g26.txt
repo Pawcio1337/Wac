@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26bodytan",
-			"title" : "wac_replace_g26bodytan_title",
+			"title" : "bm_wp_g26_body_salient",
 			"callback" : "callback_toggle_replace_g26bodytan",		
 			"items" : [
 				"wac_default_multi",
-				"stndbody_multi"
+				"wac_replace_stndframe_itle"
 			],
 			"value" : "replace_g26bodytan",
 			"default_value" : 1
@@ -22,11 +22,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26magtan",
-			"title" : "wac_replace_g26magtan_title",
+			"title" : "bm_wp_g26_m_custom",
 			"callback" : "callback_toggle_replace_g26magtan",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi",
+				"bm_wp_g18c_m_mag_17rnd",
 				"bm_wp_fal_m_01"
 			],
 			"value" : "replace_g26magtan",
@@ -35,12 +35,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26ext",
-			"title" : "bm_wp_fal_m_01",
+			"title" : "bm_wp_g18c_m_mag_33rnd",
 			"callback" : "callback_toggle_replace_g26ext",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi",
-				"g26tanmag_multi"
+				"bm_wp_g18c_m_mag_17rnd",
+				"bm_wp_g26_m_custom"
 			],
 			"value" : "replace_g26ext",
 			"default_value" : 1
@@ -52,11 +52,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26slidetan",
-			"title" : "wac_replace_g26slidetan_title",
+			"title" : "bm_wp_g26_b_custom",
 			"callback" : "callback_toggle_replace_g26slidetan",		
 			"items" : [
 				"wac_default_multi",
-				"stndslide_multi"
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_g26slidetan",
 			"default_value" : 1

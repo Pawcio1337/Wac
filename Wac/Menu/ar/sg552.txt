@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sg552longb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_ass_s552_b_long",
 			"callback" : "callback_toggle_replace_sg552longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_sg552longb",
 			"default_value" : 1
@@ -22,12 +22,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sg552enhfg",
-			"title" : "wac_replace_sg552enhfg_title",
+			"title" : "bm_wp_ass_s552_fg_standard_green",
 			"callback" : "callback_toggle_replace_sg552enhfg",		
 			"items" : [
 				"wac_default_multi",
-				"railfg_multi",
-				"stndfg_multi"
+				"bm_wp_ass_s552_fg_railed",
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_sg552enhfg",
 			"default_value" : 1
@@ -35,12 +35,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sg553railedfg",
-			"title" : "wac_replace_railedfg_title",
+			"title" : "bm_wp_ass_s552_fg_railed",
 			"callback" : "callback_toggle_replace_sg553railedfg",		
 			"items" : [
 				"wac_default_multi",
-				"sg552enhfg_multi",
-				"stndfg_multi"
+				"bm_wp_ass_s552_fg_standard_green",
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_sg553railedfg",
 			"default_value" : 1
@@ -52,7 +52,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sg552grip",
-			"title" : "wac_replace_sg552grip_title",
+			"title" : "bm_wp_ass_s552_g_standard_green",
 			"callback" : "callback_toggle_replace_sg552grip",		
 			"items" : [
 				"wac_default_multi",
@@ -68,13 +68,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sg552stock",
-			"title" : "wac_replace_stockuseonly_title",
+			"title" : "wac_replace_usestnd_title",
 			"callback" : "callback_toggle_replace_sg552stock",		
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
-				"sgenhst_multi",
-				"nostock_multi"
+				"bm_wp_ass_s552_s_standard_green",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_sg552stock",
 			"default_value" : 1
@@ -90,7 +90,7 @@
 			"callback" : "callback_toggle_replace_sg552receiver",		
 			"items" : [
 				"wac_default_multi",
-				"sgblackrec_multi"
+				"bm_wp_ass_s552_body_standard_black"
 			],
 			"value" : "replace_sg552receiver",
 			"default_value" : 1
@@ -98,11 +98,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sg552blackreceiver",
-			"title" : "wac_replace_sg552blackrec_title",
+			"title" : "bm_wp_ass_s552_body_standard_black",
 			"callback" : "callback_toggle_replace_sg552blackreceiver",		
 			"items" : [
 				"wac_default_multi",
-				"stnduprec_multi"
+				"wac_replace_stndrec_title"
 			],
 			"value" : "replace_sg552blackreceiver",
 			"default_value" : 1

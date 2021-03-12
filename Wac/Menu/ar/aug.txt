@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_auglongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_aug_b_short"
 			],
 			"value" : "replace_auglongb",
@@ -27,7 +27,7 @@
 			"callback" : "callback_toggle_replace_augextrarail",		
 			"items" : [
 				"wac_default_multi",
-				"noextrail_multi"
+				"wac_replace_noextrarail_title"
 			],
 			"value" : "replace_augextrarail",
 			"default_value" : 1
@@ -43,7 +43,7 @@
 			"callback" : "callback_toggle_replace_augf90body",		
 			"items" : [
 				"wac_default_multi",
-				"stndbody_multi"
+				"wac_replace_stndrec_title"
 			],
 			"value" : "replace_augf90body",
 			"default_value" : 1
@@ -71,12 +71,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ironsightsaug",
-			"title" : "wac_replace_ironsights_title",
+			"title" : "bm_wp_model70_iron_sight",
 			"callback" : "callback_toggle_replace_ironsightsaug",		
 			"items" : [
 				"wac_default_multi",
-				"ironsightdd_multi",
-				"ironsightmbus_multi"
+				"bm_w_ksg",
+				"bm_wp_upg_o_mbus_rear"
 			],
 			"value" : "replace_ironsightsaug",
 			"default_value" : 1

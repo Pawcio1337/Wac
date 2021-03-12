@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r93woodbody",
-			"title" : "wac_replace_r93woodst_title",
+			"title" : "bm_wp_r93_body_wood",
 			"callback" : "callback_toggle_replace_r93woodbody",		
 			"items" : [
 				"wac_default_multi",
-				"stndbody_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_r93woodbody",
 			"default_value" : 1

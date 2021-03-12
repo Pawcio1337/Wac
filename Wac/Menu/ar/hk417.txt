@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_hk417comp",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_hk417comp",
 			"value" : "replace_hk417comp",
 			"default_value" : false
@@ -22,12 +22,12 @@
 			"callback" : "callback_toggle_replace_hk417stndst",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_m4_s_standard",
+				"bm_w_m4",
 				"bm_wp_m4_s_pts",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
 				"bm_wp_tti_s_vltor",
-				"hk416cst_multi"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_hk417stndst",
 			"default_value" : 1

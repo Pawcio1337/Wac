@@ -10,9 +10,9 @@
 			"callback" : "callback_toggle_replace_ak74dracob",		
 			"items" : [
 				"wac_default_multi",
-				"wac_ak74b_multi",
-				"wac_akmb_multi",
-				"wac_rpkb_multi"
+				"bm_w_ak74",
+				"bm_w_akm",
+				"bm_w_rpk"
 			],
 			"value" : "replace_ak74dracob",
 			"default_value" : 1
@@ -24,10 +24,10 @@
 			"callback" : "callback_toggle_replace_ak74modernb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_ak74b_multi",
-				"wac_akmb_multi",
+				"bm_w_ak74",
+				"bm_w_akm",
 				"bm_wp_upg_ak_b_draco",
-				"wac_rpkb_multi"
+				"bm_w_rpk"
 			],
 			"value" : "replace_ak74modernb",
 			"default_value" : 1
@@ -39,9 +39,9 @@
 			"callback" : "callback_toggle_replace_ak74zastava",		
 			"items" : [
 				"wac_default_multi",
-				"wac_ak74b_multi",
-				"wac_akmb_multi",
-				"wac_rpkb_multi"
+				"bm_w_ak74",
+				"bm_w_akm",
+				"bm_w_rpk"
 			],
 			"value" : "replace_ak74zastava",
 			"default_value" : 1
@@ -49,7 +49,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_ak74pbs1",
-			"title" : "wac_replace_pbs1supp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_ak74pbs1",
 			"value" : "replace_ak74pbs1",
 			"default_value" : false
@@ -65,10 +65,10 @@
 			"callback" : "callback_toggle_replace_ak74quad",		
 			"items" : [
 				"wac_default_multi",
-				"rpkmag_multi",
-				"rpkdrummag_multi",
-				"ak74mag_multi",
-				"akmmag_multi",
+				"bm_w_rpk",
+				"bm_wp_aa12_mag_drum",
+				"bm_w_ak74",
+				"bm_w_akm",
 				"bm_wp_upg_ak_m_uspalm"
 			],
 			"value" : "replace_ak74quad",
@@ -81,8 +81,8 @@
 			"callback" : "callback_toggle_replace_ak74uspalm",		
 			"items" : [
 				"wac_default_multi",
-				"ak74mag_multi",
-				"akmmag_multi"
+				"bm_w_ak74",
+				"bm_w_akm"
 			],
 			"value" : "replace_ak74uspalm",
 			"default_value" : 1
@@ -94,8 +94,8 @@
 			"callback" : "callback_toggle_replace_ak74magpulassist",		
 			"items" : [
 				"wac_default_multi",
-				"ak74mag_multi",
-				"akmmag_multi"
+				"bm_w_ak74",
+				"bm_w_akm"
 			],
 			"value" : "replace_ak74magpulassist",
 			"default_value" : 1
@@ -111,14 +111,14 @@
 			"callback" : "callback_toggle_replace_ak74stock1",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_ak_s_skfoldable",
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi"
+				"bm_w_galil"
 			],
 			"value" : "replace_ak74stock1",
 			"default_value" : 1
@@ -135,12 +135,12 @@
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi",
-				"nostock_multi"
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_ak74stock4",
 			"default_value" : 1
@@ -157,12 +157,12 @@
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi",
-				"nostock_multi"
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_ak74stock2",
 			"default_value" : 1
@@ -178,12 +178,12 @@
 				"bm_wp_ak_s_folding",
 				"bm_wp_ak_s_psl",
 				"bm_wp_rpk_s_standard",
-				"rpkwoodst_multi",
+				"bm_w_rpk",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"akgalilst_multi",
-				"nostock_multi"
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_ak74stock3",
 			"default_value" : 1
@@ -195,11 +195,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74upperrec",
-			"title" : "wac_replace_upperrec_title",
+			"title" : "bm_menu_upper_reciever",
 			"callback" : "callback_toggle_replace_ak74upperrec",		
 			"items" : [
 				"wac_default_multi",
-				"akribbedcover_multi"
+				"wac_replace_ribcover_title"
 			],
 			"value" : "replace_ak74upperrec",
 			"default_value" : 1

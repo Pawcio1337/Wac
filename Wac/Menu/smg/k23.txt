@@ -23,21 +23,21 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_k23railfg",
-			"title" : "wac_replace_k23railfg_title",
+			"title" : "bm_wp_olympic_fg_railed",
 			"callback" : "callback_toggle_replace_k23railfg",		
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_smg_olympic_fg_lr300",
-				"m733fg_multi",
+				"bm_w_amcar",
 				"bm_wp_m4_uupg_fg_lr300",
 				"bm_wp_upg_fg_jp",
 				"bm_wp_upg_fg_smr",
 				"bm_wp_upg_ass_m4_fg_lvoa",
 				"bm_wp_upg_ass_m4_fg_moe",
-				"m4fg_multi",
+				"bm_w_m4",
 				"bm_wp_m16_fg_railed",
 				"bm_wp_upg_ass_m16_fg_stag",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_k23railfg",
 			"default_value" : 1
@@ -45,21 +45,21 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_k23afterfg",
-			"title" : "wac_replace_k23afterfg_title",
+			"title" : "bm_wp_upg_smg_olympic_fg_lr300",
 			"callback" : "callback_toggle_replace_k23afterfg",		
 			"items" : [
 				"wac_default_multi",
-				"k23railfg_multi",
-				"m733fg_multi",
+				"bm_wp_olympic_fg_railed",
+				"bm_w_amcar",
 				"bm_wp_m4_uupg_fg_lr300",
 				"bm_wp_upg_fg_jp",
 				"bm_wp_upg_fg_smr",
 				"bm_wp_upg_ass_m4_fg_lvoa",
 				"bm_wp_upg_ass_m4_fg_moe",
-				"m4fg_multi",
+				"bm_w_m4",
 				"bm_wp_m16_fg_railed",
 				"bm_wp_upg_ass_m16_fg_stag",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_k23afterfg",
 			"default_value" : 1
@@ -71,16 +71,16 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_k23stock1",
-			"title" : "wac_replace_k23pst_title",
+			"title" : "bm_wp_olympic_s_short",
 			"callback" : "callback_toggle_replace_k23stock1",		
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
-				"m16bm_wp_g36_fg_k",
+				"bm_w_m16",
 				"bm_wp_upg_m4_s_crane",
-				"hk416cst_multi",
+				"bm_w_tecci",
 				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_k23stock1",
@@ -93,13 +93,13 @@
 			"callback" : "callback_toggle_replace_k23stock2",		
 			"items" : [
 				"wac_default_multi",
-				"k23pst_multi",
+				"bm_wp_olympic_s_short",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
-				"m16bm_wp_g36_fg_k",
+				"bm_w_m16",
 				"bm_wp_upg_m4_s_crane",
-				"hk416cst_multi",
+				"bm_w_tecci",
 				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_k23stock2",
@@ -112,10 +112,10 @@
 			"callback" : "callback_toggle_replace_k23x_st",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_standard",
-				"m16bm_wp_g36_fg_k",
+				"bm_w_m16",
 				"bm_wp_upg_m4_s_ubr",
 				"bm_wp_tti_s_vltor"
 			],
@@ -129,7 +129,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_k23_m4a1sight",
-			"title" : "wac_replace_m4a1sight_title",
+			"title" : "bm_wp_model70_iron_sight",
 			"callback" : "callback_toggle_replace_k23_m4a1sight",
 			"value" : "replace_k23_m4a1sight",
 			"default_value" : false

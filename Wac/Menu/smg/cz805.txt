@@ -24,7 +24,7 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_hajk_b_medium",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_cz805shortb",
 			"default_value" : 1
@@ -37,7 +37,7 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_hajk_b_short",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_cz805medb",
 			"default_value" : 1
@@ -45,7 +45,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_cz805flashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_cz805flashhider",
 			"value" : "replace_cz805flashhider",
 			"default_value" : false
@@ -61,7 +61,7 @@
 			"callback" : "callback_toggle_replace_cz805st",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
+				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
@@ -76,17 +76,17 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805vertgrip",
-			"title" : "wac_replace_stndvertgrip_title",
+			"title" : "wac_replace_stndvg_title",
 			"callback" : "callback_toggle_replace_cz805vertgrip",		
 			"items" : [
 				"wac_default_multi",
 				"stubbygrip_multi",
-				"vertgrip_multi",
+				"wac_replace_vggeneric_title",
 				"afg2_multi",
-				"hk416cvert_multi",
-				"vectorvert_multi",
+				"bm_w_tecci",
+				"bm_w_polymer",
 				"bm_wp_schakal_vg_surefire",
-				"novertgrip_multi"
+				"wac_replace_novg_title"
 			],
 			"value" : "replace_cz805vertgrip",
 			"default_value" : 1

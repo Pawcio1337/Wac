@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_strikerlongb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_striker_b_long",
 			"callback" : "callback_toggle_replace_strikerlongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_strikerlongb",
 			"default_value" : 1
@@ -22,12 +22,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ironsightsstriker",
-			"title" : "wac_replace_ironsights_title",
+			"title" : "bm_wp_model70_iron_sight",
 			"callback" : "callback_toggle_replace_ironsightsstriker",		
 			"items" : [
 				"wac_default_multi",
-				"ironsightdd_multi",
-				"ironsightmbus_multi"	
+				"bm_w_ksg",
+				"bm_wp_upg_o_mbus_rear"	
 			],
 			"value" : "replace_ironsightsstriker",
 			"default_value" : 1

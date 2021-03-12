@@ -18,12 +18,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hs2kcustom",
-			"title" : "wac_replace_customsl_title",
+			"title" : "bm_wp_hs2000_sl_custom",
 			"callback" : "callback_toggle_replace_hs2kcustom",		
 			"items" : [
 				"wac_default_multi",
-				"longsl_multi",
-				"stndslide_multi"
+				"bm_wp_hs2000_sl_long",
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_hs2kcustom",
 			"default_value" : 1
@@ -31,12 +31,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hs2klong",
-			"title" : "wac_replace_longsl_title",
+			"title" : "bm_wp_hs2000_sl_long",
 			"callback" : "callback_toggle_replace_hs2klong",		
 			"items" : [
 				"wac_default_multi",
-				"custsl_multi",
-				"stndslide_multi"
+				"bm_wp_hs2000_sl_custom",
+				"bm_wp_pis_usp_b_tactical"
 			],
 			"value" : "replace_hs2klong",
 			"default_value" : 1

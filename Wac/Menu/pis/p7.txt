@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_p7threadb",
-			"title" : "wac_replace_threadb_title",
+			"title" : "bm_wp_legacy_b_threaded",
 			"callback" : "callback_toggle_replace_p7threadb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_p7threadb",
 			"default_value" : 1
@@ -22,7 +22,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p7gripwood",
-			"title" : "wac_replace_woodengrip_title",
+			"title" : "bm_wp_legacy_g_wood",
 			"callback" : "callback_toggle_replace_p7gripwood",		
 			"items" : [
 				"wac_default_multi",

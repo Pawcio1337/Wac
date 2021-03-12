@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_ak5shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_ak5shortb",
 			"default_value" : 1
@@ -27,7 +27,7 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak5_fg_fnc",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_ak5cfg",
 			"default_value" : 1
@@ -40,7 +40,7 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak5_fg_ak5c",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_fncfg",
 			"default_value" : 1

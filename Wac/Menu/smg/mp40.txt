@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_mp40flashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_mp40flashhider",
 			"value" : "replace_mp40flashhider",
 			"default_value" : false
@@ -18,11 +18,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp40_foldedst",
-			"title" : "wac_replace_foldedst_title",
+			"title" : "bm_wp_erma_s_folded",
 			"callback" : "callback_toggle_replace_mp40_foldedst",		
 			"items" : [
 				"wac_default_multi",
-				"unbm_wp_ak_s_folding"
+				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_mp40_foldedst",
 			"default_value" : 1
@@ -34,7 +34,7 @@
 			"callback" : "callback_toggle_replace_mp40x_st",		
 			"items" : [
 				"wac_default_multi",
-				"unbm_wp_ak_s_folding"
+				"bm_wp_erma_s_folded"
 			],
 			"value" : "replace_mp40x_st",
 			"default_value" : 1

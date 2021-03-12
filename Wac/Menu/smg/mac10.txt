@@ -6,7 +6,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_mac10barrelext",
-			"title" : "wac_replace_cobraybarrelext_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_mac10barrelext",
 			"value" : "replace_mac10barrelext",
 			"default_value" : false
@@ -14,7 +14,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_mac10werbellssup",
-			"title" : "wac_replace_cobraywerbellssup_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_mac10werbellssup",
 			"value" : "replace_mac10werbellssup",
 			"default_value" : false
@@ -26,7 +26,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_mac10riskit",
-			"title" : "wac_replace_hideriskit_title",
+			"title" : "wac_replace_hideextrail_title",
 			"callback" : "callback_toggle_replace_mac10riskit",
 			"value" : "replace_mac10riskit",
 			"default_value" : false
@@ -38,11 +38,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10extmag",
-			"title" : "bm_wp_fal_m_01",
+			"title" : "bm_wp_mac10_m_extended",
 			"callback" : "callback_toggle_replace_mac10extmag",		
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi"
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_mac10extmag",
 			"default_value" : 1
@@ -50,12 +50,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10magpulassist",
-			"title" : "bm_wp_ak_m_quick",
+			"title" : "bm_wp_mac10_m_quick",
 			"callback" : "callback_toggle_replace_mac10magpulassist",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_fal_m_01",
-				"stndmag_multi"
+				"bm_wp_mac10_m_extended",
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_mac10magpulassist",
 			"default_value" : 1
@@ -71,8 +71,8 @@
 			"callback" : "callback_toggle_replace_mac10_stndst",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi",
-				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard",
+				"bm_w_m4",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
 				"bm_wp_tti_s_vltor"
@@ -83,13 +83,13 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10skelst",
-			"title" : "bm_wp_ak_s_skfoldable",
+			"title" : "bm_wp_mac10_s_skel",
 			"callback" : "callback_toggle_replace_mac10skelst",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_ak_s_folding",
-				"nostock_multi",
 				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard",
+				"bm_w_m4",
 				"bm_wp_upg_m4_s_crane",
 				"bm_wp_upg_m4_s_ubr",
 				"bm_wp_tti_s_vltor"

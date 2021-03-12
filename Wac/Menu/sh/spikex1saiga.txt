@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spikex1saigashortfg",
-			"title" : "wac_replace_spikex1saigashorfg_title",
+			"title" : "bm_wp_basset_fg_short",
 			"callback" : "callback_toggle_replace_spikex1saigashortfg",		
 			"items" : [
 				"wac_default_multi",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_spikex1saigashortfg",
 			"default_value" : 1
@@ -22,12 +22,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spikex1saigaextmag",
-			"title" : "wac_replace_sgmtact_title",
+			"title" : "bm_wp_basset_m_extended",
 			"callback" : "callback_toggle_replace_spikex1saigaextmag",
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi",
-				"wac_saiga12kdrum_multi"
+				"bm_wp_g18c_m_mag_17rnd",
+				"bm_wp_aa12_mag_drum"
 			],
 			"value" : "replace_spikex1saigaextmag",
 			"default_value" : 1

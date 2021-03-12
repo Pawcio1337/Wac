@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_famaslongb",
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_famas_b_short",
 				"bm_wp_famas_b_sniper"
 			],
@@ -24,7 +24,7 @@
 			"callback" : "callback_toggle_replace_famasshortb",
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_famas_b_long",
 				"bm_wp_famas_b_sniper"
 			],
@@ -38,7 +38,7 @@
 			"callback" : "callback_toggle_replace_famassniperb",
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_famas_b_short",
 				"bm_wp_famas_b_long"
 			],
@@ -48,7 +48,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_famassuppb",
-			"title" : "wac_replace_usesuppb_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_famassuppb",
 			"value" : "replace_famassuppb",
 			"default_value" : false

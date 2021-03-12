@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_m1garand_shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_m1garand_shortb",
 			"default_value" : 1

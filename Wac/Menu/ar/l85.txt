@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_l85longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_l85a2_b_short"
 			],
 			"value" : "replace_l85longb",
@@ -23,7 +23,7 @@
 			"callback" : "callback_toggle_replace_l85shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_l85a2_b_long"
 			],
 			"value" : "replace_l85shortb",
@@ -32,7 +32,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_l85flashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_l85flashhider",
 			"value" : "replace_l85flashhider",
 			"default_value" : false
@@ -48,7 +48,7 @@
 			"callback" : "callback_toggle_replace_l85railfg",		
 			"items" : [
 				"wac_default_multi",
-				"stndfg_multi"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_l85railfg",
 			"default_value" : 1

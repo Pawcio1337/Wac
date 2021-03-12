@@ -262,7 +262,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_tf90_zoom",
-			"title" : "bm_wp_upg_o_fc1",
+			"title" : "bm_wp_upg_o_tf90",
 			"callback" : "callback_toggle_replace_tf90_zoom",		
 			"items" : [
 				"wac_zoom_5_def_multi",

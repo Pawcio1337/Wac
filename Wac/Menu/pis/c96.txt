@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_c96longb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_c96_b_long",
 			"callback" : "callback_toggle_replace_c96longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_c96longb",
 			"default_value" : 1
@@ -18,7 +18,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_c96_dl44",
-			"title" : "wac_replace_c96_dl44_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_c96_dl44",
 			"value" : "replace_c96_dl44",
 			"default_value" : false
@@ -30,7 +30,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_c96extmag",
-			"title" : "wac_replace_c96extmag_title",
+			"title" : "wac_replace_hideextmag_title",
 			"callback" : "callback_toggle_replace_c96extmag",
 			"value" : "replace_c96extmag",
 			"default_value" : false
@@ -42,11 +42,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_c96holster",
-			"title" : "wac_replace_c96holster_title",
+			"title" : "bm_wp_c96_s_solid",
 			"callback" : "callback_toggle_replace_c96holster",		
 			"items" : [
 				"wac_default_multi",
-				"nostock_multi"
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_c96holster",
 			"default_value" : 1

@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45ergogrip",
-			"title" : "wac_replace_ergogrip_title",
+			"title" : "bm_wp_smg_m45_g_ergo",
 			"callback" : "callback_toggle_replace_m45ergogrip",		
 			"items" : [
 				"wac_default_multi",
-				"blinggrip_multi",
+				"bm_wp_smg_m45_g_bling",
 				"bm_wp_1911_g_standard"
 			],
 			"value" : "replace_m45ergogrip",
@@ -35,8 +35,8 @@
 			"callback" : "callback_toggle_replace_m45stndst",		
 			"items" : [
 				"wac_default_multi",
-				"foldedst_multi",
-				"nostock_multi"
+				"bm_wp_smg_m45_s_folded",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_m45stndst",
 			"default_value" : 1
@@ -44,12 +44,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45foldst",
-			"title" : "wac_replace_foldedst_title",
+			"title" : "bm_wp_smg_m45_s_folded",
 			"callback" : "callback_toggle_replace_m45foldst",		
 			"items" : [
 				"wac_default_multi",
-				"unbm_wp_ak_s_folding",
-				"nostock_multi"
+				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_m45foldst",
 			"default_value" : 1
@@ -61,23 +61,11 @@
 			"callback" : "callback_toggle_replace_m45x_st",		
 			"items" : [
 				"wac_default_multi",
-				"unbm_wp_ak_s_folding",
-				"nostock_multi"
+				"bm_wp_m4_s_standard",
+				"bm_wp_baka_s_standard"
 			],
 			"value" : "replace_m45x_st",
 			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "toggle",
-			"id" : "toggle_replace_hidem45bparts",
-			"title" : "wac_replace_hidem45bparts_title",
-			"callback" : "callback_toggle_replace_hidem45bparts",
-			"value" : "replace_hidem45bparts",
-			"default_value" : false
 		}
 	]
 }

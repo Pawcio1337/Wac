@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m249longbarrel",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_m249_b_long",
 			"callback" : "callback_toggle_replace_m249longbarrel",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_m249longbarrel",
 			"default_value" : 1
@@ -26,7 +26,7 @@
 			"callback" : "callback_toggle_replace_m249fg",		
 			"items" : [
 				"wac_default_multi",
-				"railfg_multi"
+				"bm_wp_m249_fg_mk46"
 			],
 			"value" : "replace_m249fg",
 			"default_value" : 1
@@ -34,11 +34,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m249_mk46fg",
-			"title" : "wac_replace_railedfg_title",
+			"title" : "bm_wp_m249_fg_mk46",
 			"callback" : "callback_toggle_replace_m249_mk46fg",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_m4_s_standard"
+				"wac_replace_stndfg_title"
 			],
 			"value" : "replace_m249_mk46fg",
 			"default_value" : 1
@@ -50,27 +50,15 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m249stock",
-			"title" : "wac_replace_stockuseonly_title",
+			"title" : "wac_replace_usestnd_title",
 			"callback" : "callback_toggle_replace_m249stock",		
 			"items" : [
 				"wac_default_multi",
-				"m249parast_multi",
-				"bm_wp_g36_fg_k"
+				"bm_wp_m4_s_standard",
+				"bm_wp_m249_s_solid"
 			],
 			"value" : "replace_m249stock",
 			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "toggle",
-			"id" : "toggle_replace_m249bipod",
-			"title" : "wac_replace_m249bipod_title",
-			"callback" : "callback_toggle_replace_m249bipod",
-			"value" : "replace_m249bipod",
-			"default_value" : false
 		}
 	]
 }

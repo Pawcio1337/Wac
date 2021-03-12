@@ -10,7 +10,7 @@
 			"callback" : "callback_toggle_replace_m2006shortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_2006m_b_long"
 			],
 			"value" : "replace_m2006shortb",
@@ -23,7 +23,7 @@
 			"callback" : "callback_toggle_replace_m2006mediumb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
+				"wac_replace_stndb_title",
 				"bm_wp_2006m_b_long"
 			],
 			"value" : "replace_m2006mediumb",
@@ -36,7 +36,7 @@
 			"callback" : "callback_toggle_replace_m2006longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_m2006longb",
 			"default_value" : 1

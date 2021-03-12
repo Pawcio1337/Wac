@@ -6,11 +6,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_winm1873longb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "bm_wp_winchester_b_long",
 			"callback" : "callback_toggle_replace_winm1873longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi"
+				"wac_replace_stndb_title"
 			],
 			"value" : "replace_winm1873longb",
 			"default_value" : 1

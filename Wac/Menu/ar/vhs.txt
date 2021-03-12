@@ -6,12 +6,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vhsshortb",
-			"title" : "wac_replace_cqbb_title",
+			"title" : "bm_wp_vhs_b_short",
 			"callback" : "callback_toggle_replace_vhsshortb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
-				"wac_vhssniperb_multi"
+				"wac_replace_stndb_title",
+				"bm_wp_vhs_b_sniper"
 			],
 			"value" : "replace_vhsshortb",
 			"default_value" : 1
@@ -19,12 +19,12 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vhslongb",
-			"title" : "wac_replace_precisionb_title",
+			"title" : "bm_wp_vhs_b_sniper",
 			"callback" : "callback_toggle_replace_vhslongb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_stndb_multi",
-				"bm_wp_aug_b_short"
+				"wac_replace_stndb_title",
+				"bm_wp_vhs_b_short"
 			],
 			"value" : "replace_vhslongb",
 			"default_value" : 1
@@ -32,7 +32,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_vhsflashhider",
-			"title" : "wac_replace_useownflashhider_title",
+			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_vhsflashhider",
 			"value" : "replace_vhsflashhider",
 			"default_value" : false
@@ -40,7 +40,7 @@
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_vhssuppb",
-			"title" : "wac_replace_vhssupp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_vhssuppb",
 			"value" : "replace_vhssuppb",
 			"default_value" : false
