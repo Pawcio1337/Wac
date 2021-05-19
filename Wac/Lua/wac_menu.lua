@@ -315,6 +315,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_fnf2000tanbody = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_g3barrelshort = function(self, item)
+		WacMenu._data.replace_g3barrelshort = item:value()
+		WacMenu:Save()
+	end	
 	MenuCallbackHandler.callback_toggle_replace_g3barrel = function(self, item)
 		WacMenu._data.replace_g3barrel = item:value()
 		WacMenu:Save()
@@ -989,6 +993,18 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_m1887longst = function(self, item)
 		WacMenu._data.replace_m1887longst = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m95_bstnd = function(self, item)
+		WacMenu._data.replace_m95_bstnd = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m95_bshort = function(self, item)
+		WacMenu._data.replace_m95_bshort = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m95_blong = function(self, item)
+		WacMenu._data.replace_m95_blong = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_mosinm38barrel = function(self, item)
@@ -2596,6 +2612,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/m1887.txt", WacMenu, WacMenu._data)
 
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/wacmenu_sr.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/m95.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/mosin.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/msr.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/r93.txt", WacMenu, WacMenu._data)

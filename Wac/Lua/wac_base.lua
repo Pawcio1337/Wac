@@ -302,6 +302,14 @@ if WacMenu._data.replace_fnf2000tanbody == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_body_lower_strap.third_unit = "units/pd2_dlc_rvd/weapons/wpn_third_ass_corgi_pts/wpn_third_ass_corgi_body_lower_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_corgi_body_lower_strap.unit = "units/pd2_dlc_rvd/weapons/wpn_fps_ass_corgi_pts/wpn_fps_ass_corgi_body_lower_standard"
 end
+if WacMenu._data.replace_g3barrelshort == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_short.third_unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_third_ass_g3_b_long"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_short.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_fps_ass_g3_b_long"
+elseif WacMenu._data.replace_g3barrelshort == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_short.override = {}
+	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_short.third_unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_third_ass_g3_b_sniper"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_short.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_fps_ass_g3_b_sniper"
+end
 if WacMenu._data.replace_g3barrel == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_long.third_unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_third_ass_g3_b_short"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_g3_b_long.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3_pts/wpn_fps_ass_g3_b_short"
@@ -1603,6 +1611,27 @@ if WacMenu._data.replace_m1887longst == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_sho_boot_s_long.unit = "units/pd2_dlc_wild/weapons/wpn_fps_sho_boot_pts/wpn_fps_sho_boot_s_short"
 end
 -- Sniper Rifles
+if WacMenu._data.replace_m95_bstnd == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_standard.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_long"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_standard.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_long"
+elseif WacMenu._data.replace_m95_bstnd == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_standard.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_short"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_standard.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_short"
+end
+if WacMenu._data.replace_m95_bshort == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_short.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_long"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_short.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_long"
+elseif WacMenu._data.replace_m95_bshort == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_short.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_short.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_standard"
+end
+if WacMenu._data.replace_m95_blong == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_long.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_long.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_standard"
+elseif WacMenu._data.replace_m95_blong == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_long.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_short"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_long.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_short"
+end
 if WacMenu._data.replace_mosinm38barrel == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_mosin_b_short.third_unit = "units/pd2_dlc_gage_historical/weapons/wpn_third_snp_mosin_pts/wpn_third_snp_mosin_b_medium"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_mosin_b_short.unit = "units/pd2_dlc_gage_historical/weapons/wpn_fps_snp_mosin_pts/wpn_fps_snp_mosin_b_medium"

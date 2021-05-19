@@ -84,7 +84,7 @@
 			"callback" : "callback_toggle_replace_shellrack",		
 			"items" : [
 				"wac_default_multi",
-				"noshellrack_multi"
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_shellrack",
 			"default_value" : 1

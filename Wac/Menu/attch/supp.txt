@@ -66,7 +66,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_selectablesupp",
-			"title" : "wac_replace_selectablemodel_title",
+			"title" : "wac_selectable_multi",
 			"callback" : "callback_toggle_replace_selectablesupp",		
 			"items" : [
 				"bm_w_mp7",
@@ -82,7 +82,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_selectablesupp2",
-			"title" : "wac_replace_selectablemodel2_title",
+			"title" : "wac_selectable2_multi",
 			"callback" : "callback_toggle_replace_selectablesupp2",		
 			"items" : [
 				"bm_w_mp7",

@@ -5,8 +5,33 @@
 	"items" : [
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_g3barrelshort",
+			"title" : "bm_wp_g3_b_short",
+			"callback" : "callback_toggle_replace_g3barrelshort",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title",
+				"bm_wp_g3_b_sniper"
+			],
+			"value" : "replace_g3barrelshort",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3barrel",
 			"title" : "bm_wp_aug_b_long",
+			"callback" : "callback_toggle_replace_g3barrel",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_g3_b_short"
+			],
+			"value" : "replace_g3barrel",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_g3barrel",
+			"title" : "wac_replace_stndb_title",
 			"callback" : "callback_toggle_replace_g3barrel",
 			"items" : [
 				"wac_default_multi",
@@ -22,7 +47,7 @@
 			"callback" : "callback_toggle_replace_g3barreldmr",
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_famas_b_long",
+				"wac_replace_stndb_title",
 				"bm_wp_g3_b_short"
 			],
 			"value" : "replace_g3barreldmr",
