@@ -1027,8 +1027,16 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_msrbodyst = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_msr_700body = function(self, item)
-		WacMenu._data.replace_msr_700body = item:value()
+	MenuCallbackHandler.callback_toggle_replace_msrwoodst = function(self, item)
+		WacMenu._data.replace_msrwoodst = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_r700_milst = function(self, item)
+		WacMenu._data.replace_r700_milst = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_r700_tactst = function(self, item)
+		WacMenu._data.replace_r700_tactst = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_r93woodbody = function(self, item)
@@ -2207,6 +2215,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ar15_magpulassiststanag = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_keep_frontpostcustom = function(self, item)
+		WacMenu._data.replace_keep_frontpostcustom = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_keep_frontpost = function(self, item)
 		WacMenu._data.replace_keep_frontpost = (item:value() == "on" and true or false)
 		WacMenu:Save()
@@ -2615,6 +2627,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/m95.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/mosin.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/msr.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/r700.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/r93.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/ttitr1.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/srs.txt", WacMenu, WacMenu._data)

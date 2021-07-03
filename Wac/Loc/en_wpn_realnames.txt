@@ -22,7 +22,7 @@
 	"bm_w_ching" : "M1 Garand",
 	"bm_w_m4" : "M4A1",
 	"bm_w_m16" : "M16A4",
-	"bm_w_groza" : "OTs-14-4A Groza GP-30",
+	"bm_w_groza" : "OTs-14-4A Groza",
 	"bm_w_s552" : "SG 552",
 	"bm_w_sub2000" : "SUB-2000",
 	"bm_w_vhs" : "VHS-D2",

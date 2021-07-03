@@ -205,6 +205,14 @@
 			"default_value" : false
 		},
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_keep_frontpostcustom",
+			"title" : "wac_replace_keepfrontpostcustom_title",
+			"callback" : "callback_toggle_replace_keep_frontpostcustom",
+			"value" : "replace_keep_frontpostcustom",
+			"default_value" : false
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

@@ -21,6 +21,18 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_msrwoodst",
+			"title" : "bm_wp_m4_s_standard",
+			"callback" : "callback_toggle_replace_msrwoodst",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_msr_body_msr"
+			],
+			"value" : "replace_msrwoodst",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_msrbodyst",
 			"title" : "bm_wp_msr_body_msr",
 			"callback" : "callback_toggle_replace_msrbodyst",		

@@ -1,0 +1,33 @@
+{
+	"menu_id" : "wac_menu_sr_r700",
+	"parent_menu_id" : "wac_menu_sr",
+	"title" : "bm_w_r700",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_r700_milst",
+			"title" : "bm_wp_r700_s_military",
+			"callback" : "callback_toggle_replace_r700_milst",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_r700_s_tactical",
+				"bm_wp_m4_s_standard"
+			],
+			"value" : "replace_r700_milst",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_r700_tactst",
+			"title" : "bm_wp_r700_s_tactical",
+			"callback" : "callback_toggle_replace_r700_tactst",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_r700_s_military",
+				"bm_wp_m4_s_standard"
+			],
+			"value" : "replace_r700_tactst",
+			"default_value" : 1
+		}
+	]
+}
