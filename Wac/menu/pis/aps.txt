@@ -1,0 +1,51 @@
+{
+	"menu_id" : "wac_menu_pis_aps",
+	"parent_menu_id" : "wac_menu_pis",
+	"title" : "bm_w_stech",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_aps_longb",
+			"title" : "bm_wp_stech_b_long",
+			"callback" : "callback_toggle_replace_aps_longb",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title"
+			],
+			"value" : "replace_aps_longb",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_aps_extmag",
+			"title" : "bm_wp_stech_m_extended",
+			"callback" : "callback_toggle_replace_aps_extmag",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_g18c_m_mag_17rnd"
+			],
+			"value" : "replace_aps_extmag",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_aps_stock",
+			"title" : "bm_wp_stech_s_standard",
+			"callback" : "callback_toggle_replace_aps_stock",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_baka_s_standard"
+			],
+			"value" : "replace_aps_stock",
+			"default_value" : 1
+		}
+	]
+}

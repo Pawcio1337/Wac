@@ -1,0 +1,35 @@
+{
+	"menu_id" : "wac_menu_pis_93r",
+	"parent_menu_id" : "wac_menu_pis",
+	"title" : "bm_w_beer",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_93r_extmag",
+			"title" : "bm_wp_beer_m_extended",
+			"callback" : "callback_toggle_replace_93r_extmag",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_g18c_m_mag_17rnd"
+			],
+			"value" : "replace_93r_extmag",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_93r_stock",
+			"title" : "bm_wp_beer_s_std",
+			"callback" : "callback_toggle_replace_93r_stock",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_baka_s_standard"
+			],
+			"value" : "replace_93r_stock",
+			"default_value" : 1
+		}
+	]
+}

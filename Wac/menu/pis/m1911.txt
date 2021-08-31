@@ -1,0 +1,47 @@
+{
+	"menu_id" : "wac_menu_pis_m1911",
+	"parent_menu_id" : "wac_menu_pis",
+	"title" : "bm_w_m1911",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_m1911_extmag",
+			"title" : "bm_wp_m1911_m_extended",
+			"callback" : "callback_toggle_replace_m1911_extmag",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_g18c_m_mag_17rnd"
+			],
+			"value" : "replace_m1911_extmag",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_m1911_hardballersl",
+			"title" : "bm_wp_m1911_sl_hardballer",
+			"callback" : "callback_toggle_replace_m1911_hardballersl",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_pis_usp_b_tactical"
+			],
+			"value" : "replace_m1911_hardballersl",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_m1911_matchsl",
+			"title" : "bm_wp_m1911_sl_match",
+			"callback" : "callback_toggle_replace_m1911_matchsl",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_pis_usp_b_tactical"
+			],
+			"value" : "replace_m1911_matchsl",
+			"default_value" : 1
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"menu_id" : "wac_menu_pis_m17fl",
+	"parent_menu_id" : "wac_menu_spec",
+	"title" : "bm_w_system",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_m17fl_pda8thparts",
+			"title" : "wac_replace_pda8thparts_title",
+			"callback" : "callback_toggle_replace_m17fl_pda8thparts",
+			"value" : "replace_m17fl_pda8thparts",
+			"default_value" : false
+		},
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_m17fl_pda8theffect",
+			"title" : "wac_replace_pda8theffect_title",
+			"callback" : "callback_toggle_replace_m17fl_pda8theffect",
+			"value" : "replace_m17fl_pda8theffect",
+			"default_value" : false
+		}
+	]
+}

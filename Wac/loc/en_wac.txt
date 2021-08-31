@@ -61,6 +61,8 @@
 	"wac_replace_novg_title" : "No Vertical Grip",
 	"wac_replace_ribcover_title" : "Ribbed Dustcover",
 	"wac_replace_noextrarail_title" : "No extra rail",
+	"wac_replace_pda8thparts_title" : "Use only Cash Blaster models",
+	"wac_replace_pda8theffect_title" : "Use Cash Blaster effect",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",
