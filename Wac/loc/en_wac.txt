@@ -61,8 +61,6 @@
 	"wac_replace_novg_title" : "No Vertical Grip",
 	"wac_replace_ribcover_title" : "Ribbed Dustcover",
 	"wac_replace_noextrarail_title" : "No extra rail",
-	"wac_replace_pda8thparts_title" : "Use only Cash Blaster models",
-	"wac_replace_pda8theffect_title" : "Use Cash Blaster effect",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",
@@ -74,10 +72,14 @@
 	"wac_zoom_4_def_multi" : "Zoom 4 (Default)",
 	"wac_zoom_5_def_multi" : "Zoom 5 (Default)",
 	"wac_zoom_6_def_multi" : "Zoom 6 (Default)",
+	"wac_zoom_9_def_multi" : "Zoom 9 (Default)",
 	"wac_zoom_0_multi" : "No magnification",
 	"wac_zoom_1_multi" : "Zoom 1",
 	"wac_zoom_2_multi" : "Zoom 2",
 	"wac_zoom_3_multi" : "Zoom 3",
 	"wac_zoom_4_multi" : "Zoom 4",
 	"wac_zoom_5_multi" : "Zoom 5",
+	"wac_zoom_6_multi" : "Zoom 6",
+	"wac_zoom_7_multi" : "Zoom 7",
+	"wac_zoom_8_multi" : "Zoom 8"
 }

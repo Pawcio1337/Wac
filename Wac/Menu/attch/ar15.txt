@@ -55,6 +55,23 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15skeletgrip",
+			"title" : "bm_wp_upg_g_m4_surgeon",
+			"callback" : "callback_toggle_replace_ar15skeletgrip",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_g_ergo",
+				"bm_wp_upg_m4_g_hgrip",
+				"bm_wp_upg_m4_g_mgrip",
+				"bm_w_tecci",
+				"bm_wp_1911_g_standard",
+				"bm_w_tti"
+			],
+			"value" : "replace_ar15skeletgrip",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

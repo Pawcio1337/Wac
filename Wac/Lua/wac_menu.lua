@@ -1107,6 +1107,18 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_m60shortb = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_m60tactfg = function(self, item)
+		WacMenu._data.replace_m60tactfg = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m60wtffg = function(self, item)
+		WacMenu._data.replace_m60wtffg = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m60keymodfg = function(self, item)
+		WacMenu._data.replace_m60keymodfg = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_m240shortb = function(self, item)
 		WacMenu._data.replace_m240shortb = item:value()
 		WacMenu:Save()
@@ -2107,14 +2119,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_chinasawoffst = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_m17fl_pda8thparts = function(self, item)
-		WacMenu._data.replace_m17fl_pda8thparts = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_m17fl_pda8theffect = function(self, item)
-		WacMenu._data.replace_m17fl_pda8theffect = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_m320_nosight = function(self, item)
 		WacMenu._data.replace_m320_nosight = (item:value() == "on" and true or false)
 		WacMenu:Save()
@@ -2229,6 +2233,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_ar15mgrip = function(self, item)
 		WacMenu._data.replace_ar15mgrip = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15skeletgrip = function(self, item)
+		WacMenu._data.replace_ar15skeletgrip = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_ar15corelower = function(self, item)
@@ -2579,6 +2587,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_tf90_zoom = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_poe_zoom = function(self, item)
+		WacMenu._data.replace_poe_zoom = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_rmr_zoom = function(self, item)
 		WacMenu._data.replace_rmr_zoom = item:value()
 		WacMenu:Save()
@@ -2597,6 +2609,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_45t1micro_zoom = function(self, item)
 		WacMenu._data.replace_45t1micro_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_g33magnifier_zoom = function(self, item)
+		WacMenu._data.replace_g33magnifier_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_sigmagnifier_zoom = function(self, item)
+		WacMenu._data.replace_sigmagnifier_zoom = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_afg2 = function(self, item)
@@ -2745,7 +2765,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/wacmenu_spec.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/spec/chinalake.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/spec/m17fl.txt", WacMenu, WacMenu._data)
+--	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/spec/m17fl.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/spec/m320.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/spec/englongbow.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/spec/m134.txt", WacMenu, WacMenu._data)

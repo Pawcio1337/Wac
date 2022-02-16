@@ -1783,6 +1783,36 @@ if WacMenu._data.replace_m60shortb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_b_short.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_b_short.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_b_standard"
 end
+if WacMenu._data.replace_m60tactfg == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tactical.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_tropical"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tactical.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_tropical"
+elseif WacMenu._data.replace_m60tactfg == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tactical.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_keymod"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tactical.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_keymod"
+elseif WacMenu._data.replace_m60tactfg == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tactical.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tactical.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_standard"
+end
+if WacMenu._data.replace_m60wtffg == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tropical.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_tactical"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tropical.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_tactical"
+elseif WacMenu._data.replace_m60wtffg == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tropical.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_keymod"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tropical.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_keymod"
+elseif WacMenu._data.replace_m60wtffg == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tropical.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_tropical.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_standard"
+end
+if WacMenu._data.replace_m60keymodfg == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_tactical"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_tactical"
+elseif WacMenu._data.replace_m60keymodfg == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_tropical"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_tropical"
+elseif WacMenu._data.replace_m60keymodfg == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_standard"
+end
 if WacMenu._data.replace_mg32barrel == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_mg42_b_mg34.third_unit = "units/pd2_dlc_gage_historical/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_b_mg42"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_mg42_b_mg34.unit = "units/pd2_dlc_gage_historical/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_b_mg42"
@@ -3233,23 +3263,6 @@ if WacMenu._data.replace_m320_nosight == true then
 		}
 	}
 end
-if WacMenu._data.replace_m17fl_pda8thparts == true then
-	if tweak_data.weapon.factory.parts.wpn_fps_fla_money_b_standard.unit == "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_b_standard" and 	tweak_data.weapon.factory.parts.wpn_fps_fla_money_body_standard.unit == "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_body_standard" and tweak_data.weapon.factory.parts.wpn_fps_fla_money_body_upper.unit == "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_body_upper" and tweak_data.weapon.factory.parts.wpn_fps_fla_money_dh_standard.unit == "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_dh_standard" and tweak_data.weapon.factory.parts.wpn_fps_fla_money_m_standard.unit == "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_m_standard" then
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_b_standard.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_b_standard"
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_b_wtf.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_b_standard"
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_body_standard.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_body_standard"
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_body_upper.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_body_upper"
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_dh_standard.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_dh_standard"
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_m_high.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_m_standard"
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_m_low.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_m_standard"
-		tweak_data.weapon.factory.parts.wpn_fps_fla_system_m_standard.unit = "units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_money_m_standard"
-	end
-end
-if WacMenu._data.replace_m17fl_pda8theffect == true then
-	if tweak_data.weapon.money.flame_effect == "effects/payday2/particles/explosions/moneythrower" then
-		tweak_data.weapon.system.flame_effect = "effects/payday2/particles/explosions/moneythrower"
-	end
-end
 if WacMenu._data.replace_m320_vertgrip == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.third_unit = "units/payday2/weapons/wpn_third_upg_vg_ass_smg_stubby/wpn_third_upg_vg_ass_smg_stubby"
 	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.unit = "units/payday2/weapons/wpn_fps_upg_vg_ass_smg_stubby/wpn_fps_upg_vg_ass_smg_stubby"
@@ -3669,6 +3682,25 @@ elseif WacMenu._data.replace_ar15mgrip == 6 then
 elseif WacMenu._data.replace_ar15mgrip == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_m4_g_mgrip.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_g_grippy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_m4_g_mgrip.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_g_grippy"
+end
+if WacMenu._data.replace_ar15skeletgrip == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.third_unit = "units/payday2/weapons/wpn_third_upg_m4_reusable/wpn_third_upg_m4_g_ergo"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.unit = "units/payday2/weapons/wpn_fps_upg_m4_reusable/wpn_fps_upg_m4_g_ergo"
+elseif WacMenu._data.replace_ar15skeletgrip == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.third_unit = "units/pd2_dlc_dec5/weapons/wpn_third_upg_m4_g_hgrip/wpn_third_upg_m4_g_hgrip"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.unit = "units/pd2_dlc_dec5/weapons/wpn_fps_upg_m4_g_hgrip/wpn_fps_upg_m4_g_hgrip"
+elseif WacMenu._data.replace_ar15skeletgrip == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.third_unit = "units/pd2_dlc_dec5/weapons/wpn_third_upg_m4_g_mgrip/wpn_third_upg_m4_g_mgrip"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.unit = "units/pd2_dlc_dec5/weapons/wpn_fps_upg_m4_g_mgrip/wpn_fps_upg_m4_g_mgrip"
+elseif WacMenu._data.replace_ar15skeletgrip == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.third_unit = "units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_third_ass_tecci_g_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.unit = "units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_fps_ass_tecci_g_standard"
+elseif WacMenu._data.replace_ar15skeletgrip == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.third_unit = "units/payday2/weapons/wpn_third_upg_m4_reusable/wpn_third_upg_m4_g_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.unit = "units/payday2/weapons/wpn_fps_upg_m4_reusable/wpn_fps_upg_m4_g_standard"
+elseif WacMenu._data.replace_ar15skeletgrip == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_g_grippy"
+	tweak_data.weapon.factory.parts.wpn_fps_upg_g_m4_surgeon.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_g_grippy"
 end
 if WacMenu._data.replace_ar15_30rndstanag == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_m_std.third_unit = "units/payday2/weapons/wpn_third_upg_m4_reusable/wpn_third_upg_m4_m_straight"
@@ -5105,6 +5137,35 @@ elseif WacMenu._data.replace_tf90_zoom == 5 then
 elseif WacMenu._data.replace_tf90_zoom == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_tf90.stats.zoom = 0
 end
+if WacMenu._data.replace_poe_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_poe.stats.zoom = 1
+elseif WacMenu._data.replace_poe_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_poe.stats.zoom = 2
+elseif WacMenu._data.replace_poe_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_poe.stats.zoom = 3
+elseif WacMenu._data.replace_poe_zoom == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_poe.stats.zoom = 4
+elseif WacMenu._data.replace_poe_zoom == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_poe.stats.zoom = 0
+end
+if WacMenu._data.replace_g33magnifier_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_xpsg33_magnifier.stats.gadget_zoom = 8
+elseif WacMenu._data.replace_g33magnifier_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_xpsg33_magnifier.stats.gadget_zoom = 7
+elseif WacMenu._data.replace_g33magnifier_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_xpsg33_magnifier.stats.gadget_zoom = 6
+elseif WacMenu._data.replace_g33magnifier_zoom == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_xpsg33_magnifier.stats.gadget_zoom = 5
+end
+if WacMenu._data.replace_sigmagnifier_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_sig.stats.gadget_zoom = 8
+elseif WacMenu._data.replace_sigmagnifier_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_sig.stats.gadget_zoom = 7
+elseif WacMenu._data.replace_sigmagnifier_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_sig.stats.gadget_zoom = 6
+elseif WacMenu._data.replace_sigmagnifier_zoom == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_sig.stats.gadget_zoom = 5
+end
 if WacMenu._data.replace_afg2 == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.third_unit = "units/payday2/weapons/wpn_third_upg_vg_ass_smg_stubby/wpn_third_upg_vg_ass_smg_stubby"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.unit = "units/payday2/weapons/wpn_fps_upg_vg_ass_smg_stubby/wpn_fps_upg_vg_ass_smg_stubby"
@@ -5223,9 +5284,17 @@ if WacMenu._data.replace_ump45single == true then
 	tweak_data.weapon.schakal.FIRE_MODE = "single"
 end
 if WacMenu._data.fixes == true then
-	--[[tweak_data.weapon.factory.parts.wpn_fps_ass_sub2000_o_back.type = "sight"
-	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_sub2000_o_adapter, {adds = {"wpn_fps_ass_sub2000_o_back_down"}})
-	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_sub2000_o_adapter, {forbids = {"wpn_fps_ass_sub2000_o_back"}})]]
+-- SUB-2000 iron sight fixes
+	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_sub2000.uses_parts) do
+		if tweak_data.weapon.factory.parts[part_id].type == "sight" then
+			table.map_append(tweak_data.weapon.factory.parts[part_id], {override = {wpn_fps_ass_sub2000_o_back = {third_unit = "units/pd2_dlc_casino/weapons/wpn_fps_ass_sub2000_pts/wpn_fps_ass_sub2000_o_back_down",unit = "units/pd2_dlc_casino/weapons/wpn_fps_ass_sub2000_pts/wpn_fps_ass_sub2000_o_back_down"}}})
+		end
+	end
+	tweak_data.weapon.factory.parts.wpn_fps_ass_sub2000_o_front.type = "sight_special"
+-- Magazine bullet fixes
+	tweak_data.weapon.factory.parts.wpn_fps_ass_g36_m_quick.bullet_objects = {prefix = "g_bullet_", amount = 28}
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_par_m_standard.bullet_objects = {prefix = "g_bullet_", amount = 5}
+-- Double gadget rail fixes
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_shot_r870_body_standard, {forbids = {"wpn_fps_addon_ris"}})
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_g36_body_standard, {forbids = {"wpn_fps_addon_ris"}})
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_g36_body_sl8, {forbids = {"wpn_fps_addon_ris"}})
@@ -5238,8 +5307,6 @@ if WacMenu._data.fixes == true then
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_smg_uzi_fg_rail, {forbids = {"wpn_fps_addon_ris","wpn_fps_shot_r870_gadget_rail"}})
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_snp_model70_body_standard, {forbids = {"wpn_fps_addon_ris"}})
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_body_standard, {forbids = {"wpn_fps_addon_ris"}})
-	tweak_data.weapon.factory.parts.wpn_fps_ass_g36_m_quick.bullet_objects = {prefix = "g_bullet_", amount = 28}
-	tweak_data.weapon.factory.parts.wpn_fps_lmg_par_m_standard.bullet_objects = {prefix = "g_bullet_", amount = 5}
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_body_standard, {forbids = {"wpn_fps_addon_ris"}})
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_asval_b_proto, {forbids = {"wpn_fps_addon_ris"}})
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_asval_b_standard, {forbids = {"wpn_fps_addon_ris"}})

@@ -14,6 +14,52 @@
 			],
 			"value" : "replace_m60shortb",
 			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m60tactfg",
+			"title" : "bm_wp_m60_fg_tactical",
+			"callback" : "callback_toggle_replace_m60tactfg",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m60_fg_tropical",
+				"bm_wp_m60_fg_keymod",
+				"wac_replace_stndfg_title"
+			],
+			"value" : "replace_m60tactfg",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m60wtffg",
+			"title" : "bm_wp_m60_fg_tropical",
+			"callback" : "callback_toggle_replace_m60wtffg",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m60_fg_tactical",
+				"bm_wp_m60_fg_keymod",
+				"wac_replace_stndfg_title"
+			],
+			"value" : "replace_m60wtffg",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m60keymodfg",
+			"title" : "bm_wp_m60_fg_keymod",
+			"callback" : "callback_toggle_replace_m60keymodfg",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m60_fg_tactical",
+				"bm_wp_m60_fg_tropical",
+				"wac_replace_stndfg_title"
+			],
+			"value" : "replace_m60keymodfg",
+			"default_value" : 1
 		}
 	]
 }
