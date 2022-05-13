@@ -33,6 +33,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1a_rugerst",
 			"title" : "bm_wp_m14_body_ruger",
+			"description" : "wac_pd2jankcode_desc",
 			"callback" : "callback_toggle_replace_m1a_rugerst",		
 			"items" : [
 				"wac_default_multi",

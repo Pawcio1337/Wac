@@ -20,12 +20,13 @@
 	"wac_restartreloadneeded_desc" : "To apply this option reload map or restart the game.",
 	"wac_requireadditionalmod_desc" : "Option require additional mod to work.",
 	"wac_requireadditionalmodalt_desc" : "Option require additional mod to work. Option only works with AR and SMG weapons.",
+	"wac_pd2jankcode_desc" : "Warning: Due how this attachment is coded there can be some bugs with this option.",
 
 	"wac_replace_stndb_title" : "Standard Barrel",
 	"wac_replace_stndfg_title" : "Standard Foregrip",
 	"wac_replace_stndvg_title" : "Standard Vert Grip",
 	"wac_replace_stndrec_title" : "Standard Receiver",
-	"wac_replace_stndframe_itle" : "Standard Frame",
+	"wac_replace_stndframe_title" : "Standard Frame",
 	"wac_replace_stndupprec_title" : "Standard Upper Rec",
 	"wac_replace_stndsight_title" : "Standard Sights",
 	"wac_replace_ar15bolt_title" : "Standard Bolt",
@@ -61,6 +62,7 @@
 	"wac_replace_novg_title" : "No Vertical Grip",
 	"wac_replace_ribcover_title" : "Ribbed Dustcover",
 	"wac_replace_noextrarail_title" : "No extra rail",
+	"wac_replace_exclusive_keepboltmodel_title" : "Exclusive set - Keep unique bolt model",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",

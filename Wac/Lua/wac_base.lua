@@ -99,6 +99,10 @@ if WacMenu._data.replace_augmagpulassist == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_aug_m_quick.third_unit = "units/payday2/weapons/wpn_third_ass_aug_pts/wpn_third_aug_m_pmag"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_aug_m_quick.unit = "units/payday2/weapons/wpn_fps_ass_aug_pts/wpn_fps_aug_m_pmag"
 end
+if WacMenu._data.replace_m733fg == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_amcar_uupg_fg_amcar.third_unit = "units/payday2/weapons/wpn_third_ass_m4_pts/wpn_third_m4_uupg_fg_rail"
+	tweak_data.weapon.factory.parts.wpn_fps_amcar_uupg_fg_amcar.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_rail"
+end
 if WacMenu._data.replace_sa58fg == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_fal_fg_01.third_unit = "units/pd2_dlc_big/weapons/wpn_third_ass_fal_pts/wpn_third_ass_fal_fg_03"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_fal_fg_01.unit = "units/pd2_dlc_big/weapons/wpn_fps_ass_fal_pts/wpn_fps_ass_fal_fg_03"
@@ -1252,10 +1256,23 @@ elseif WacMenu._data.replace_m16ergofg == 11 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m16_fg_stag.unit = "units/payday2/weapons/wpn_fps_ass_amcar_pts/wpn_fps_amcar_uupg_fg_amcar"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m16_fg_stag.override = nil
 end
-if WacMenu._data.replace_m733fg == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_amcar_uupg_fg_amcar.third_unit = "units/payday2/weapons/wpn_third_ass_m4_pts/wpn_third_m4_uupg_fg_rail"
-	tweak_data.weapon.factory.parts.wpn_fps_amcar_uupg_fg_amcar.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_rail"
+if WacMenu._data.replace_shak12_upper == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_upper.third_unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_third_ass_shak12_body_vks"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_upper.unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_fps_ass_shak12_body_vks"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_upper.override = {wpn_fps_ass_shak12_dh_standard = {third_unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_third_ass_shak12_dh_vks",unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_fps_ass_shak12_dh_vks"}}
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_upper.forbids = {"wpn_fps_addon_ris","wpn_fps_ass_shak12_dh_standard2"}
 end
+if WacMenu._data.replace_shak12_upperdmr == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_vks.third_unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_third_ass_shak12_body_upper"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_vks.unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_fps_ass_shak12_body_upper"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_vks.override = {wpn_fps_ass_shak12_dh_standard = {third_unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_third_ass_shak12_dh_standard",unit = "units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_fps_ass_shak12_dh_standard"}}
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_body_vks.forbids = {"wpn_fps_addon_ris"}
+end
+if WacMenu._data.replace_scarsrxrail == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_scar_fg_railext.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_scar_fg_railext.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+end
+
 if WacMenu._data.replace_scarhlongb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_scar_b_long.third_unit = "units/pd2_dlc_dec5/weapons/wpn_third_ass_scar_pts/wpn_third_ass_scar_b_medium"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_scar_b_long.unit = "units/pd2_dlc_dec5/weapons/wpn_fps_ass_scar_pts/wpn_fps_ass_scar_b_medium"
@@ -1362,6 +1379,14 @@ end
 if WacMenu._data.replace_aa12b == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_sho_aa12_barrel_long.third_unit = "units/pd2_dlc_bbq/weapons/wpn_fps_sho_aa12_pts/wpn_third_sho_aa12_barrel"
 	tweak_data.weapon.factory.parts.wpn_fps_sho_aa12_barrel_long.unit = "units/pd2_dlc_bbq/weapons/wpn_fps_sho_aa12_pts/wpn_fps_sho_aa12_barrel"
+end
+if WacMenu._data.replace_ultima_shellrack == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_sho_ultima_body_rack.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_sho_ultima_body_rack.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+end
+if WacMenu._data.replace_ultima_wirest == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_sho_ultima_s_light.third_unit = "units/pd2_dlc_lawp/weapons/wpn_fps_shot_ultima_pts/wpn_third_sho_ultima_s_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_sho_ultima_s_light.unit = "units/pd2_dlc_lawp/weapons/wpn_fps_shot_ultima_pts/wpn_fps_sho_ultima_s_standard"
 end
 if WacMenu._data.replace_bs09shortb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_shot_b682_b_short.third_unit = "units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682_pts/wpn_third_shot_b682_b_long"
@@ -1681,6 +1706,9 @@ end
 if WacMenu._data.replace_r93woodbody == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_r93_body_wood.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_third_snp_r93_pts/wpn_third_snp_r93_body_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_r93_body_wood.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93_pts/wpn_fps_snp_r93_body_standard"
+end
+if WacMenu._data.replace_scout_es_keepboltmodel == true then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_scout_conversion.override.wpn_fps_snp_scout_bolt_speed = {third_unit = "units/pd2_dlc_pxp1/weapons/wpn_fps_snp_scout_pts/wpn_third_snp_scout_bolt_conversion",unit = "units/pd2_dlc_pxp1/weapons/wpn_fps_snp_scout_pts/wpn_fps_snp_scout_bolt_conversion"}
 end
 if WacMenu._data.replace_srsshortb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_desertfox_b_short.third_unit = "units/pd2_dlc_pim/weapons/wpn_third_snp_desertfox_pts/wpn_third_snp_desertfox_b_long"

@@ -1,0 +1,15 @@
+{
+	"menu_id" : "wac_menu_sr_scout",
+	"parent_menu_id" : "wac_menu_sr",
+	"title" : "bm_w_scout",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_scout_es_keepboltmodel",
+			"title" : "wac_replace_exclusive_keepboltmodel_title",
+			"callback" : "callback_toggle_replace_scout_es_keepboltmodel",
+			"value" : "replace_scout_es_keepboltmodel",
+			"default_value" : false
+		}
+	]
+}
