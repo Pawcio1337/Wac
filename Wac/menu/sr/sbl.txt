@@ -1,0 +1,49 @@
+{
+	"menu_id" : "wac_menu_sr_sbl",
+	"parent_menu_id" : "wac_menu_sr",
+	"title" : "bm_w_sbl",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_sbl_b_long",
+			"title" : "bm_wp_sbl_b_long",
+			"callback" : "callback_toggle_replace_sbl_b_long",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_sbl_b_short",
+				"wac_replace_stndb_title"
+			],
+			"value" : "replace_sbl_b_long",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_sbl_b_short",
+			"title" : "bm_wp_sbl_b_short",
+			"callback" : "callback_toggle_replace_sbl_b_short",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_sbl_b_long",
+				"wac_replace_stndb_title"
+			],
+			"value" : "replace_sbl_b_short",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_sbl_s_saddle",
+			"title" : "bm_wp_sbl_s_saddle",
+			"callback" : "callback_toggle_replace_sbl_s_saddle",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_baka_s_standard"
+			],
+			"value" : "replace_sbl_s_saddle",
+			"default_value" : 1
+		}
+	]
+}

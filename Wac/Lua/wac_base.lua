@@ -1635,6 +1635,24 @@ if WacMenu._data.replace_m1887longst == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_sho_boot_s_long.third_unit = "units/pd2_dlc_wild/weapons/wpn_third_sho_boot_pts/wpn_third_sho_boot_s_short"
 	tweak_data.weapon.factory.parts.wpn_fps_sho_boot_s_long.unit = "units/pd2_dlc_wild/weapons/wpn_fps_sho_boot_pts/wpn_fps_sho_boot_s_short"
 end
+if WacMenu._data.replace_m1897_b_long == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_long.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_third_shot_m1897_b_short"
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_long.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_fps_shot_m1897_b_short"
+elseif WacMenu._data.replace_m1897_b_long == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_long.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_third_shot_m1897_b_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_long.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_fps_shot_m1897_b_standard"
+end
+if WacMenu._data.replace_m1897_b_short == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_short.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_third_shot_m1897_b_long"
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_short.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_fps_shot_m1897_b_long"
+elseif WacMenu._data.replace_m1897_b_short == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_short.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_third_shot_m1897_b_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_b_short.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_fps_shot_m1897_b_standard"
+end
+if WacMenu._data.replace_m1897_s_short == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_s_short.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_third_shot_m1897_s_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_shot_m1897_s_short.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_shot_m1897_pts/wpn_fps_shot_m1897_s_standard"
+end
 -- Sniper Rifles
 if WacMenu._data.replace_m95_bstnd == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_standard.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_long"
@@ -1656,6 +1674,24 @@ if WacMenu._data.replace_m95_blong == 2 then
 elseif WacMenu._data.replace_m95_blong == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_long.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_third_snp_m95_barrel_short"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_m95_barrel_long.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95_pts/wpn_fps_snp_m95_barrel_short"
+end
+if WacMenu._data.replace_sbl_b_long == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_long.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_third_snp_sbl_b_short"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_long.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_fps_snp_sbl_b_short"
+elseif WacMenu._data.replace_sbl_b_long == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_long.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_third_snp_sbl_b_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_long.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_fps_snp_sbl_b_standard"
+end
+if WacMenu._data.replace_sbl_b_short == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_short.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_third_snp_sbl_b_long"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_short.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_fps_snp_sbl_b_long"
+elseif WacMenu._data.replace_sbl_b_short == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_short.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_third_snp_sbl_b_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_b_short.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_fps_snp_sbl_b_standard"
+end
+if WacMenu._data.replace_sbl_s_saddle == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_s_saddle.third_unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_third_snp_sbl_s_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_sbl_s_saddle.unit = "units/pd2_dlc_mxw/weapons/wpn_fps_snp_sbl_pts/wpn_fps_snp_sbl_s_standard"
 end
 if WacMenu._data.replace_mosinm38barrel == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_mosin_b_short.third_unit = "units/pd2_dlc_gage_historical/weapons/wpn_third_snp_mosin_pts/wpn_third_snp_mosin_b_medium"
@@ -2841,6 +2877,18 @@ elseif WacMenu._data.replace_mac10skelst == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_s_skel.forbids = {"wpn_upg_ak_g_standard"}
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_s_skel.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_s_vltor"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_mac10_s_skel.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_s_vltor"
+end
+if WacMenu._data.replace_fmg9_grip_tape == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_fmg9_grip_tape.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_fmg9_grip_tape.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+end
+if WacMenu._data.replace_fmg9_m_speed == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_fmg9_m_speed.third_unit = "units/pd2_dlc_lawp/weapons/wpn_fps_smg_fmg9_pts/wpn_third_smg_fmg9_m_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_fmg9_m_speed.unit = "units/pd2_dlc_lawp/weapons/wpn_fps_smg_fmg9_pts/wpn_fps_smg_fmg9_m_standard"
+end
+if WacMenu._data.replace_fmg9_stock_padded == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_fmg9_stock_padded.third_unit = "units/pd2_dlc_lawp/weapons/wpn_fps_smg_fmg9_pts/wpn_third_smg_fmg9_stock"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_fmg9_stock_padded.unit = "units/pd2_dlc_lawp/weapons/wpn_fps_smg_fmg9_pts/wpn_fps_smg_fmg9_stock"
 end
 if WacMenu._data.replace_microuzicomp == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_baka_b_comp.third_unit = "units/pd2_dlc_dragon/weapons/wpn_third_smg_baka_pts/wpn_third_smg_baka_b_standard"
@@ -4717,6 +4765,34 @@ assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. usesupp.m
 elseif WacMenu._data.replace_supp_putnik == 10 then
 assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_putnik.third_unit" .. usesupp.thirdmodel2))()
 assert(loadstring(usesupp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. usesupp.model2))()
+end
+if WacMenu._data.replace_supp_shak12 == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_large/wpn_third_upg_ns_ass_smg_large"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.unit = "units/payday2/weapons/wpn_fps_upg_ns_ass_smg_large/wpn_fps_upg_ns_ass_smg_large"
+elseif WacMenu._data.replace_supp_shak12 == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_medium/wpn_third_upg_ns_ass_smg_medium"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.unit = "units/payday2/weapons/wpn_fps_upg_ns_ass_smg_medium/wpn_fps_upg_ns_ass_smg_medium"
+elseif WacMenu._data.replace_supp_shak12 == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.third_unit = "units/payday2/weapons/wpn_third_upg_ns_shot_thick/wpn_third_upg_ns_shot_thick"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.unit = "units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick"
+elseif WacMenu._data.replace_supp_shak12 == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_sho_salvo/wpn_third_upg_ns_sho_salvo_large"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_sho_salvo/wpn_fps_upg_ns_sho_salvo_large"
+elseif WacMenu._data.replace_supp_shak12 == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.third_unit = "units/payday2/weapons/wpn_third_upg_ns_pis_large/wpn_third_upg_ns_pis_large"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.unit = "units/payday2/weapons/wpn_fps_upg_ns_pis_large/wpn_fps_upg_ns_pis_large"
+elseif WacMenu._data.replace_supp_shak12 == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ns_pis_medium_slim/wpn_third_upg_ns_pis_medium_slim"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ns_pis_medium_slim/wpn_fps_upg_ns_pis_medium_slim"
+elseif WacMenu._data.replace_supp_shak12 == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.third_unit = "units/pd2_dlc_butcher_mods/weapons/wpn_third_upg_ns_ass_filter/wpn_third_upg_ns_ass_filter"
+	tweak_data.weapon.factory.parts.wpn_fps_ass_shak12_ns_suppressor.unit = "units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_ass_filter/wpn_fps_upg_ns_ass_filter"
+elseif WacMenu._data.replace_supp_shak12 == 9 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.third_unit" .. usesupp.thirdmodel))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. usesupp.model))()
+elseif WacMenu._data.replace_supp_shak12 == 10 then
+assert(loadstring(usesupp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.third_unit" .. usesupp.thirdmodel2))()
+assert(loadstring(usesupp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. usesupp.model2))()
 end
 if WacMenu._data.replace_salvo12 == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ns_sho_salvo_large.third_unit = "units/payday2/weapons/wpn_third_upg_ns_ass_smg_large/wpn_third_upg_ns_ass_smg_large"

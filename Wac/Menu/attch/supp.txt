@@ -85,6 +85,26 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_supp_shak12",
+			"title" : "bm_wp_shak12_ns_suppressor",
+			"callback" : "callback_toggle_replace_replace_supp_shak12",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_ns_ass_smg_large",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick",
+				"bm_wp_upg_ns_sho_salvo_large",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_ass_filter",
+				"wac_selectable_multi",
+				"wac_selectable2_multi"
+			],
+			"value" : "replace_replace_supp_shak12",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_selectablesupp",
 			"title" : "wac_selectable_multi",
 			"callback" : "callback_toggle_replace_selectablesupp",		
