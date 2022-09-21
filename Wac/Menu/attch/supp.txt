@@ -65,6 +65,26 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_supp_putnik",
+			"title" : "bm_wp_upg_ns_pis_putnik",
+			"callback" : "callback_toggle_replace_replace_supp_putnik",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_ns_ass_smg_large",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_shot_thick",
+				"bm_wp_upg_ns_sho_salvo_large",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_ass_filter",
+				"wac_selectable_multi",
+				"wac_selectable2_multi"
+			],
+			"value" : "replace_replace_supp_putnik",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_selectablesupp",
 			"title" : "wac_selectable_multi",
 			"callback" : "callback_toggle_replace_selectablesupp",		

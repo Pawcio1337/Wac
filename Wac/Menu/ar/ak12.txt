@@ -75,7 +75,9 @@
 				"wac_default_multi",
 				"bm_w_ak12",
 				"bm_w_ak74",
-				"bm_w_akm"
+				"bm_w_akm",
+				"bm_wp_upg_ak_m_uspalm",
+				"bm_wp_upg_ak_m_quad"
 			],
 			"value" : "replace_ak12magpulassist",
 			"default_value" : 1

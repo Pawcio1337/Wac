@@ -82,7 +82,9 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm",
-				"bm_w_ak74"
+				"bm_w_ak74",
+				"bm_wp_upg_ak_m_uspalm",
+				"bm_wp_upg_ak_m_quad"
 			],
 			"value" : "replace_akmsumagpulassist",
 			"default_value" : 1
