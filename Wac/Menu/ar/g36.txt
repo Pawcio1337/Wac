@@ -105,7 +105,7 @@
 			"callback" : "callback_toggle_replace_g36sl8stock",		
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_g36_s_sl8",
+				"bm_wp_g36_s_kv",
 				"bm_wp_m4_s_standard"
 			],
 			"value" : "replace_g36sl8stock",

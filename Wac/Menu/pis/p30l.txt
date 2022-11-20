@@ -10,14 +10,6 @@
 			"callback" : "callback_toggle_replace_p30lwickcomp",
 			"value" : "replace_p30lwickcomp",
 			"default_value" : false
-		},		{
-			"type" : "toggle",
-			"id" : "toggle_replace_p30lwickcompsupp",
-			"title" : "wac_replace_hidesuppressors_title",
-			"description" : "wac_requireadditionalmod_desc",
-			"callback" : "callback_toggle_replace_p30lwickcompsupp",
-			"value" : "replace_p30lwickcompsupp",
-			"default_value" : false
 		},
 		{
 			"type" : "divider",

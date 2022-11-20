@@ -21,6 +21,18 @@
 			"size" : 16
 		},
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_m1928flashhider",
+			"title" : "wac_replace_uniquebarrelext_title",
+			"callback" : "callback_toggle_replace_m1928flashhider",
+			"value" : "replace_m1928flashhider",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1928a1fg",
 			"title" : "wac_replace_stndfg_title",

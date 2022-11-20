@@ -1,0 +1,33 @@
+{
+	"menu_id" : "wac_menu_pis_korth_nxs",
+	"parent_menu_id" : "wac_menu_pis",
+	"title" : "bm_w_korth",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_korth_nxs_g_ergo",
+			"title" : "bm_wp_korth_g_ergo",
+			"callback" : "callback_toggle_replace_korth_nxs_g_ergo",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_korth_g_houge",
+				"bm_wp_1911_g_standard"
+			],
+			"value" : "replace_korth_nxs_g_ergo",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_korth_nxs_g_houge",
+			"title" : "bm_wp_korth_g_houge",
+			"callback" : "callback_toggle_replace_korth_nxs_g_houge",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_korth_g_ergo",
+				"bm_wp_1911_g_standard"
+			],
+			"value" : "replace_korth_nxs_g_houge",
+			"default_value" : 1
+		}
+	]
+}

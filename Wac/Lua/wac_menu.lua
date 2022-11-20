@@ -1471,6 +1471,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_jericho941body = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_korth_nxs_g_ergo = function(self, item)
+		WacMenu._data.replace_korth_nxs_g_ergo = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_korth_nxs_g_houge = function(self, item)
+		WacMenu._data.replace_korth_nxs_g_houge = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_lugerp08_reinforcedb = function(self, item)
 		WacMenu._data.replace_lugerp08_reinforcedb = item:value()
 		WacMenu:Save()
@@ -1517,10 +1525,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_p30lwickcomp = function(self, item)
 		WacMenu._data.replace_p30lwickcomp = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_p30lwickcompsupp = function(self, item)
-		WacMenu._data.replace_p30lwickcompsupp = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_p30lextmag = function(self, item)
@@ -1793,6 +1797,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_m1928a1longb = function(self, item)
 		WacMenu._data.replace_m1928a1longb = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m1928flashhider = function(self, item)
+		WacMenu._data.replace_m1928flashhider = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_m1928a1fg = function(self, item)
@@ -2431,14 +2439,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_v6mb = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_selectablebarrelext = function(self, item)
-		WacMenu._data.replace_selectablebarrelext = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_selectablebarrelext2 = function(self, item)
-		WacMenu._data.replace_selectablebarrelext2 = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_kingbreach = function(self, item)
 		WacMenu._data.replace_kingbreach = item:value()
 		WacMenu:Save()
@@ -2465,22 +2465,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_tk_gc = function(self, item)
 		WacMenu._data.replace_tk_gc = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_hidebarrelextarsmg = function(self, item)
-		WacMenu._data.replace_hidebarrelextarsmg = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_hidebarrelextsh = function(self, item)
-		WacMenu._data.replace_hidebarrelextsh = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_hidebarrelextpis = function(self, item)
-		WacMenu._data.replace_hidebarrelextpis = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_hidebarrelextunique = function(self, item)
-		WacMenu._data.replace_hidebarrelextunique = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_compactlaser = function(self, item)
@@ -2555,40 +2539,24 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_pis_medium_slim = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_pis_large_kac = function(self, item)
-		WacMenu._data.replace_pis_large_kac = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_snakesupp = function(self, item)
-		WacMenu._data.replace_snakesupp = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_pis_medium_gem = function(self, item)
 		WacMenu._data.replace_pis_medium_gem = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_pis_large = function(self, item)
+		WacMenu._data.replace_pis_large = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_pis_large_kac = function(self, item)
+		WacMenu._data.replace_pis_large_kac = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_pis_small = function(self, item)
 		WacMenu._data.replace_pis_small = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_selectablesupp = function(self, item)
-		WacMenu._data.replace_selectablesupp = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_selectablesupp2 = function(self, item)
-		WacMenu._data.replace_selectablesupp2 = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_hidesuppressors = function(self, item)
-		WacMenu._data.replace_hidesuppressors = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_hidesuppbarrels = function(self, item)
-		WacMenu._data.replace_hidesuppbarrels = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_hidesuppressorscomp = function(self, item)
-		WacMenu._data.replace_hidesuppressorscomp = item:value()
+	MenuCallbackHandler.callback_toggle_replace_snakesupp = function(self, item)
+		WacMenu._data.replace_snakesupp = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_specter_zoom = function(self, item)
@@ -2811,6 +2779,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/usp.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/hs2k.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/jericho941.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/korth_nxs.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/lugerp08.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/m1911.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/mateba.txt", WacMenu, WacMenu._data)
