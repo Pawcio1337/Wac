@@ -4,6 +4,18 @@
 	"title" : "bm_w_komodo",
 	"items" : [
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_x95_ns",
+			"title" : "wac_replace_uniquebarrelext_title",
+			"callback" : "callback_toggle_replace_x95_ns",
+			"value" : "replace_x95_ns",
+			"default_value" : false
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_x95_stanag20",
 			"title" : "bm_wp_m4_m_straight",

@@ -33,7 +33,7 @@
 	"wac_replace_stubbygrip_title" : "Stubby Grip",
 	"wac_replace_usestndgrip_title" : "Use only Standard Grip",
 	"wac_replace_uniquesupp_title" : "Use only unique suppressor model",
-	"wac_replace_uniquebarrelext_title" : "Use only unique barrel ext model",
+	"wac_replace_uniquebarrelext_title" : "Use only default barrel ext model",
 	"wac_replace_usestndst_title" : "Use only Standard Stock",
 	"wac_replace_usestndfg_title" : "Use only Standard Foregrip",
 	"wac_replace_g3psgforce_title" : "Use only PSG-1 parts with DMR Kit",

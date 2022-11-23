@@ -35,7 +35,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_jprifles",
 			"default_value" : 1
@@ -72,7 +73,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_firepig",
 			"default_value" : 1
@@ -109,7 +111,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_linear",
 			"default_value" : 1
@@ -146,7 +149,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_stubby",
 			"default_value" : 1
@@ -183,7 +187,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_surefire",
 			"default_value" : 1
@@ -220,7 +225,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_v6mb",
 			"default_value" : 1
@@ -261,7 +267,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_kingbreach",
 			"default_value" : 1
@@ -298,7 +305,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_sharkbrake",
 			"default_value" : 1
@@ -335,7 +343,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_duckbill",
 			"default_value" : 1
@@ -376,7 +385,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_pisflashhider",
 			"default_value" : 1
@@ -413,7 +423,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_pistenderizer",
 			"default_value" : 1
@@ -450,7 +461,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_ipsccomp",
 			"default_value" : 1
@@ -487,7 +499,8 @@
 				"bm_w_tecci",
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp"
 			],
 			"value" : "replace_tk_gc",
 			"default_value" : 1

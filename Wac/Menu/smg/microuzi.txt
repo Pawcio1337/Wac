@@ -21,32 +21,6 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_muzilongsupp",
-			"title" : "bm_wp_baka_b_longsupp",
-			"callback" : "callback_toggle_replace_muzilongsupp",		
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_baka_b_midsupp",
-				"bm_wp_baka_b_smallsupp"
-			],
-			"value" : "replace_muzilongsupp",
-			"default_value" : 1
-		},
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_muzismallsupp",
-			"title" : "bm_wp_baka_b_smallsupp",
-			"callback" : "callback_toggle_replace_muzismallsupp",		
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_baka_b_midsupp",
-				"bm_wp_baka_b_longsupp"
-			],
-			"value" : "replace_muzismallsupp",
-			"default_value" : 1
-		},
-		{
-			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzisupp",
 			"title" : "wac_replace_usesupp_title",
 			"callback" : "callback_toggle_replace_microuzisupp",		

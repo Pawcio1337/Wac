@@ -17,25 +17,6 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_hk416jpre",
-			"title" : "bm_wp_tecci_ns_special",
-			"callback" : "callback_toggle_replace_hk416jpre",		
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_upg_ns_ass_smg_firepig",
-				"bm_wp_upg_ns_ass_smg_tank",
-				"bm_wp_upg_ns_ass_smg_stubby",
-				"bm_wp_upg_ass_ns_surefire",
-				"bm_wp_upg_ass_ns_linear",
-				"bm_wp_upg_ass_ns_jprifles",
-				"bm_wp_ns_battle",
-				"bm_w_tecci"
-			],
-			"value" : "replace_hk416jpre",
-			"default_value" : 1
-		},
-		{
-			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk416ccomp",
 			"title" : "wac_replace_uniquebarrelext_title",
 			"callback" : "callback_toggle_replace_hk416ccomp",

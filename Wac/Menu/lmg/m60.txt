@@ -16,6 +16,14 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "toggle",
+			"id" : "toggle_replace_m60_ns",
+			"title" : "wac_replace_uniquebarrelext_title",
+			"callback" : "callback_toggle_replace_m60_ns",
+			"value" : "replace_m60_ns",
+			"default_value" : false
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

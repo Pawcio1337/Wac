@@ -4,24 +4,6 @@
 	"title" : "bm_w_polymer",
 	"items" : [
 		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_vectorcrb_model",
-			"title" : "bm_wp_polymer_barrel_precision",
-			"callback" : "callback_toggle_replace_vectorcrb_model",		
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_upg_ass_ns_jprifles",
-				"bm_wp_upg_ns_ass_smg_firepig",
-				"bm_wp_upg_ns_ass_smg_tank",
-				"bm_wp_upg_ass_ns_surefire",
-				"bm_wp_upg_ass_ns_linear",
-				"bm_wp_ns_battle",
-				"wac_nomodel_multi"
-			],
-			"value" : "replace_vectorcrb_model",
-			"default_value" : 1
-		},
-		{
 			"type" : "toggle",
 			"id" : "toggle_replace_vectorcrb",
 			"title" : "wac_replace_uniquebarrelext_title",

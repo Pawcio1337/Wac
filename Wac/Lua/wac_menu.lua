@@ -459,10 +459,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_hk416longb = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_hk416jpre = function(self, item)
-		WacMenu._data.replace_hk416jpre = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_hk416ccomp = function(self, item)
 		WacMenu._data.replace_hk416ccomp = item:value()
 		WacMenu:Save()
@@ -749,6 +745,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_vhsironsights = function(self, item)
 		WacMenu._data.replace_vhsironsights = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_x95_ns = function(self, item)
+		WacMenu._data.replace_x95_ns = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_x95_stanag20 = function(self, item)
@@ -1161,6 +1161,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_m60shortb = function(self, item)
 		WacMenu._data.replace_m60shortb = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m60_ns = function(self, item)
+		WacMenu._data.replace_m60_ns = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_m60tactfg = function(self, item)
@@ -1875,14 +1879,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_fmg9_stock_padded = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_muzismallsupp = function(self, item)
-		WacMenu._data.replace_muzismallsupp = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_muzilongsupp = function(self, item)
-		WacMenu._data.replace_muzilongsupp = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_microuzicomp = function(self, item)
 		WacMenu._data.replace_microuzicomp = item:value()
 		WacMenu:Save()
@@ -1945,6 +1941,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_xmp5kcap = function(self, item)
 		WacMenu._data.replace_xmp5kcap = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_mp7qd_model = function(self, item)
+		WacMenu._data.replace_mp7qd_model = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_mp7qd = function(self, item)
@@ -2029,6 +2029,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_pp19stndgrip = function(self, item)
 		WacMenu._data.replace_pp19stndgrip = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_vityaz_ns = function(self, item)
+		WacMenu._data.replace_vityaz_ns = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_sigmpxflashhider = function(self, item)
@@ -2145,10 +2149,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_uzix_st = function(self, item)
 		WacMenu._data.replace_uzix_st = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_vectorcrb_model = function(self, item)
-		WacMenu._data.replace_vectorcrb_model = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_vectorcrb = function(self, item)
@@ -2519,8 +2519,8 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_arsupp_lowprofile = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_replace_supp_putnik = function(self, item)
-		WacMenu._data.replace_replace_supp_putnik = item:value()
+	MenuCallbackHandler.callback_toggle_replace_supp_putnik = function(self, item)
+		WacMenu._data.replace_supp_putnik = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_replace_supp_shak12 = function(self, item)
@@ -2808,6 +2808,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/smg/mp9.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/smg/mp40.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/smg/pp19.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/smg/pp19-01vityaz.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/smg/sigmpx.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/smg/sr2.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/smg/tec9.txt", WacMenu, WacMenu._data)
