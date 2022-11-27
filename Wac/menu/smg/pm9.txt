@@ -1,0 +1,19 @@
+{
+	"menu_id" : "wac_menu_smg_pm9",
+	"parent_menu_id" : "wac_menu_smg",
+	"title" : "bm_w_pm9",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_pm9_s_tact",
+			"title" : "bm_wp_pm9_s_tactical",
+			"callback" : "callback_toggle_replace_pm9_s_tact",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_baka_s_standard"
+			],
+			"value" : "replace_pm9_s_tact",
+			"default_value" : 1
+		}
+	]
+}

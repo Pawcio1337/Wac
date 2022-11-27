@@ -1737,9 +1737,25 @@ if WacMenu._data.replace_svdpolymerst == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_siltstone_s_polymer.third_unit = "units/pd2_dlc_grv/weapons/wpn_fps_snp_siltstone_pts/wpn_third_snp_siltstone_s_wood"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_siltstone_s_polymer.unit = "units/pd2_dlc_grv/weapons/wpn_fps_snp_siltstone_pts/wpn_fps_snp_siltstone_s_wood"
 end
+if WacMenu._data.replace_tr1muzzle == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_tti_ns_standard.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+elseif WacMenu._data.replace_tr1muzzle == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_tti_ns_standard.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_ns_hex"
+end
+if WacMenu._data.replace_tr1supp == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_tti_ns_hex.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+elseif WacMenu._data.replace_tr1supp == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_tti_ns_hex.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_ns_standard"
+end
 if WacMenu._data.replace_wa2000longb == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_b_long.third_unit = "units/pd2_dlc_turtles/weapons/wpn_third_snp_wa2000_pts/wpn_third_snp_wa2000_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_b_long.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_b_standard"
+elseif WacMenu._data.replace_wa2000longb == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_b_long.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_b_suppressed"
+end
+if WacMenu._data.replace_wa2000suppb == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_b_suppressed.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_b_standard"
+elseif WacMenu._data.replace_wa2000suppb == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_b_suppressed.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_b_long"
 end
 if WacMenu._data.replace_wa2000lightgrip == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_g_light.third_unit = "units/pd2_dlc_turtles/weapons/wpn_third_snp_wa2000_pts/wpn_third_snp_wa2000_g_stealth"
@@ -3079,6 +3095,10 @@ if WacMenu._data.replace_p90strap == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_p90_m_strap.third_unit = "units/payday2/weapons/wpn_third_smg_p90_pts/wpn_third_smg_p90_m_std"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_p90_m_strap.unit = "units/payday2/weapons/wpn_fps_smg_p90_pts/wpn_fps_smg_p90_m_std"
 end
+if WacMenu._data.replace_pm9_s_tact == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_smg_pm9_s_tactical.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	tweak_data.weapon.factory.parts.wpn_fps_smg_pm9_s_tactical.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+end
 if WacMenu._data.replace_sigmpxk_handguard == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_body_short.override.wpn_fps_smg_shepheard_b_standard = {unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_b_standard",third_unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_third_smg_shepheard_b_standard"}
 	tweak_data.weapon.factory.parts.wpn_fps_smg_shepheard_body_short.override.wpn_fps_smg_shepheard_o_standard = {unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_fps_smg_shepheard_o_standard",third_unit = "units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard_pts/wpn_third_smg_shepheard_o_standard"}
@@ -3174,22 +3194,6 @@ elseif WacMenu._data.replace_ump45x_st == 3 then
 elseif WacMenu._data.replace_ump45x_st == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_s_folded_vanilla.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_s_folded_vanilla.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
-end
-if WacMenu._data.replace_ump45m900 == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.adds = nil
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.perks = nil
-elseif WacMenu._data.replace_ump45m900 == 3 then
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.adds = nil
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.forbids = nil
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.perks = nil
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.third_unit = "units/payday2/weapons/wpn_third_upg_vg_ass_smg_verticalgrip/wpn_third_upg_vg_ass_smg_verticalgrip"
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.unit = "units/payday2/weapons/wpn_fps_upg_vg_ass_smg_verticalgrip/wpn_fps_upg_vg_ass_smg_verticalgrip"
-elseif WacMenu._data.replace_ump45m900 == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.adds = nil
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.forbids = nil
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.perks = nil
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.third_unit = "units/payday2/weapons/wpn_third_upg_vg_ass_smg_stubby/wpn_third_upg_vg_ass_smg_stubby"
-	tweak_data.weapon.factory.parts.wpn_fps_smg_schakal_vg_surefire.unit = "units/payday2/weapons/wpn_fps_upg_vg_ass_smg_stubby/wpn_fps_upg_vg_ass_smg_stubby"
 end
 if WacMenu._data.replace_uzitacfg == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_uzi_fg_rail.adds = nil
@@ -4932,832 +4936,849 @@ if WacMenu._data.replace_glockgriphogue == 2 then
 end
 local supp = {}
 supp.tweak = "tweak_data.weapon.factory.parts."
-supp.dummy = " = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
-supp.small = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_small/wpn_fps_upg_ns_ass_smg_small\""
-supp.medium = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_medium/wpn_fps_upg_ns_ass_smg_medium\""
-supp.large = " = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_large/wpn_fps_upg_ns_ass_smg_large\""
-supp.pbs1 = " = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ns_ass_pbs1/wpn_fps_upg_ns_ass_pbs1\""
-supp.pis_small = " = \"units/payday2/weapons/wpn_fps_upg_ns_pis_small/wpn_fps_upg_ns_pis_small\""
-supp.pis_medium = " = \"units/payday2/weapons/wpn_fps_upg_ns_pis_medium/wpn_fps_upg_ns_pis_medium\""
-supp.pis_large = " = \"units/payday2/weapons/wpn_fps_upg_ns_pis_large/wpn_fps_upg_ns_pis_large\""
-supp.pis_medium_gem = " = \"units/pd2_crimefest_2014/oct22/weapons/wpn_fps_upg_ns_pis_medium_gem/wpn_fps_upg_ns_pis_medium_gem\""
-supp.pis_medium_slim = " = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ns_pis_medium_slim/wpn_fps_upg_ns_pis_medium_slim\""
-supp.pis_large_kac = " = \"units/pd2_crimefest_2014/oct22/weapons/wpn_fps_upg_ns_pis_large_kac/wpn_fps_upg_ns_pis_large_kac\""
-supp.filter = " = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_ass_filter/wpn_fps_upg_ns_ass_filter\""
-supp.pis_jungle = " = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_pis_jungle/wpn_fps_upg_ns_pis_jungle\""
-supp.putnik = " = \"units/pd2_dlc_lawp/weapons/wpn_fps_upg_ns_pis_putnik/wpn_fps_upg_ns_pis_putnik\""
-supp.shot_thick = " = \"units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick\""
-supp.salvo_large = " = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_sho_salvo/wpn_fps_upg_ns_sho_salvo_large\""
-supp.mp7 = " = \"units/pd2_dlc_dec5/weapons/wpn_fps_smg_mp7_pts/wpn_fps_smg_mp7_b_suppressed\""
-supp.vector = " = \"units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_ns_silencer\""
-supp.cobray = " = \"units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_fps_smg_cobray_ns_silencer\""
-supp.sr2 = " = \"units/pd2_dlc_coco/weapons/wpn_fps_smg_sr2_parts/wpn_fps_smg_sr2_ns_silencer\""
-supp.mp9 = " = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_smg_mp9_b_suppressed/wpn_fps_smg_mp9_b_suppressed\""
-supp.gm45 = " = \"units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_ns_silencer\""
-supp.scorpion = " = \"units/pd2_dlc_miami/weapons/wpn_fps_smg_scorpion_pts/wpn_fps_smg_scorpion_b_suppressed\""
-supp.uzi = " = \"units/pd2_dlc_miami/weapons/wpn_fps_smg_uzi_pts/wpn_fps_smg_uzi_b_suppressed\""
-supp.baka_small = " = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts/wpn_fps_smg_baka_b_smallsupp\""
-supp.baka_mid = " = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts/wpn_fps_smg_baka_b_midsupp\""
-supp.baka_long = " = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts/wpn_fps_smg_baka_b_longsupp\""
-supp.shak12 = " = \"units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_fps_ass_shak12_ns_suppressor\""
-supp.mk12 = " = \"units/pd2_dlc_ja22/weapons/wpn_fps_m4_upg_mk12_pts/wpn_fps_m4_upg_ns_mk12\""
+supp.supplarge = "wpn_fps_upg_ns_ass_smg_large"
+supp.suppmedium = "wpn_fps_upg_ns_ass_smg_medium"
+supp.suppsmall = "wpn_fps_upg_ns_ass_smg_small"
+supp.putnik = "wpn_fps_upg_ns_pis_putnik"
+supp.shak12 = "wpn_fps_ass_shak12_ns_suppressor"
+supp.salvo = "wpn_fps_upg_ns_sho_salvo_large"
+supp.thick = "wpn_fps_upg_ns_shot_thick"
+supp.pis_slim = "wpn_fps_upg_ns_pis_medium_slim"
+supp.pis_gem = "wpn_fps_upg_ns_pis_medium_gem"
+supp.pis_large = "wpn_fps_upg_ns_pis_large"
+supp.pis_kac = "wpn_fps_upg_ns_pis_large_kac"
+supp.pis_small = "wpn_fps_upg_ns_pis_small"
+supp.snake = "wpn_fps_upg_ns_pis_jungle"
+supp.mp7qd = "wpn_fps_smg_mp7_b_suppressed"
+supp.pbs1 = "wpn_fps_upg_ns_ass_pbs1"
+supp.pis_medium = "wpn_fps_upg_ns_pis_medium"
+supp.filter = "wpn_fps_upg_ns_ass_filter"
+supp.dummyunit = ".unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
+supp.smallunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_small/wpn_fps_upg_ns_ass_smg_small\""
+supp.mediumunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_medium/wpn_fps_upg_ns_ass_smg_medium\""
+supp.largeunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_large/wpn_fps_upg_ns_ass_smg_large\""
+supp.pbs1unit = ".unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ns_ass_pbs1/wpn_fps_upg_ns_ass_pbs1\""
+supp.pis_smallunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_pis_small/wpn_fps_upg_ns_pis_small\""
+supp.pis_mediumunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_pis_medium/wpn_fps_upg_ns_pis_medium\""
+supp.pis_largeunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_pis_large/wpn_fps_upg_ns_pis_large\""
+supp.pis_medium_gemunit = ".unit = \"units/pd2_crimefest_2014/oct22/weapons/wpn_fps_upg_ns_pis_medium_gem/wpn_fps_upg_ns_pis_medium_gem\""
+supp.pis_medium_slimunit = ".unit = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ns_pis_medium_slim/wpn_fps_upg_ns_pis_medium_slim\""
+supp.pis_large_kacunit = ".unit = \"units/pd2_crimefest_2014/oct22/weapons/wpn_fps_upg_ns_pis_large_kac/wpn_fps_upg_ns_pis_large_kac\""
+supp.filterunit = ".unit = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_ass_filter/wpn_fps_upg_ns_ass_filter\""
+supp.pis_jungleunit = ".unit = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_pis_jungle/wpn_fps_upg_ns_pis_jungle\""
+supp.putnikunit = ".unit = \"units/pd2_dlc_lawp/weapons/wpn_fps_upg_ns_pis_putnik/wpn_fps_upg_ns_pis_putnik\""
+supp.thickunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_shot_thick/wpn_fps_upg_ns_shot_thick\""
+supp.salvounit = ".unit = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_upg_ns_sho_salvo/wpn_fps_upg_ns_sho_salvo_large\""
+supp.mp7qdunit = ".unit = \"units/pd2_dlc_dec5/weapons/wpn_fps_smg_mp7_pts/wpn_fps_smg_mp7_b_suppressed\""
+supp.vectorunit = ".unit = \"units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_ns_silencer\""
+supp.cobrayunit = ".unit = \"units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_fps_smg_cobray_ns_silencer\""
+supp.sr2unit = ".unit = \"units/pd2_dlc_coco/weapons/wpn_fps_smg_sr2_parts/wpn_fps_smg_sr2_ns_silencer\""
+supp.mp9unit = ".unit = \"units/pd2_dlc_butcher_mods/weapons/wpn_fps_smg_mp9_b_suppressed/wpn_fps_smg_mp9_b_suppressed\""
+supp.gm45unit = ".unit = \"units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_ns_silencer\""
+supp.scorpionunit = ".unit = \"units/pd2_dlc_miami/weapons/wpn_fps_smg_scorpion_pts/wpn_fps_smg_scorpion_b_suppressed\""
+supp.uziunit = ".unit = \"units/pd2_dlc_miami/weapons/wpn_fps_smg_uzi_pts/wpn_fps_smg_uzi_b_suppressed\""
+supp.baka_smallunit = ".unit = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts/wpn_fps_smg_baka_b_smallsupp\""
+supp.baka_midunit = ".unit = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts/wpn_fps_smg_baka_b_midsupp\""
+supp.baka_longunit = ".unit = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts/wpn_fps_smg_baka_b_longsupp\""
+supp.shak12unit = ".unit = \"units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_fps_ass_shak12_ns_suppressor\""
+supp.mk12unit = ".unit = \"units/pd2_dlc_ja22/weapons/wpn_fps_m4_upg_mk12_pts/wpn_fps_m4_upg_ns_mk12\""
 if WacMenu._data.replace_arsupp_bigger == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.dummyunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.smallunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.mediumunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pbs1unit))()
 elseif WacMenu._data.replace_arsupp_bigger == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.filterunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.putnikunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.thickunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.salvounit))()
 elseif WacMenu._data.replace_arsupp_bigger == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.vectorunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.cobrayunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.sr2unit))()
 elseif WacMenu._data.replace_arsupp_bigger == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.mp9unit))()
 elseif WacMenu._data.replace_arsupp_bigger == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.gm45unit))()
 elseif WacMenu._data.replace_arsupp_bigger == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.scorpionunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.uziunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.baka_midunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.baka_longunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.shak12unit))()
 elseif WacMenu._data.replace_arsupp_bigger == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_large.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.mk12unit))()
 end
 if WacMenu._data.replace_arsupp_medium == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.dummyunit))()
 elseif WacMenu._data.replace_arsupp_medium == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.smallunit))()
 elseif WacMenu._data.replace_arsupp_medium == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.largeunit))()
 elseif WacMenu._data.replace_arsupp_medium == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pbs1unit))()
 elseif WacMenu._data.replace_arsupp_medium == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_arsupp_medium == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_arsupp_medium == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_arsupp_medium == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_arsupp_medium == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_arsupp_medium == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_arsupp_medium == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.filterunit))()
 elseif WacMenu._data.replace_arsupp_medium == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_arsupp_medium == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.putnikunit))()
 elseif WacMenu._data.replace_arsupp_medium == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.thickunit))()
 elseif WacMenu._data.replace_arsupp_medium == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.salvounit))()
 elseif WacMenu._data.replace_arsupp_medium == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_arsupp_medium == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.vectorunit))()
 elseif WacMenu._data.replace_arsupp_medium == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.cobrayunit))()
 elseif WacMenu._data.replace_arsupp_medium == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.sr2unit))()
 elseif WacMenu._data.replace_arsupp_medium == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.mp9unit))()
 elseif WacMenu._data.replace_arsupp_medium == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.gm45unit))()
 elseif WacMenu._data.replace_arsupp_medium == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.scorpionunit))()
 elseif WacMenu._data.replace_arsupp_medium == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.uziunit))()
 elseif WacMenu._data.replace_arsupp_medium == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_arsupp_medium == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.baka_midunit))()
 elseif WacMenu._data.replace_arsupp_medium == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.baka_longunit))()
 elseif WacMenu._data.replace_arsupp_medium == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.shak12unit))()
 elseif WacMenu._data.replace_arsupp_medium == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_medium.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.mk12unit))()
 end
 if WacMenu._data.replace_arsupp_lowprofile == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.dummyunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.mediumunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.largeunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pbs1unit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.filterunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.putnikunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.thickunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.salvounit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.vectorunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.cobrayunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.sr2unit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.mp9unit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.gm45unit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.scorpionunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.uziunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.baka_midunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.baka_longunit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.shak12unit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_ass_smg_small.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.mk12unit))()
 end
 if WacMenu._data.replace_supp_putnik == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.dummyunit))()
 elseif WacMenu._data.replace_supp_putnik == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.smallunit))()
 elseif WacMenu._data.replace_supp_putnik == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.mediumunit))()
 elseif WacMenu._data.replace_supp_putnik == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.largeunit))()
 elseif WacMenu._data.replace_supp_putnik == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pbs1unit))()
 elseif WacMenu._data.replace_supp_putnik == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_supp_putnik == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_supp_putnik == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_supp_putnik == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_supp_putnik == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_supp_putnik == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_supp_putnik == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.filterunit))()
 elseif WacMenu._data.replace_supp_putnik == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_supp_putnik == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.thickunit))()
 elseif WacMenu._data.replace_supp_putnik == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.salvounit))()
 elseif WacMenu._data.replace_supp_putnik == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_supp_putnik == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.vectorunit))()
 elseif WacMenu._data.replace_supp_putnik == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.cobrayunit))()
 elseif WacMenu._data.replace_supp_putnik == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.sr2unit))()
 elseif WacMenu._data.replace_supp_putnik == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.mp9unit))()
 elseif WacMenu._data.replace_supp_putnik == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.gm45unit))()
 elseif WacMenu._data.replace_supp_putnik == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.scorpionunit))()
 elseif WacMenu._data.replace_supp_putnik == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.uziunit))()
 elseif WacMenu._data.replace_supp_putnik == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_supp_putnik == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.baka_midunit))()
 elseif WacMenu._data.replace_supp_putnik == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.baka_longunit))()
 elseif WacMenu._data.replace_supp_putnik == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.shak12unit))()
 elseif WacMenu._data.replace_supp_putnik == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_putnik.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.putnik .. supp.mk12unit))()
 end
 if WacMenu._data.replace_supp_shak12 == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.dummyunit))()
 elseif WacMenu._data.replace_supp_shak12 == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.smallunit))()
 elseif WacMenu._data.replace_supp_shak12 == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.mediumunit))()
 elseif WacMenu._data.replace_supp_shak12 == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.largeunit))()
 elseif WacMenu._data.replace_supp_shak12 == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pbs1unit))()
 elseif WacMenu._data.replace_supp_shak12 == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_supp_shak12 == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_supp_shak12 == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_supp_shak12 == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_supp_shak12 == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_supp_shak12 == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_supp_shak12 == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.filterunit))()
 elseif WacMenu._data.replace_supp_shak12 == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_supp_shak12 == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.putnikunit))()
 elseif WacMenu._data.replace_supp_shak12 == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.thickunit))()
 elseif WacMenu._data.replace_supp_shak12 == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.salvounit))()
 elseif WacMenu._data.replace_supp_shak12 == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_supp_shak12 == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.vectorunit))()
 elseif WacMenu._data.replace_supp_shak12 == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.cobrayunit))()
 elseif WacMenu._data.replace_supp_shak12 == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.sr2unit))()
 elseif WacMenu._data.replace_supp_shak12 == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.mp9unit))()
 elseif WacMenu._data.replace_supp_shak12 == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.gm45unit))()
 elseif WacMenu._data.replace_supp_shak12 == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.scorpionunit))()
 elseif WacMenu._data.replace_supp_shak12 == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.uziunit))()
 elseif WacMenu._data.replace_supp_shak12 == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_supp_shak12 == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.baka_midunit))()
 elseif WacMenu._data.replace_supp_shak12 == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.baka_longunit))()
 elseif WacMenu._data.replace_supp_shak12 == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_ass_shak12_ns_suppressor.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.mk12unit))()
 end
 if WacMenu._data.replace_salvo12 == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.dummyunit))()
 elseif WacMenu._data.replace_salvo12 == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.thickunit))()
 elseif WacMenu._data.replace_salvo12 == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.smallunit))()
 elseif WacMenu._data.replace_salvo12 == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.mediumunit))()
 elseif WacMenu._data.replace_salvo12 == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.largeunit))()
 elseif WacMenu._data.replace_salvo12 == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pbs1unit))()
 elseif WacMenu._data.replace_salvo12 == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_salvo12 == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_salvo12 == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_salvo12 == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_salvo12 == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_salvo12 == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_salvo12 == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.filterunit))()
 elseif WacMenu._data.replace_salvo12 == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_salvo12 == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.putnikunit))()
 elseif WacMenu._data.replace_salvo12 == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_salvo12 == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.vectorunit))()
 elseif WacMenu._data.replace_salvo12 == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.cobrayunit))()
 elseif WacMenu._data.replace_salvo12 == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.sr2unit))()
 elseif WacMenu._data.replace_salvo12 == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.mp9unit))()
 elseif WacMenu._data.replace_salvo12 == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.gm45unit))()
 elseif WacMenu._data.replace_salvo12 == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.scorpionunit))()
 elseif WacMenu._data.replace_salvo12 == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.uziunit))()
 elseif WacMenu._data.replace_salvo12 == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_salvo12 == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.baka_midunit))()
 elseif WacMenu._data.replace_salvo12 == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.baka_longunit))()
 elseif WacMenu._data.replace_salvo12 == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.shak12unit))()
 elseif WacMenu._data.replace_salvo12 == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_sho_salvo_large.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.salvo .. supp.mk12unit))()
 end
 if WacMenu._data.replace_shotsupp_silent == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.dummyunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.salvounit))()
 elseif WacMenu._data.replace_shotsupp_silent == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.smallunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.mediumunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.largeunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pbs1unit))()
 elseif WacMenu._data.replace_shotsupp_silent == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.filterunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.putnikunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.vectorunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.cobrayunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.sr2unit))()
 elseif WacMenu._data.replace_shotsupp_silent == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.mp9unit))()
 elseif WacMenu._data.replace_shotsupp_silent == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.gm45unit))()
 elseif WacMenu._data.replace_shotsupp_silent == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.scorpionunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.uziunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.baka_midunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.baka_longunit))()
 elseif WacMenu._data.replace_shotsupp_silent == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.shak12unit))()
 elseif WacMenu._data.replace_shotsupp_silent == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_shot_thick.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.thick .. supp.mk12unit))()
 end
 if WacMenu._data.replace_pis_medium_slim == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.dummyunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.filterunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.putnikunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.smallunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.mediumunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.largeunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.pbs1unit))()
 elseif WacMenu._data.replace_pis_medium_slim == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.thickunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.salvounit))()
 elseif WacMenu._data.replace_pis_medium_slim == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.vectorunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.cobrayunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.sr2unit))()
 elseif WacMenu._data.replace_pis_medium_slim == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.mp9unit))()
 elseif WacMenu._data.replace_pis_medium_slim == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.gm45unit))()
 elseif WacMenu._data.replace_pis_medium_slim == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.scorpionunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.uziunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.baka_midunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.baka_longunit))()
 elseif WacMenu._data.replace_pis_medium_slim == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_medium_slim == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_slim.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.mk12unit))()
 end
 if WacMenu._data.replace_pis_medium_gem == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.dummyunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.filterunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.putnikunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.smallunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.mediumunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.largeunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.pbs1unit))()
 elseif WacMenu._data.replace_pis_medium_gem == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.thickunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.salvounit))()
 elseif WacMenu._data.replace_pis_medium_gem == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.vectorunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.cobrayunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.sr2unit))()
 elseif WacMenu._data.replace_pis_medium_gem == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.mp9unit))()
 elseif WacMenu._data.replace_pis_medium_gem == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.gm45unit))()
 elseif WacMenu._data.replace_pis_medium_gem == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.scorpionunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.uziunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.baka_midunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.baka_longunit))()
 elseif WacMenu._data.replace_pis_medium_gem == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_medium_gem == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_medium_gem.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.mk12unit))()
 end
 if WacMenu._data.replace_pis_large == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.dummyunit))()
 elseif WacMenu._data.replace_pis_large == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_pis_large == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_pis_large == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_pis_large == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_pis_large == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_pis_large == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.filterunit))()
 elseif WacMenu._data.replace_pis_large == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_pis_large == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.putnikunit))()
 elseif WacMenu._data.replace_pis_large == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.smallunit))()
 elseif WacMenu._data.replace_pis_large == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.mediumunit))()
 elseif WacMenu._data.replace_pis_large == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.largeunit))()
 elseif WacMenu._data.replace_pis_large == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.pbs1unit))()
 elseif WacMenu._data.replace_pis_large == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.thickunit))()
 elseif WacMenu._data.replace_pis_large == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.salvounit))()
 elseif WacMenu._data.replace_pis_large == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_pis_large == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.vectorunit))()
 elseif WacMenu._data.replace_pis_large == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.cobrayunit))()
 elseif WacMenu._data.replace_pis_large == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.sr2unit))()
 elseif WacMenu._data.replace_pis_large == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.mp9unit))()
 elseif WacMenu._data.replace_pis_large == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.gm45unit))()
 elseif WacMenu._data.replace_pis_large == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.scorpionunit))()
 elseif WacMenu._data.replace_pis_large == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.uziunit))()
 elseif WacMenu._data.replace_pis_large == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_pis_large == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.baka_midunit))()
 elseif WacMenu._data.replace_pis_large == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.baka_longunit))()
 elseif WacMenu._data.replace_pis_large == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_large == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.mk12unit))()
 end
 if WacMenu._data.replace_pis_large_kac == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.dummyunit))()
 elseif WacMenu._data.replace_pis_large_kac == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_pis_large_kac == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_pis_large_kac == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_pis_large_kac == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_pis_large_kac == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_pis_large_kac == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.filterunit))()
 elseif WacMenu._data.replace_pis_large_kac == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_pis_large_kac == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.putnikunit))()
 elseif WacMenu._data.replace_pis_large_kac == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.smallunit))()
 elseif WacMenu._data.replace_pis_large_kac == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.mediumunit))()
 elseif WacMenu._data.replace_pis_large_kac == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.largeunit))()
 elseif WacMenu._data.replace_pis_large_kac == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.pbs1unit))()
 elseif WacMenu._data.replace_pis_large_kac == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.thickunit))()
 elseif WacMenu._data.replace_pis_large_kac == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.salvounit))()
 elseif WacMenu._data.replace_pis_large_kac == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_pis_large_kac == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.vectorunit))()
 elseif WacMenu._data.replace_pis_large_kac == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.cobrayunit))()
 elseif WacMenu._data.replace_pis_large_kac == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.sr2unit))()
 elseif WacMenu._data.replace_pis_large_kac == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.mp9unit))()
 elseif WacMenu._data.replace_pis_large_kac == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.gm45unit))()
 elseif WacMenu._data.replace_pis_large_kac == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.scorpionunit))()
 elseif WacMenu._data.replace_pis_large_kac == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.uziunit))()
 elseif WacMenu._data.replace_pis_large_kac == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_pis_large_kac == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.baka_midunit))()
 elseif WacMenu._data.replace_pis_large_kac == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.baka_longunit))()
 elseif WacMenu._data.replace_pis_large_kac == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_large_kac == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_large_kac.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.mk12unit))()
 end
 if WacMenu._data.replace_pis_small == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.dummyunit))()
 elseif WacMenu._data.replace_pis_small == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_pis_small == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_pis_small == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_pis_small == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_pis_small == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_pis_small == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.filterunit))()
 elseif WacMenu._data.replace_pis_small == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_pis_small == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.putnikunit))()
 elseif WacMenu._data.replace_pis_small == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.smallunit))()
 elseif WacMenu._data.replace_pis_small == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.mediumunit))()
 elseif WacMenu._data.replace_pis_small == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.largeunit))()
 elseif WacMenu._data.replace_pis_small == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.pbs1unit))()
 elseif WacMenu._data.replace_pis_small == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.thickunit))()
 elseif WacMenu._data.replace_pis_small == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.salvounit))()
 elseif WacMenu._data.replace_pis_small == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_pis_small == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.vectorunit))()
 elseif WacMenu._data.replace_pis_small == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.cobrayunit))()
 elseif WacMenu._data.replace_pis_small == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.sr2unit))()
 elseif WacMenu._data.replace_pis_small == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.mp9unit))()
 elseif WacMenu._data.replace_pis_small == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.gm45unit))()
 elseif WacMenu._data.replace_pis_small == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.scorpionunit))()
 elseif WacMenu._data.replace_pis_small == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.uziunit))()
 elseif WacMenu._data.replace_pis_small == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_pis_small == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.baka_midunit))()
 elseif WacMenu._data.replace_pis_small == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.baka_longunit))()
 elseif WacMenu._data.replace_pis_small == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_small == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_small.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.mk12unit))()
 end
 if WacMenu._data.replace_snakesupp == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.dummyunit))()
 elseif WacMenu._data.replace_snakesupp == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_snakesupp == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_snakesupp == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_snakesupp == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_snakesupp == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_snakesupp == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.filterunit))()
 elseif WacMenu._data.replace_snakesupp == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_snakesupp == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.putnikunit))()
 elseif WacMenu._data.replace_snakesupp == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.smallunit))()
 elseif WacMenu._data.replace_snakesupp == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.mediumunit))()
 elseif WacMenu._data.replace_snakesupp == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.largeunit))()
 elseif WacMenu._data.replace_snakesupp == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.pbs1unit))()
 elseif WacMenu._data.replace_snakesupp == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.thickunit))()
 elseif WacMenu._data.replace_snakesupp == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.salvounit))()
 elseif WacMenu._data.replace_snakesupp == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.mp7))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.mp7qdunit))()
 elseif WacMenu._data.replace_snakesupp == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.vectorunit))()
 elseif WacMenu._data.replace_snakesupp == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.cobrayunit))()
 elseif WacMenu._data.replace_snakesupp == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.sr2unit))()
 elseif WacMenu._data.replace_snakesupp == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.mp9unit))()
 elseif WacMenu._data.replace_snakesupp == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.gm45unit))()
 elseif WacMenu._data.replace_snakesupp == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.scorpionunit))()
 elseif WacMenu._data.replace_snakesupp == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.uziunit))()
 elseif WacMenu._data.replace_snakesupp == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_snakesupp == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.baka_midunit))()
 elseif WacMenu._data.replace_snakesupp == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.baka_longunit))()
 elseif WacMenu._data.replace_snakesupp == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.shak12unit))()
 elseif WacMenu._data.replace_snakesupp == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_upg_ns_pis_jungle.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.snake .. supp.mk12unit))()
 end
 if WacMenu._data.replace_mp7qd_model == 2 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.dummy))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.dummyunit))()
 elseif WacMenu._data.replace_mp7qd_model == 3 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.small))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.smallunit))()
 elseif WacMenu._data.replace_mp7qd_model == 4 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.medium))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.mediumunit))()
 elseif WacMenu._data.replace_mp7qd_model == 5 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.large))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.largeunit))()
 elseif WacMenu._data.replace_mp7qd_model == 6 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pbs1))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pbs1unit))()
 elseif WacMenu._data.replace_mp7qd_model == 7 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pis_small))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pis_smallunit))()
 elseif WacMenu._data.replace_mp7qd_model == 8 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pis_medium))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pis_mediumunit))()
 elseif WacMenu._data.replace_mp7qd_model == 9 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pis_large))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pis_largeunit))()
 elseif WacMenu._data.replace_mp7qd_model == 10 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pis_medium_gem))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pis_medium_gemunit))()
 elseif WacMenu._data.replace_mp7qd_model == 11 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pis_medium_slim))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pis_medium_slimunit))()
 elseif WacMenu._data.replace_mp7qd_model == 12 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pis_large_kac))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pis_large_kacunit))()
 elseif WacMenu._data.replace_mp7qd_model == 13 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.filter))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.filterunit))()
 elseif WacMenu._data.replace_mp7qd_model == 14 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.pis_jungle))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.pis_jungleunit))()
 elseif WacMenu._data.replace_mp7qd_model == 15 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.shot_thick))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.thickunit))()
 elseif WacMenu._data.replace_mp7qd_model == 16 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.salvo_large))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.salvounit))()
 elseif WacMenu._data.replace_mp7qd_model == 17 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.putnik))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.putnikunit))()
 elseif WacMenu._data.replace_mp7qd_model == 18 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.vector))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.vectorunit))()
 elseif WacMenu._data.replace_mp7qd_model == 19 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.cobray))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.cobrayunit))()
 elseif WacMenu._data.replace_mp7qd_model == 20 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.sr2))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.sr2unit))()
 elseif WacMenu._data.replace_mp7qd_model == 21 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.mp9))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.mp9unit))()
 elseif WacMenu._data.replace_mp7qd_model == 22 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.gm45))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.gm45unit))()
 elseif WacMenu._data.replace_mp7qd_model == 23 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.scorpion))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.scorpionunit))()
 elseif WacMenu._data.replace_mp7qd_model == 24 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.uzi))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.uziunit))()
 elseif WacMenu._data.replace_mp7qd_model == 25 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.baka_small))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.baka_smallunit))()
 elseif WacMenu._data.replace_mp7qd_model == 26 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.baka_mid))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.baka_midunit))()
 elseif WacMenu._data.replace_mp7qd_model == 27 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.baka_long))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.baka_longunit))()
 elseif WacMenu._data.replace_mp7qd_model == 28 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.shak12))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.shak12unit))()
 elseif WacMenu._data.replace_mp7qd_model == 29 then
-assert(loadstring(supp.tweak .. "wpn_fps_smg_mp7_b_suppressed.unit" .. supp.mk12))()
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.mk12unit))()
 end
 if WacMenu._data.replace_specter_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_specter.stats.zoom = 1
@@ -6184,23 +6205,6 @@ unit_list.ar15short = "wpn_fps_m4_uupg_b_short"
 unit_list.ar15beowulf = "wpn_fps_upg_ass_m4_b_beowulf"
 unit_list.akmsub = "wpn_fps_smg_akmsu_b_standard"
 
-unit_list.suppsmall = "wpn_fps_upg_ns_ass_smg_small"
-unit_list.suppmedium = "wpn_fps_upg_ns_ass_smg_medium"
-unit_list.supplarge = "wpn_fps_upg_ns_ass_smg_large"
-unit_list.shsupp = "wpn_fps_upg_ns_shot_thick"
-unit_list.salvo12 = "wpn_fps_upg_ns_sho_salvo_large"
-unit_list.pbs1 = "wpn_fps_upg_ns_ass_pbs1"
-unit_list.pissupplarge = "wpn_fps_upg_ns_pis_large"
-unit_list.pissuppmedium = "wpn_fps_upg_ns_pis_medium"
-unit_list.pissuppsmall = "wpn_fps_upg_ns_pis_small"
-unit_list.pissuppkac = "wpn_fps_upg_ns_pis_large_kac"
-unit_list.pissuppgem = "wpn_fps_upg_ns_pis_medium_gem"
-unit_list.pissuppslim = "wpn_fps_upg_ns_pis_medium_slim"
-unit_list.pissuppfilter = "wpn_fps_upg_ns_ass_filter"
-unit_list.pissuppsnake = "wpn_fps_upg_ns_pis_jungle"
-unit_list.putnik = "wpn_fps_upg_ns_pis_putnik"
-unit_list.shak12_supp = "wpn_fps_ass_shak12_ns_suppressor"
-
 unit_list.akstndfg = "wpn_upg_ak_fg_standard"
 unit_list.akwoodrail = "wpn_upg_ak_fg_combo2"
 unit_list.aktacfg = "wpn_upg_ak_fg_combo3"
@@ -6265,6 +6269,7 @@ unit_list.s870solidstock = "wpn_fps_shot_r870_s_solid"
 unit_list.s870solidstockrail = "wpn_fps_shot_shorty_s_solid_short"
 unit_list.k23short = "wpn_fps_smg_olympic_s_short"
 unit_list.m4vltor = "wpn_fps_snp_tti_s_vltor"
+unit_list.m119stock = "wpn_fps_smg_cobray_s_standard"
 
 unit_list.ar15upperround = "wpn_fps_m4_upper_reciever_round_vanilla"
 unit_list.ak74upper = "wpn_fps_ass_74_body_upperreceiver"
@@ -6275,7 +6280,7 @@ unit_list.ar15handle = "wpn_fps_m4_uupg_draghandle_vanilla"
 -- Parts Units
 local parts_list = {}
 parts_list.dummy_unit = " = {unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\",third_unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\"}"
-parts_list.dummy_unit2 = " = {unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\",third_unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\"},"
+parts_list.dummy_unit_alt = " = {unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\",third_unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\"},"
 parts_list.dummy_unit_open = " = { unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\",third_unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
 
 parts_list.ak74b = " = {unit = \"units/payday2/weapons/wpn_fps_ass_74_pts/wpn_fps_ass_74_b_standard\",third_unit = \"units/payday2/weapons/wpn_third_ass_74_pts/wpn_third_ass_74_b_standard\""
@@ -6397,7 +6402,7 @@ parts_list.sights_saigaoffset = "stance_mod = {wpn_fps_shot_saiga = {translation
 parts_list.sights_strikeroffset = "stance_mod = {wpn_fps_sho_striker = {translation = Vector3(0, -3, -2.7)}} }"
 parts_list.sights_p90offset = "stance_mod = {wpn_fps_smg_p90 = {translation = Vector3(0, 0, -2.97)}} }"
 
-parts_list.pslst = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_s_psl\",third_unit = \"units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_s_psl\",adds_type = {},override = {" .. unit_list.akstndg .. parts_list.dummy_unit2 .. unit_list.akhgrip .. parts_list.dummy_unit2 .. unit_list.akwgrip .. parts_list.dummy_unit2 .. unit_list.akpgrip .. parts_list.dummy_unit2 .. unit_list.akrk3g .. parts_list.dummy_unit2 .. "} }"
+parts_list.pslst = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_s_psl\",third_unit = \"units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_s_psl\",adds_type = {},override = {" .. unit_list.akstndg .. parts_list.dummy_unit_alt .. unit_list.akhgrip .. parts_list.dummy_unit_alt .. unit_list.akwgrip .. parts_list.dummy_unit_alt .. unit_list.akpgrip .. parts_list.dummy_unit_alt .. unit_list.akrk3g .. parts_list.dummy_unit_alt .. "} }"
 parts_list.akwoodst = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_s_solidstock/wpn_fps_upg_ak_s_solidstock\",third_unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ak_s_solidstock/wpn_third_upg_ak_s_solidstock\""
 parts_list.akskfoldable = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_s_skfoldable\",third_unit = \"units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_s_skfoldable\""
 parts_list.akfolding = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_s_folding\",third_unit = \"units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_s_folding\""
@@ -6569,10 +6574,10 @@ assert(loadstring(ovr_ids.ak74 .. "wpn_fps_upg_ass_ak_b_zastava.unit = \"units/p
 assert(loadstring(ovr_ids.ak74 .. "wpn_fps_upg_ass_ak_b_zastava.third_unit = \"units/pd2_dlc_gage_lmg/weapons/wpn_third_lmg_rpk_pts/wpn_third_lmg_rpk_b_standard\""))()
 end
 if WacMenu._data.replace_ak74pbs1 == true then
-assert(loadstring(ovr_ids.ak74 .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.ak74 .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.ak74 .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.ak74 .. unit_list.shak12_supp .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak74 .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak74 .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak74 .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak74 .. supp.shak12 .. parts_list.pbs1))()
 end
 if WacMenu._data.replace_ak74quad == 2 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.akquad .. parts_list.rpkmag))()
@@ -6714,10 +6719,10 @@ elseif WacMenu._data.replace_akmzastava == 4 then
 assert(loadstring(ovr_ids.akm .. unit_list.akzastava .. parts_list.rpkb .. "}"))()
 end
 if WacMenu._data.replace_akmpbs1 == true then
-assert(loadstring(ovr_ids.akm .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akm .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akm .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akm .. unit_list.shak12_supp .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akm .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akm .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akm .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akm .. supp.shak12 .. parts_list.pbs1))()
 end
 if WacMenu._data.replace_akmquad == 2 then
 assert(loadstring(ovr_ids.akm .. unit_list.akquad .. parts_list.rpkmag))()
@@ -6938,10 +6943,10 @@ if WacMenu._data.replace_famassuppb == true then
 local famasparts = {}
 famasparts.override	 = ", override = {" .. "wpn_fps_ass_famas_b_standard" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_long" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_short" .. parts_list.famassuppb .. "wpn_fps_ass_famas_b_sniper" .. parts_list.famassuppb .. "},"
 famasparts.string = parts_list.dummy_unit_open .. famasparts.override .. "}"
-assert(loadstring(ovr_ids.famas .. unit_list.suppsmall .. famasparts.string))()
-assert(loadstring(ovr_ids.famas .. unit_list.suppmedium .. famasparts.string))()
-assert(loadstring(ovr_ids.famas .. unit_list.supplarge .. famasparts.string))()
-assert(loadstring(ovr_ids.famas .. unit_list.shak12_supp .. famasparts.string))()
+assert(loadstring(ovr_ids.famas .. supp.suppsmall .. famasparts.string))()
+assert(loadstring(ovr_ids.famas .. supp.suppmedium .. famasparts.string))()
+assert(loadstring(ovr_ids.famas .. supp.supplarge .. famasparts.string))()
+assert(loadstring(ovr_ids.famas .. supp.shak12 .. famasparts.string))()
 end
 -- HK416C
 if not tweak_data.weapon.factory.wpn_fps_ass_tecci.override then
@@ -7067,9 +7072,9 @@ if WacMenu._data.replace_m4a1suppb == true then
 local m4a1parts = {}
 m4a1parts.override	= ", override = {" .. unit_list.ar15long .. parts_list.m4a1suppb .. unit_list.ar15short .. parts_list.m4a1suppb .. unit_list.ar15medium .. parts_list.m4a1suppb .. unit_list.ar15beowulf .. parts_list.m4a1suppb .. "}"
 m4a1parts.string = parts_list.dummy_unit_open .. m4a1parts.override .. "}"
-assert(loadstring(ovr_ids.m4a1 .. unit_list.suppsmall .. m4a1parts.string))()
-assert(loadstring(ovr_ids.m4a1 .. unit_list.suppmedium .. m4a1parts.string))()
-assert(loadstring(ovr_ids.m4a1 .. unit_list.supplarge .. m4a1parts.string))()
+assert(loadstring(ovr_ids.m4a1 .. supp.suppsmall .. m4a1parts.string))()
+assert(loadstring(ovr_ids.m4a1 .. supp.suppmedium .. m4a1parts.string))()
+assert(loadstring(ovr_ids.m4a1 .. supp.supplarge .. m4a1parts.string))()
 end
 if WacMenu._data.replace_m4a1stndgrip == true then
 assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15ergogrip .. parts_list.ar15gripstnd))()
@@ -7458,10 +7463,10 @@ if WacMenu._data.replace_sub2ksupp == true then
 local sub2kparts = {}
 sub2kparts.override	 = ",parent = \"foregrip\",override = {" .. "wpn_fps_ass_sub2000_fg_gen1" .. parts_list.sub2ksuppb .. "wpn_fps_ass_sub2000_fg_gen2" .. parts_list.sub2ksuppb .. "wpn_fps_ass_sub2000_fg_railed" .. parts_list.sub2ksuppb .. "}"
 sub2kparts.string = parts_list.dummy_unit_open .. sub2kparts.override .. "}"
-assert(loadstring(ovr_ids.sub2k .. unit_list.suppsmall .. sub2kparts.string))()
-assert(loadstring(ovr_ids.sub2k .. unit_list.suppmedium .. sub2kparts.string))()
-assert(loadstring(ovr_ids.sub2k .. unit_list.supplarge .. sub2kparts.string))()
-assert(loadstring(ovr_ids.sub2k .. unit_list.shak12_supp .. sub2kparts.string))()
+assert(loadstring(ovr_ids.sub2k .. supp.suppsmall .. sub2kparts.string))()
+assert(loadstring(ovr_ids.sub2k .. supp.suppmedium .. sub2kparts.string))()
+assert(loadstring(ovr_ids.sub2k .. supp.supplarge .. sub2kparts.string))()
+assert(loadstring(ovr_ids.sub2k .. supp.shak12 .. sub2kparts.string))()
 end
 -- VHS
 if not tweak_data.weapon.factory.wpn_fps_ass_vhs.override then
@@ -7471,10 +7476,10 @@ if WacMenu._data.replace_vhssuppb == true then
 local vhsparts = {}
 vhsparts.override  = ",override = {" .. "wpn_fps_ass_vhs_b_short" .. unit_list.vhssuppb .. "wpn_fps_ass_vhs_b_sniper" .. unit_list.vhssuppb .. "wpn_fps_ass_vhs_b_standard" .. unit_list.vhssuppb .. "}"
 vhsparts.string = parts_list.dummy_unit_open .. vhsparts.override .. "}"
-assert(loadstring(ovr_ids.vhs .. unit_list.suppsmall .. vhsparts.string))()
-assert(loadstring(ovr_ids.vhs .. unit_list.suppmedium .. vhsparts.string))()
-assert(loadstring(ovr_ids.vhs .. unit_list.supplarge .. vhsparts.string))()
-assert(loadstring(ovr_ids.vhs .. unit_list.shak12_supp .. vhsparts.string))()
+assert(loadstring(ovr_ids.vhs .. supp.suppsmall .. vhsparts.string))()
+assert(loadstring(ovr_ids.vhs .. supp.suppmedium .. vhsparts.string))()
+assert(loadstring(ovr_ids.vhs .. supp.supplarge .. vhsparts.string))()
+assert(loadstring(ovr_ids.vhs .. supp.shak12 .. vhsparts.string))()
 end
 if WacMenu._data.replace_vhsflashhider == true then
 assert(loadstring(ovr_ids.vhs .. barrelext.firepig .. parts_list.flashhider_vhs))()
@@ -7517,15 +7522,15 @@ elseif WacMenu._data.replace_r870stock3 == 5 then
 assert(loadstring(ovr_ids.r870 .. unit_list.m4mk46 .. parts_list.r870nostockrail .. parts_list.ar15addadp))()
 end
 -- AA12
-if WacMenu._data.replace_aa12suppb == true then
 if not tweak_data.weapon.factory.wpn_fps_sho_aa12.override then
 	tweak_data.weapon.factory.wpn_fps_sho_aa12.override = {}
 end
+if WacMenu._data.replace_aa12suppb == true then
 local aa12parts = {}
 aa12parts.override	= ",override = {" .. "wpn_fps_sho_aa12_barrel" .. parts_list.aa12suppb .. "wpn_fps_sho_aa12_barrel_long" .. parts_list.aa12suppb .. "}"
 aa12parts.string = parts_list.dummy_unit_open .. aa12parts.override .. "}"
-assert(loadstring(ovr_ids.aa12 .. unit_list.shsupp .. aa12parts.string))()
-assert(loadstring(ovr_ids.aa12 .. unit_list.salvo12 .. aa12parts.string))()
+assert(loadstring(ovr_ids.aa12 .. supp.thick .. aa12parts.string))()
+assert(loadstring(ovr_ids.aa12 .. supp.salvo .. aa12parts.string))()
 end
 -- Saiga 12K
 if WacMenu._data.replace_s12kextmag == 2 then
@@ -7637,20 +7642,20 @@ if WacMenu._data.replace_mg42_dlt19 == true then
 local mg42parts = {}
 mg42parts.override	= ", override = {" .. "wpn_fps_lmg_mg42_b_mg42" .. unit_list.mg42swb .. "wpn_fps_lmg_mg42_b_mg34" .. unit_list.mg42swb .. "}"
 mg42parts.string = parts_list.dummy_unit_open .. mg42parts.override .. "}"
-assert(loadstring(ovr_ids.mg42 .. unit_list.suppsmall .. mg42parts.string))()
-assert(loadstring(ovr_ids.mg42 .. unit_list.suppmedium .. mg42parts.string))()
-assert(loadstring(ovr_ids.mg42 .. unit_list.supplarge .. mg42parts.string))()
-assert(loadstring(ovr_ids.mg42 .. unit_list.shak12_supp .. mg42parts.string))()
+assert(loadstring(ovr_ids.mg42 .. supp.suppsmall .. mg42parts.string))()
+assert(loadstring(ovr_ids.mg42 .. supp.suppmedium .. mg42parts.string))()
+assert(loadstring(ovr_ids.mg42 .. supp.supplarge .. mg42parts.string))()
+assert(loadstring(ovr_ids.mg42 .. supp.shak12 .. mg42parts.string))()
 end
 -- RPK
 if not tweak_data.weapon.factory.wpn_fps_lmg_rpk.override then
 	tweak_data.weapon.factory.wpn_fps_lmg_rpk.override = {}
 end
 if WacMenu._data.replace_rpkpbs1 == true then
-assert(loadstring(ovr_ids.rpk .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.rpk .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.rpk .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.rpk .. unit_list.shak12_supp .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.rpk .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.rpk .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.rpk .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.rpk .. supp.shak12 .. parts_list.pbs1))()
 end
 if WacMenu._data.replace_rpkstock1 == 2 then
 assert(loadstring(ovr_ids.rpk .. unit_list.m4mk46 .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
@@ -7781,25 +7786,25 @@ end
 -- C96
 if WacMenu._data.replace_c96_dl44 == true then
 assert(loadstring(ovr_ids.c96 .. barrelext.pisflash .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissupplarge .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissuppmedium .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissuppsmall .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissuppkac .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissuppgem .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissuppslim .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissuppfilter .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.pissuppsnake .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96 .. unit_list.putnik .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.pis_large .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.pis_medium .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.pis_small .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.pis_kac .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.pis_gem .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.pis_slim .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.filter .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.snake .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96 .. supp.putnik .. parts_list.dl44ns))()
 assert(loadstring(ovr_ids.c96_x .. barrelext.pisflash .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissupplarge .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissuppmedium .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissuppsmall .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissuppkac .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissuppgem .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissuppslim .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissuppfilter .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.pissuppsnake .. parts_list.dl44ns))()
-assert(loadstring(ovr_ids.c96_x .. unit_list.putnik .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.pis_large .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.pis_medium .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.pis_small .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.pis_kac .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.pis_gem .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.pis_slim .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.filter .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.snake .. parts_list.dl44ns))()
+assert(loadstring(ovr_ids.c96_x .. supp.putnik .. parts_list.dl44ns))()
 end
 -- Deagle
 if WacMenu._data.replace_hidemarksman == true then
@@ -7835,10 +7840,10 @@ if WacMenu._data.replace_akmsuupperrec == 2 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.akmupper .. parts_list.ak74upper))()
 end
 if WacMenu._data.replace_akmsupbs1 == true then
-assert(loadstring(ovr_ids.akmsu .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akmsu .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akmsu .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akmsu .. unit_list.putnik .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu .. supp.putnik .. parts_list.pbs1))()
 end
 if WacMenu._data.replace_akmsuquad == 2 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.akquad .. parts_list.rpkmag))()
@@ -7930,10 +7935,10 @@ log("[ERROR] WAC: Missing override table for Akimbo AKMSU wpn_fps_upg_ak_m_uspal
 	wac_no_ak_m_uspalm = true
 end
 if WacMenu._data.replace_akmsupbs1 == true then
-assert(loadstring(ovr_ids.akmsu_x .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akmsu_x .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akmsu_x .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.akmsu_x .. unit_list.putnik .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu_x .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu_x .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu_x .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.akmsu_x .. supp.putnik .. parts_list.pbs1))()
 end
 if WacMenu._data.replace_akmsuquad == 2 and not wac_no_ak_m_quad then
 assert(loadstring(ovr_ids.akmsu_x .. "wpn_fps_upg_ak_m_quad.unit = \"units/pd2_dlc_gage_lmg/weapons/wpn_fps_lmg_rpk_pts/wpn_fps_lmg_rpk_m_standard\""))()
@@ -7993,14 +7998,14 @@ assert(loadstring(ovr_ids.m119_x .. barrelext.battle .. parts_list.m119barrelext
 assert(loadstring(ovr_ids.m119_x .. barrelext.hk51b_jcomp .. parts_list.m119barrelext))()
 end
 if WacMenu._data.replace_cobraywerbellssup == true then
-assert(loadstring(ovr_ids.m119 .. unit_list.suppsmall .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.m119 .. unit_list.suppmedium .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.m119 .. unit_list.supplarge .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.m119 .. unit_list.putnik .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.m119_x .. unit_list.suppsmall .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.m119_x .. unit_list.suppmedium .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.m119_x .. unit_list.supplarge .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.m119_x .. unit_list.putnik .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119 .. supp.suppsmall .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119 .. supp.suppmedium .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119 .. supp.supplarge .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119 .. supp.putnik .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119_x .. supp.suppsmall .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119_x .. supp.suppmedium .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119_x .. supp.supplarge .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.m119_x .. supp.putnik .. parts_list.werbellssupp))()
 end
 if WacMenu._data.replace_m119stock == 2 then
 assert(loadstring(ovr_ids.m119 .. unit_list.m4standard .. parts_list.m119stock))()
@@ -8016,6 +8021,9 @@ assert(loadstring(ovr_ids.m119 .. unit_list.m4crane .. parts_list.dummy_unit_ope
 assert(loadstring(ovr_ids.m119 .. unit_list.m4mk46 .. parts_list.dummy_unit_open .. parts_list.ar15noadp))()
 assert(loadstring(ovr_ids.m119 .. unit_list.m4ubr .. parts_list.dummy_unit_open .. parts_list.ar15noadp))()
 assert(loadstring(ovr_ids.m119 .. unit_list.m4vltor .. parts_list.dummy_unit_open .. parts_list.ar15noadp))()
+end
+if WacMenu._data.replace_m119_x_stock == 2 then
+assert(loadstring(ovr_ids.m119_x .. unit_list.m119stock .. parts_list.dummy_unit))()
 end
 -- CZ-805
 if not tweak_data.weapon.factory.wpn_fps_smg_hajk.override then
@@ -8092,15 +8100,15 @@ l2a3parts.string1 = parts_list.dummy_unit_open .. l2a3parts.override1 .. "}"
 l2a3parts.override2	 = ", override = {" .. "wpn_fps_smg_sterling_b_standard" .. unit_list.l2a3e11 .. "wpn_fps_smg_sterling_b_short" .. unit_list.l2a3e11 .. "wpn_fps_smg_sterling_b_long" .. unit_list.l2a3e11 .. "}"
 l2a3parts.string2 = parts_list.dummy_unit_open .. l2a3parts.override2 .. "}"
 if WacMenu._data.replace_l2a1supp == 2 then
-assert(loadstring(ovr_ids.l2a3 .. unit_list.suppsmall .. l2a3parts.string1))()
-assert(loadstring(ovr_ids.l2a3 .. unit_list.suppmedium .. l2a3parts.string1))()
-assert(loadstring(ovr_ids.l2a3 .. unit_list.supplarge .. l2a3parts.string1))()
-assert(loadstring(ovr_ids.l2a3 .. unit_list.putnik .. l2a3parts.string1))()
+assert(loadstring(ovr_ids.l2a3 .. supp.suppsmall .. l2a3parts.string1))()
+assert(loadstring(ovr_ids.l2a3 .. supp.suppmedium .. l2a3parts.string1))()
+assert(loadstring(ovr_ids.l2a3 .. supp.supplarge .. l2a3parts.string1))()
+assert(loadstring(ovr_ids.l2a3 .. supp.putnik .. l2a3parts.string1))()
 elseif WacMenu._data.replace_l2a1supp == 3 then
-assert(loadstring(ovr_ids.l2a3 .. unit_list.suppsmall .. l2a3parts.string2))()
-assert(loadstring(ovr_ids.l2a3 .. unit_list.suppmedium .. l2a3parts.string2))()
-assert(loadstring(ovr_ids.l2a3 .. unit_list.supplarge .. l2a3parts.string2))()
-assert(loadstring(ovr_ids.l2a3 .. unit_list.putnik .. l2a3parts.string2))()
+assert(loadstring(ovr_ids.l2a3 .. supp.suppsmall .. l2a3parts.string2))()
+assert(loadstring(ovr_ids.l2a3 .. supp.suppmedium .. l2a3parts.string2))()
+assert(loadstring(ovr_ids.l2a3 .. supp.supplarge .. l2a3parts.string2))()
+assert(loadstring(ovr_ids.l2a3 .. supp.putnik .. l2a3parts.string2))()
 end
 -- MAC-10
 if WacMenu._data.replace_mac10barrelext == true then
@@ -8124,14 +8132,14 @@ assert(loadstring(ovr_ids.mac10_x .. barrelext.v6 .. parts_list.m119barrelext))(
 assert(loadstring(ovr_ids.mac10_x .. barrelext.hk51b_jcomp .. parts_list.m119barrelext))()
 end
 if WacMenu._data.replace_mac10werbellssup == true then
-assert(loadstring(ovr_ids.mac10 .. unit_list.suppsmall .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.mac10 .. unit_list.suppmedium .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.mac10 .. unit_list.supplarge .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.mac10 .. unit_list.putnik .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.mac10_x .. unit_list.suppsmall .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.mac10_x .. unit_list.suppmedium .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.mac10_x .. unit_list.supplarge .. parts_list.werbellssupp))()
-assert(loadstring(ovr_ids.mac10_x .. unit_list.putnik .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10 .. supp.suppsmall .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10 .. supp.suppmedium .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10 .. supp.supplarge .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10 .. supp.putnik .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10_x .. supp.suppsmall .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10_x .. supp.suppmedium .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10_x .. supp.supplarge .. parts_list.werbellssupp))()
+assert(loadstring(ovr_ids.mac10_x .. supp.putnik .. parts_list.werbellssupp))()
 end
 -- Micro UZI
 if not tweak_data.weapon.factory.wpn_fps_smg_baka.override then
@@ -8141,60 +8149,60 @@ if not tweak_data.weapon.factory.wpn_fps_smg_x_baka.override then
 	tweak_data.weapon.factory.wpn_fps_smg_x_baka.override = {}
 end
 if WacMenu._data.replace_microuzisupp == 2 then
-assert(loadstring(ovr_ids.microuzi .. unit_list.suppsmall .. parts_list.microuzilongsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.suppmedium .. parts_list.microuzilongsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.supplarge .. parts_list.microuzilongsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.putnik .. parts_list.microuzilongsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.suppsmall .. parts_list.microuzilongsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.suppmedium .. parts_list.microuzilongsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.supplarge .. parts_list.microuzilongsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.putnik .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.suppsmall .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.suppmedium .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.supplarge .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.putnik .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.suppsmall .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.suppmedium .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.supplarge .. parts_list.microuzilongsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.putnik .. parts_list.microuzilongsupp))()
 elseif WacMenu._data.replace_microuzisupp == 3 then
-assert(loadstring(ovr_ids.microuzi .. unit_list.suppsmall .. parts_list.microuzimidsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.suppmedium .. parts_list.microuzimidsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.supplarge .. parts_list.microuzimidsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.putnik .. parts_list.microuzimidsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.suppsmall .. parts_list.microuzimidsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.suppmedium .. parts_list.microuzimidsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.supplarge .. parts_list.microuzimidsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.putnik .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.suppsmall .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.suppmedium .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.supplarge .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.putnik .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.suppsmall .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.suppmedium .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.supplarge .. parts_list.microuzimidsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.putnik .. parts_list.microuzimidsupp))()
 elseif WacMenu._data.replace_microuzisupp == 4 then
-assert(loadstring(ovr_ids.microuzi .. unit_list.suppsmall .. parts_list.microuzismallsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.suppmedium .. parts_list.microuzismallsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.supplarge .. parts_list.microuzismallsupp))()
-assert(loadstring(ovr_ids.microuzi .. unit_list.putnik .. parts_list.microuzismallsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.suppsmall .. parts_list.microuzismallsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.suppmedium .. parts_list.microuzismallsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.supplarge .. parts_list.microuzismallsupp))()
-assert(loadstring(ovr_ids.microuzi_x .. unit_list.putnik .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.suppsmall .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.suppmedium .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.supplarge .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi .. supp.putnik .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.suppsmall .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.suppmedium .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.supplarge .. parts_list.microuzismallsupp))()
+assert(loadstring(ovr_ids.microuzi_x .. supp.putnik .. parts_list.microuzismallsupp))()
 end
 -- MP7
-if WacMenu._data.replace_mp7qd == true then
 if not tweak_data.weapon.factory.wpn_fps_smg_mp7.override then
 	tweak_data.weapon.factory.wpn_fps_smg_mp7.override = {}
 end
-assert(loadstring(ovr_ids.mp7 .. unit_list.suppsmall .. parts_list.mp7qd))()
-assert(loadstring(ovr_ids.mp7 .. unit_list.suppmedium .. parts_list.mp7qd))()
-assert(loadstring(ovr_ids.mp7 .. unit_list.supplarge .. parts_list.mp7qd))()
-assert(loadstring(ovr_ids.mp7 .. unit_list.putnik .. parts_list.mp7qd))()
-assert(loadstring(ovr_ids.mp7_x .. unit_list.suppsmall .. parts_list.mp7qd))()
-assert(loadstring(ovr_ids.mp7_x .. unit_list.suppmedium .. parts_list.mp7qd))()
-assert(loadstring(ovr_ids.mp7_x .. unit_list.supplarge .. parts_list.mp7qd))()
-assert(loadstring(ovr_ids.mp7_x .. unit_list.putnik .. parts_list.mp7qd))()
+if WacMenu._data.replace_mp7qd == true then
+assert(loadstring(ovr_ids.mp7 .. supp.suppsmall .. parts_list.mp7qd))()
+assert(loadstring(ovr_ids.mp7 .. supp.suppmedium .. parts_list.mp7qd))()
+assert(loadstring(ovr_ids.mp7 .. supp.supplarge .. parts_list.mp7qd))()
+assert(loadstring(ovr_ids.mp7 .. supp.putnik .. parts_list.mp7qd))()
+assert(loadstring(ovr_ids.mp7_x .. supp.suppsmall .. parts_list.mp7qd))()
+assert(loadstring(ovr_ids.mp7_x .. supp.suppmedium .. parts_list.mp7qd))()
+assert(loadstring(ovr_ids.mp7_x .. supp.supplarge .. parts_list.mp7qd))()
+assert(loadstring(ovr_ids.mp7_x .. supp.putnik .. parts_list.mp7qd))()
 end
 -- MP9
-if WacMenu._data.replace_mp9supp == true then
 if not tweak_data.weapon.factory.wpn_fps_smg_mp9.override then
 	tweak_data.weapon.factory.wpn_fps_smg_mp9.override = {}
 end
-assert(loadstring(ovr_ids.mp9 .. unit_list.suppsmall .. parts_list.mp9supp))()
-assert(loadstring(ovr_ids.mp9 .. unit_list.suppmedium .. parts_list.mp9supp))()
-assert(loadstring(ovr_ids.mp9 .. unit_list.supplarge .. parts_list.mp9supp))()
-assert(loadstring(ovr_ids.mp9 .. unit_list.putnik .. parts_list.mp9supp))()
-assert(loadstring(ovr_ids.mp9_x .. unit_list.suppsmall .. parts_list.mp9supp))()
-assert(loadstring(ovr_ids.mp9_x .. unit_list.suppmedium .. parts_list.mp9supp))()
-assert(loadstring(ovr_ids.mp9_x .. unit_list.supplarge .. parts_list.mp9supp))()
-assert(loadstring(ovr_ids.mp9_x .. unit_list.putnik .. parts_list.mp9supp))()
+if WacMenu._data.replace_mp9supp == true then
+assert(loadstring(ovr_ids.mp9 .. supp.suppsmall .. parts_list.mp9supp))()
+assert(loadstring(ovr_ids.mp9 .. supp.suppmedium .. parts_list.mp9supp))()
+assert(loadstring(ovr_ids.mp9 .. supp.supplarge .. parts_list.mp9supp))()
+assert(loadstring(ovr_ids.mp9 .. supp.putnik .. parts_list.mp9supp))()
+assert(loadstring(ovr_ids.mp9_x .. supp.suppsmall .. parts_list.mp9supp))()
+assert(loadstring(ovr_ids.mp9_x .. supp.suppmedium .. parts_list.mp9supp))()
+assert(loadstring(ovr_ids.mp9_x .. supp.supplarge .. parts_list.mp9supp))()
+assert(loadstring(ovr_ids.mp9_x .. supp.putnik .. parts_list.mp9supp))()
 end
 -- P90
 if WacMenu._data.replace_ironsightsp90 == 2 then
@@ -8212,45 +8220,45 @@ if WacMenu._data.replace_p90ninjab == true then
 local p90parts = {}
 p90parts.override  = ", override = {" .. "wpn_fps_smg_p90_b_short" .. parts_list.p90ninja .. "wpn_fps_smg_p90_b_long" .. parts_list.p90ninja .. "wpn_fps_smg_p90_b_civilian" .. parts_list.p90ninja .. "}"
 p90parts.string = parts_list.dummy_unit_open .. p90parts.override .. "}"
-assert(loadstring(ovr_ids.p90 .. unit_list.suppsmall .. p90parts.string))()
-assert(loadstring(ovr_ids.p90 .. unit_list.suppmedium .. p90parts.string))()
-assert(loadstring(ovr_ids.p90 .. unit_list.supplarge .. p90parts.string))()
-assert(loadstring(ovr_ids.p90 .. unit_list.putnik .. p90parts.string))()
-assert(loadstring(ovr_ids.p90_x .. unit_list.suppsmall .. p90parts.string))()
-assert(loadstring(ovr_ids.p90_x .. unit_list.suppmedium .. p90parts.string))()
-assert(loadstring(ovr_ids.p90_x .. unit_list.supplarge .. p90parts.string))()
-assert(loadstring(ovr_ids.p90_x .. unit_list.putnik .. p90parts.string))()
+assert(loadstring(ovr_ids.p90 .. supp.suppsmall .. p90parts.string))()
+assert(loadstring(ovr_ids.p90 .. supp.suppmedium .. p90parts.string))()
+assert(loadstring(ovr_ids.p90 .. supp.supplarge .. p90parts.string))()
+assert(loadstring(ovr_ids.p90 .. supp.putnik .. p90parts.string))()
+assert(loadstring(ovr_ids.p90_x .. supp.suppsmall .. p90parts.string))()
+assert(loadstring(ovr_ids.p90_x .. supp.suppmedium .. p90parts.string))()
+assert(loadstring(ovr_ids.p90_x .. supp.supplarge .. p90parts.string))()
+assert(loadstring(ovr_ids.p90_x .. supp.putnik .. p90parts.string))()
 end
 -- SR-2
-if WacMenu._data.replace_sr2msupp == true then
 if not tweak_data.weapon.factory.wpn_fps_smg_sr2.override then
 	tweak_data.weapon.factory.wpn_fps_smg_sr2.override = {}
 end
 if not tweak_data.weapon.factory.wpn_fps_smg_x_sr2.override then
 	tweak_data.weapon.factory.wpn_fps_smg_x_sr2.override = {}
 end
-assert(loadstring(ovr_ids.sr2 .. unit_list.suppsmall .. parts_list.sr2supp))()
-assert(loadstring(ovr_ids.sr2 .. unit_list.suppmedium .. parts_list.sr2supp))()
-assert(loadstring(ovr_ids.sr2 .. unit_list.supplarge .. parts_list.sr2supp))()
-assert(loadstring(ovr_ids.sr2 .. unit_list.putnik .. parts_list.sr2supp))()
-assert(loadstring(ovr_ids.sr2_x .. unit_list.suppsmall .. parts_list.sr2supp))()
-assert(loadstring(ovr_ids.sr2_x .. unit_list.suppmedium .. parts_list.sr2supp))()
-assert(loadstring(ovr_ids.sr2_x .. unit_list.supplarge .. parts_list.sr2supp))()
-assert(loadstring(ovr_ids.sr2_x .. unit_list.putnik .. parts_list.sr2supp))()
+if WacMenu._data.replace_sr2msupp == true then
+assert(loadstring(ovr_ids.sr2 .. supp.suppsmall .. parts_list.sr2supp))()
+assert(loadstring(ovr_ids.sr2 .. supp.suppmedium .. parts_list.sr2supp))()
+assert(loadstring(ovr_ids.sr2 .. supp.supplarge .. parts_list.sr2supp))()
+assert(loadstring(ovr_ids.sr2 .. supp.putnik .. parts_list.sr2supp))()
+assert(loadstring(ovr_ids.sr2_x .. supp.suppsmall .. parts_list.sr2supp))()
+assert(loadstring(ovr_ids.sr2_x .. supp.suppmedium .. parts_list.sr2supp))()
+assert(loadstring(ovr_ids.sr2_x .. supp.supplarge .. parts_list.sr2supp))()
+assert(loadstring(ovr_ids.sr2_x .. supp.putnik .. parts_list.sr2supp))()
 end
 -- UMP45
-if WacMenu._data.replace_ump45supp == true then
 if not tweak_data.weapon.factory.wpn_fps_smg_schakal.override then
 	tweak_data.weapon.factory.wpn_fps_smg_schakal.override = {}
 end
-assert(loadstring(ovr_ids.ump45 .. unit_list.suppsmall .. parts_list.umpgemtech))()
-assert(loadstring(ovr_ids.ump45 .. unit_list.suppmedium .. parts_list.umpgemtech))()
-assert(loadstring(ovr_ids.ump45 .. unit_list.supplarge .. parts_list.umpgemtech))()
-assert(loadstring(ovr_ids.ump45 .. unit_list.putnik .. parts_list.umpgemtech))()
-assert(loadstring(ovr_ids.ump45_x .. unit_list.suppsmall .. parts_list.umpgemtech))()
-assert(loadstring(ovr_ids.ump45_x .. unit_list.suppmedium .. parts_list.umpgemtech))()
-assert(loadstring(ovr_ids.ump45_x .. unit_list.supplarge .. parts_list.umpgemtech))()
-assert(loadstring(ovr_ids.ump45_x .. unit_list.putnik .. parts_list.umpgemtech))()
+if WacMenu._data.replace_ump45supp == true then
+assert(loadstring(ovr_ids.ump45 .. supp.suppsmall .. parts_list.umpgemtech))()
+assert(loadstring(ovr_ids.ump45 .. supp.suppmedium .. parts_list.umpgemtech))()
+assert(loadstring(ovr_ids.ump45 .. supp.supplarge .. parts_list.umpgemtech))()
+assert(loadstring(ovr_ids.ump45 .. supp.putnik .. parts_list.umpgemtech))()
+assert(loadstring(ovr_ids.ump45_x .. supp.suppsmall .. parts_list.umpgemtech))()
+assert(loadstring(ovr_ids.ump45_x .. supp.suppmedium .. parts_list.umpgemtech))()
+assert(loadstring(ovr_ids.ump45_x .. supp.supplarge .. parts_list.umpgemtech))()
+assert(loadstring(ovr_ids.ump45_x .. supp.putnik .. parts_list.umpgemtech))()
 end
 -- UZI
 if not tweak_data.weapon.factory.wpn_fps_smg_uzi.override then
@@ -8260,14 +8268,14 @@ if not tweak_data.weapon.factory.wpn_fps_smg_x_uzi.override then
 	tweak_data.weapon.factory.wpn_fps_smg_x_uzi.override = {}
 end
 if WacMenu._data.replace_uzisuppb == true then
-assert(loadstring(ovr_ids.uzi .. unit_list.suppsmall .. parts_list.uzisupp))()
-assert(loadstring(ovr_ids.uzi .. unit_list.suppmedium .. parts_list.uzisupp))()
-assert(loadstring(ovr_ids.uzi .. unit_list.supplarge .. parts_list.uzisupp))()
-assert(loadstring(ovr_ids.uzi .. unit_list.putnik .. parts_list.uzisupp))()
-assert(loadstring(ovr_ids.uzi_x .. unit_list.suppsmall .. parts_list.uzisupp))()
-assert(loadstring(ovr_ids.uzi_x .. unit_list.suppmedium .. parts_list.uzisupp))()
-assert(loadstring(ovr_ids.uzi_x .. unit_list.supplarge .. parts_list.uzisupp))()
-assert(loadstring(ovr_ids.uzi_x .. unit_list.putnik .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi .. supp.suppsmall .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi .. supp.suppmedium .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi .. supp.supplarge .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi .. supp.putnik .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi_x .. supp.suppsmall .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi_x .. supp.suppmedium .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi_x .. supp.supplarge .. parts_list.uzisupp))()
+assert(loadstring(ovr_ids.uzi_x .. supp.putnik .. parts_list.uzisupp))()
 end
 if WacMenu._data.replace_uzix_removevg == true then
 assert(loadstring(ovr_ids.uzi_x .. "wpn_fps_smg_uzi_fg_rail = {adds = {}}"))()
@@ -8300,14 +8308,14 @@ assert(loadstring(ovr_ids.vector_x .. barrelext.v6 .. parts_list.vectorcrb))()
 assert(loadstring(ovr_ids.vector_x .. barrelext.hk51b_jcomp .. parts_list.vectorcrb))()
 end
 if WacMenu._data.replace_vectorhps == true then
-assert(loadstring(ovr_ids.vector .. unit_list.suppsmall .. parts_list.vectorhps))()
-assert(loadstring(ovr_ids.vector .. unit_list.suppmedium .. parts_list.vectorhps))()
-assert(loadstring(ovr_ids.vector .. unit_list.supplarge .. parts_list.vectorhps))()
-assert(loadstring(ovr_ids.vector .. unit_list.putnik .. parts_list.vectorhps))()
-assert(loadstring(ovr_ids.vector_x .. unit_list.suppsmall .. parts_list.vectorhps))()
-assert(loadstring(ovr_ids.vector_x .. unit_list.suppmedium .. parts_list.vectorhps))()
-assert(loadstring(ovr_ids.vector_x .. unit_list.supplarge .. parts_list.vectorhps))()
-assert(loadstring(ovr_ids.vector_x .. unit_list.putnik .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector .. supp.suppsmall .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector .. supp.suppmedium .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector .. supp.supplarge .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector .. supp.putnik .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector_x .. supp.suppsmall .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector_x .. supp.suppmedium .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector_x .. supp.supplarge .. parts_list.vectorhps))()
+assert(loadstring(ovr_ids.vector_x .. supp.putnik .. parts_list.vectorhps))()
 end
 if WacMenu._data.replace_vectorstock == true then
 assert(loadstring(ovr_ids.vector .. unit_list.m4standard .. parts_list.vectorstock))()
@@ -8318,21 +8326,21 @@ assert(loadstring(ovr_ids.vector .. unit_list.m4ubr .. parts_list.vectorstock))(
 assert(loadstring(ovr_ids.vector .. unit_list.m4vltor .. parts_list.vectorstock))()
 end
 -- VZ61
-if WacMenu._data.replace_vz61suppb == true then
 if not tweak_data.weapon.factory.wpn_fps_smg_scorpion.override then
 	tweak_data.weapon.factory.wpn_fps_smg_scorpion.override = {}
 end
+if WacMenu._data.replace_vz61suppb == true then
 local vz61parts = {}
 vz61parts.override	= ", override = {" .. "wpn_fps_smg_scorpion_b_standard" .. parts_list.vz61supp .. "}"
 vz61parts.string1 = parts_list.dummy_unit_open .. vz61parts.override .. "}"
-assert(loadstring(ovr_ids.vz61 .. unit_list.suppsmall .. vz61parts.string1))()
-assert(loadstring(ovr_ids.vz61 .. unit_list.suppmedium .. vz61parts.string1))()
-assert(loadstring(ovr_ids.vz61 .. unit_list.supplarge .. vz61parts.string1))()
-assert(loadstring(ovr_ids.vz61 .. unit_list.putnik .. vz61parts.string1))()
-assert(loadstring(ovr_ids.vz61_x .. unit_list.suppsmall .. vz61parts.string1))()
-assert(loadstring(ovr_ids.vz61_x .. unit_list.suppmedium .. vz61parts.string1))()
-assert(loadstring(ovr_ids.vz61_x .. unit_list.supplarge .. vz61parts.string1))()
-assert(loadstring(ovr_ids.vz61_x .. unit_list.putnik .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61 .. supp.suppsmall .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61 .. supp.suppmedium .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61 .. supp.supplarge .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61 .. supp.putnik .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61_x .. supp.suppsmall .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61_x .. supp.suppmedium .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61_x .. supp.supplarge .. vz61parts.string1))()
+assert(loadstring(ovr_ids.vz61_x .. supp.putnik .. vz61parts.string1))()
 end
 -- HK417
 if not tweak_data.weapon.factory.wpn_fps_ass_contraband.override then
@@ -8351,20 +8359,20 @@ assert(loadstring(ovr_ids.hk417 .. barrelext.shak12_ns .. parts_list.flashhider_
 assert(loadstring(ovr_ids.hk417 .. barrelext.hk51b_jcomp .. parts_list.flashhider_hk417))()
 end
 -- SIX12
-if WacMenu._data.replace_six12suppb == true then
 if not tweak_data.weapon.factory.wpn_fps_sho_rota.override then
 	tweak_data.weapon.factory.wpn_fps_sho_rota.override = {}
 end
 if not tweak_data.weapon.factory.wpn_fps_sho_x_rota.override then
 	tweak_data.weapon.factory.wpn_fps_sho_x_rota.override = {}
 end
+if WacMenu._data.replace_six12suppb == true then
 local six12parts = {}
 six12parts.override	 = ", override = {" .. "wpn_fps_sho_rota_b_long" .. parts_list.six12suppb .. "wpn_fps_sho_rota_b_short" .. parts_list.six12suppb .. "}"
 six12parts.string1 = parts_list.dummy_unit_open .. six12parts.override .. "}"
-assert(loadstring(ovr_ids.six12 .. unit_list.shsupp .. six12parts.string1))()
-assert(loadstring(ovr_ids.six12 .. unit_list.salvo12 .. six12parts.string1))()
-assert(loadstring(ovr_ids.six12_x .. unit_list.shsupp .. six12parts.string1))()
-assert(loadstring(ovr_ids.six12_x .. unit_list.salvo12 .. six12parts.string1))()
+assert(loadstring(ovr_ids.six12 .. supp.thick .. six12parts.string1))()
+assert(loadstring(ovr_ids.six12 .. supp.salvo .. six12parts.string1))()
+assert(loadstring(ovr_ids.six12_x .. supp.thick .. six12parts.string1))()
+assert(loadstring(ovr_ids.six12_x .. supp.salvo .. six12parts.string1))()
 end
 -- M1928
 if not tweak_data.weapon.factory.wpn_fps_smg_thompson.override then
@@ -8461,10 +8469,10 @@ if not tweak_data.weapon.factory.wpn_fps_ass_flint.override then
 	tweak_data.weapon.factory.wpn_fps_ass_flint.override = {}
 end
 if WacMenu._data.replace_ak12pbs1 == true then
-assert(loadstring(ovr_ids.ak12 .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.ak12 .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.ak12 .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.ak12 .. unit_list.shak12_supp .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak12 .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak12 .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak12 .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.ak12 .. supp.shak12 .. parts_list.pbs1))()
 end
 if WacMenu._data.replace_ak12flashhider == true then
 assert(loadstring(ovr_ids.ak12 .. barrelext.firepig .. parts_list.flashhider_ak12))()
@@ -8530,14 +8538,14 @@ if not tweak_data.weapon.factory.wpn_fps_smg_x_coal.override then
 	tweak_data.weapon.factory.wpn_fps_smg_x_coal.override = {}
 end
 if WacMenu._data.replace_pp19pbs1 == true then
-assert(loadstring(ovr_ids.pp19 .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.pp19 .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.pp19 .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.pp19 .. unit_list.putnik .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.pp19_x .. unit_list.suppsmall .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.pp19_x .. unit_list.suppmedium .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.pp19_x .. unit_list.supplarge .. parts_list.pbs1))()
-assert(loadstring(ovr_ids.pp19_x .. unit_list.putnik .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19 .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19 .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19 .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19 .. supp.putnik .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19_x .. supp.suppsmall .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19_x .. supp.suppmedium .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19_x .. supp.supplarge .. parts_list.pbs1))()
+assert(loadstring(ovr_ids.pp19_x .. supp.putnik .. parts_list.pbs1))()
 end
 if WacMenu._data.replace_pp19flashhider == true then
 assert(loadstring(ovr_ids.pp19 .. barrelext.firepig .. parts_list.flashhider_pp19))()
@@ -8570,17 +8578,17 @@ assert(loadstring(ovr_ids.pp19_x .. unit_list.akpgrip .. parts_list.pp19grip))()
 assert(loadstring(ovr_ids.pp19_x .. unit_list.akrk3g .. parts_list.pp19grip))()
 end
 -- MP5
-if WacMenu._data.replace_mp5sd == true then
 if not tweak_data.weapon.factory.wpn_fps_smg_mp5.override then
 	tweak_data.weapon.factory.wpn_fps_smg_mp5.override = {}
 end
+if WacMenu._data.replace_mp5sd == true then
 local mp5parts = {}
 mp5parts.override  = ", override = {" .. "wpn_fps_smg_mp5_fg_mp5a4" .. parts_list.mp5sd .. "wpn_fps_smg_mp5_fg_mp5a5" .. parts_list.mp5sd .. "wpn_fps_smg_mp5_fg_m5k" .. parts_list.mp5sd .. "}"
 mp5parts.string = parts_list.dummy_unit_open .. mp5parts.override .. "}"
-assert(loadstring(ovr_ids.mp5 .. unit_list.suppsmall .. mp5parts.string))()
-assert(loadstring(ovr_ids.mp5 .. unit_list.suppmedium .. mp5parts.string))()
-assert(loadstring(ovr_ids.mp5 .. unit_list.supplarge .. mp5parts.string))()
-assert(loadstring(ovr_ids.mp5 .. unit_list.putnik .. mp5parts.string))()
+assert(loadstring(ovr_ids.mp5 .. supp.suppsmall .. mp5parts.string))()
+assert(loadstring(ovr_ids.mp5 .. supp.suppmedium .. mp5parts.string))()
+assert(loadstring(ovr_ids.mp5 .. supp.supplarge .. mp5parts.string))()
+assert(loadstring(ovr_ids.mp5 .. supp.putnik .. mp5parts.string))()
 end
 -- MP40
 if not tweak_data.weapon.factory.wpn_fps_smg_erma.override then
@@ -8929,74 +8937,97 @@ assert(loadstring(ovr_ids.vityaz .. barrelext.v6 .. parts_list.flashhider_vityaz
 assert(loadstring(ovr_ids.vityaz_x .. barrelext.v6 .. parts_list.flashhider_vityaz))()
 assert(loadstring(ovr_ids.x95 .. barrelext.v6 .. parts_list.flashhider_x95))()
 end
---[[
-assert(loadstring(ovr_ids.hk416c .. barrelext.tank .. parts_list.flashhider_hk416c))()
-assert(loadstring(ovr_ids.hk416c .. barrelext.battle .. parts_list.flashhider_hk416c))()
-assert(loadstring(ovr_ids.hk416c .. barrelext.shak12_ns .. parts_list.flashhider_hk416c))()
-assert(loadstring(ovr_ids.hk416c .. barrelext.hk51b_jcomp .. parts_list.flashhider_hk416c))()
-
-assert(loadstring(ovr_ids.l85 .. barrelext.tank .. parts_list.flashhider_l85))()
-assert(loadstring(ovr_ids.l85 .. barrelext.battle .. parts_list.flashhider_l85))()
-assert(loadstring(ovr_ids.l85 .. barrelext.shak12_ns .. parts_list.flashhider_l85))()
-assert(loadstring(ovr_ids.l85 .. barrelext.hk51b_jcomp .. parts_list.flashhider_l85))()
-
-assert(loadstring(ovr_ids.scarh .. barrelext.tank .. parts_list.flashhider_scarh))()
-assert(loadstring(ovr_ids.scarh .. barrelext.battle .. parts_list.flashhider_scarh))()
-assert(loadstring(ovr_ids.scarh .. barrelext.shak12_ns .. parts_list.flashhider_scarh))()
-assert(loadstring(ovr_ids.scarh .. barrelext.hk51b_jcomp .. parts_list.flashhider_scarh))()
-
-assert(loadstring(ovr_ids.vhs .. barrelext.tank .. parts_list.flashhider_vhs))()
-assert(loadstring(ovr_ids.vhs .. barrelext.battle .. parts_list.flashhider_vhs))()
-assert(loadstring(ovr_ids.vhs .. barrelext.shak12_ns .. parts_list.flashhider_vhs))()
-assert(loadstring(ovr_ids.vhs .. barrelext.hk51b_jcomp .. parts_list.flashhider_vhs))()
-
-assert(loadstring(ovr_ids.cz805 .. barrelext.tank .. parts_list.flashhider_cz805))()
-assert(loadstring(ovr_ids.cz805 .. barrelext.battle .. parts_list.flashhider_cz805))()
-assert(loadstring(ovr_ids.cz805 .. barrelext.hk51b_jcomp .. parts_list.flashhider_cz805))()
-assert(loadstring(ovr_ids.cz805_x .. barrelext.tank .. parts_list.flashhider_cz805))()
-assert(loadstring(ovr_ids.cz805_x .. barrelext.battle .. parts_list.flashhider_cz805))()
-assert(loadstring(ovr_ids.cz805_x .. barrelext.hk51b_jcomp .. parts_list.flashhider_cz805))()
-
-assert(loadstring(ovr_ids.hk417 .. barrelext.tank .. parts_list.flashhider_hk417))()
-assert(loadstring(ovr_ids.hk417 .. barrelext.battle .. parts_list.flashhider_hk417))()
-assert(loadstring(ovr_ids.hk417 .. barrelext.shak12_ns .. parts_list.flashhider_hk417))()
-assert(loadstring(ovr_ids.hk417 .. barrelext.hk51b_jcomp .. parts_list.flashhider_hk417))()
-
-assert(loadstring(ovr_ids.m1928 .. barrelext.tank .. parts_list.flashhider_m1928))()
-assert(loadstring(ovr_ids.m1928 .. barrelext.battle .. parts_list.flashhider_m1928))()
-assert(loadstring(ovr_ids.m1928 .. barrelext.hk51b_jcomp .. parts_list.flashhider_m1928))()
-assert(loadstring(ovr_ids.m1928_x .. barrelext.tank .. parts_list.flashhider_m1928))()
-assert(loadstring(ovr_ids.m1928_x .. barrelext.battle .. parts_list.flashhider_m1928))()
-assert(loadstring(ovr_ids.m1928_x .. barrelext.hk51b_jcomp .. parts_list.flashhider_m1928))()
-
-assert(loadstring(ovr_ids.ak12 .. barrelext.tank .. parts_list.flashhider_ak12))()
-assert(loadstring(ovr_ids.ak12 .. barrelext.battle .. parts_list.flashhider_ak12))()
-assert(loadstring(ovr_ids.ak12 .. barrelext.shak12_ns .. parts_list.flashhider_ak12))()
-assert(loadstring(ovr_ids.ak12 .. barrelext.hk51b_jcomp .. parts_list.flashhider_ak12))()
-
-assert(loadstring(ovr_ids.pp19 .. barrelext.tank .. parts_list.flashhider_pp19))()
-assert(loadstring(ovr_ids.pp19 .. barrelext.battle .. parts_list.flashhider_pp19))()
-assert(loadstring(ovr_ids.pp19 .. barrelext.hk51b_jcomp .. parts_list.flashhider_pp19))()
-assert(loadstring(ovr_ids.pp19_x .. barrelext.tank .. parts_list.flashhider_pp19))()
-assert(loadstring(ovr_ids.pp19_x .. barrelext.battle .. parts_list.flashhider_pp19))()
-assert(loadstring(ovr_ids.pp19_x .. barrelext.hk51b_jcomp .. parts_list.flashhider_pp19))()
-
-assert(loadstring(ovr_ids.mp40 .. barrelext.tank .. parts_list.flashhider_mp40))()
-assert(loadstring(ovr_ids.mp40 .. barrelext.battle .. parts_list.flashhider_mp40))()
-assert(loadstring(ovr_ids.mp40 .. barrelext.hk51b_jcomp .. parts_list.flashhider_mp40))()
-assert(loadstring(ovr_ids.mp40_x .. barrelext.tank .. parts_list.flashhider_mp40))()
-assert(loadstring(ovr_ids.mp40_x .. barrelext.battle .. parts_list.flashhider_mp40))()
-assert(loadstring(ovr_ids.mp40_x .. barrelext.hk51b_jcomp .. parts_list.flashhider_mp40))()
-
-assert(loadstring(ovr_ids.sigmpx .. barrelext.tank .. parts_list.flashhider_mpx))()
-assert(loadstring(ovr_ids.sigmpx .. barrelext.battle .. parts_list.flashhider_mpx))()
-assert(loadstring(ovr_ids.sigmpx .. barrelext.hk51b_jcomp .. parts_list.flashhider_mpx))()
-assert(loadstring(ovr_ids.sigmpx_x .. barrelext.tank .. parts_list.flashhider_mpx))()
-assert(loadstring(ovr_ids.sigmpx_x .. barrelext.battle .. parts_list.flashhider_mpx))()
-assert(loadstring(ovr_ids.sigmpx_x .. barrelext.hk51b_jcomp .. parts_list.flashhider_mpx))()
-
-assert(loadstring(ovr_ids.fnf2000 .. barrelext.tank .. parts_list.flashhider_fnf2000))()
-assert(loadstring(ovr_ids.fnf2000 .. barrelext.battle .. parts_list.flashhider_fnf2000))()
-assert(loadstring(ovr_ids.fnf2000 .. barrelext.shak12_ns .. parts_list.flashhider_fnf2000))()
-assert(loadstring(ovr_ids.fnf2000 .. barrelext.hk51b_jcomp .. parts_list.flashhider_fnf2000))()
-]]
+if WacMenu._data.replace_arsupp_bigger == 2 then
+assert(loadstring(ovr_ids.hk416c .. supp.supplarge .. parts_list.flashhider_hk416c))()
+assert(loadstring(ovr_ids.l85 .. supp.supplarge .. parts_list.flashhider_l85))()
+assert(loadstring(ovr_ids.scarh .. supp.supplarge .. parts_list.flashhider_scarh))()
+assert(loadstring(ovr_ids.vhs .. supp.supplarge .. parts_list.flashhider_vhs))()
+assert(loadstring(ovr_ids.cz805 .. supp.supplarge .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.cz805_x .. supp.supplarge .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.hk417 .. supp.supplarge .. parts_list.flashhider_hk417))()
+assert(loadstring(ovr_ids.m1928 .. supp.supplarge .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.m1928_x .. supp.supplarge .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.ak12 .. supp.supplarge .. parts_list.flashhider_ak12))()
+assert(loadstring(ovr_ids.pp19 .. supp.supplarge .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.pp19_x .. supp.supplarge .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.mp40 .. supp.supplarge .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40_x .. supp.supplarge .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.sigmpx .. supp.supplarge .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.sigmpx_x .. supp.supplarge .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.fnf2000 .. supp.supplarge .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.m60 .. supp.supplarge .. parts_list.flashhider_m60))()
+assert(loadstring(ovr_ids.vityaz .. supp.supplarge .. parts_list.flashhider_vityaz))()
+assert(loadstring(ovr_ids.vityaz_x .. supp.supplarge .. parts_list.flashhider_vityaz))()
+assert(loadstring(ovr_ids.x95 .. supp.supplarge .. parts_list.flashhider_x95))()
+end
+if WacMenu._data.replace_arsupp_medium == 2 then
+assert(loadstring(ovr_ids.hk416c .. supp.suppmedium .. parts_list.flashhider_hk416c))()
+assert(loadstring(ovr_ids.l85 .. supp.suppmedium .. parts_list.flashhider_l85))()
+assert(loadstring(ovr_ids.scarh .. supp.suppmedium .. parts_list.flashhider_scarh))()
+assert(loadstring(ovr_ids.vhs .. supp.suppmedium .. parts_list.flashhider_vhs))()
+assert(loadstring(ovr_ids.cz805 .. supp.suppmedium .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.cz805_x .. supp.suppmedium .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.hk417 .. supp.suppmedium .. parts_list.flashhider_hk417))()
+assert(loadstring(ovr_ids.m1928 .. supp.suppmedium .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.m1928_x .. supp.suppmedium .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.ak12 .. supp.suppmedium .. parts_list.flashhider_ak12))()
+assert(loadstring(ovr_ids.pp19 .. supp.suppmedium .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.pp19_x .. supp.suppmedium .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.mp40 .. supp.suppmedium .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40_x .. supp.suppmedium .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.sigmpx .. supp.suppmedium .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.sigmpx_x .. supp.suppmedium .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.fnf2000 .. supp.suppmedium .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.m60 .. supp.suppmedium .. parts_list.flashhider_m60))()
+assert(loadstring(ovr_ids.vityaz .. supp.suppmedium .. parts_list.flashhider_vityaz))()
+assert(loadstring(ovr_ids.vityaz_x .. supp.suppmedium .. parts_list.flashhider_vityaz))()
+assert(loadstring(ovr_ids.x95 .. supp.suppmedium .. parts_list.flashhider_x95))()
+end
+if WacMenu._data.replace_arsupp_lowprofile == 2 then
+assert(loadstring(ovr_ids.hk416c .. supp.suppsmall .. parts_list.flashhider_hk416c))()
+assert(loadstring(ovr_ids.l85 .. supp.suppsmall .. parts_list.flashhider_l85))()
+assert(loadstring(ovr_ids.scarh .. supp.suppsmall .. parts_list.flashhider_scarh))()
+assert(loadstring(ovr_ids.vhs .. supp.suppsmall .. parts_list.flashhider_vhs))()
+assert(loadstring(ovr_ids.cz805 .. supp.suppsmall .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.cz805_x .. supp.suppsmall .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.hk417 .. supp.suppsmall .. parts_list.flashhider_hk417))()
+assert(loadstring(ovr_ids.m1928 .. supp.suppsmall .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.m1928_x .. supp.suppsmall .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.ak12 .. supp.suppsmall .. parts_list.flashhider_ak12))()
+assert(loadstring(ovr_ids.pp19 .. supp.suppsmall .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.pp19_x .. supp.suppsmall .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.mp40 .. supp.suppsmall .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40_x .. supp.suppsmall .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.sigmpx .. supp.suppsmall .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.sigmpx_x .. supp.suppsmall .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.fnf2000 .. supp.suppsmall .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.m60 .. supp.suppsmall .. parts_list.flashhider_m60))()
+assert(loadstring(ovr_ids.vityaz .. supp.suppsmall .. parts_list.flashhider_vityaz))()
+assert(loadstring(ovr_ids.vityaz_x .. supp.suppsmall .. parts_list.flashhider_vityaz))()
+assert(loadstring(ovr_ids.x95 .. supp.suppsmall .. parts_list.flashhider_x95))()
+end
+--[[if WacMenu._data.replace_supp_putnik == 2 
+assert(loadstring(ovr_ids.cz805 .. supp.putnik .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.cz805_x .. supp.putnik .. parts_list.flashhider_cz805))()
+assert(loadstring(ovr_ids.m1928 .. supp.putnik .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.m1928_x .. supp.putnik .. parts_list.flashhider_m1928))()
+assert(loadstring(ovr_ids.pp19 .. supp.putnik .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.pp19_x .. supp.putnik .. parts_list.flashhider_pp19))()
+assert(loadstring(ovr_ids.mp40 .. supp.putnik .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.mp40_x .. supp.putnik .. parts_list.flashhider_mp40))()
+assert(loadstring(ovr_ids.sigmpx .. supp.putnik .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.sigmpx_x .. supp.putnik .. parts_list.flashhider_mpx))()
+assert(loadstring(ovr_ids.vityaz .. supp.putnik .. parts_list.flashhider_vityaz))()
+assert(loadstring(ovr_ids.vityaz_x .. supp.putnik .. parts_list.flashhider_vityaz))()
+end]]
+if WacMenu._data.replace_supp_shak12 == 2 then
+assert(loadstring(ovr_ids.hk416c .. supp.shak12 .. parts_list.flashhider_hk416c))()
+assert(loadstring(ovr_ids.l85 .. supp.shak12 .. parts_list.flashhider_l85))()
+assert(loadstring(ovr_ids.scarh .. supp.shak12 .. parts_list.flashhider_scarh))()
+assert(loadstring(ovr_ids.vhs .. supp.shak12 .. parts_list.flashhider_vhs))()
+assert(loadstring(ovr_ids.hk417 .. supp.shak12 .. parts_list.flashhider_hk417))()
+assert(loadstring(ovr_ids.ak12 .. supp.shak12 .. parts_list.flashhider_ak12))()
+assert(loadstring(ovr_ids.fnf2000 .. supp.shak12 .. parts_list.flashhider_fnf2000))()
+assert(loadstring(ovr_ids.m60 .. supp.shak12 .. parts_list.flashhider_m60))()
+assert(loadstring(ovr_ids.x95 .. supp.shak12 .. parts_list.flashhider_x95))()
+end

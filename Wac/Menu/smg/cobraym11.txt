@@ -37,6 +37,18 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m119_x_stock",
+			"title" : "wac_replace_akimbost_title",
+			"callback" : "callback_toggle_replace_m119_x_stock",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_baka_s_standard"
+			],
+			"value" : "replace_m119_x_stock",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

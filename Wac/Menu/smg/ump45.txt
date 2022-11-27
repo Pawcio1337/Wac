@@ -102,24 +102,6 @@
 			"size" : 16
 		},
 		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_ump45m900",
-			"title" : "bm_wp_schakal_vg_surefire",
-			"callback" : "callback_toggle_replace_ump45m900",		
-			"items" : [
-				"wac_default_multi",
-				"nogadget_multi",
-				"wac_replace_vggeneric_title",
-				"wac_replace_stubbygrip_title"
-			],
-			"value" : "replace_ump45m900",
-			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
 			"type" : "toggle",
 			"id" : "toggle_replace_ump45single",
 			"title" : "wac_replace_singlefire_title",

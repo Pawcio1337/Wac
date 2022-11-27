@@ -10,9 +10,23 @@
 			"callback" : "callback_toggle_replace_wa2000longb",		
 			"items" : [
 				"wac_default_multi",
-				"wac_replace_stndb_title"
+				"wac_replace_stndb_title",
+				"bm_wp_wa2000_b_suppressed"
 			],
 			"value" : "replace_wa2000longb",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_wa2000suppb",
+			"title" : "bm_wp_wa2000_b_suppressed",
+			"callback" : "callback_toggle_replace_wa2000suppb",		
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title",
+				"bm_wp_wa2000_b_long"
+			],
+			"value" : "replace_wa2000suppb",
 			"default_value" : 1
 		},
 		{

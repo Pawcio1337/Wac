@@ -22,7 +22,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzisupp",
-			"title" : "wac_replace_usesupp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_microuzisupp",		
 			"items" : [
 				"wac_default_multi",

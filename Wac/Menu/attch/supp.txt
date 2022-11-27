@@ -366,7 +366,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_large",
 			"title" : "bm_wp_upg_ns_pis_large",
-			"callback" : "callback_toggle_replace_pis_large_kac",		
+			"callback" : "callback_toggle_replace_pis_large",		
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"

@@ -4,6 +4,36 @@
 	"title" : "bm_w_tti",
 	"items" : [
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_tr1muzzle",
+			"title" : "wac_replace_barretext_title",
+			"callback" : "callback_toggle_replace_tr1muzzle",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi",
+				"bm_wp_tti_ns_hex"
+			],
+			"value" : "replace_tr1muzzle",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_tr1supp",
+			"title" : "bm_wp_tti_ns_hex",
+			"callback" : "callback_toggle_replace_tr1supp",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi",
+				"wac_replace_barretext_title"
+			],
+			"value" : "replace_tr1supp",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
 			"type" : "toggle",
 			"id" : "toggle_replace_ttitr1grip",
 			"title" : "wac_replace_usestndgrip_title",

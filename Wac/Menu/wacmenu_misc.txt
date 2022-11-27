@@ -2,7 +2,6 @@
 	"menu_id" : "wac_menu_misc",
 	"parent_menu_id" : "wac_menu",
 	"title" : "wac_menu_misc_title",
-	"description" : "wac_menu_misc_desc",
 	"items" : [
 		{
 			"type" : "multiple_choice",

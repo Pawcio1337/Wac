@@ -32,7 +32,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l2a1supp",
-			"title" : "wac_replace_usesupp_title",
+			"title" : "wac_replace_uniquesupp_title",
 			"callback" : "callback_toggle_replace_l2a1supp",		
 			"items" : [
 				"wac_default_multi",
