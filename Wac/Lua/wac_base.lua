@@ -8942,7 +8942,7 @@ assert(loadstring(ovr_ids.vityaz .. supp.suppsmall .. parts_list.flashhider_vity
 assert(loadstring(ovr_ids.vityaz_x .. supp.suppsmall .. parts_list.flashhider_vityaz))()
 assert(loadstring(ovr_ids.x95 .. supp.suppsmall .. parts_list.flashhider_x95))()
 end
-if WacMenu._data.replace_supp_putnik == 2 
+if WacMenu._data.replace_supp_putnik == 2 then
 assert(loadstring(ovr_ids.cz805 .. supp.putnik .. parts_list.flashhider_cz805))()
 assert(loadstring(ovr_ids.cz805_x .. supp.putnik .. parts_list.flashhider_cz805))()
 assert(loadstring(ovr_ids.m1928 .. supp.putnik .. parts_list.flashhider_m1928))()
