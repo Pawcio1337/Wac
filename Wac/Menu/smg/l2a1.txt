@@ -30,19 +30,6 @@
 			"default_value" : 1
 		},
 		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_l2a1supp",
-			"title" : "wac_replace_uniquesupp_title",
-			"callback" : "callback_toggle_replace_l2a1supp",		
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_sterling_b_suppressed",
-				"bm_wp_sterling_b_e11"
-			],
-			"value" : "replace_l2a1supp",
-			"default_value" : 1
-		},
-		{
 			"type" : "divider",
 			"size" : 16
 		},

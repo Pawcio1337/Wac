@@ -4,18 +4,6 @@
 	"title" : "bm_w_mp5",
 	"items" : [
 		{
-			"type" : "toggle",
-			"id" : "toggle_replace_mp5sd",
-			"title" : "wac_replace_uniquesupp_title",
-			"callback" : "callback_toggle_replace_mp5sd",
-			"value" : "replace_mp5sd",
-			"default_value" : false
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp5kfg",
 			"title" : "bm_wp_mp5_fg_m5k",

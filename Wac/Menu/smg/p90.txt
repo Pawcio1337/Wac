@@ -29,14 +29,6 @@
 			"default_value" : 1
 		},
 		{
-			"type" : "toggle",
-			"id" : "toggle_replace_p90ninjab",
-			"title" : "wac_replace_uniquesupp_title",
-			"callback" : "callback_toggle_replace_p90ninjab",
-			"value" : "replace_p90ninjab",
-			"default_value" : false
-		},
-		{
 			"type" : "divider",
 			"size" : 16
 		},

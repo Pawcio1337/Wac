@@ -1775,10 +1775,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_l2a1shortb = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_l2a1supp = function(self, item)
-		WacMenu._data.replace_l2a1supp = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_l2a1extmag = function(self, item)
 		WacMenu._data.replace_l2a1extmag = item:value()
 		WacMenu:Save()
@@ -1919,10 +1915,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_microuzix_st = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_mp5sd = function(self, item)
-		WacMenu._data.replace_mp5sd = (item:value() == "on" and true or false)
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_mp5kfg = function(self, item)
 		WacMenu._data.replace_mp5kfg = item:value()
 		WacMenu:Save()
@@ -2021,10 +2013,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_p90civb = function(self, item)
 		WacMenu._data.replace_p90civb = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_p90ninjab = function(self, item)
-		WacMenu._data.replace_p90ninjab = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_p90strap = function(self, item)
@@ -2181,10 +2169,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_vectorvertgrip = function(self, item)
 		WacMenu._data.replace_vectorvertgrip = item:value()
-		WacMenu:Save()
-	end
-	MenuCallbackHandler.callback_toggle_replace_vz61suppb = function(self, item)
-		WacMenu._data.replace_vz61suppb = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_vz61ergo = function(self, item)
