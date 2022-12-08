@@ -161,9 +161,9 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_replace_supp_shak12",
+			"id" : "toggle_replace_supp_shak12",
 			"title" : "bm_wp_shak12_ns_suppressor",
-			"callback" : "callback_toggle_replace_replace_supp_shak12",		
+			"callback" : "callback_toggle_replace_supp_shak12",		
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -195,7 +195,7 @@
 				"bm_wp_baka_b_longsupp",
 				"bm_wp_m4_upg_fg_mk12"
 			],
-			"value" : "replace_replace_supp_shak12",
+			"value" : "replace_supp_shak12",
 			"default_value" : 1
 		},
 		{

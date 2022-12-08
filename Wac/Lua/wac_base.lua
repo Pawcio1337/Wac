@@ -1684,8 +1684,11 @@ if WacMenu._data.replace_mosinblackstock == true then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_mosin_body_black.override = nil
 end
 if WacMenu._data.replace_msrlongb == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_snp_msr_b_long.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_third_snp_msr_pts/wpn_third_snp_msr_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_msr_b_long.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_msr_pts/wpn_fps_snp_msr_b_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_snp_msr_b_long.override = nil
+end
+if WacMenu._data.replace_msrsupp == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_msr_ns_suppressor.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_msr_b_long.override = nil
 end
 if WacMenu._data.replace_msrbodyst == 2 then
@@ -1709,6 +1712,16 @@ if WacMenu._data.replace_r700_tactst == 2 then
 elseif WacMenu._data.replace_r700_tactst == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_r700_s_tactical.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_snp_r700_pts/wpn_third_snp_r700_s_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_r700_s_tactical.unit = "units/pd2_dlc_atw/weapons/wpn_fps_snp_r700_pts/wpn_fps_snp_r700_s_standard"
+end
+if WacMenu._data.replace_r93_b_short == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r93_b_short.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93_pts/wpn_fps_snp_r93_b_standard"
+elseif WacMenu._data.replace_r93_b_short == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r93_b_short.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93_pts/wpn_fps_snp_r93_b_suppressed"
+end
+if WacMenu._data.replace_r93_b_suppressed == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r93_b_suppressed.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93_pts/wpn_fps_snp_r93_b_standard"
+elseif WacMenu._data.replace_r93_b_suppressed == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r93_b_suppressed.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93_pts/wpn_fps_snp_r93_b_short"
 end
 if WacMenu._data.replace_r93woodbody == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_r93_body_wood.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_third_snp_r93_pts/wpn_third_snp_r93_body_standard"
@@ -1786,6 +1799,9 @@ elseif WacMenu._data.replace_wa2000walnutgrip == 3 then
 elseif WacMenu._data.replace_wa2000walnutgrip == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_g_walnut.third_unit = "units/pd2_dlc_turtles/weapons/wpn_third_snp_wa2000_pts/wpn_third_snp_wa2000_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_g_walnut.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_g_standard"
+end
+if WacMenu._data.replace_model70_supp == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_model70_ns_suppressor.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
 if WacMenu._data.replace_winm1873longb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_winchester_b_long.third_unit = "units/pd2_dlc_west/weapons/wpn_third_snp_winchester/wpn_third_snp_winchester_b_standard"
@@ -3923,55 +3939,55 @@ elseif WacMenu._data.replace_ar15_magpulassiststanag == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_upg_m_quick.unit = "units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_fps_ass_tecci_m_drum"
 end
 if WacMenu._data.replace_keep_frontpost == true then
-if not tweak_data.weapon.factory.wpn_fps_ass_amcar.adds then
-	tweak_data.weapon.factory.wpn_fps_ass_amcar.adds = {}
-end
-for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_amcar.uses_parts) do
-	if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
-		if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
-		else
-			tweak_data.weapon.factory.wpn_fps_ass_amcar.adds[part_id] = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_ass_m16_os_frontsight"}
-		end
+	if not tweak_data.weapon.factory.wpn_fps_ass_amcar.adds then
+		tweak_data.weapon.factory.wpn_fps_ass_amcar.adds = {}
 	end
-end
-if not tweak_data.weapon.factory.wpn_fps_ass_m16.adds then
-	tweak_data.weapon.factory.wpn_fps_ass_m16.adds = {}
-end
-for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_m16.uses_parts) do
-	if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
-		if not tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] then
-			tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] = {}
-		end
-		if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
-		else
-			table.insert(tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
-		end
-	end
-end
-if not tweak_data.weapon.factory.wpn_fps_smg_olympic.adds then
-	tweak_data.weapon.factory.wpn_fps_smg_olympic.adds = {}
-end
-for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_smg_olympic.uses_parts) do
-	if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
-		if not tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] then
-			tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] = {}
-		end
-		if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
-		else
-			table.insert(tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
-		end
-	end
-end
-local unforbids = {"wpn_fps_ass_m16_os_frontsight"}
-for id, data in pairs(tweak_data.weapon.factory.parts) do
-	if data.forbids then
-		for i = #data.forbids, 1, -1 do
-			if table.contains(unforbids, data.forbids[i]) then
-				table.remove(data.forbids, i)
+	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_amcar.uses_parts) do
+		if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
+			if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
+			else
+				tweak_data.weapon.factory.wpn_fps_ass_amcar.adds[part_id] = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_ass_m16_os_frontsight"}
 			end
 		end
 	end
-end
+	if not tweak_data.weapon.factory.wpn_fps_ass_m16.adds then
+		tweak_data.weapon.factory.wpn_fps_ass_m16.adds = {}
+	end
+	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_m16.uses_parts) do
+		if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
+			if not tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] then
+				tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] = {}
+			end
+			if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
+			else
+				table.insert(tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
+			end
+		end
+	end
+	if not tweak_data.weapon.factory.wpn_fps_smg_olympic.adds then
+		tweak_data.weapon.factory.wpn_fps_smg_olympic.adds = {}
+	end
+	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_smg_olympic.uses_parts) do
+		if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
+			if not tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] then
+				tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] = {}
+			end
+			if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
+			else
+				table.insert(tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
+			end
+		end
+	end
+	local unforbids = {"wpn_fps_ass_m16_os_frontsight"}
+	for id, data in pairs(tweak_data.weapon.factory.parts) do
+		if data.forbids then
+			for i = #data.forbids, 1, -1 do
+				if table.contains(unforbids, data.forbids[i]) then
+					table.remove(data.forbids, i)
+				end
+			end
+		end
+	end
 end
 if WacMenu._data.replace_m4_s_ubr == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_m4_s_ubr.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_m4_s_crane/wpn_third_upg_m4_s_crane"
