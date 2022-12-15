@@ -52,6 +52,7 @@
 	"wac_replace_ribcover_title" : "Ribbed Dustcover",
 	"wac_replace_noextrarail_title" : "No extra rail",
 	"wac_replace_exclusive_keepboltmodel_title" : "Exclusive set - Keep unique bolt model",
+	"wac_replace_backupsightzoom_title" : " Backup sight",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",
@@ -61,6 +62,7 @@
 	"wac_zoom_4_def_multi" : "Zoom 4 (Default)",
 	"wac_zoom_5_def_multi" : "Zoom 5 (Default)",
 	"wac_zoom_6_def_multi" : "Zoom 6 (Default)",
+	"wac_zoom_7_def_multi" : "Zoom 6 (Default)",
 	"wac_zoom_9_def_multi" : "Zoom 9 (Default)",
 	"wac_zoom_0_multi" : "No magnification",
 	"wac_zoom_1_multi" : "Zoom 1",

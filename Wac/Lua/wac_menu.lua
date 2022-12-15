@@ -2583,6 +2583,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_specter_zoom = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_specterbackup_zoom = function(self, item)
+		WacMenu._data.replace_specterbackup_zoom = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_aimpoint_zoom = function(self, item)
 		WacMenu._data.replace_aimpoint_zoom = item:value()
 		WacMenu:Save()
@@ -2625,6 +2629,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_cs_zoom = function(self, item)
 		WacMenu._data.replace_cs_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_csbackup_zoom = function(self, item)
+		WacMenu._data.replace_csbackup_zoom = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_spot_zoom = function(self, item)
@@ -2681,6 +2689,26 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_sigmagnifier_zoom = function(self, item)
 		WacMenu._data.replace_sigmagnifier_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_hamr_zoom = function(self, item)
+		WacMenu._data.replace_hamr_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_hamrbackup_zoom = function(self, item)
+		WacMenu._data.replace_hamrbackup_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_atibal_zoom = function(self, item)
+		WacMenu._data.replace_atibal_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_atibalbackup_zoom = function(self, item)
+		WacMenu._data.replace_atibalbackup_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_health_zoom = function(self, item)
+		WacMenu._data.replace_health_zoom = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_afg2 = function(self, item)
