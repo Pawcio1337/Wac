@@ -5,6 +5,29 @@
 	"items" : [
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15radianfg",
+			"title" : "bm_wp_m4_uupg_fg_radian",
+			"callback" : "callback_toggle_replace_ar15radianfg",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_fg_jp",
+				"bm_wp_upg_fg_smr",
+				"bm_wp_m4_uupg_fg_lr300",
+				"bm_wp_upg_ass_m4_fg_lvoa",
+				"bm_wp_upg_ass_m4_fg_moe",
+				"wac_replace_stndfg_title",
+				"bm_wp_m16_fg_railed",
+				"bm_wp_upg_ass_m16_fg_stag"
+			],
+			"value" : "replace_ar15radianfg",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15sniper",
 			"title" : "bm_wp_m4_g_sniper",
 			"callback" : "callback_toggle_replace_ar15sniper",		
@@ -296,6 +319,18 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15radianlower",
+			"title" : "bm_wp_m4_lower_radian",
+			"callback" : "callback_toggle_replace_ar15radianlower",		
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndrec_title"
+			],
+			"value" : "replace_ar15radianlower",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},
@@ -356,6 +391,21 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15radianupper",
+			"title" : "bm_wp_m4_upper_radian",
+			"callback" : "callback_toggle_replace_ar15radianupper",		
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndupprec_title",
+				"bm_wp_m4_upper_reciever_edge",
+				"bm_wp_upg_ass_m4_upper_reciever_ballos",
+				"bm_wp_upg_ass_m4_upper_reciever_core"
+			],
+			"value" : "replace_ar15radianupper",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},
@@ -394,7 +444,7 @@
 			"callback" : "callback_toggle_replace_ar15baliosbolt",		
 			"items" : [
 				"wac_default_multi",
-				"wac_ar15roundbolt_multi",
+				"bm_wp_m4_upper_reciever_round",
 				"bm_wp_m4_upper_reciever_edge",
 				"bm_wp_upg_ass_m4_upper_reciever_core"
 			],
@@ -408,11 +458,26 @@
 			"callback" : "callback_toggle_replace_ar15corebolt",		
 			"items" : [
 				"wac_default_multi",
-				"wac_ar15roundbolt_multi",
+				"bm_wp_m4_upper_reciever_round",
 				"bm_wp_m4_upper_reciever_edge",
 				"bm_wp_upg_ass_m4_upper_reciever_ballos"
 			],
 			"value" : "replace_ar15corebolt",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15radianbolt",
+			"title" : "bm_wp_m4_upper_radian",
+			"callback" : "callback_toggle_replace_ar15radianbolt",		
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_upper_reciever_round",
+				"bm_wp_m4_upper_reciever_edge",
+				"bm_wp_upg_ass_m4_upper_reciever_ballos",
+				"bm_wp_upg_ass_m4_upper_reciever_core"
+			],
+			"value" : "replace_ar15radianbolt",
 			"default_value" : 1
 		},
 		{
@@ -469,6 +534,20 @@
 				"bm_wp_upg_ass_m4_upper_reciever_ballos"
 			],
 			"value" : "replace_ar15corehandle",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15radianhandle",
+			"title" : "bm_wp_m4_upper_radian",
+			"callback" : "callback_toggle_replace_ar15radianhandle",		
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_ar15handle_title",
+				"bm_wp_upg_ass_m4_upper_reciever_ballos",
+				"bm_wp_upg_ass_m4_upper_reciever_core"
+			],
+			"value" : "replace_ar15radianhandle",
 			"default_value" : 1
 		}
 	]

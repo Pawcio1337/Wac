@@ -563,6 +563,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_m4moefg = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_ar15radianfg = function(self, item)
+		WacMenu._data.replace_ar15radianfg = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_m4a1stndgrip = function(self, item)
 		WacMenu._data.replace_m4a1stndgrip = (item:value() == "on" and true or false)
 		WacMenu:Save()
@@ -2339,6 +2343,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ar15corelower = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_ar15radianlower = function(self, item)
+		WacMenu._data.replace_ar15radianlower = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_ar15_30rndstanag = function(self, item)
 		WacMenu._data.replace_ar15_30rndstanag = item:value()
 		WacMenu:Save()
@@ -2427,12 +2435,24 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ar15coreupper = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_ar15radianupper = function(self, item)
+		WacMenu._data.replace_ar15radianupper = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_ar15corebolt = function(self, item)
 		WacMenu._data.replace_ar15corebolt = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_ar15radianbolt = function(self, item)
+		WacMenu._data.replace_ar15radianbolt = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_ar15corehandle = function(self, item)
 		WacMenu._data.replace_ar15corehandle = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ar15radianhandle = function(self, item)
+		WacMenu._data.replace_ar15radianhandle = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_jprifles = function(self, item)
@@ -2553,6 +2573,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_shotsupp_silent = function(self, item)
 		WacMenu._data.replace_shotsupp_silent = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_pis_medium = function(self, item)
+		WacMenu._data.replace_pis_medium = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_pis_medium_slim = function(self, item)

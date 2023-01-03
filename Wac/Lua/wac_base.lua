@@ -1090,6 +1090,34 @@ elseif WacMenu._data.replace_m4moefg == 10 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_fg_moe.unit = "units/payday2/weapons/wpn_fps_ass_amcar_pts/wpn_fps_amcar_uupg_fg_amcar"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_fg_moe.override.wpn_fps_m4_uupg_o_flipup = m4_fg_ovr.handlesight
 end
+if WacMenu._data.replace_ar15radianfg == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_fg_jp/wpn_third_upg_fg_jp"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_fg_jp/wpn_fps_upg_fg_jp"
+elseif WacMenu._data.replace_ar15radianfg == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_fg_smr/wpn_third_upg_fg_smr"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_fg_smr/wpn_fps_upg_fg_smr"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override.wpn_fps_m4_uupg_b_sd = m4_fg_ovr.smr
+elseif WacMenu._data.replace_ar15radianfg == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/payday2/weapons/wpn_third_ass_m4_pts/wpn_third_m4_uupg_fg_lr300"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_lr300"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override = nil
+elseif WacMenu._data.replace_ar15radianfg == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = {"wpn_fps_addon_ris"}
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m4_fg_lvoa/wpn_third_upg_ass_m4_fg_lvoa"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_lvoa/wpn_fps_upg_ass_m4_fg_lvoa"
+elseif WacMenu._data.replace_ar15radianfg == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = {"wpn_fps_addon_ris"}
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m4_fg_moe/wpn_third_upg_ass_m4_fg_moe"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_moe/wpn_fps_upg_ass_m4_fg_moe"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override.wpn_fps_m4_uupg_o_flipup = m4_fg_ovr.moe
+elseif WacMenu._data.replace_ar15radianfg == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = {"wpn_fps_addon_ris"}
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/payday2/weapons/wpn_third_ass_m16_pts/wpn_third_m16_fg_railed"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_fg_railed"
+elseif WacMenu._data.replace_ar15radianfg == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m16_fg_stag/wpn_third_upg_ass_m16_fg_stag"
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m16_fg_stag/wpn_fps_upg_ass_m16_fg_stag"
+end
 if not tweak_data.weapon.factory.parts.wpn_fps_m16_fg_railed.override then
 	tweak_data.weapon.factory.parts.wpn_fps_m16_fg_railed.override = {}
 end
@@ -3943,10 +3971,12 @@ if WacMenu._data.replace_keep_frontpost == true then
 		tweak_data.weapon.factory.wpn_fps_ass_amcar.adds = {}
 	end
 	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_amcar.uses_parts) do
-		if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
-			if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
-			else
-				tweak_data.weapon.factory.wpn_fps_ass_amcar.adds[part_id] = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_ass_m16_os_frontsight"}
+		if tweak_data.weapon.factory.parts[part_id].forbids then
+			if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
+				if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
+				else
+					tweak_data.weapon.factory.wpn_fps_ass_amcar.adds[part_id] = {"wpn_fps_m4_upper_reciever_round_vanilla","wpn_fps_m4_uupg_draghandle_vanilla","wpn_fps_ass_m16_os_frontsight"}
+				end
 			end
 		end
 	end
@@ -3954,13 +3984,15 @@ if WacMenu._data.replace_keep_frontpost == true then
 		tweak_data.weapon.factory.wpn_fps_ass_m16.adds = {}
 	end
 	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_m16.uses_parts) do
-		if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
-			if not tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] then
-				tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] = {}
-			end
-			if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
-			else
-				table.insert(tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
+		if tweak_data.weapon.factory.parts[part_id].forbids then
+			if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
+				if not tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] then
+					tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id] = {}
+				end
+				if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
+				else
+					table.insert(tweak_data.weapon.factory.wpn_fps_ass_m16.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
+				end
 			end
 		end
 	end
@@ -3968,13 +4000,15 @@ if WacMenu._data.replace_keep_frontpost == true then
 		tweak_data.weapon.factory.wpn_fps_smg_olympic.adds = {}
 	end
 	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_smg_olympic.uses_parts) do
-		if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
-			if not tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] then
-				tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] = {}
-			end
-			if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
-			else
-				table.insert(tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
+		if tweak_data.weapon.factory.parts[part_id].forbids then
+			if tweak_data.weapon.factory.parts[part_id].type == "sight" and tweak_data.weapon.factory.parts[part_id].a_obj == "a_o" and table.contains(tweak_data.weapon.factory.parts[part_id].forbids, "wpn_fps_ass_m16_os_frontsight") then
+				if not tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] then
+					tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id] = {}
+				end
+				if not WacMenu._data.replace_keep_frontpostcustom == true and tweak_data.weapon.factory.parts[part_id].custom then
+				else
+					table.insert(tweak_data.weapon.factory.wpn_fps_smg_olympic.adds[part_id], "wpn_fps_ass_m16_os_frontsight")
+				end
 			end
 		end
 	end
@@ -4122,6 +4156,34 @@ if WacMenu._data.replace_ar15corehandle == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_upper_reciever_core.override.wpn_fps_m4_uupg_draghandle = {}
 elseif WacMenu._data.replace_ar15corehandle == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_upper_reciever_core.override.wpn_fps_m4_uupg_draghandle = {unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_m4_uupg_draghandle_ballos/wpn_fps_m4_uupg_draghandle_ballos"}
+end
+if WacMenu._data.replace_ar15radianupper == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_upper_reciever_round"
+elseif WacMenu._data.replace_ar15radianupper == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_upper_reciever_edge"
+elseif WacMenu._data.replace_ar15radianupper == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_upper_reciever_ballos/wpn_fps_upg_ass_m4_upper_reciever_ballos"
+elseif WacMenu._data.replace_ar15radianupper == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_upper_reciever_ballos/wpn_fps_upg_ass_m4_upper_reciever_ballos"
+end
+if WacMenu._data.replace_ar15radianlower == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_lower_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_lower_reciever"
+end
+if WacMenu._data.replace_ar15radianbolt == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_amcar_bolt_standard = {unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_bolt_round"}
+elseif WacMenu._data.replace_ar15radianbolt == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_amcar_bolt_standard = {unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_bolt_edge"}
+elseif WacMenu._data.replace_ar15radianbolt == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_amcar_bolt_standard = {unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_bolt_ballos/wpn_fps_upg_ass_m4_bolt_ballos"}
+elseif WacMenu._data.replace_ar15radianbolt == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_amcar_bolt_standard = {unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_bolt_ballos/wpn_fps_upg_ass_m4_bolt_ballos"}
+end
+if WacMenu._data.replace_ar15radianhandle == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_m4_uupg_draghandle = {}
+elseif WacMenu._data.replace_ar15radianhandle == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_m4_uupg_draghandle = {unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_m4_uupg_draghandle_ballos/wpn_fps_m4_uupg_draghandle_ballos"}
+elseif WacMenu._data.replace_ar15radianhandle == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_m4_uupg_draghandle = {unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_m4_uupg_draghandle_ballos/wpn_fps_m4_uupg_draghandle_ballos"}
 end
 local barrelext = {}
 barrelext.tweak = "tweak_data.weapon.factory.parts."
@@ -5395,6 +5457,63 @@ elseif WacMenu._data.replace_shotsupp_silent == 28 then
 assert(loadstring(supp.tweak .. supp.thick .. supp.shak12unit))()
 elseif WacMenu._data.replace_shotsupp_silent == 29 then
 assert(loadstring(supp.tweak .. supp.thick .. supp.mk12unit))()
+end
+if WacMenu._data.replace_pis_medium == 2 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.dummyunit))()
+elseif WacMenu._data.replace_pis_medium == 3 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.pis_smallunit))()
+elseif WacMenu._data.replace_pis_medium == 4 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.pis_medium_slimunit))()
+elseif WacMenu._data.replace_pis_medium == 5 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.pis_largeunit))()
+elseif WacMenu._data.replace_pis_medium == 6 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.pis_medium_gemunit))()
+elseif WacMenu._data.replace_pis_medium == 7 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.pis_large_kacunit))()
+elseif WacMenu._data.replace_pis_medium == 8 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.filterunit))()
+elseif WacMenu._data.replace_pis_medium == 9 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.pis_jungleunit))()
+elseif WacMenu._data.replace_pis_medium == 10 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.putnikunit))()
+elseif WacMenu._data.replace_pis_medium == 11 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.smallunit))()
+elseif WacMenu._data.replace_pis_medium == 12 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.mediumunit))()
+elseif WacMenu._data.replace_pis_medium == 13 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.largeunit))()
+elseif WacMenu._data.replace_pis_medium == 14 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.pbs1unit))()
+elseif WacMenu._data.replace_pis_medium == 15 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.thickunit))()
+elseif WacMenu._data.replace_pis_medium == 16 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.salvounit))()
+elseif WacMenu._data.replace_pis_medium == 17 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.mp7qdunit))()
+elseif WacMenu._data.replace_pis_medium == 18 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.vectorunit))()
+elseif WacMenu._data.replace_pis_medium == 19 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.cobrayunit))()
+elseif WacMenu._data.replace_pis_medium == 20 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.sr2unit))()
+elseif WacMenu._data.replace_pis_medium == 21 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.mp9unit))()
+elseif WacMenu._data.replace_pis_medium == 22 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.gm45unit))()
+elseif WacMenu._data.replace_pis_medium == 23 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.scorpionunit))()
+elseif WacMenu._data.replace_pis_medium == 24 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.uziunit))()
+elseif WacMenu._data.replace_pis_medium == 25 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.baka_smallunit))()
+elseif WacMenu._data.replace_pis_medium == 26 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.baka_midunit))()
+elseif WacMenu._data.replace_pis_medium == 27 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.baka_longunit))()
+elseif WacMenu._data.replace_pis_medium == 28 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.shak12unit))()
+elseif WacMenu._data.replace_pis_medium == 29 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.mk12unit))()
 end
 if WacMenu._data.replace_pis_medium_slim == 2 then
 assert(loadstring(supp.tweak .. supp.pis_slim .. supp.dummyunit))()
