@@ -15,7 +15,6 @@
 				"bm_wp_m4_uupg_fg_lr300",
 				"bm_wp_upg_ass_m4_fg_lvoa",
 				"bm_wp_upg_ass_m4_fg_moe",
-				"wac_replace_stndfg_title",
 				"bm_wp_m16_fg_railed",
 				"bm_wp_upg_ass_m16_fg_stag"
 			],
@@ -313,7 +312,8 @@
 			"callback" : "callback_toggle_replace_ar15corelower",		
 			"items" : [
 				"wac_default_multi",
-				"wac_replace_stndrec_title"
+				"wac_replace_stndrec_title",
+				"bm_wp_m4_lower_radian"
 			],
 			"value" : "replace_ar15corelower",
 			"default_value" : 1
@@ -325,7 +325,8 @@
 			"callback" : "callback_toggle_replace_ar15radianlower",		
 			"items" : [
 				"wac_default_multi",
-				"wac_replace_stndrec_title"
+				"wac_replace_stndrec_title",
+				"bm_wp_upg_ass_m4_lower_reciever_core"
 			],
 			"value" : "replace_ar15radianlower",
 			"default_value" : 1

@@ -889,12 +889,29 @@ end
 if not tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_fg_moe.override then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_fg_moe.override = {}
 end
+if not tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override = {}
+end
+if not tweak_data.weapon.factory.parts.wpn_fps_m16_fg_railed.override then
+	tweak_data.weapon.factory.parts.wpn_fps_m16_fg_railed.override = {}
+end
+if not tweak_data.weapon.factory.parts.wpn_fps_m16_fg_vietnam.override then
+	tweak_data.weapon.factory.parts.wpn_fps_m16_fg_vietnam.override = {}
+end
+if not tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m16_fg_stag.override then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m16_fg_stag.override = {}
+end
 local m4_fg_ovr = {}
 if not wac_m4fg_override_saved then
 m4_fg_ovr.smr = deep_clone(tweak_data.weapon.factory.parts.wpn_fps_upg_fg_smr.override)
 m4_fg_ovr.moe = deep_clone(tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_fg_moe.override)
 m4_fg_ovr.handlesight = {unit = "units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_ass_m16_o_handle_sight",third_unit = "units/payday2/weapons/wpn_third_ass_m16_pts/wpn_third_ass_m16_o_handle_sight",stance_mod = {wpn_fps_ass_m4 = { translation = Vector3(0, 0, -0.5)}}}
 	wac_m4fg_override_saved = true
+end
+local m16_fg_ovr = {}
+if not wac_m16fg_override_saved then
+m16_fg_ovr.stag = {a_obj = "a_os_stag"}
+	wac_m16fg_override_saved = true
 end
 if WacMenu._data.replace_m4afterfg == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_fg_lr300.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_fg_jp/wpn_third_upg_fg_jp"
@@ -1097,40 +1114,27 @@ elseif WacMenu._data.replace_ar15radianfg == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_fg_smr/wpn_third_upg_fg_smr"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_fg_smr/wpn_fps_upg_fg_smr"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override.wpn_fps_m4_uupg_b_sd = m4_fg_ovr.smr
-elseif WacMenu._data.replace_ar15radianfg == 3 then
+elseif WacMenu._data.replace_ar15radianfg == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/payday2/weapons/wpn_third_ass_m4_pts/wpn_third_m4_uupg_fg_lr300"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_lr300"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override = nil
-elseif WacMenu._data.replace_ar15radianfg == 4 then
+elseif WacMenu._data.replace_ar15radianfg == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = {"wpn_fps_addon_ris"}
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m4_fg_lvoa/wpn_third_upg_ass_m4_fg_lvoa"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_lvoa/wpn_fps_upg_ass_m4_fg_lvoa"
-elseif WacMenu._data.replace_ar15radianfg == 5 then
+elseif WacMenu._data.replace_ar15radianfg == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = {"wpn_fps_addon_ris"}
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m4_fg_moe/wpn_third_upg_ass_m4_fg_moe"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_moe/wpn_fps_upg_ass_m4_fg_moe"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override.wpn_fps_m4_uupg_o_flipup = m4_fg_ovr.moe
-elseif WacMenu._data.replace_ar15radianfg == 6 then
+elseif WacMenu._data.replace_ar15radianfg == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = {"wpn_fps_addon_ris"}
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/payday2/weapons/wpn_third_ass_m16_pts/wpn_third_m16_fg_railed"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_fg_railed"
-elseif WacMenu._data.replace_ar15radianfg == 7 then
+elseif WacMenu._data.replace_ar15radianfg == 8 then
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m16_fg_stag/wpn_third_upg_ass_m16_fg_stag"
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m16_fg_stag/wpn_fps_upg_ass_m16_fg_stag"
-end
-if not tweak_data.weapon.factory.parts.wpn_fps_m16_fg_railed.override then
-	tweak_data.weapon.factory.parts.wpn_fps_m16_fg_railed.override = {}
-end
-if not tweak_data.weapon.factory.parts.wpn_fps_m16_fg_vietnam.override then
-	tweak_data.weapon.factory.parts.wpn_fps_m16_fg_vietnam.override = {}
-end
-if not tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m16_fg_stag.override then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m16_fg_stag.override = {}
-end
-local m16_fg_ovr = {}
-if not wac_m16fg_override_saved then
-m16_fg_ovr.stag = {a_obj = "a_os_stag"}
-	wac_m16fg_override_saved = true
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.override.wpn_fps_ass_m16_os_frontsight = m16_fg_ovr.stag
 end
 if WacMenu._data.replace_m16tacfg == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_m16_fg_railed.forbids = nil
@@ -4065,6 +4069,16 @@ elseif WacMenu._data.replace_m4_s_crane == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_m4_s_crane.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_s_vltor"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_m4_s_crane.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_s_vltor"
 end
+if WacMenu._data.replace_ar15corelower == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_lower_reciever_core.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_lower_reciever"
+elseif WacMenu._data.replace_ar15corelower == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_lower_reciever_core.unit = "units/pd2_dlc_mxm/weapons/wpn_fps_upg_mxm_m4/wpn_fps_m4_uupg_lorec_radian"
+end
+if WacMenu._data.replace_ar15radianlower == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_lower_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_lower_reciever"
+elseif WacMenu._data.replace_ar15radianlower == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_lower_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_lower_reciever_core/wpn_fps_upg_ass_m4_lower_reciever_core"
+end
 if WacMenu._data.replace_ar15roundupper == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_upper_reciever_round.third_unit = "units/payday2/weapons/wpn_third_ass_m4_pts/wpn_third_m4_upper_reciever_edge"
 	tweak_data.weapon.factory.parts.wpn_fps_m4_upper_reciever_round.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_upper_reciever_edge"
@@ -4141,10 +4155,6 @@ elseif WacMenu._data.replace_ar15coreupper == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_upper_reciever_core.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ass_m4_upper_reciever_ballos/wpn_third_upg_ass_m4_upper_reciever_ballos"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_upper_reciever_core.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_upper_reciever_ballos/wpn_fps_upg_ass_m4_upper_reciever_ballos"
 end
-if WacMenu._data.replace_ar15corelower == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_lower_reciever_core.third_unit = "units/payday2/weapons/wpn_third_ass_m4_pts/wpn_third_m4_lower_reciever"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_lower_reciever_core.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_lower_reciever"
-end
 if WacMenu._data.replace_ar15corebolt == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_upper_reciever_core.override.wpn_fps_amcar_bolt_standard = {unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_bolt_round"}
 elseif WacMenu._data.replace_ar15corebolt == 3 then
@@ -4165,9 +4175,6 @@ elseif WacMenu._data.replace_ar15radianupper == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_upper_reciever_ballos/wpn_fps_upg_ass_m4_upper_reciever_ballos"
 elseif WacMenu._data.replace_ar15radianupper == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_upper_reciever_ballos/wpn_fps_upg_ass_m4_upper_reciever_ballos"
-end
-if WacMenu._data.replace_ar15radianlower == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_lower_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_lower_reciever"
 end
 if WacMenu._data.replace_ar15radianbolt == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.override.wpn_fps_amcar_bolt_standard = {unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_bolt_round"}
@@ -6362,6 +6369,7 @@ if WacMenu._data.replace_ump45single == true then
 	tweak_data.weapon.schakal.FIRE_MODE = "single"
 end
 if WacMenu._data.fixes == true then
+	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = nil
 -- SUB-2000 iron sight fixes
 	for _, part_id in pairs(tweak_data.weapon.factory.wpn_fps_ass_sub2000.uses_parts) do
 		if tweak_data.weapon.factory.parts[part_id].type == "sight" then
