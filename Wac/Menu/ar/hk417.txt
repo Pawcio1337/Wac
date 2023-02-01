@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk417stndst",
 			"title" : "bm_wp_m4_s_standard",
-			"callback" : "callback_toggle_replace_hk417stndst",		
+			"callback" : "callback_toggle_replace_hk417stndst",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_m4",

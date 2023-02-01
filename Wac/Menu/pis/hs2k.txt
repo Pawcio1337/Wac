@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hs2kcustom",
 			"title" : "bm_wp_hs2000_sl_custom",
-			"callback" : "callback_toggle_replace_hs2kcustom",		
+			"callback" : "callback_toggle_replace_hs2kcustom",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_hs2000_sl_long",
@@ -32,7 +32,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hs2klong",
 			"title" : "bm_wp_hs2000_sl_long",
-			"callback" : "callback_toggle_replace_hs2klong",		
+			"callback" : "callback_toggle_replace_hs2klong",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_hs2000_sl_custom",

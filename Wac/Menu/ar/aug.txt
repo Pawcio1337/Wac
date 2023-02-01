@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_auglongb",
 			"title" : "bm_wp_aug_b_long",
-			"callback" : "callback_toggle_replace_auglongb",		
+			"callback" : "callback_toggle_replace_auglongb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -24,7 +24,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_augextrarail",
 			"title" : "bm_wp_aug_fg_a3",
-			"callback" : "callback_toggle_replace_augextrarail",		
+			"callback" : "callback_toggle_replace_augextrarail",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_noextrarail_title"
@@ -40,7 +40,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_augf90body",
 			"title" : "bm_wp_aug_body_f90",
-			"callback" : "callback_toggle_replace_augf90body",		
+			"callback" : "callback_toggle_replace_augf90body",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndrec_title"
@@ -56,10 +56,10 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_augmagpulassist",
 			"title" : "bm_wp_aug_m_quick",
-			"callback" : "callback_toggle_replace_augmagpulassist",		
+			"callback" : "callback_toggle_replace_augmagpulassist",
 			"items" : [
 				"wac_default_multi",
-				"stndmag_multi"
+				"bm_wp_g18c_m_mag_17rnd"
 			],
 			"value" : "replace_augmagpulassist",
 			"default_value" : 1
@@ -72,7 +72,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ironsightsaug",
 			"title" : "bm_wp_model70_iron_sight",
-			"callback" : "callback_toggle_replace_ironsightsaug",		
+			"callback" : "callback_toggle_replace_ironsightsaug",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ksg",

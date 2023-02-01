@@ -56,7 +56,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m119receiver",
 			"title" : "wac_replace_stndrec_title",
-			"callback" : "callback_toggle_replace_m119receiver",		
+			"callback" : "callback_toggle_replace_m119receiver",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_cobray_body_upper_jacket"
@@ -68,7 +68,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m11980s",
 			"title" : "bm_wp_cobray_body_upper_jacket",
-			"callback" : "callback_toggle_replace_m11980s",		
+			"callback" : "callback_toggle_replace_m11980s",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndrec_title"

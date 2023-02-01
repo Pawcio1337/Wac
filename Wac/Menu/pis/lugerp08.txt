@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_lugerp08_reinforcedb",
 			"title" : "bm_wp_breech_b_reinforced",
-			"callback" : "callback_toggle_replace_lugerp08_reinforcedb",		
+			"callback" : "callback_toggle_replace_lugerp08_reinforcedb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_lugerp08_shortb",
 			"title" : "bm_wp_breech_b_short",
-			"callback" : "callback_toggle_replace_lugerp08_shortb",		
+			"callback" : "callback_toggle_replace_lugerp08_shortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"

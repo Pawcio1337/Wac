@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vhsshortb",
 			"title" : "bm_wp_vhs_b_short",
-			"callback" : "callback_toggle_replace_vhsshortb",		
+			"callback" : "callback_toggle_replace_vhsshortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vhslongb",
 			"title" : "bm_wp_vhs_b_sniper",
-			"callback" : "callback_toggle_replace_vhslongb",		
+			"callback" : "callback_toggle_replace_vhslongb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",

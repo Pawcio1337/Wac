@@ -26,6 +26,7 @@
 	"bm_w_shak12" : "ShAK-12",
 	"bm_w_s552" : "SG 552",
 	"bm_w_sub2000" : "SUB-2000",
+	"bm_w_tkb" : "TKB-059",
 	"bm_w_vhs" : "VHS-D2",
 
 	"bm_w_aa12" : "AA-12",
@@ -64,6 +65,7 @@
 	"bm_w_desertfox" : "SRS",
 	"bm_w_scout" : "Steyr Scout",
 	"bm_w_siltstone" : "SVD",
+	"bm_w_contender" : "Thompson/Center Contender",
 	"bm_w_tti" : "TR-1 Ultra-Light",
 	"bm_w_wa2000" : "Walther WA 2000",
 	"bm_w_winchester1874" : "Winchester Model 1873",
@@ -71,6 +73,7 @@
 
 	"bm_w_par" : "FN M240",
 	"bm_w_m249" : "FN M249",
+	"bm_w_hcar" : "HCAR",
 	"bm_w_m60" : "M60",
 	"bm_w_hk21" : "HK21E",
 	"bm_w_mg42" : "MG42",

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltbuntlineb",
 			"title" : "bm_wp_peacemaker_barrel_long",
-			"callback" : "callback_toggle_replace_coltbuntlineb",		
+			"callback" : "callback_toggle_replace_coltbuntlineb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_peacemaker_barrel_short",
@@ -24,7 +24,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltssabling",
 			"title" : "bm_wp_peacemaker_handle_bling",
-			"callback" : "callback_toggle_replace_coltssabling",		
+			"callback" : "callback_toggle_replace_coltssabling",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -40,7 +40,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltsaastock",
 			"title" : "bm_wp_peacemaker_rifle_stock",
-			"callback" : "callback_toggle_replace_coltsaastock",		
+			"callback" : "callback_toggle_replace_coltsaastock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard"

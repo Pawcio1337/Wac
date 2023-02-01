@@ -1143,6 +1143,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ttitr1stock = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_victor_herafg = function(self, item)
+		WacMenu._data.replace_victor_herafg = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_wa2000longb = function(self, item)
 		WacMenu._data.replace_wa2000longb = item:value()
 		WacMenu:Save()
@@ -1923,6 +1927,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_microuzisupp = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_microuzi_supplong = function(self, item)
+		WacMenu._data.replace_microuzi_supplong = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_microuzifoldedst = function(self, item)
 		WacMenu._data.replace_microuzifoldedst = item:value()
 		WacMenu:Save()
@@ -2001,6 +2009,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_mp9supp = function(self, item)
 		WacMenu._data.replace_mp9supp = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_mp9supp_model = function(self, item)
+		WacMenu._data.replace_mp9supp_model = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_mp9stndmag = function(self, item)
@@ -2821,6 +2833,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/scout.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/srs.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/svd.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/victor.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/wa2000.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/winchesterm1873.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/model70.txt", WacMenu, WacMenu._data)

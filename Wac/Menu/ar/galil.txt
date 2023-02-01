@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galiltacfg",
 			"title" : "bm_wp_galil_fg_fab",
-			"callback" : "callback_toggle_replace_galiltacfg",		
+			"callback" : "callback_toggle_replace_galiltacfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_fg_mar",
@@ -22,7 +22,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galilmicro",
 			"title" : "bm_wp_galil_fg_mar",
-			"callback" : "callback_toggle_replace_galilmicro",		
+			"callback" : "callback_toggle_replace_galilmicro",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_fg_fab",
@@ -37,7 +37,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galilsarfg",
 			"title" : "bm_wp_galil_fg_sar",
-			"callback" : "callback_toggle_replace_galilsarfg",		
+			"callback" : "callback_toggle_replace_galilsarfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_fg_fab",
@@ -52,7 +52,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galatzfg",
 			"title" : "bm_wp_galil_fg_sniper",
-			"callback" : "callback_toggle_replace_galatzfg",		
+			"callback" : "callback_toggle_replace_galatzfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_fg_mar",
@@ -71,7 +71,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galil_snipergrip",
 			"title" : "bm_wp_galil_g_sniper",
-			"callback" : "callback_toggle_replace_galil_snipergrip",		
+			"callback" : "callback_toggle_replace_galil_snipergrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -87,7 +87,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galiloldmicrost",
 			"title" : "bm_wp_galil_s_fab",
-			"callback" : "callback_toggle_replace_galiloldmicrost",		
+			"callback" : "callback_toggle_replace_galiloldmicrost",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_s_light",
@@ -109,7 +109,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galilplasticst",
 			"title" : "bm_wp_galil_s_plastic",
-			"callback" : "callback_toggle_replace_galilplasticst",		
+			"callback" : "callback_toggle_replace_galilplasticst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_s_light",
@@ -131,7 +131,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galatzst",
 			"title" : "bm_wp_galil_s_sniper",
-			"callback" : "callback_toggle_replace_galatzst",		
+			"callback" : "callback_toggle_replace_galatzst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_s_light",
@@ -153,7 +153,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_galilwoodenst",
 			"title" : "bm_wp_galil_s_wood",
-			"callback" : "callback_toggle_replace_galilwoodenst",		
+			"callback" : "callback_toggle_replace_galilwoodenst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_galil_s_light",

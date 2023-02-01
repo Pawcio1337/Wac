@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spasfoldst",
 			"title" : "bm_wp_spas12_s_folded",
-			"callback" : "callback_toggle_replace_spasfoldst",		
+			"callback" : "callback_toggle_replace_spasfoldst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
@@ -21,7 +21,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spassolidst",
 			"title" : "bm_wp_spas12_s_solid",
-			"callback" : "callback_toggle_replace_spassolidst",		
+			"callback" : "callback_toggle_replace_spassolidst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",

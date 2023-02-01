@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61ergo",
 			"title" : "bm_wp_scorpion_g_ergo",
-			"callback" : "callback_toggle_replace_vz61ergo",		
+			"callback" : "callback_toggle_replace_vz61ergo",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_scorpion_g_wood",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61woodgrip",
 			"title" : "bm_wp_scorpion_g_wood",
-			"callback" : "callback_toggle_replace_vz61woodgrip",		
+			"callback" : "callback_toggle_replace_vz61woodgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_scorpion_g_ergo",
@@ -49,7 +49,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61nost",
 			"title" : "bm_wp_baka_s_standard",
-			"callback" : "callback_toggle_replace_vz61nost",		
+			"callback" : "callback_toggle_replace_vz61nost",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_scorpion_s_unfolded",
@@ -62,7 +62,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vz61unfoldst",
 			"title" : "bm_wp_scorpion_s_unfolded",
-			"callback" : "callback_toggle_replace_vz61unfoldst",		
+			"callback" : "callback_toggle_replace_vz61unfoldst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",

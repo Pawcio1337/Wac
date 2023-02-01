@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jericho941grip",
 			"title" : "bm_wp_sparrow_g_cowboy",
-			"callback" : "callback_toggle_replace_jericho941grip",		
+			"callback" : "callback_toggle_replace_jericho941grip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -35,10 +35,10 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jericho941body",
 			"title" : "bm_wp_sparrow_body_941",
-			"callback" : "callback_toggle_replace_jericho941body",		
+			"callback" : "callback_toggle_replace_jericho941body",
 			"items" : [
 				"wac_default_multi",
-				"wac_replace_stndframe_itle"
+				"wac_replace_stndframe_title"
 			],
 			"value" : "replace_jericho941body",
 			"default_value" : 1

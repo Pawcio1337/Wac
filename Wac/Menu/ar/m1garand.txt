@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1garand_shortb",
 			"title" : "bm_wp_ching_b_short",
-			"callback" : "callback_toggle_replace_m1garand_shortb",		
+			"callback" : "callback_toggle_replace_m1garand_shortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1garand_ammopouch",
 			"title" : "bm_wp_ching_s_pouch",
-			"callback" : "callback_toggle_replace_m1garand_ammopouch",		
+			"callback" : "callback_toggle_replace_m1garand_ammopouch",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"

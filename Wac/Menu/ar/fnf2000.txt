@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000longb",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_fnf2000longb",		
+			"callback" : "callback_toggle_replace_fnf2000longb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_corgi_b_short"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000stndb",
 			"title" : "bm_wp_corgi_b_short",
-			"callback" : "callback_toggle_replace_fnf2000stndb",		
+			"callback" : "callback_toggle_replace_fnf2000stndb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -43,7 +43,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000stndbody",
 			"title" : "bm_wp_m4_s_standard",
-			"callback" : "callback_toggle_replace_fnf2000stndbody",		
+			"callback" : "callback_toggle_replace_fnf2000stndbody",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_corgi_body_strap"
@@ -55,7 +55,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fnf2000tanbody",
 			"title" : "bm_wp_corgi_body_strap",
-			"callback" : "callback_toggle_replace_fnf2000tanbody",		
+			"callback" : "callback_toggle_replace_fnf2000tanbody",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"
@@ -71,16 +71,16 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805vertgrip",
 			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_cz805vertgrip",		
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_cz805vertgrip",
 			"items" : [
 				"wac_default_multi",
-				"stubbygrip_multi",
+				"wac_replace_stubbygrip_title",
 				"wac_replace_vggeneric_title",
 				"afg2_multi",
 				"bm_w_tecci",
 				"bm_w_polymer",
-				"bm_wp_schakal_vg_surefire",
-				"wac_replace_novg_title"
+				"wac_nomodel_multi"
 			],
 			"value" : "replace_cz805vertgrip",
 			"default_value" : 1

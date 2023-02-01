@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m60shortb",
 			"title" : "bm_wp_m60_b_short",
-			"callback" : "callback_toggle_replace_m60shortb",		
+			"callback" : "callback_toggle_replace_m60shortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -31,7 +31,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m60tactfg",
 			"title" : "bm_wp_m60_fg_tactical",
-			"callback" : "callback_toggle_replace_m60tactfg",		
+			"callback" : "callback_toggle_replace_m60tactfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m60_fg_tropical",
@@ -45,7 +45,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m60wtffg",
 			"title" : "bm_wp_m60_fg_tropical",
-			"callback" : "callback_toggle_replace_m60wtffg",		
+			"callback" : "callback_toggle_replace_m60wtffg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m60_fg_tactical",
@@ -59,7 +59,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m60keymodfg",
 			"title" : "bm_wp_m60_fg_keymod",
-			"callback" : "callback_toggle_replace_m60keymodfg",		
+			"callback" : "callback_toggle_replace_m60keymodfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m60_fg_tactical",

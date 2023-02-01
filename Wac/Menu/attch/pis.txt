@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockcrimsonlaser",
 			"title" : "bm_wp_pis_g_laser",
-			"callback" : "callback_toggle_replace_glockcrimsonlaser",		
+			"callback" : "callback_toggle_replace_glockcrimsonlaser",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockgripcytec",
 			"title" : "bm_wp_pis_g_beavertail",
-			"callback" : "callback_toggle_replace_glockgripcytec",		
+			"callback" : "callback_toggle_replace_glockgripcytec",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -31,7 +31,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockgriphogue",
 			"title" : "bm_wp_g18c_g_ergo",
-			"callback" : "callback_toggle_replace_glockgriphogue",		
+			"callback" : "callback_toggle_replace_glockgriphogue",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"

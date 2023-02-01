@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm25comp",
 			"title" : "bm_wp_arbiter_b_comp",
-			"callback" : "callback_toggle_replace_xm25comp",		
+			"callback" : "callback_toggle_replace_xm25comp",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm25longb",
 			"title" : "bm_wp_arbiter_b_long",
-			"callback" : "callback_toggle_replace_xm25longb",		
+			"callback" : "callback_toggle_replace_xm25longb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_93r_extmag",
 			"title" : "bm_wp_beer_m_extended",
-			"callback" : "callback_toggle_replace_93r_extmag",		
+			"callback" : "callback_toggle_replace_93r_extmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_93r_stock",
 			"title" : "bm_wp_beer_s_std",
-			"callback" : "callback_toggle_replace_93r_stock",		
+			"callback" : "callback_toggle_replace_93r_stock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard"

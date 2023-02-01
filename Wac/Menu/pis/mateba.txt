@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m2006shortb",
 			"title" : "bm_wp_2006m_b_short",
-			"callback" : "callback_toggle_replace_m2006shortb",		
+			"callback" : "callback_toggle_replace_m2006shortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m2006mediumb",
 			"title" : "bm_wp_2006m_b_medium",
-			"callback" : "callback_toggle_replace_m2006mediumb",		
+			"callback" : "callback_toggle_replace_m2006mediumb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -33,7 +33,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m2006longb",
 			"title" : "bm_wp_2006m_b_long",
-			"callback" : "callback_toggle_replace_m2006longb",		
+			"callback" : "callback_toggle_replace_m2006longb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -49,7 +49,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m2006blinggrip",
 			"title" : "bm_wp_2006m_g_bling",
-			"callback" : "callback_toggle_replace_m2006blinggrip",		
+			"callback" : "callback_toggle_replace_m2006blinggrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"

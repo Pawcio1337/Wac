@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_longbowexplosive",
 			"title" : "bm_wp_bow_long_explosion",
-			"callback" : "callback_toggle_replace_longbowexplosive",		
+			"callback" : "callback_toggle_replace_longbowexplosive",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"

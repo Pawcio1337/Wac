@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15radianfg",
 			"title" : "bm_wp_m4_uupg_fg_radian",
-			"callback" : "callback_toggle_replace_ar15radianfg",		
+			"callback" : "callback_toggle_replace_ar15radianfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_fg_jp",
@@ -29,7 +29,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15sniper",
 			"title" : "bm_wp_m4_g_sniper",
-			"callback" : "callback_toggle_replace_ar15sniper",		
+			"callback" : "callback_toggle_replace_ar15sniper",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_g_ergo",
@@ -46,7 +46,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15hgrip",
 			"title" : "bm_wp_upg_m4_g_hgrip",
-			"callback" : "callback_toggle_replace_ar15hgrip",		
+			"callback" : "callback_toggle_replace_ar15hgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_g_ergo",
@@ -63,7 +63,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15mgrip",
 			"title" : "bm_wp_upg_m4_g_mgrip",
-			"callback" : "callback_toggle_replace_ar15mgrip",		
+			"callback" : "callback_toggle_replace_ar15mgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_g_ergo",
@@ -80,7 +80,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15skeletgrip",
 			"title" : "bm_wp_upg_g_m4_surgeon",
-			"callback" : "callback_toggle_replace_ar15skeletgrip",		
+			"callback" : "callback_toggle_replace_ar15skeletgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_g_ergo",
@@ -101,7 +101,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15_30rndstanag",
 			"title" : "bm_wp_m4_uupg_m_std",
-			"callback" : "callback_toggle_replace_ar15_30rndstanag",		
+			"callback" : "callback_toggle_replace_ar15_30rndstanag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_m_straight",
@@ -120,7 +120,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15_20rndstanag",
 			"title" : "bm_wp_m4_m_straight",
-			"callback" : "callback_toggle_replace_ar15_20rndstanag",		
+			"callback" : "callback_toggle_replace_ar15_20rndstanag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_uupg_m_std",
@@ -139,7 +139,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15_pmag",
 			"title" : "bm_wp_m4_m_pmag",
-			"callback" : "callback_toggle_replace_ar15_pmag",		
+			"callback" : "callback_toggle_replace_ar15_pmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_m_straight",
@@ -158,7 +158,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15_mag5",
 			"title" : "bm_wp_upg_m4_m_quad",
-			"callback" : "callback_toggle_replace_ar15_mag5",		
+			"callback" : "callback_toggle_replace_ar15_mag5",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_m_straight",
@@ -177,7 +177,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15_emag",
 			"title" : "bm_wp_l85a2_m_emag",
-			"callback" : "callback_toggle_replace_ar15_emag",		
+			"callback" : "callback_toggle_replace_ar15_emag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_m_straight",
@@ -196,7 +196,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15_l5",
 			"title" : "bm_wp_upg_m4_m_l5",
-			"callback" : "callback_toggle_replace_ar15_l5",		
+			"callback" : "callback_toggle_replace_ar15_l5",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_m_straight",
@@ -215,7 +215,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15_magpulassiststanag",
 			"title" : "bm_wp_m4_m_quick",
-			"callback" : "callback_toggle_replace_ar15_magpulassiststanag",		
+			"callback" : "callback_toggle_replace_ar15_magpulassiststanag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_m_straight",
@@ -259,7 +259,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m4_s_ubr",
 			"title" : "bm_wp_upg_m4_s_ubr",
-			"callback" : "callback_toggle_replace_m4_s_ubr",		
+			"callback" : "callback_toggle_replace_m4_s_ubr",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_m4_s_crane",
@@ -274,7 +274,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m4_s_mk46",
 			"title" : "bm_wp_upg_m4_s_mk46",
-			"callback" : "callback_toggle_replace_m4_s_mk46",		
+			"callback" : "callback_toggle_replace_m4_s_mk46",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_m4_s_crane",
@@ -290,7 +290,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m4_s_crane",
 			"title" : "bm_wp_upg_m4_s_crane",
-			"callback" : "callback_toggle_replace_m4_s_crane",		
+			"callback" : "callback_toggle_replace_m4_s_crane",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_m4_s_ubr",
@@ -309,7 +309,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15corelower",
 			"title" : "bm_wp_upg_ass_m4_lower_reciever_core",
-			"callback" : "callback_toggle_replace_ar15corelower",		
+			"callback" : "callback_toggle_replace_ar15corelower",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndrec_title",
@@ -322,7 +322,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15radianlower",
 			"title" : "bm_wp_m4_lower_radian",
-			"callback" : "callback_toggle_replace_ar15radianlower",		
+			"callback" : "callback_toggle_replace_ar15radianlower",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndrec_title",
@@ -339,7 +339,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15roundupper",
 			"title" : "wac_replace_stndupprec_title",
-			"callback" : "callback_toggle_replace_ar15roundupper",		
+			"callback" : "callback_toggle_replace_ar15roundupper",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_upper_reciever_edge",
@@ -353,7 +353,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15vltorupper",
 			"title" : "bm_wp_m4_upper_reciever_edge",
-			"callback" : "callback_toggle_replace_ar15vltorupper",		
+			"callback" : "callback_toggle_replace_ar15vltorupper",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndupprec_title",
@@ -367,7 +367,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15baliosupper",
 			"title" : "bm_wp_upg_ass_m4_upper_reciever_ballos",
-			"callback" : "callback_toggle_replace_ar15baliosupper",		
+			"callback" : "callback_toggle_replace_ar15baliosupper",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndupprec_title",
@@ -381,7 +381,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15coreupper",
 			"title" : "bm_wp_upg_ass_m4_upper_reciever_core",
-			"callback" : "callback_toggle_replace_ar15coreupper",		
+			"callback" : "callback_toggle_replace_ar15coreupper",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndupprec_title",
@@ -395,7 +395,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15radianupper",
 			"title" : "bm_wp_m4_upper_radian",
-			"callback" : "callback_toggle_replace_ar15radianupper",		
+			"callback" : "callback_toggle_replace_ar15radianupper",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndupprec_title",
@@ -414,7 +414,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15roundbolt",
 			"title" : "wac_replace_ar15bolt_title",
-			"callback" : "callback_toggle_replace_ar15roundbolt",		
+			"callback" : "callback_toggle_replace_ar15roundbolt",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_upper_reciever_edge",
@@ -428,7 +428,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15vltorbolt",
 			"title" : "bm_wp_m4_upper_reciever_edge",
-			"callback" : "callback_toggle_replace_ar15vltorbolt",		
+			"callback" : "callback_toggle_replace_ar15vltorbolt",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndrec_title",
@@ -442,7 +442,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15baliosbolt",
 			"title" : "bm_wp_upg_ass_m4_upper_reciever_ballos",
-			"callback" : "callback_toggle_replace_ar15baliosbolt",		
+			"callback" : "callback_toggle_replace_ar15baliosbolt",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_upper_reciever_round",
@@ -456,7 +456,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15corebolt",
 			"title" : "bm_wp_upg_ass_m4_upper_reciever_core",
-			"callback" : "callback_toggle_replace_ar15corebolt",		
+			"callback" : "callback_toggle_replace_ar15corebolt",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_upper_reciever_round",
@@ -470,7 +470,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15radianbolt",
 			"title" : "bm_wp_m4_upper_radian",
-			"callback" : "callback_toggle_replace_ar15radianbolt",		
+			"callback" : "callback_toggle_replace_ar15radianbolt",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_upper_reciever_round",
@@ -489,7 +489,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15roundhandle",
 			"title" : "wac_replace_ar15handle_title",
-			"callback" : "callback_toggle_replace_ar15roundhandle",		
+			"callback" : "callback_toggle_replace_ar15roundhandle",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_ass_m4_upper_reciever_ballos",
@@ -502,7 +502,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15vltorhandle",
 			"title" : "bm_wp_m4_upper_reciever_edge",
-			"callback" : "callback_toggle_replace_ar15vltorhandle",		
+			"callback" : "callback_toggle_replace_ar15vltorhandle",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_ass_m4_upper_reciever_ballos",
@@ -515,7 +515,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15balioshandle",
 			"title" : "bm_wp_upg_ass_m4_upper_reciever_ballos",
-			"callback" : "callback_toggle_replace_ar15balioshandle",		
+			"callback" : "callback_toggle_replace_ar15balioshandle",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_ar15handle_title",
@@ -528,7 +528,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15corehandle",
 			"title" : "bm_wp_upg_ass_m4_upper_reciever_core",
-			"callback" : "callback_toggle_replace_ar15corehandle",		
+			"callback" : "callback_toggle_replace_ar15corehandle",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_ar15handle_title",
@@ -541,7 +541,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15radianhandle",
 			"title" : "bm_wp_m4_upper_radian",
-			"callback" : "callback_toggle_replace_ar15radianhandle",		
+			"callback" : "callback_toggle_replace_ar15radianhandle",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_ar15handle_title",

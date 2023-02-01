@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870b",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_short870b",		
+			"callback" : "callback_toggle_replace_short870b",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g36_b_long"
@@ -35,7 +35,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870stock1",
 			"title" : "bm_wp_serbu_s_solid_short",
-			"callback" : "callback_toggle_replace_short870stock1",		
+			"callback" : "callback_toggle_replace_short870stock1",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r870_s_nostock",
@@ -49,7 +49,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870stock2",
 			"title" : "bm_wp_serbu_s_nostock_short",
-			"callback" : "callback_toggle_replace_short870stock2",		
+			"callback" : "callback_toggle_replace_short870stock2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r870_s_nostock",
@@ -63,7 +63,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870stock3",
 			"title" : "bm_wp_upg_m4_s_mk46",
-			"callback" : "callback_toggle_replace_short870stock3",		
+			"callback" : "callback_toggle_replace_short870stock3",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r870_s_nostock",
@@ -81,7 +81,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shellrack",
 			"title" : "bm_wp_r870_m_extended",
-			"callback" : "callback_toggle_replace_shellrack",		
+			"callback" : "callback_toggle_replace_shellrack",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"

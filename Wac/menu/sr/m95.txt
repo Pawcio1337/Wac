@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m95_bstnd",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_m95_bstnd",		
+			"callback" : "callback_toggle_replace_m95_bstnd",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m95_b_barrel_short",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m95_bshort",
 			"title" : "bm_wp_m95_b_barrel_short",
-			"callback" : "callback_toggle_replace_m95_bshort",		
+			"callback" : "callback_toggle_replace_m95_bshort",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m95_b_barrel_long",
@@ -33,7 +33,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m95_blong",
 			"title" : "bm_wp_m95_b_barrel_long",
-			"callback" : "callback_toggle_replace_m95_blong",		
+			"callback" : "callback_toggle_replace_m95_blong",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",

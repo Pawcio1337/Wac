@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733fg",
 			"title" : "wac_replace_stndfg_title",
-			"callback" : "callback_toggle_replace_m733fg",		
+			"callback" : "callback_toggle_replace_m733fg",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_m4"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733grip",
 			"title" : "wac_replace_usestndgrip_title",
-			"callback" : "callback_toggle_replace_m733grip",		
+			"callback" : "callback_toggle_replace_m733grip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_g_ergo",
@@ -42,7 +42,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733stock",
 			"title" : "wac_replace_usestnd_title",
-			"callback" : "callback_toggle_replace_m733stock",		
+			"callback" : "callback_toggle_replace_m733stock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
@@ -64,7 +64,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733lower",
 			"title" : "bm_menu_lower_reciever",
-			"callback" : "callback_toggle_replace_m733lower",		
+			"callback" : "callback_toggle_replace_m733lower",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_ass_m4_lower_reciever_core"
@@ -76,7 +76,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733upper",
 			"title" : "bm_menu_upper_reciever",
-			"callback" : "callback_toggle_replace_m733upper",		
+			"callback" : "callback_toggle_replace_m733upper",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_upper_reciever_edge",
@@ -90,7 +90,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733bolt",
 			"title" : "wac_replace_ar15bolt_title",
-			"callback" : "callback_toggle_replace_m733bolt",		
+			"callback" : "callback_toggle_replace_m733bolt",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_upper_reciever_edge",
@@ -104,7 +104,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733handle",
 			"title" : "wac_replace_ar15handle_title",
-			"callback" : "callback_toggle_replace_m733handle",		
+			"callback" : "callback_toggle_replace_m733handle",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_ass_m4_upper_reciever_ballos",

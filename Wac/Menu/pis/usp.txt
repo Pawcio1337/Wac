@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspcomp2",
 			"title" : "bm_wp_usp_co_comp_2",
-			"callback" : "callback_toggle_replace_uspcomp2",		
+			"callback" : "callback_toggle_replace_uspcomp2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_pis_ns_flash",
@@ -36,7 +36,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspexpert",
 			"title" : "bm_wp_pis_usp_b_expert",
-			"callback" : "callback_toggle_replace_uspexpert",		
+			"callback" : "callback_toggle_replace_uspexpert",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_match",
@@ -49,7 +49,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspmatch",
 			"title" : "bm_wp_pis_usp_b_match",
-			"callback" : "callback_toggle_replace_uspmatch",		
+			"callback" : "callback_toggle_replace_uspmatch",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_expert",

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_srsshortb",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_srsshortb",		
+			"callback" : "callback_toggle_replace_srsshortb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_desertfox_b_long"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_srslongb",
 			"title" : "bm_wp_desertfox_b_long",
-			"callback" : "callback_toggle_replace_srslongb",		
+			"callback" : "callback_toggle_replace_srslongb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"

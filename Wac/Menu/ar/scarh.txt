@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_scarhlongb",
 			"title" : "bm_wp_scar_b_long",
-			"callback" : "callback_toggle_replace_scarhlongb",		
+			"callback" : "callback_toggle_replace_scarhlongb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -32,7 +32,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_scarsrxrail",
 			"title" : "bm_wp_scar_fg_railext",
-			"callback" : "callback_toggle_replace_scarsrxrail",		
+			"callback" : "callback_toggle_replace_scarsrxrail",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_noextrarail_title"
@@ -48,15 +48,16 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_afg2",
 			"title" : "wac_replace_afg2_title",
-			"callback" : "callback_toggle_replace_afg2",		
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_afg2",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stubbygrip_title",
 				"wac_replace_vggeneric_title",
 				"bm_w_tecci",
 				"bm_w_polymer",
-				"wac_replace_novg_title",
-				"bm_wp_schakal_vg_surefire"
+				"wac_nomodel_multi",
+				"bm_w_tti"
 			],
 			"value" : "replace_afg2",
 			"default_value" : 1
@@ -69,7 +70,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_scarhsnipstock",
 			"title" : "bm_wp_scar_s_sniper",
-			"callback" : "callback_toggle_replace_scarhsnipstock",		
+			"callback" : "callback_toggle_replace_scarhsnipstock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pl14protob",
 			"title" : "bm_wp_pl14_b_comp",
-			"callback" : "callback_toggle_replace_pl14protob",		
+			"callback" : "callback_toggle_replace_pl14protob",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi",

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_m1911_extmag",
 			"title" : "bm_wp_m1911_m_extended",
-			"callback" : "callback_toggle_replace_m1911_extmag",		
+			"callback" : "callback_toggle_replace_m1911_extmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_m1911_hardballersl",
 			"title" : "bm_wp_m1911_sl_hardballer",
-			"callback" : "callback_toggle_replace_m1911_hardballersl",		
+			"callback" : "callback_toggle_replace_m1911_hardballersl",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_tactical"
@@ -35,7 +35,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_m1911_matchsl",
 			"title" : "bm_wp_m1911_sl_match",
-			"callback" : "callback_toggle_replace_m1911_matchsl",		
+			"callback" : "callback_toggle_replace_m1911_matchsl",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_tactical"

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1a_ebr",
 			"title" : "bm_wp_m14_body_ebr",
-			"callback" : "callback_toggle_replace_m1a_ebr",		
+			"callback" : "callback_toggle_replace_m1a_ebr",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m14_body_jae",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1a_jagerstock",
 			"title" : "bm_wp_m14_body_jae",
-			"callback" : "callback_toggle_replace_m1a_jagerstock",		
+			"callback" : "callback_toggle_replace_m1a_jagerstock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m14_body_ebr",
@@ -34,7 +34,7 @@
 			"id" : "toggle_replace_m1a_rugerst",
 			"title" : "bm_wp_m14_body_ruger",
 			"description" : "wac_pd2jankcode_desc",
-			"callback" : "callback_toggle_replace_m1a_rugerst",		
+			"callback" : "callback_toggle_replace_m1a_rugerst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m14_body_jae",

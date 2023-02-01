@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deaglestndb",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_deaglestndb",		
+			"callback" : "callback_toggle_replace_deaglestndb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_deagle_b_modern"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deaglelongb",
 			"title" : "bm_wp_deagle_b_long",
-			"callback" : "callback_toggle_replace_deaglelongb",		
+			"callback" : "callback_toggle_replace_deaglelongb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -31,7 +31,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deaglel6b",
 			"title" : "bm_wp_deagle_b_modern",
-			"callback" : "callback_toggle_replace_deaglel6b",		
+			"callback" : "callback_toggle_replace_deaglel6b",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -47,7 +47,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deagleergogrip",
 			"title" : "bm_wp_deagle_g_ergo",
-			"callback" : "callback_toggle_replace_deagleergogrip",		
+			"callback" : "callback_toggle_replace_deagleergogrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_deagle_g_bling",
@@ -60,7 +60,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deagleblinggrip",
 			"title" : "bm_wp_deagle_g_bling",
-			"callback" : "callback_toggle_replace_deagleblinggrip",		
+			"callback" : "callback_toggle_replace_deagleblinggrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_deagle_g_ergo",

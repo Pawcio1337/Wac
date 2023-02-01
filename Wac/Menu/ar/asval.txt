@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_asvalprotob",
 			"title" : "bm_wp_asval_b_proto",
-			"callback" : "callback_toggle_replace_asvalprotob",		
+			"callback" : "callback_toggle_replace_asvalprotob",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_asvalstock",
 			"title" : "wac_replace_usestnd_title",
-			"callback" : "callback_toggle_replace_asvalstock",		
+			"callback" : "callback_toggle_replace_asvalstock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_folding",

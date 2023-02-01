@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fmg9_grip_tape",
 			"title" : "bm_wp_fmg9_grip_tape",
-			"callback" : "callback_toggle_replace_fmg9_grip_tape",		
+			"callback" : "callback_toggle_replace_fmg9_grip_tape",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fmg9_m_speed",
 			"title" : "bm_wp_fmg9_m_speed",
-			"callback" : "callback_toggle_replace_fmg9_m_speed",		
+			"callback" : "callback_toggle_replace_fmg9_m_speed",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -39,7 +39,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fmg9_stock_padded",
 			"title" : "bm_wp_fmg9_stock_padded",
-			"callback" : "callback_toggle_replace_fmg9_stock_padded",		
+			"callback" : "callback_toggle_replace_fmg9_stock_padded",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard"

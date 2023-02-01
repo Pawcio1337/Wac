@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uzitacfg",
 			"title" : "bm_wp_uzi_fg_rail",
-			"callback" : "callback_toggle_replace_uzitacfg",		
+			"callback" : "callback_toggle_replace_uzitacfg",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndfg_title"
@@ -43,7 +43,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uziergostock",
 			"title" : "bm_wp_uzi_s_leather",
-			"callback" : "callback_toggle_replace_uziergostock",		
+			"callback" : "callback_toggle_replace_uziergostock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_uzi_s_solid",
@@ -58,7 +58,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uzisolidstock",
 			"title" : "bm_wp_uzi_s_solid",
-			"callback" : "callback_toggle_replace_uzisolidstock",		
+			"callback" : "callback_toggle_replace_uzisolidstock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_uzi_s_leather",
@@ -73,7 +73,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uzifoldstock",
 			"title" : "bm_wp_uzi_s_standard",
-			"callback" : "callback_toggle_replace_uzifoldstock",		
+			"callback" : "callback_toggle_replace_uzifoldstock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_uzi_s_leather",
@@ -88,7 +88,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uzix_st",
 			"title" : "wac_replace_akimbost_title",
-			"callback" : "callback_toggle_replace_uzix_st",		
+			"callback" : "callback_toggle_replace_uzix_st",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",

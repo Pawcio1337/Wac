@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_winchsxsshortb",
 			"title" : "bm_wp_coach_b_short",
-			"callback" : "callback_toggle_replace_winchsxsshortb",		
+			"callback" : "callback_toggle_replace_winchsxsshortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_winchsxsshortst",
 			"title" : "bm_wp_coach_s_short",
-			"callback" : "callback_toggle_replace_winchsxsshortst",		
+			"callback" : "callback_toggle_replace_winchsxsshortst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"

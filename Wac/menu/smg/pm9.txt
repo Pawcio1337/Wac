@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pm9_s_tact",
 			"title" : "bm_wp_pm9_s_tactical",
-			"callback" : "callback_toggle_replace_pm9_s_tact",		
+			"callback" : "callback_toggle_replace_pm9_s_tact",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard"

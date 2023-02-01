@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ove9ksilentmotor",
 			"title" : "bm_wp_saw_body_silent",
-			"callback" : "callback_toggle_replace_ove9ksilentmotor",		
+			"callback" : "callback_toggle_replace_ove9ksilentmotor",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_saw_body_speed",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ove9kbainmotor",
 			"title" : "bm_wp_saw_body_speed",
-			"callback" : "callback_toggle_replace_ove9kbainmotor",		
+			"callback" : "callback_toggle_replace_ove9kbainmotor",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_saw_body_silent",
@@ -37,7 +37,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ovk9kdurableblade",
 			"title" : "bm_wp_saw_m_blade_durable",
-			"callback" : "callback_toggle_replace_ovk9kdurableblade",		
+			"callback" : "callback_toggle_replace_ovk9kdurableblade",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_saw_m_blade_sharp",
@@ -50,7 +50,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ovk9ksharpblade",
 			"title" : "bm_wp_saw_m_blade_sharp",
-			"callback" : "callback_toggle_replace_ovk9ksharpblade",		
+			"callback" : "callback_toggle_replace_ovk9ksharpblade",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_saw_m_blade_durable",

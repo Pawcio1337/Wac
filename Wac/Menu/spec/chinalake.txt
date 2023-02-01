@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_chinasawoffst",
 			"title" : "bm_wp_china_stock_short",
-			"callback" : "callback_toggle_replace_chinasawoffst",		
+			"callback" : "callback_toggle_replace_chinasawoffst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"

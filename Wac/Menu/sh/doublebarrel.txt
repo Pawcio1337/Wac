@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_doublebarrelstnd",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_doublebarrelstnd",		
+			"callback" : "callback_toggle_replace_doublebarrelstnd",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_huntsman_b_short"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_doublesawedoffb",
 			"title" : "bm_wp_huntsman_b_short",
-			"callback" : "callback_toggle_replace_doublesawedoffb",		
+			"callback" : "callback_toggle_replace_doublesawedoffb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -35,7 +35,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_doublebarrelst",
 			"title" : "bm_wp_m4_s_standard",
-			"callback" : "callback_toggle_replace_doublebarrelst",		
+			"callback" : "callback_toggle_replace_doublebarrelst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_huntsman_s_short"
@@ -47,7 +47,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_doublesawedoffst",
 			"title" : "bm_wp_huntsman_s_short",
-			"callback" : "callback_toggle_replace_doublesawedoffst",		
+			"callback" : "callback_toggle_replace_doublesawedoffst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_korth_nxs_g_ergo",
 			"title" : "bm_wp_korth_g_ergo",
-			"callback" : "callback_toggle_replace_korth_nxs_g_ergo",		
+			"callback" : "callback_toggle_replace_korth_nxs_g_ergo",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_korth_g_houge",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_korth_nxs_g_houge",
 			"title" : "bm_wp_korth_g_houge",
-			"callback" : "callback_toggle_replace_korth_nxs_g_houge",		
+			"callback" : "callback_toggle_replace_korth_nxs_g_houge",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_korth_g_ergo",

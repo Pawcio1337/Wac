@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805stndb",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_cz805stndb",		
+			"callback" : "callback_toggle_replace_cz805stndb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_hajk_b_medium",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805shortb",
 			"title" : "bm_wp_hajk_b_short",
-			"callback" : "callback_toggle_replace_cz805shortb",		
+			"callback" : "callback_toggle_replace_cz805shortb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_hajk_b_medium",
@@ -33,7 +33,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805medb",
 			"title" : "bm_wp_hajk_b_medium",
-			"callback" : "callback_toggle_replace_cz805medb",		
+			"callback" : "callback_toggle_replace_cz805medb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_hajk_b_short",
@@ -58,7 +58,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805st",
 			"title" : "bm_wp_m4_s_standard",
-			"callback" : "callback_toggle_replace_cz805st",		
+			"callback" : "callback_toggle_replace_cz805st",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",
@@ -69,7 +69,7 @@
 			],
 			"value" : "replace_cz805st",
 			"default_value" : 1
-		},		{
+		},{
 			"type" : "divider",
 			"size" : 16
 		},
@@ -77,16 +77,16 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805vertgrip",
 			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_cz805vertgrip",		
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_cz805vertgrip",
 			"items" : [
 				"wac_default_multi",
-				"stubbygrip_multi",
+				"wac_replace_stubbygrip_title",
 				"wac_replace_vggeneric_title",
 				"afg2_multi",
 				"bm_w_tecci",
 				"bm_w_polymer",
-				"bm_wp_schakal_vg_surefire",
-				"wac_replace_novg_title"
+				"wac_nomodel_multi"
 			],
 			"value" : "replace_cz805vertgrip",
 			"default_value" : 1

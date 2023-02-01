@@ -12,6 +12,45 @@
 			"default_value" : false
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_mp9supp_model",
+			"title" : "bm_wp_mp9_b_suppressed",
+			"callback" : "callback_toggle_replace_mp9supp_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+				"bm_wp_upg_ns_ass_smg_small",
+				"bm_wp_upg_ns_ass_smg_medium",
+				"bm_wp_upg_ns_ass_smg_large",
+				"bm_wp_upg_ns_ass_pbs1",
+				"bm_wp_upg_ns_pis_small",
+				"bm_wp_upg_ns_pis_medium",
+				"bm_wp_upg_ns_pis_large",
+				"bm_wp_upg_ns_medium_gem",
+				"bm_wp_upg_ns_pis_medium_slim",
+				"bm_wp_upg_ns_large_kac",
+				"bm_wp_upg_ns_ass_filter",
+				"bm_wp_upg_ns_pis_jungle",
+				"bm_wp_upg_ns_shot_thick",
+				"bm_wp_upg_ns_sho_salvo_large",
+				"bm_wp_upg_ns_pis_putnik",
+				"bm_wp_polymer_ns_silencer",
+				"bm_wp_cobray_ns_silencer",
+				"bm_wp_sr2_ns_silencer",
+				"bm_wp_mp7_b_suppressed",
+				"bm_wp_schakal_ns_silencer",
+				"bm_wp_scorpion_b_suppressed",
+				"bm_wp_uzi_b_suppressed",
+				"bm_wp_baka_b_smallsupp",
+				"bm_wp_baka_b_midsupp",
+				"bm_wp_baka_b_longsupp",
+				"bm_wp_shak12_ns_suppressor",
+				"bm_wp_m4_upg_fg_mk12"
+			],
+			"value" : "replace_mp9supp_model",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},
@@ -19,7 +58,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9stndmag",
 			"title" : "bm_wp_g18c_m_mag_17rnd",
-			"callback" : "callback_toggle_replace_mp9stndmag",		
+			"callback" : "callback_toggle_replace_mp9stndmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_mp9_m_extended"
@@ -31,7 +70,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9extmag",
 			"title" : "bm_wp_mp9_m_extended",
-			"callback" : "callback_toggle_replace_mp9extmag",		
+			"callback" : "callback_toggle_replace_mp9extmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -47,7 +86,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9stndst",
 			"title" : "bm_wp_m4_s_standard",
-			"callback" : "callback_toggle_replace_mp9stndst",		
+			"callback" : "callback_toggle_replace_mp9stndst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_mp9_s_skel",
@@ -60,7 +99,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp9skeletalst",
 			"title" : "bm_wp_mp9_s_skel",
-			"callback" : "callback_toggle_replace_mp9skeletalst",		
+			"callback" : "callback_toggle_replace_mp9skeletalst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",

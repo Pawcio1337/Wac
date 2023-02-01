@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m79sawoffb",
 			"title" : "bm_wp_m79_barrel_short",
-			"callback" : "callback_toggle_replace_m79sawoffb",		
+			"callback" : "callback_toggle_replace_m79sawoffb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m79sawoffst",
 			"title" : "bm_wp_gre_m79_s_leather",
-			"callback" : "callback_toggle_replace_m79sawoffst",		
+			"callback" : "callback_toggle_replace_m79sawoffst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"

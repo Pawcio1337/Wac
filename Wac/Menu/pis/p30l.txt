@@ -31,7 +31,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p30lfibersights",
 			"title" : "bm_wp_packrat_o_expert",
-			"callback" : "callback_toggle_replace_p30lfibersights",		
+			"callback" : "callback_toggle_replace_p30lfibersights",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndsight_title"

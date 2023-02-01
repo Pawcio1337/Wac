@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45ergogrip",
 			"title" : "bm_wp_smg_m45_g_ergo",
-			"callback" : "callback_toggle_replace_m45ergogrip",		
+			"callback" : "callback_toggle_replace_m45ergogrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_smg_m45_g_bling",
@@ -32,7 +32,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45stndst",
 			"title" : "bm_wp_m4_s_standard",
-			"callback" : "callback_toggle_replace_m45stndst",		
+			"callback" : "callback_toggle_replace_m45stndst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_smg_m45_s_folded",
@@ -45,7 +45,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45foldst",
 			"title" : "bm_wp_smg_m45_s_folded",
-			"callback" : "callback_toggle_replace_m45foldst",		
+			"callback" : "callback_toggle_replace_m45foldst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
@@ -58,7 +58,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45x_st",
 			"title" : "wac_replace_akimbost_title",
-			"callback" : "callback_toggle_replace_m45x_st",		
+			"callback" : "callback_toggle_replace_m45x_st",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7qd_model",
 			"title" : "bm_wp_mp7_b_suppressed",
-			"callback" : "callback_toggle_replace_mp7qd_model",		
+			"callback" : "callback_toggle_replace_mp7qd_model",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -58,7 +58,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7stndmag",
 			"title" : "bm_wp_g18c_m_mag_17rnd",
-			"callback" : "callback_toggle_replace_mp7stndmag",		
+			"callback" : "callback_toggle_replace_mp7stndmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_mp7_m_extended"
@@ -70,7 +70,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7extmag",
 			"title" : "bm_wp_mp7_m_extended",
-			"callback" : "callback_toggle_replace_mp7extmag",		
+			"callback" : "callback_toggle_replace_mp7extmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -86,7 +86,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7foldst",
 			"title" : "bm_wp_mp7_s_long",
-			"callback" : "callback_toggle_replace_mp7foldst",		
+			"callback" : "callback_toggle_replace_mp7foldst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"
@@ -102,14 +102,14 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7vertgrip",
 			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_mp7vertgrip",		
+			"callback" : "callback_toggle_replace_mp7vertgrip",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_vggeneric_title",
 				"bm_w_tecci",
 				"bm_w_hajk",
-				"hkfoldvert_multi",
-				"wac_replace_novg_title"
+				"bm_w_slap",
+				"wac_nomodel_multi"
 			],
 			"value" : "replace_mp7vertgrip",
 			"default_value" : 1

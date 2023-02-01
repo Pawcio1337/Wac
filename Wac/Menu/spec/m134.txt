@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m134aab",
 			"title" : "bm_wp_m134_barrel_extreme",
-			"callback" : "callback_toggle_replace_m134aab",		
+			"callback" : "callback_toggle_replace_m134aab",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m134shortb",
 			"title" : "bm_wp_m134_barrel_short",
-			"callback" : "callback_toggle_replace_m134shortb",		
+			"callback" : "callback_toggle_replace_m134shortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",

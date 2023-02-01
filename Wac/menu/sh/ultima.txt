@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ultima_shellrack",
 			"title" : "bm_wp_ultima_body_rack",
-			"callback" : "callback_toggle_replace_ultima_shellrack",		
+			"callback" : "callback_toggle_replace_ultima_shellrack",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ultima_wirest",
 			"title" : "bm_wp_ultima_s_light",
-			"callback" : "callback_toggle_replace_ultima_wirest",		
+			"callback" : "callback_toggle_replace_ultima_wirest",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"

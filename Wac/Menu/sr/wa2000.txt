@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000longb",
 			"title" : "bm_wp_wa2000_b_long",
-			"callback" : "callback_toggle_replace_wa2000longb",		
+			"callback" : "callback_toggle_replace_wa2000longb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000suppb",
 			"title" : "bm_wp_wa2000_b_suppressed",
-			"callback" : "callback_toggle_replace_wa2000suppb",		
+			"callback" : "callback_toggle_replace_wa2000suppb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -37,7 +37,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000lightgrip",
 			"title" : "bm_wp_wa2000_g_light",
-			"callback" : "callback_toggle_replace_wa2000lightgrip",		
+			"callback" : "callback_toggle_replace_wa2000lightgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_wa2000_g_stealth",
@@ -51,7 +51,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000stealthgrip",
 			"title" : "bm_wp_wa2000_g_stealth",
-			"callback" : "callback_toggle_replace_wa2000stealthgrip",		
+			"callback" : "callback_toggle_replace_wa2000stealthgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_wa2000_g_light",
@@ -65,7 +65,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000walnutgrip",
 			"title" : "bm_wp_wa2000_g_walnut",
-			"callback" : "callback_toggle_replace_wa2000walnutgrip",		
+			"callback" : "callback_toggle_replace_wa2000walnutgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_wa2000_g_light",

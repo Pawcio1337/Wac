@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgolddracob",
 			"title" : "bm_wp_upg_ak_b_draco",
-			"callback" : "callback_toggle_replace_akmgolddracob",		
+			"callback" : "callback_toggle_replace_akmgolddracob",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm_gold",
@@ -21,7 +21,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgoldmodernb",
 			"title" : "bm_wp_upg_ak_b_ak105",
-			"callback" : "callback_toggle_replace_akmgoldmodernb",		
+			"callback" : "callback_toggle_replace_akmgoldmodernb",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm_gold",
@@ -35,7 +35,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgoldzastava",
 			"title" : "bm_wp_upg_ass_ak_b_zastava",
-			"callback" : "callback_toggle_replace_akmgoldzastava",		
+			"callback" : "callback_toggle_replace_akmgoldzastava",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm_gold",
@@ -53,7 +53,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgoldquad",
 			"title" : "bm_wp_upg_ak_m_quad",
-			"callback" : "callback_toggle_replace_akmgoldquad",		
+			"callback" : "callback_toggle_replace_akmgoldquad",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_rpk",
@@ -70,7 +70,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgolduspalm",
 			"title" : "bm_wp_upg_ak_m_uspalm",
-			"callback" : "callback_toggle_replace_akmgolduspalm",		
+			"callback" : "callback_toggle_replace_akmgolduspalm",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm_gold",
@@ -84,7 +84,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgoldmagpulassist",
 			"title" : "bm_wp_ak_m_quick",
-			"callback" : "callback_toggle_replace_akmgoldmagpulassist",		
+			"callback" : "callback_toggle_replace_akmgoldmagpulassist",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm_gold",
@@ -104,7 +104,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgoldstock1",
 			"title" : "bm_wp_ak_s_skfoldable",
-			"callback" : "callback_toggle_replace_akmgoldstock1",		
+			"callback" : "callback_toggle_replace_akmgoldstock1",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",
@@ -119,7 +119,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgoldstock2",
 			"title" : "bm_wp_upg_m4_s_mk46",
-			"callback" : "callback_toggle_replace_akmgoldstock2",		
+			"callback" : "callback_toggle_replace_akmgoldstock2",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm_gold",
@@ -136,7 +136,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmgoldstock3",
 			"title" : "bm_wp_upg_ak_s_solidstock",
-			"callback" : "callback_toggle_replace_akmgoldstock3",		
+			"callback" : "callback_toggle_replace_akmgoldstock3",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm_gold",

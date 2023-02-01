@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_specter_zoom",
 			"title" : "bm_wp_upg_o_specter",
-			"callback" : "callback_toggle_replace_specter_zoom",		
+			"callback" : "callback_toggle_replace_specter_zoom",
 			"items" : [
 				"wac_zoom_4_def_multi",
 				"wac_zoom_1_multi",
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_specterbackup_zoom",
 			"title" : "wac_replace_backupsightzoom_title",
-			"callback" : "callback_toggle_replace_specterbackup_zoom",		
+			"callback" : "callback_toggle_replace_specterbackup_zoom",
 			"items" : [
 				"wac_zoom_1_def_multi",
 				"wac_zoom_2_multi",
@@ -37,7 +37,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_aimpoint_zoom",
 			"title" : "bm_wp_upg_o_aimpoint",
-			"callback" : "callback_toggle_replace_aimpoint_zoom",		
+			"callback" : "callback_toggle_replace_aimpoint_zoom",
 			"items" : [
 				"wac_zoom_4_def_multi",
 				"wac_zoom_1_multi",
@@ -53,7 +53,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_docter_zoom",
 			"title" : "bm_wp_upg_o_docter",
-			"callback" : "callback_toggle_replace_docter_zoom",		
+			"callback" : "callback_toggle_replace_docter_zoom",
 			"items" : [
 				"wac_zoom_2_def_multi",
 				"wac_zoom_1_multi",
@@ -69,7 +69,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_eotech_zoom",
 			"title" : "bm_wp_upg_o_eotech",
-			"callback" : "callback_toggle_replace_eotech_zoom",		
+			"callback" : "callback_toggle_replace_eotech_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -85,7 +85,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_t1micro_zoom",
 			"title" : "bm_wp_upg_o_t1micro",
-			"callback" : "callback_toggle_replace_t1micro_zoom",		
+			"callback" : "callback_toggle_replace_t1micro_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -101,7 +101,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cmore_zoom",
 			"title" : "bm_wp_upg_o_cmore",
-			"callback" : "callback_toggle_replace_cmore_zoom",		
+			"callback" : "callback_toggle_replace_cmore_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -117,7 +117,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_acog_zoom",
 			"title" : "bm_wp_upg_o_acog",
-			"callback" : "callback_toggle_replace_acog_zoom",		
+			"callback" : "callback_toggle_replace_acog_zoom",
 			"items" : [
 				"wac_zoom_6_def_multi",
 				"wac_zoom_1_multi",
@@ -133,7 +133,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_eotech_xps_zoom",
 			"title" : "bm_wp_upg_o_eotech_xps",
-			"callback" : "callback_toggle_replace_eotech_xps_zoom",		
+			"callback" : "callback_toggle_replace_eotech_xps_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -149,7 +149,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_reflex_zoom",
 			"title" : "bm_wp_upg_o_reflex",
-			"callback" : "callback_toggle_replace_reflex_zoom",		
+			"callback" : "callback_toggle_replace_reflex_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -165,7 +165,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_rx01_zoom",
 			"title" : "bm_wp_upg_o_rx01",
-			"callback" : "callback_toggle_replace_rx01_zoom",		
+			"callback" : "callback_toggle_replace_rx01_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -181,7 +181,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_rx30_zoom",
 			"title" : "bm_wp_upg_o_rx30",
-			"callback" : "callback_toggle_replace_rx30_zoom",		
+			"callback" : "callback_toggle_replace_rx30_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -197,7 +197,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cs_zoom",
 			"title" : "bm_wp_upg_o_cs",
-			"callback" : "callback_toggle_replace_cs_zoom",		
+			"callback" : "callback_toggle_replace_cs_zoom",
 			"items" : [
 				"wac_zoom_4_def_multi",
 				"wac_zoom_1_multi",
@@ -213,7 +213,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_csbackup_zoom",
 			"title" : "wac_replace_backupsightzoom_title",
-			"callback" : "callback_toggle_replace_csbackup_zoom",		
+			"callback" : "callback_toggle_replace_csbackup_zoom",
 			"items" : [
 				"wac_zoom_1_def_multi",
 				"wac_zoom_2_multi",
@@ -227,7 +227,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spot_zoom",
 			"title" : "bm_wp_upg_o_spot",
-			"callback" : "callback_toggle_replace_spot_zoom",		
+			"callback" : "callback_toggle_replace_spot_zoom",
 			"items" : [
 				"wac_zoom_4_def_multi",
 				"wac_zoom_1_multi",
@@ -243,7 +243,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ta648_zoom",
 			"title" : "bm_wp_upg_o_bmg",
-			"callback" : "callback_toggle_replace_ta648_zoom",		
+			"callback" : "callback_toggle_replace_ta648_zoom",
 			"items" : [
 				"wac_zoom_6_def_multi",
 				"wac_zoom_1_multi",
@@ -259,7 +259,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uh1_zoom",
 			"title" : "bm_wp_upg_o_uh",
-			"callback" : "callback_toggle_replace_uh1_zoom",		
+			"callback" : "callback_toggle_replace_uh1_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -275,7 +275,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_di_fc1_zoom",
 			"title" : "bm_wp_upg_o_fc1",
-			"callback" : "callback_toggle_replace_di_fc1_zoom",		
+			"callback" : "callback_toggle_replace_di_fc1_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -291,7 +291,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_tf90_zoom",
 			"title" : "bm_wp_upg_o_tf90",
-			"callback" : "callback_toggle_replace_tf90_zoom",		
+			"callback" : "callback_toggle_replace_tf90_zoom",
 			"items" : [
 				"wac_zoom_5_def_multi",
 				"wac_zoom_1_multi",
@@ -307,7 +307,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_poe_zoom",
 			"title" : "bm_wp_upg_o_poe",
-			"callback" : "callback_toggle_replace_poe_zoom",		
+			"callback" : "callback_toggle_replace_poe_zoom",
 			"items" : [
 				"wac_zoom_5_def_multi",
 				"wac_zoom_1_multi",
@@ -324,7 +324,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hamr_zoom",
 			"title" : "bm_wpn_fps_upg_o_hamr",
-			"callback" : "callback_toggle_replace_hamr_zoom",		
+			"callback" : "callback_toggle_replace_hamr_zoom",
 			"items" : [
 				"wac_zoom_7_def_multi",
 				"wac_zoom_1_multi",
@@ -341,7 +341,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hamrbackup_zoom",
 			"title" : "wac_replace_backupsightzoom_title",
-			"callback" : "callback_toggle_replace_hamrbackup_zoom",		
+			"callback" : "callback_toggle_replace_hamrbackup_zoom",
 			"items" : [
 				"wac_zoom_1_def_multi",
 				"wac_zoom_2_multi",
@@ -355,7 +355,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_atibal_zoom",
 			"title" : "bm_wp_upg_o_atibal",
-			"callback" : "callback_toggle_replace_atibal_zoom",		
+			"callback" : "callback_toggle_replace_atibal_zoom",
 			"items" : [
 				"wac_zoom_6_def_multi",
 				"wac_zoom_1_multi",
@@ -371,7 +371,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_atibalbackup_zoom",
 			"title" : "wac_replace_backupsightzoom_title",
-			"callback" : "callback_toggle_replace_atibalbackup_zoom",		
+			"callback" : "callback_toggle_replace_atibalbackup_zoom",
 			"items" : [
 				"wac_zoom_1_def_multi",
 				"wac_zoom_2_multi",
@@ -385,7 +385,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_health_zoom",
 			"title" : "bm_wp_upg_o_health",
-			"callback" : "callback_toggle_replace_health_zoom",		
+			"callback" : "callback_toggle_replace_health_zoom",
 			"items" : [
 				"wac_zoom_2_def_multi",
 				"wac_zoom_1_multi",
@@ -405,7 +405,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_rmr_zoom",
 			"title" : "bm_wp_upg_o_rmr",
-			"callback" : "callback_toggle_replace_rmr_zoom",		
+			"callback" : "callback_toggle_replace_rmr_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -419,7 +419,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shieldrms_zoom",
 			"title" : "bm_wp_upg_o_rms",
-			"callback" : "callback_toggle_replace_shieldrms_zoom",		
+			"callback" : "callback_toggle_replace_shieldrms_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -433,7 +433,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p1_zoom",
 			"title" : "bm_wp_upg_o_rikt",
-			"callback" : "callback_toggle_replace_p1_zoom",		
+			"callback" : "callback_toggle_replace_p1_zoom",
 			"items" : [
 				"wac_zoom_3_def_multi",
 				"wac_zoom_1_multi",
@@ -451,7 +451,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g33magnifier_zoom",
 			"title" : "bm_wpn_fps_upg_o_xpsg33_magnifier",
-			"callback" : "callback_toggle_replace_g33magnifier_zoom",		
+			"callback" : "callback_toggle_replace_g33magnifier_zoom",
 			"items" : [
 				"wac_zoom_9_def_multi",
 				"wac_zoom_8_multi",
@@ -466,7 +466,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sigmagnifier_zoom",
 			"title" : "bm_wpn_fps_upg_o_sig",
-			"callback" : "callback_toggle_replace_sigmagnifier_zoom",		
+			"callback" : "callback_toggle_replace_sigmagnifier_zoom",
 			"items" : [
 				"wac_zoom_9_def_multi",
 				"wac_zoom_8_multi",
@@ -481,7 +481,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_45delta_zoom",
 			"title" : "bm_wpn_fps_upg_o_45rds",
-			"callback" : "callback_toggle_replace_45delta_zoom",		
+			"callback" : "callback_toggle_replace_45delta_zoom",
 			"items" : [
 				"wac_zoom_1_def_multi",
 				"wac_zoom_2_multi",
@@ -495,7 +495,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_45t1micro_zoom",
 			"title" : "bm_wpn_fps_upg_o_45rds_v2",
-			"callback" : "callback_toggle_replace_45t1micro_zoom",		
+			"callback" : "callback_toggle_replace_45t1micro_zoom",
 			"items" : [
 				"wac_zoom_1_def_multi",
 				"wac_zoom_2_multi",

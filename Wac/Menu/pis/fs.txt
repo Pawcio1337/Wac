@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fsnitrideb",
 			"title" : "bm_wp_lemming_b_nitride",
-			"callback" : "callback_toggle_replace_fsnitrideb",		
+			"callback" : "callback_toggle_replace_fsnitrideb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"

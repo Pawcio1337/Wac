@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsurail",
 			"title" : "bm_wp_akmsu_fg_rail",
-			"callback" : "callback_toggle_replace_akmsurail",		
+			"callback" : "callback_toggle_replace_akmsurail",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_ak_fg_zenit",
@@ -32,7 +32,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsuzenit",
 			"title" : "bm_wp_upg_ak_fg_zenit",
-			"callback" : "callback_toggle_replace_akmsuzenit",		
+			"callback" : "callback_toggle_replace_akmsuzenit",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_akmsu_fg_rail",
@@ -49,7 +49,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsuquad",
 			"title" : "bm_wp_upg_ak_m_quad",
-			"callback" : "callback_toggle_replace_akmsuquad",		
+			"callback" : "callback_toggle_replace_akmsuquad",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_rpk",
@@ -65,7 +65,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsuuspalm",
 			"title" : "bm_wp_upg_ak_m_uspalm",
-			"callback" : "callback_toggle_replace_akmsuuspalm",		
+			"callback" : "callback_toggle_replace_akmsuuspalm",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm",
@@ -78,7 +78,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsumagpulassist",
 			"title" : "bm_wp_ak_m_quick",
-			"callback" : "callback_toggle_replace_akmsumagpulassist",		
+			"callback" : "callback_toggle_replace_akmsumagpulassist",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_akm",
@@ -97,7 +97,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsustock1",
 			"title" : "bm_wp_ak_s_skfoldable",
-			"callback" : "callback_toggle_replace_akmsustock1",		
+			"callback" : "callback_toggle_replace_akmsustock1",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",
@@ -115,7 +115,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsustock2",
 			"title" : "bm_wp_upg_m4_s_mk46",
-			"callback" : "callback_toggle_replace_akmsustock2",		
+			"callback" : "callback_toggle_replace_akmsustock2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_skfoldable",
@@ -136,7 +136,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsustock3",
 			"title" : "bm_wp_upg_ak_s_solidstock",
-			"callback" : "callback_toggle_replace_akmsustock3",		
+			"callback" : "callback_toggle_replace_akmsustock3",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_skfoldable",
@@ -160,7 +160,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmsuupperrec",
 			"title" : "bm_menu_upper_reciever",
-			"callback" : "callback_toggle_replace_akmsuupperrec",		
+			"callback" : "callback_toggle_replace_akmsuupperrec",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_74_body_upperreceiver"

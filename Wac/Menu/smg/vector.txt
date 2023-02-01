@@ -27,11 +27,11 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vectorvertgrip",
 			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_vectorvertgrip",		
+			"callback" : "callback_toggle_replace_vectorvertgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_tecci",
-				"wac_replace_novg_title"
+				"wac_nomodel_multi"
 			],
 			"value" : "replace_vectorvertgrip",
 			"default_value" : 1

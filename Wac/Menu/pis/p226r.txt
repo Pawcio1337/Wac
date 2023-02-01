@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rcomp2",
 			"title" : "bm_wp_p226_co_comp_2",
-			"callback" : "callback_toggle_replace_p226rcomp2",		
+			"callback" : "callback_toggle_replace_p226rcomp2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_pis_ns_flash",
@@ -24,7 +24,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rergogrip",
 			"title" : "bm_wp_p226_g_ergo",
-			"callback" : "callback_toggle_replace_p226rergogrip",		
+			"callback" : "callback_toggle_replace_p226rergogrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -52,7 +52,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226requinox",
 			"title" : "bm_wp_p226_b_equinox",
-			"callback" : "callback_toggle_replace_p226requinox",		
+			"callback" : "callback_toggle_replace_p226requinox",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_p226_b_long",
@@ -65,7 +65,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rlong",
 			"title" : "bm_wp_p226_b_long",
-			"callback" : "callback_toggle_replace_p226rlong",		
+			"callback" : "callback_toggle_replace_p226rlong",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_p226_b_equinox",

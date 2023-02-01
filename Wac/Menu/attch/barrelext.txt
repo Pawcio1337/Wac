@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jprifles",
 			"title" : "bm_wp_upg_ass_ns_jprifles",
-			"callback" : "callback_toggle_replace_jprifles",		
+			"callback" : "callback_toggle_replace_jprifles",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -45,7 +45,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_firepig",
 			"title" : "bm_wp_upg_ns_ass_smg_firepig",
-			"callback" : "callback_toggle_replace_firepig",		
+			"callback" : "callback_toggle_replace_firepig",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -83,7 +83,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_linear",
 			"title" : "bm_wp_upg_ass_ns_linear",
-			"callback" : "callback_toggle_replace_linear",		
+			"callback" : "callback_toggle_replace_linear",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -121,7 +121,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_stubby",
 			"title" : "bm_wp_upg_ns_ass_smg_stubby",
-			"callback" : "callback_toggle_replace_stubby",		
+			"callback" : "callback_toggle_replace_stubby",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -159,7 +159,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_surefire",
 			"title" : "bm_wp_upg_ass_ns_surefire",
-			"callback" : "callback_toggle_replace_surefire",		
+			"callback" : "callback_toggle_replace_surefire",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -197,7 +197,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_v6mb",
 			"title" : "bm_wp_upg_ns_ass_smg_v6",
-			"callback" : "callback_toggle_replace_v6mb",		
+			"callback" : "callback_toggle_replace_v6mb",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -239,7 +239,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kingbreach",
 			"title" : "bm_wp_upg_shot_ns_king",
-			"callback" : "callback_toggle_replace_kingbreach",		
+			"callback" : "callback_toggle_replace_kingbreach",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -277,7 +277,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sharkbrake",
 			"title" : "bm_wp_upg_ns_shot_shark",
-			"callback" : "callback_toggle_replace_sharkbrake",		
+			"callback" : "callback_toggle_replace_sharkbrake",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -315,7 +315,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_duckbill",
 			"title" : "bm_wp_ns_duck",
-			"callback" : "callback_toggle_replace_duckbill",		
+			"callback" : "callback_toggle_replace_duckbill",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -357,7 +357,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pisflashhider",
 			"title" : "bm_wp_upg_pis_ns_flash",
-			"callback" : "callback_toggle_replace_pisflashhider",		
+			"callback" : "callback_toggle_replace_pisflashhider",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -395,7 +395,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pistenderizer",
 			"title" : "bm_wp_upg_ns_meatgrinder",
-			"callback" : "callback_toggle_replace_pistenderizer",		
+			"callback" : "callback_toggle_replace_pistenderizer",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -433,7 +433,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ipsccomp",
 			"title" : "bm_wp_upg_ns_ipsccomp",
-			"callback" : "callback_toggle_replace_ipsccomp",		
+			"callback" : "callback_toggle_replace_ipsccomp",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -471,7 +471,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_tk_gc",
 			"title" : "bm_wp_upg_ns_typhoon",
-			"callback" : "callback_toggle_replace_tk_gc",		
+			"callback" : "callback_toggle_replace_tk_gc",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"

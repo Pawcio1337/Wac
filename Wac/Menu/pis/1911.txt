@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911aggressorcomp",
 			"title" : "bm_wp_1911_co_2",
-			"callback" : "callback_toggle_replace_1911aggressorcomp",		
+			"callback" : "callback_toggle_replace_1911aggressorcomp",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_co_1",
@@ -22,7 +22,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911_ipsccomp",
 			"title" : "bm_wp_upg_ns_ipsccomp",
-			"callback" : "callback_toggle_replace_1911_ipsccomp",		
+			"callback" : "callback_toggle_replace_1911_ipsccomp",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_co_1",
@@ -38,7 +38,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911_meatgrinder",
 			"title" : "bm_wp_upg_ns_meatgrinder",
-			"callback" : "callback_toggle_replace_1911_meatgrinder",		
+			"callback" : "callback_toggle_replace_1911_meatgrinder",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_co_1",
@@ -54,7 +54,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911_pisflash",
 			"title" : "bm_wp_upg_pis_ns_flash",
-			"callback" : "callback_toggle_replace_1911_pisflash",		
+			"callback" : "callback_toggle_replace_1911_pisflash",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_co_1",
@@ -74,7 +74,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911ergogrip",
 			"title" : "bm_wp_1911_g_ergo",
-			"callback" : "callback_toggle_replace_1911ergogrip",		
+			"callback" : "callback_toggle_replace_1911ergogrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_bling",
@@ -88,7 +88,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911woodgrip",
 			"title" : "bm_wp_1911_g_bling",
-			"callback" : "callback_toggle_replace_1911woodgrip",		
+			"callback" : "callback_toggle_replace_1911woodgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_engraved",
@@ -101,7 +101,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911engravedgrip",
 			"title" : "bm_wp_1911_g_engraved",
-			"callback" : "callback_toggle_replace_1911engravedgrip",		
+			"callback" : "callback_toggle_replace_1911engravedgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_bling",
@@ -118,11 +118,11 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911extmag",
 			"title" : "bm_wp_1911_m_extended",
-			"callback" : "callback_toggle_replace_1911extmag",		
+			"callback" : "callback_toggle_replace_1911extmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd",
-				"wac_1911bigmag_multi"
+				"bm_wp_1911_m_big"
 			],
 			"value" : "replace_1911extmag",
 			"default_value" : 1
@@ -131,7 +131,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911bigmag",
 			"title" : "bm_wp_1911_m_big",
-			"callback" : "callback_toggle_replace_1911bigmag",		
+			"callback" : "callback_toggle_replace_1911bigmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd",
@@ -148,7 +148,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911vent",
 			"title" : "bm_wp_1911_b_vented",
-			"callback" : "callback_toggle_replace_1911vent",		
+			"callback" : "callback_toggle_replace_1911vent",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_tactical"
@@ -160,7 +160,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911ventlong",
 			"title" : "bm_wp_1911_b_long",
-			"callback" : "callback_toggle_replace_1911ventlong",		
+			"callback" : "callback_toggle_replace_1911ventlong",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_b_vented",

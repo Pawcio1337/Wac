@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_c96longb",
 			"title" : "bm_wp_c96_b_long",
-			"callback" : "callback_toggle_replace_c96longb",		
+			"callback" : "callback_toggle_replace_c96longb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -43,7 +43,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_c96holster",
 			"title" : "bm_wp_c96_s_solid",
-			"callback" : "callback_toggle_replace_c96holster",		
+			"callback" : "callback_toggle_replace_c96holster",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard"

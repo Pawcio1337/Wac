@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shak12_upper",
 			"title" : "wac_replace_stndrec_title",
-			"callback" : "callback_toggle_replace_shak12_upper",		
+			"callback" : "callback_toggle_replace_shak12_upper",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_shak12_body_vks"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shak12_upperdmr",
 			"title" : "bm_wp_shak12_body_vks",
-			"callback" : "callback_toggle_replace_shak12_upperdmr",		
+			"callback" : "callback_toggle_replace_shak12_upperdmr",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndrec_title"

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mg32barrel",
 			"title" : "bm_wp_mg42_b_mg34",
-			"callback" : "callback_toggle_replace_mg32barrel",		
+			"callback" : "callback_toggle_replace_mg32barrel",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"

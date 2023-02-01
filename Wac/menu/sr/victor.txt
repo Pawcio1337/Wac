@@ -1,0 +1,24 @@
+{
+	"menu_id" : "wac_menu_sr_victor",
+	"parent_menu_id" : "wac_menu_sr",
+	"title" : "bm_w_victor",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_victor_herafg",
+			"title" : "wac_replace_stndvg_title",
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_victor_herafg",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_vggeneric_title",
+				"bm_w_tecci",
+				"bm_w_hajk",
+				"bm_w_slap",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_victor_herafg",
+			"default_value" : 1
+		}
+	]
+}

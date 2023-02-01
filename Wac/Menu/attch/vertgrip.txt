@@ -7,16 +7,16 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_stubbygrip",
 			"title" : "wac_replace_stubbygrip_title",
-			"callback" : "callback_toggle_replace_stubbygrip",		
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_stubbygrip",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_vggeneric_title",
 				"wac_replace_afg2_title",
 				"bm_w_tecci",
 				"bm_w_polymer",
-				"bm_wp_schakal_vg_surefire",
 				"bm_w_tti",
-				"wac_replace_novg_title"
+				"wac_nomodel_multi"
 			],
 			"value" : "replace_stubbygrip",
 			"default_value" : 1
@@ -25,15 +25,15 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vertgrip",
 			"title" : "wac_replace_vggeneric_title",
-			"callback" : "callback_toggle_replace_vertgrip",		
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_vertgrip",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stubbygrip_title",
 				"bm_w_tecci",
 				"bm_w_polymer",
-				"bm_wp_schakal_vg_surefire",
 				"bm_w_tti",
-				"wac_replace_novg_title"
+				"wac_nomodel_multi"
 			],
 			"value" : "replace_vertgrip",
 			"default_value" : 1

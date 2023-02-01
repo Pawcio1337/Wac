@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sub2kgen2fg",
 			"title" : "bm_wp_sub2000_fg_gen2",
-			"callback" : "callback_toggle_replace_sub2kgen2fg",		
+			"callback" : "callback_toggle_replace_sub2kgen2fg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_sub2000_fg_railed",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sub2krailfg",
 			"title" : "bm_wp_sub2000_fg_railed",
-			"callback" : "callback_toggle_replace_sub2krailfg",		
+			"callback" : "callback_toggle_replace_sub2krailfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_sub2000_fg_gen2",

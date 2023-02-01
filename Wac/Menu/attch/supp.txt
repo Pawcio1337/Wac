@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_arsupp_bigger",
 			"title" : "bm_wp_upg_ns_ass_smg_large",
-			"callback" : "callback_toggle_replace_arsupp_bigger",		
+			"callback" : "callback_toggle_replace_arsupp_bigger",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -46,7 +46,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_arsupp_medium",
 			"title" : "bm_wp_upg_ns_ass_smg_medium",
-			"callback" : "callback_toggle_replace_arsupp_medium",		
+			"callback" : "callback_toggle_replace_arsupp_medium",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -85,7 +85,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_arsupp_lowprofile",
 			"title" : "bm_wp_upg_ns_ass_smg_small",
-			"callback" : "callback_toggle_replace_arsupp_lowprofile",		
+			"callback" : "callback_toggle_replace_arsupp_lowprofile",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -124,7 +124,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_supp_putnik",
 			"title" : "bm_wp_upg_ns_pis_putnik",
-			"callback" : "callback_toggle_replace_supp_putnik",		
+			"callback" : "callback_toggle_replace_supp_putnik",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -163,7 +163,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_supp_shak12",
 			"title" : "bm_wp_shak12_ns_suppressor",
-			"callback" : "callback_toggle_replace_supp_shak12",		
+			"callback" : "callback_toggle_replace_supp_shak12",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -206,7 +206,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_salvo12",
 			"title" : "bm_wp_upg_ns_sho_salvo_large",
-			"callback" : "callback_toggle_replace_salvo12",		
+			"callback" : "callback_toggle_replace_salvo12",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -245,7 +245,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shotsupp_silent",
 			"title" : "bm_wp_upg_ns_shot_thick",
-			"callback" : "callback_toggle_replace_shotsupp_silent",		
+			"callback" : "callback_toggle_replace_shotsupp_silent",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -288,7 +288,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_medium",
 			"title" : "bm_wp_upg_ns_pis_medium",
-			"callback" : "callback_toggle_replace_pis_medium",		
+			"callback" : "callback_toggle_replace_pis_medium",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -327,7 +327,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_medium_slim",
 			"title" : "bm_wp_upg_ns_pis_medium_slim",
-			"callback" : "callback_toggle_replace_pis_medium_slim",		
+			"callback" : "callback_toggle_replace_pis_medium_slim",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -366,7 +366,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_medium_gem",
 			"title" : "bm_wp_upg_ns_medium_gem",
-			"callback" : "callback_toggle_replace_pis_medium_gem",		
+			"callback" : "callback_toggle_replace_pis_medium_gem",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -405,7 +405,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_large",
 			"title" : "bm_wp_upg_ns_pis_large",
-			"callback" : "callback_toggle_replace_pis_large",		
+			"callback" : "callback_toggle_replace_pis_large",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -444,7 +444,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_large_kac",
 			"title" : "bm_wp_upg_ns_large_kac",
-			"callback" : "callback_toggle_replace_pis_large_kac",		
+			"callback" : "callback_toggle_replace_pis_large_kac",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -483,7 +483,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pis_small",
 			"title" : "bm_wp_upg_ns_pis_small",
-			"callback" : "callback_toggle_replace_pis_small",		
+			"callback" : "callback_toggle_replace_pis_small",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"
@@ -522,7 +522,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_snakesupp",
 			"title" : "bm_wp_upg_ns_pis_jungle",
-			"callback" : "callback_toggle_replace_snakesupp",		
+			"callback" : "callback_toggle_replace_snakesupp",
 			"items" : [
 				"wac_default_multi",
 				"wac_nomodel_multi"

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_strikerlongb",
 			"title" : "bm_wp_striker_b_long",
-			"callback" : "callback_toggle_replace_strikerlongb",		
+			"callback" : "callback_toggle_replace_strikerlongb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ironsightsstriker",
 			"title" : "bm_wp_model70_iron_sight",
-			"callback" : "callback_toggle_replace_ironsightsstriker",		
+			"callback" : "callback_toggle_replace_ironsightsstriker",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ksg",

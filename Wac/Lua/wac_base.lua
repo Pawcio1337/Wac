@@ -783,9 +783,6 @@ elseif WacMenu._data.replace_hk416cvertgrip == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_tecci_vg_standard.third_unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_fg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_tecci_vg_standard.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_fg_standard"
 elseif WacMenu._data.replace_hk416cvertgrip == 7 then
-	tweak_data.weapon.factory.parts.wpn_fps_ass_tecci_vg_standard.third_unit = "units/pd2_dlc_pim/weapons/wpn_third_smg_schakal_pts/wpn_third_smg_schakal_vg_surefire"
-	tweak_data.weapon.factory.parts.wpn_fps_ass_tecci_vg_standard.unit = "units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_vg_surefire"
-elseif WacMenu._data.replace_hk416cvertgrip == 8 then
 	tweak_data.weapon.factory.parts.wpn_fps_ass_tecci_vg_standard.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_ass_tecci_vg_standard.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
@@ -1792,6 +1789,24 @@ if WacMenu._data.replace_tr1supp == 2 then
 elseif WacMenu._data.replace_tr1supp == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_tti_ns_hex.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_ns_standard"
 end
+if WacMenu._data.replace_victor_herafg > 1 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.a_obj = "a_vg"
+end
+if WacMenu._data.replace_victor_herafg == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.unit = "units/payday2/weapons/wpn_fps_upg_vg_ass_smg_stubby/wpn_fps_upg_vg_ass_smg_stubby"
+elseif WacMenu._data.replace_victor_herafg == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.unit = "units/payday2/weapons/wpn_fps_upg_vg_ass_smg_verticalgrip/wpn_fps_upg_vg_ass_smg_verticalgrip"
+elseif WacMenu._data.replace_victor_herafg == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.unit = "units/payday2/weapons/wpn_fps_upg_vg_ass_smg_afg/wpn_fps_upg_vg_ass_smg_afg"
+elseif WacMenu._data.replace_victor_herafg == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.unit = "units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci_pts/wpn_fps_ass_tecci_vg_standard"
+elseif WacMenu._data.replace_victor_herafg == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_fg_standard"
+elseif WacMenu._data.replace_victor_herafg == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+elseif WacMenu._data.replace_victor_herafg == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_vg_standard"
+end
 if WacMenu._data.replace_wa2000longb == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_wa2000_b_long.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000_pts/wpn_fps_snp_wa2000_b_standard"
 elseif WacMenu._data.replace_wa2000longb == 3 then
@@ -2560,9 +2575,6 @@ elseif WacMenu._data.replace_cz805vertgrip == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_vg_moe.third_unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_fg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_vg_moe.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_fg_standard"
 elseif WacMenu._data.replace_cz805vertgrip == 7 then
-	tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_vg_moe.third_unit = "units/pd2_dlc_pim/weapons/wpn_third_smg_schakal_pts/wpn_third_smg_schakal_vg_surefire"
-	tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_vg_moe.unit = "units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_vg_surefire"
-elseif WacMenu._data.replace_cz805vertgrip == 8 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_vg_moe.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_smg_hajk_vg_moe.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
@@ -3365,9 +3377,6 @@ elseif WacMenu._data.replace_m320_vertgrip == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 elseif WacMenu._data.replace_m320_vertgrip == 8 then
-	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.third_unit = "units/pd2_dlc_pim/weapons/wpn_third_smg_schakal_pts/wpn_third_smg_schakal_vg_surefire"
-	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.unit = "units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_vg_surefire"
-elseif WacMenu._data.replace_m320_vertgrip == 9 then
 	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_vg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_gre_slap_vg_standard.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_vg_standard"
 end
@@ -5033,10 +5042,13 @@ supp.pis_large = "wpn_fps_upg_ns_pis_large"
 supp.pis_kac = "wpn_fps_upg_ns_pis_large_kac"
 supp.pis_small = "wpn_fps_upg_ns_pis_small"
 supp.snake = "wpn_fps_upg_ns_pis_jungle"
-supp.mp7qd = "wpn_fps_smg_mp7_b_suppressed"
 supp.pbs1 = "wpn_fps_upg_ns_ass_pbs1"
 supp.pis_medium = "wpn_fps_upg_ns_pis_medium"
 supp.filter = "wpn_fps_upg_ns_ass_filter"
+supp.mp7qd = "wpn_fps_smg_mp7_b_suppressed"
+supp.mp9 = "wpn_fps_smg_mp9_b_suppressed"
+supp.bakalong = "wpn_fps_smg_baka_b_longsupp"
+
 supp.dummyunit = ".unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
 supp.smallunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_small/wpn_fps_upg_ns_ass_smg_small\""
 supp.mediumunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_medium/wpn_fps_upg_ns_ass_smg_medium\""
@@ -5921,6 +5933,120 @@ assert(loadstring(supp.tweak .. supp.mp7qd .. supp.shak12unit))()
 elseif WacMenu._data.replace_mp7qd_model == 29 then
 assert(loadstring(supp.tweak .. supp.mp7qd .. supp.mk12unit))()
 end
+if WacMenu._data.replace_mp9supp_model == 2 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.dummyunit))()
+elseif WacMenu._data.replace_mp9supp_model == 3 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.smallunit))()
+elseif WacMenu._data.replace_mp9supp_model == 4 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.mediumunit))()
+elseif WacMenu._data.replace_mp9supp_model == 5 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.largeunit))()
+elseif WacMenu._data.replace_mp9supp_model == 6 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pbs1unit))()
+elseif WacMenu._data.replace_mp9supp_model == 7 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pis_smallunit))()
+elseif WacMenu._data.replace_mp9supp_model == 8 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pis_mediumunit))()
+elseif WacMenu._data.replace_mp9supp_model == 9 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pis_largeunit))()
+elseif WacMenu._data.replace_mp9supp_model == 10 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pis_medium_gemunit))()
+elseif WacMenu._data.replace_mp9supp_model == 11 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pis_medium_slimunit))()
+elseif WacMenu._data.replace_mp9supp_model == 12 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pis_large_kacunit))()
+elseif WacMenu._data.replace_mp9supp_model == 13 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.filterunit))()
+elseif WacMenu._data.replace_mp9supp_model == 14 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.pis_jungleunit))()
+elseif WacMenu._data.replace_mp9supp_model == 15 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.thickunit))()
+elseif WacMenu._data.replace_mp9supp_model == 16 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.salvounit))()
+elseif WacMenu._data.replace_mp9supp_model == 17 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.putnikunit))()
+elseif WacMenu._data.replace_mp9supp_model == 18 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.vectorunit))()
+elseif WacMenu._data.replace_mp9supp_model == 19 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.cobrayunit))()
+elseif WacMenu._data.replace_mp9supp_model == 20 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.sr2unit))()
+elseif WacMenu._data.replace_mp9supp_model == 21 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.mp7unit))()
+elseif WacMenu._data.replace_mp9supp_model == 22 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.gm45unit))()
+elseif WacMenu._data.replace_mp9supp_model == 23 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.scorpionunit))()
+elseif WacMenu._data.replace_mp9supp_model == 24 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.uziunit))()
+elseif WacMenu._data.replace_mp9supp_model == 25 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.baka_smallunit))()
+elseif WacMenu._data.replace_mp9supp_model == 26 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.baka_midunit))()
+elseif WacMenu._data.replace_mp9supp_model == 27 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.baka_longunit))()
+elseif WacMenu._data.replace_mp9supp_model == 28 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.shak12unit))()
+elseif WacMenu._data.replace_mp9supp_model == 29 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.mk12unit))()
+end
+if WacMenu._data.replace_microuzi_supplong == 2 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.dummyunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 3 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.smallunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 4 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.mediumunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 5 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.largeunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 6 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pbs1unit))()
+elseif WacMenu._data.replace_microuzi_supplong == 7 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pis_smallunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 8 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pis_mediumunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 9 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pis_largeunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 10 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pis_medium_gemunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 11 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pis_medium_slimunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 12 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pis_large_kacunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 13 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.filterunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 14 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.pis_jungleunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 15 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.thickunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 16 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.salvounit))()
+elseif WacMenu._data.replace_microuzi_supplong == 17 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.putnikunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 18 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.vectorunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 19 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.cobrayunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 20 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.sr2unit))()
+elseif WacMenu._data.replace_microuzi_supplong == 21 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.mp7unit))()
+elseif WacMenu._data.replace_microuzi_supplong == 22 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.gm45unit))()
+elseif WacMenu._data.replace_microuzi_supplong == 23 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.scorpionunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 24 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.uziunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 25 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.baka_smallunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 26 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.baka_midunit))()
+elseif WacMenu._data.replace_microuzi_supplong == 27 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.mp9))()
+elseif WacMenu._data.replace_microuzi_supplong == 28 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.shak12unit))()
+elseif WacMenu._data.replace_microuzi_supplong == 29 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.mk12unit))()
+end
 if WacMenu._data.replace_specter_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_specter.stats.zoom = 1
 elseif WacMenu._data.replace_specter_zoom == 3 then
@@ -6267,14 +6393,8 @@ elseif WacMenu._data.replace_afg2 == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 elseif WacMenu._data.replace_afg2 == 7 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.third_unit = "units/pd2_dlc_pim/weapons/wpn_third_smg_schakal_pts/wpn_third_smg_schakal_vg_surefire"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.unit = "units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_vg_surefire"
-elseif WacMenu._data.replace_afg2 == 8 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_vg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_vg_standard"
-elseif WacMenu._data.replace_afg2 == 9 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_afg.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
 if WacMenu._data.replace_stubbygrip == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.third_unit = "units/payday2/weapons/wpn_third_upg_vg_ass_smg_verticalgrip/wpn_third_upg_vg_ass_smg_verticalgrip"
@@ -6289,12 +6409,9 @@ elseif WacMenu._data.replace_stubbygrip == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.third_unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_fg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_fg_standard"
 elseif WacMenu._data.replace_stubbygrip == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.third_unit = "units/pd2_dlc_pim/weapons/wpn_third_smg_schakal_pts/wpn_third_smg_schakal_vg_surefire"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.unit = "units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_vg_surefire"
-elseif WacMenu._data.replace_stubbygrip == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_vg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_vg_standard"
-elseif WacMenu._data.replace_stubbygrip == 8 then
+elseif WacMenu._data.replace_stubbygrip == 7 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_stubby.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
@@ -6308,12 +6425,9 @@ elseif WacMenu._data.replace_vertgrip == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.third_unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_third_smg_polymer_fg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.unit = "units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer_pts/wpn_fps_smg_polymer_fg_standard"
 elseif WacMenu._data.replace_vertgrip == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.third_unit = "units/pd2_dlc_pim/weapons/wpn_third_smg_schakal_pts/wpn_third_smg_schakal_vg_surefire"
-	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.unit = "units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal_pts/wpn_fps_smg_schakal_vg_surefire"
-elseif WacMenu._data.replace_vertgrip == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.third_unit = "units/pd2_dlc_spa/weapons/wpn_third_snp_tti_pts/wpn_third_snp_tti_vg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_vg_standard"
-elseif WacMenu._data.replace_vertgrip == 7 then
+elseif WacMenu._data.replace_vertgrip == 6 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_vg_ass_smg_verticalgrip.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end

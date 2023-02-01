@@ -39,7 +39,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12quad",
 			"title" : "bm_wp_upg_ak_m_quad",
-			"callback" : "callback_toggle_replace_ak12quad",		
+			"callback" : "callback_toggle_replace_ak12quad",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_rpk",
@@ -56,7 +56,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12uspalm",
 			"title" : "bm_wp_upg_ak_m_uspalm",
-			"callback" : "callback_toggle_replace_ak12uspalm",		
+			"callback" : "callback_toggle_replace_ak12uspalm",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ak12",
@@ -70,7 +70,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12magpulassist",
 			"title" : "bm_wp_ak_m_quick",
-			"callback" : "callback_toggle_replace_ak12magpulassist",		
+			"callback" : "callback_toggle_replace_ak12magpulassist",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ak12",

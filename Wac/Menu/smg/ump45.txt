@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_usc45b",
 			"title" : "bm_wp_schakal_b_civil",
-			"callback" : "callback_toggle_replace_usc45b",		
+			"callback" : "callback_toggle_replace_usc45b",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -31,7 +31,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45extmag",
 			"title" : "bm_wp_schakal_m_long",
-			"callback" : "callback_toggle_replace_ump45extmag",		
+			"callback" : "callback_toggle_replace_ump45extmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd",
@@ -44,7 +44,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45shortmag",
 			"title" : "bm_wp_schakal_m_short",
-			"callback" : "callback_toggle_replace_ump45shortmag",		
+			"callback" : "callback_toggle_replace_ump45shortmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -60,7 +60,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_usc45st",
 			"title" : "bm_wp_schakal_s_civil",
-			"callback" : "callback_toggle_replace_usc45st",		
+			"callback" : "callback_toggle_replace_usc45st",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
@@ -74,7 +74,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45foldedst",
 			"title" : "bm_wp_schakal_s_folded",
-			"callback" : "callback_toggle_replace_ump45foldedst",		
+			"callback" : "callback_toggle_replace_ump45foldedst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
@@ -87,7 +87,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45x_st",
 			"title" : "wac_replace_akimbost_title",
-			"callback" : "callback_toggle_replace_ump45x_st",		
+			"callback" : "callback_toggle_replace_ump45x_st",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",

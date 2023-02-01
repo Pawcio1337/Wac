@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spikex1saigashortfg",
 			"title" : "bm_wp_basset_fg_short",
-			"callback" : "callback_toggle_replace_spikex1saigashortfg",		
+			"callback" : "callback_toggle_replace_spikex1saigashortfg",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndfg_title"

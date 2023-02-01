@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74dracob",
 			"title" : "bm_wp_upg_ak_b_draco",
-			"callback" : "callback_toggle_replace_ak74dracob",		
+			"callback" : "callback_toggle_replace_ak74dracob",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ak74",
@@ -21,7 +21,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74modernb",
 			"title" : "bm_wp_upg_ak_b_ak105",
-			"callback" : "callback_toggle_replace_ak74modernb",		
+			"callback" : "callback_toggle_replace_ak74modernb",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ak74",
@@ -36,7 +36,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74zastava",
 			"title" : "bm_wp_upg_ass_ak_b_zastava",
-			"callback" : "callback_toggle_replace_ak74zastava",		
+			"callback" : "callback_toggle_replace_ak74zastava",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ak74",
@@ -62,7 +62,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74quad",
 			"title" : "bm_wp_upg_ak_m_quad",
-			"callback" : "callback_toggle_replace_ak74quad",		
+			"callback" : "callback_toggle_replace_ak74quad",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_rpk",
@@ -78,7 +78,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74uspalm",
 			"title" : "bm_wp_upg_ak_m_uspalm",
-			"callback" : "callback_toggle_replace_ak74uspalm",		
+			"callback" : "callback_toggle_replace_ak74uspalm",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ak74",
@@ -91,7 +91,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74magpulassist",
 			"title" : "bm_wp_ak_m_quick",
-			"callback" : "callback_toggle_replace_ak74magpulassist",		
+			"callback" : "callback_toggle_replace_ak74magpulassist",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ak74",
@@ -110,7 +110,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74stock1",
 			"title" : "bm_wp_ak_s_folding",
-			"callback" : "callback_toggle_replace_ak74stock1",		
+			"callback" : "callback_toggle_replace_ak74stock1",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",
@@ -129,7 +129,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74stock4",
 			"title" : "bm_wp_upg_m4_s_crane",
-			"callback" : "callback_toggle_replace_ak74stock4",		
+			"callback" : "callback_toggle_replace_ak74stock4",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_skfoldable",
@@ -151,7 +151,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74stock2",
 			"title" : "bm_wp_upg_m4_s_mk46",
-			"callback" : "callback_toggle_replace_ak74stock2",		
+			"callback" : "callback_toggle_replace_ak74stock2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_skfoldable",
@@ -173,7 +173,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74stock3",
 			"title" : "bm_wp_upg_ak_s_solidstock",
-			"callback" : "callback_toggle_replace_ak74stock3",		
+			"callback" : "callback_toggle_replace_ak74stock3",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_skfoldable",
@@ -198,7 +198,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak74upperrec",
 			"title" : "bm_menu_upper_reciever",
-			"callback" : "callback_toggle_replace_ak74upperrec",		
+			"callback" : "callback_toggle_replace_ak74upperrec",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_ribcover_title"

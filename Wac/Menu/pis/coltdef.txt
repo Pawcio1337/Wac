@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltdefblinggrip",
 			"title" : "bm_wp_shrew_g_bling",
-			"callback" : "callback_toggle_replace_coltdefblinggrip",		
+			"callback" : "callback_toggle_replace_coltdefblinggrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltdefergogrip",
 			"title" : "bm_wp_shrew_g_ergo",
-			"callback" : "callback_toggle_replace_coltdefergogrip",		
+			"callback" : "callback_toggle_replace_coltdefergogrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -47,7 +47,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltdefmilledsl",
 			"title" : "bm_wp_shrew_sl_milled",
-			"callback" : "callback_toggle_replace_coltdefmilledsl",		
+			"callback" : "callback_toggle_replace_coltdefmilledsl",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_tactical"

@@ -71,7 +71,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk416stock",
 			"title" : "wac_replace_usestnd_title",
-			"callback" : "callback_toggle_replace_hk416stock",		
+			"callback" : "callback_toggle_replace_hk416stock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
@@ -94,15 +94,16 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk416cvertgrip",
 			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_hk416cvertgrip",		
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_hk416cvertgrip",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stubbygrip_title",
 				"wac_replace_vggeneric_title",
 				"wac_replace_afg2_title",
 				"bm_w_polymer",
-				"bm_wp_schakal_vg_surefire",
-				"wac_replace_novg_title"
+				"wac_nomodel_multi",
+				"bm_w_tti"
 			],
 			"value" : "replace_hk416cvertgrip",
 			"default_value" : 1

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p90longb",
 			"title" : "bm_wp_p90_b_long",
-			"callback" : "callback_toggle_replace_p90longb",		
+			"callback" : "callback_toggle_replace_p90longb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p90civb",
 			"title" : "bm_wp_p90_b_civilian",
-			"callback" : "callback_toggle_replace_p90civb",		
+			"callback" : "callback_toggle_replace_p90civb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -36,7 +36,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ironsightsp90",
 			"title" : "bm_wp_model70_iron_sight",
-			"callback" : "callback_toggle_replace_ironsightsp90",		
+			"callback" : "callback_toggle_replace_ironsightsp90",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_ksg",
@@ -53,7 +53,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p90strap",
 			"title" : "bm_wp_p90_m_strap",
-			"callback" : "callback_toggle_replace_p90strap",		
+			"callback" : "callback_toggle_replace_p90strap",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"

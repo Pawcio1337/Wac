@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1014nfab",
 			"title" : "bm_wp_ben_b_short",
-			"callback" : "callback_toggle_replace_m1014nfab",		
+			"callback" : "callback_toggle_replace_m1014nfab",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1014longb",
 			"title" : "bm_wp_ben_b_long",
-			"callback" : "callback_toggle_replace_m1014longb",		
+			"callback" : "callback_toggle_replace_m1014longb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -37,7 +37,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1014collapsedst",
 			"title" : "bm_wp_ben_s_collapsed",
-			"callback" : "callback_toggle_replace_m1014collapsedst",		
+			"callback" : "callback_toggle_replace_m1014collapsedst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ben_fg_standard",
@@ -50,7 +50,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1014tacticalst",
 			"title" : "bm_wp_ben_fg_standard",
-			"callback" : "callback_toggle_replace_m1014tacticalst",		
+			"callback" : "callback_toggle_replace_m1014tacticalst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ben_s_collapsed",

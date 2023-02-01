@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk51b_b_fluted",
 			"title" : "bm_wp_hk51b_b_fluted",
-			"callback" : "callback_toggle_replace_hk51b_b_fluted",		
+			"callback" : "callback_toggle_replace_hk51b_b_fluted",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk51b_fg_railed",
 			"title" : "bm_wp_hk51b_fg_railed",
-			"callback" : "callback_toggle_replace_hk51b_fg_railed",		
+			"callback" : "callback_toggle_replace_hk51b_fg_railed",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndfg_title"
@@ -39,7 +39,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk51b_s_extended",
 			"title" : "bm_wp_hk51b_s_extended",
-			"callback" : "callback_toggle_replace_hk51b_s_extended",		
+			"callback" : "callback_toggle_replace_hk51b_s_extended",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard"

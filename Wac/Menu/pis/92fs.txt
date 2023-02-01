@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fscomp1",
 			"title" : "bm_wp_beretta_co_co1",
-			"callback" : "callback_toggle_replace_92fscomp1",		
+			"callback" : "callback_toggle_replace_92fscomp1",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_beretta_co_co2",
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fscomp2",
 			"title" : "bm_wp_beretta_co_co2",
-			"callback" : "callback_toggle_replace_92fscomp2",		
+			"callback" : "callback_toggle_replace_92fscomp2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_beretta_co_co1",
@@ -39,7 +39,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_ipsccomp",
 			"title" : "bm_wp_upg_ns_ipsccomp",
-			"callback" : "callback_toggle_replace_92fs_ipsccomp",		
+			"callback" : "callback_toggle_replace_92fs_ipsccomp",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_beretta_co_co2",
@@ -55,7 +55,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_meatgrinder",
 			"title" : "bm_wp_upg_ns_meatgrinder",
-			"callback" : "callback_toggle_replace_92fs_meatgrinder",		
+			"callback" : "callback_toggle_replace_92fs_meatgrinder",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_beretta_co_co2",
@@ -71,7 +71,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_pisflash",
 			"title" : "bm_wp_upg_pis_ns_flash",
-			"callback" : "callback_toggle_replace_92fs_pisflash",		
+			"callback" : "callback_toggle_replace_92fs_pisflash",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_beretta_co_co2",
@@ -91,7 +91,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fsergogrip",
 			"title" : "bm_wp_beretta_g_ergo",
-			"callback" : "callback_toggle_replace_92fsergogrip",		
+			"callback" : "callback_toggle_replace_92fsergogrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -103,7 +103,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fsengravedgrip",
 			"title" : "bm_wp_beretta_g_engraved",
-			"callback" : "callback_toggle_replace_92fsengravedgrip",		
+			"callback" : "callback_toggle_replace_92fsengravedgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"
@@ -131,7 +131,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fselite2",
 			"title" : "bm_wp_beretta_sl_brigadier",
-			"callback" : "callback_toggle_replace_92fselite2",		
+			"callback" : "callback_toggle_replace_92fselite2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_tactical"

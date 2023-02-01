@@ -19,7 +19,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp40_foldedst",
 			"title" : "bm_wp_erma_s_folded",
-			"callback" : "callback_toggle_replace_mp40_foldedst",		
+			"callback" : "callback_toggle_replace_mp40_foldedst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard"
@@ -31,7 +31,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp40x_st",
 			"title" : "wac_replace_akimbost_title",
-			"callback" : "callback_toggle_replace_mp40x_st",		
+			"callback" : "callback_toggle_replace_mp40x_st",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_erma_s_folded"

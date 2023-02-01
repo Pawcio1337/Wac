@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_winm1873longb",
 			"title" : "bm_wp_winchester_b_long",
-			"callback" : "callback_toggle_replace_winm1873longb",		
+			"callback" : "callback_toggle_replace_winm1873longb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"

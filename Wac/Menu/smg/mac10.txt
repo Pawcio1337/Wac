@@ -39,7 +39,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10extmag",
 			"title" : "bm_wp_mac10_m_extended",
-			"callback" : "callback_toggle_replace_mac10extmag",		
+			"callback" : "callback_toggle_replace_mac10extmag",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -51,7 +51,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10magpulassist",
 			"title" : "bm_wp_mac10_m_quick",
-			"callback" : "callback_toggle_replace_mac10magpulassist",		
+			"callback" : "callback_toggle_replace_mac10magpulassist",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_mac10_m_extended",
@@ -68,7 +68,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10_stndst",
 			"title" : "bm_wp_m4_s_standard",
-			"callback" : "callback_toggle_replace_mac10_stndst",		
+			"callback" : "callback_toggle_replace_mac10_stndst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",
@@ -84,7 +84,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10skelst",
 			"title" : "bm_wp_mac10_s_skel",
-			"callback" : "callback_toggle_replace_mac10skelst",		
+			"callback" : "callback_toggle_replace_mac10skelst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",

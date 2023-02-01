@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mosinm9130barrel",
 			"title" : "bm_wp_mosin_b_long",
-			"callback" : "callback_toggle_replace_mosinm9130barrel",		
+			"callback" : "callback_toggle_replace_mosinm9130barrel",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mosinm38barrel",
 			"title" : "bm_wp_mosin_b_short",
-			"callback" : "callback_toggle_replace_mosinm38barrel",		
+			"callback" : "callback_toggle_replace_mosinm38barrel",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title",

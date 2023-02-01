@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_judgegrip",
 			"title" : "bm_wp_1911_g_standard",
-			"callback" : "callback_toggle_replace_judgegrip",		
+			"callback" : "callback_toggle_replace_judgegrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_w_raging_bull",

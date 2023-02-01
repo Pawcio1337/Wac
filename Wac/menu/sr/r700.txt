@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r700_milst",
 			"title" : "bm_wp_r700_s_military",
-			"callback" : "callback_toggle_replace_r700_milst",		
+			"callback" : "callback_toggle_replace_r700_milst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r700_s_tactical",
@@ -20,7 +20,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r700_tactst",
 			"title" : "bm_wp_r700_s_tactical",
-			"callback" : "callback_toggle_replace_r700_tactst",		
+			"callback" : "callback_toggle_replace_r700_tactst",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r700_s_military",

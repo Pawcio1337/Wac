@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_swm29_devilb",
 			"title" : "bm_wp_chinchilla_b_satan",
-			"callback" : "callback_toggle_replace_swm29_devilb",		
+			"callback" : "callback_toggle_replace_swm29_devilb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_swm29_blackgrip",
 			"title" : "bm_wp_chinchilla_g_black",
-			"callback" : "callback_toggle_replace_swm29_blackgrip",		
+			"callback" : "callback_toggle_replace_swm29_blackgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_chinchilla_g_death",
@@ -36,7 +36,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_swm29_ripgrip",
 			"title" : "bm_wp_chinchilla_g_death",
-			"callback" : "callback_toggle_replace_swm29_ripgrip",		
+			"callback" : "callback_toggle_replace_swm29_ripgrip",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_chinchilla_g_black",

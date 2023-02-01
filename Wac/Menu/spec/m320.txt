@@ -7,7 +7,8 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m320_vertgrip",
 			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_m320_vertgrip",		
+			"desc" : "wac_vgnomodel_desc",
+			"callback" : "callback_toggle_replace_m320_vertgrip",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stubbygrip_title",
@@ -15,8 +16,8 @@
 				"wac_replace_afg2_title",
 				"bm_w_tecci",
 				"bm_w_polymer",
-				"bm_wp_schakal_vg_surefire",
-				"wac_replace_novg_title"
+				"wac_nomodel_multi",
+				"bm_w_tti"
 			],
 			"value" : "replace_m320_vertgrip",
 			"default_value" : 1

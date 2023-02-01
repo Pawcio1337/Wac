@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870zhpump",
 			"title" : "bm_wp_r870_fg_wood",
-			"callback" : "callback_toggle_replace_r870zhpump",		
+			"callback" : "callback_toggle_replace_r870zhpump",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndfg_title",
@@ -37,7 +37,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870stock1",
 			"title" : "bm_wp_r870_s_nostock",
-			"callback" : "callback_toggle_replace_r870stock1",		
+			"callback" : "callback_toggle_replace_r870stock1",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r870_s_solid",
@@ -51,7 +51,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870stock2",
 			"title" : "bm_wp_r870_s_solid_big",
-			"callback" : "callback_toggle_replace_r870stock2",		
+			"callback" : "callback_toggle_replace_r870stock2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r870_s_solid",
@@ -65,7 +65,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870stock3",
 			"title" : "bm_wp_upg_m4_s_mk46",
-			"callback" : "callback_toggle_replace_r870stock3",		
+			"callback" : "callback_toggle_replace_r870stock3",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_r870_s_solid",
@@ -84,7 +84,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shellrack",
 			"title" : "bm_wp_r870_m_extended",
-			"callback" : "callback_toggle_replace_shellrack",		
+			"callback" : "callback_toggle_replace_shellrack",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"

@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_p7threadb",
 			"title" : "bm_wp_legacy_b_threaded",
-			"callback" : "callback_toggle_replace_p7threadb",		
+			"callback" : "callback_toggle_replace_p7threadb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p7gripwood",
 			"title" : "bm_wp_legacy_g_wood",
-			"callback" : "callback_toggle_replace_p7gripwood",		
+			"callback" : "callback_toggle_replace_p7gripwood",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_1911_g_standard"

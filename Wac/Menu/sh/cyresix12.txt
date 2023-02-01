@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cyresix12shortb",
 			"title" : "bm_wp_rota_b_standard",
-			"callback" : "callback_toggle_replace_cyresix12shortb",		
+			"callback" : "callback_toggle_replace_cyresix12shortb",
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_stndb_title"

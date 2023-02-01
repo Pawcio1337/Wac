@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g36cfg",
 			"title" : "bm_wp_g36_fg_c",
-			"callback" : "callback_toggle_replace_g36cfg",		
+			"callback" : "callback_toggle_replace_g36cfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g36_fg_ksk",
@@ -21,7 +21,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g36rasfg",
 			"title" : "bm_wp_g36_fg_ksk",
-			"callback" : "callback_toggle_replace_g36rasfg",		
+			"callback" : "callback_toggle_replace_g36rasfg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g36_fg_c",
@@ -35,7 +35,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g36fg",
 			"title" : "bm_wp_g36_fg_k",
-			"callback" : "callback_toggle_replace_g36fg",		
+			"callback" : "callback_toggle_replace_g36fg",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g36_fg_c",
@@ -53,7 +53,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g36magpulassist",
 			"title" : "bm_wp_g36_m_quick",
-			"callback" : "callback_toggle_replace_g36magpulassist",		
+			"callback" : "callback_toggle_replace_g36magpulassist",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd"
@@ -69,7 +69,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g36zf_zoom",
 			"title" : "bm_wp_g36_o_vintage",
-			"callback" : "callback_toggle_replace_g36zf_zoom",		
+			"callback" : "callback_toggle_replace_g36zf_zoom",
 			"items" : [
 				"wac_zoom_4_def_multi",
 				"wac_zoom_1_multi",
@@ -89,7 +89,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g36kvstock",
 			"title" : "bm_wp_g36_s_kv",
-			"callback" : "callback_toggle_replace_g36kvstock",		
+			"callback" : "callback_toggle_replace_g36kvstock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g36_s_sl8",
@@ -102,7 +102,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g36sl8stock",
 			"title" : "bm_wp_g36_s_sl8",
-			"callback" : "callback_toggle_replace_g36sl8stock",		
+			"callback" : "callback_toggle_replace_g36sl8stock",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g36_s_kv",

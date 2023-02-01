@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm556stndb",
 			"title" : "wac_replace_stndb_title",
-			"callback" : "callback_toggle_replace_xm556stndb",		
+			"callback" : "callback_toggle_replace_xm556stndb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_shuno_b_heat_long",
@@ -21,7 +21,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm556longheatb",
 			"title" : "bm_wp_shuno_b_heat_long",
-			"callback" : "callback_toggle_replace_xm556longheatb",		
+			"callback" : "callback_toggle_replace_xm556longheatb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_shuno_b_short",
@@ -35,7 +35,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm556shortheatb",
 			"title" : "bm_wp_shuno_b_heat_short",
-			"callback" : "callback_toggle_replace_xm556shortheatb",		
+			"callback" : "callback_toggle_replace_xm556shortheatb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_shuno_b_short",
@@ -49,7 +49,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm556shortb",
 			"title" : "bm_wp_shuno_b_short",
-			"callback" : "callback_toggle_replace_xm556shortb",		
+			"callback" : "callback_toggle_replace_xm556shortb",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_shuno_b_heat_short",

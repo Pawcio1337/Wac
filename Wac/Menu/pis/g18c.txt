@@ -7,7 +7,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockcomp2",
 			"title" : "bm_wp_g18c_co_comp_2",
-			"callback" : "callback_toggle_replace_glockcomp2",		
+			"callback" : "callback_toggle_replace_glockcomp2",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_co_1",
@@ -37,7 +37,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g18c_glr440",
 			"title" : "bm_wp_g18c_s_stock",
-			"callback" : "callback_toggle_replace_g18c_glr440",		
+			"callback" : "callback_toggle_replace_g18c_glr440",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_baka_s_standard"

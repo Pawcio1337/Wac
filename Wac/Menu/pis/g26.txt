@@ -7,10 +7,10 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26bodytan",
 			"title" : "bm_wp_g26_body_salient",
-			"callback" : "callback_toggle_replace_g26bodytan",		
+			"callback" : "callback_toggle_replace_g26bodytan",
 			"items" : [
 				"wac_default_multi",
-				"wac_replace_stndframe_itle"
+				"wac_replace_stndframe_title"
 			],
 			"value" : "replace_g26bodytan",
 			"default_value" : 1
@@ -23,7 +23,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26magtan",
 			"title" : "bm_wp_g26_m_custom",
-			"callback" : "callback_toggle_replace_g26magtan",		
+			"callback" : "callback_toggle_replace_g26magtan",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd",
@@ -36,7 +36,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26ext",
 			"title" : "bm_wp_g18c_m_mag_33rnd",
-			"callback" : "callback_toggle_replace_g26ext",		
+			"callback" : "callback_toggle_replace_g26ext",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_g18c_m_mag_17rnd",
@@ -53,7 +53,7 @@
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g26slidetan",
 			"title" : "bm_wp_g26_b_custom",
-			"callback" : "callback_toggle_replace_g26slidetan",		
+			"callback" : "callback_toggle_replace_g26slidetan",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_pis_usp_b_tactical"
