@@ -1789,7 +1789,7 @@ if WacMenu._data.replace_tr1supp == 2 then
 elseif WacMenu._data.replace_tr1supp == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_tti_ns_hex.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_ns_standard"
 end
-if WacMenu._data.replace_victor_herafg > 1 then
+if WacMenu._data.replace_victor_herafg and WacMenu._data.replace_victor_herafg > 1 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_victor_vg_hera.a_obj = "a_vg"
 end
 if WacMenu._data.replace_victor_herafg == 2 then
