@@ -5,6 +5,46 @@
 	"items" : [
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_45delta_model",
+			"title" : "bm_wpn_fps_upg_o_45rds",
+			"callback" : "callback_toggle_replace_45delta_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_45delta_model",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_45t1micro_model",
+			"title" : "bm_wpn_fps_upg_o_45rds_v2",
+			"callback" : "callback_toggle_replace_45t1micro_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_45t1micro_model",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_dh_d45_model",
+			"title" : "bm_wpn_fps_upg_o_45steel",
+			"callback" : "callback_toggle_replace_dh_d45_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_dh_d45_model",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 32
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_specter_zoom",
 			"title" : "bm_wp_upg_o_specter",
 			"callback" : "callback_toggle_replace_specter_zoom",
@@ -503,6 +543,20 @@
 				"wac_zoom_4_multi"
 			],
 			"value" : "replace_45t1micro_zoom",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_dh_d45_zoom",
+			"title" : "bm_wpn_fps_upg_o_45steel",
+			"callback" : "callback_toggle_replace_dh_d45_zoom",
+			"items" : [
+				"wac_zoom_1_def_multi",
+				"wac_zoom_2_multi",
+				"wac_zoom_3_multi",
+				"wac_zoom_4_multi"
+			],
+			"value" : "replace_dh_d45_zoom",
 			"default_value" : 1
 		}
 	]

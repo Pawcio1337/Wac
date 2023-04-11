@@ -1,0 +1,50 @@
+{
+	"menu_id" : "wac_menu_lmg_hcar",
+	"parent_menu_id" : "wac_menu_lmg",
+	"title" : "bm_w_hcar",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_hcar_m_stick",
+			"title" : "bm_wp_hcar_magazine_stick",
+			"callback" : "callback_toggle_replace_hcar_m_stick",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_schakal_m_short",
+				"bm_wp_hcar_magazine_drum"
+			],
+			"value" : "replace_hcar_m_stick",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_hcar_m_drum",
+			"title" : "bm_wp_hcar_magazine_drum",
+			"callback" : "callback_toggle_replace_hcar_m_drum",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_schakal_m_short",
+				"bm_wp_hcar_magazine_stick"
+			],
+			"value" : "replace_hcar_m_drum",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_hcar_codpartsdisabled",
+			"title" : "bm_wp_hcar_conversionkit",
+			"callback" : "callback_toggle_replace_hcar_codpartsdisabled",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndupprec_title",
+				"wac_replace_hcarkitdrum_title"
+			],
+			"value" : "replace_hcar_codpartsdisabled",
+			"default_value" : 1
+		}
+	]
+}

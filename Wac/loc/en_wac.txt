@@ -36,7 +36,7 @@
 	"wac_replace_usestndfg_title" : "Use only Standard Foregrip",
 	"wac_replace_g3psgforce_title" : "Use only PSG-1 parts with DMR Kit",
 	"wac_replace_usestnd_title" : "Use only Stock",
-	"wac_replace_akimbost_title" : "Stock used for Akimbo",
+	"wac_replace_akimbost_title" : "Akimbo Stock",
 	"wac_replace_hideextmag_title" : "Hide Extended Mag",
 	"wac_replace_hideextrail_title" : "Hide Extended Rail",
 	"wac_replace_hidevg_title" : "Hide Vert Grip on Akimbo",
@@ -51,6 +51,7 @@
 	"wac_replace_noextrarail_title" : "No extra rail",
 	"wac_replace_exclusive_keepboltmodel_title" : "Exclusive set - Keep unique bolt model",
 	"wac_replace_backupsightzoom_title" : " Backup sight",
+	"wac_replace_hcarkitdrum_title" : "Standard with Drum Mag",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",

@@ -1938,6 +1938,25 @@ elseif WacMenu._data.replace_m60keymodfg == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_third_lmg_m60_fg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_m60_fg_keymod.unit = "units/pd2_dlc_atw/weapons/wpn_fps_lmg_m60_pts/wpn_fps_lmg_m60_fg_standard"
 end
+if WacMenu._data.replace_hcar_m_stick == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_m_stick.unit = "units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_m_standard"
+elseif WacMenu._data.replace_hcar_m_stick == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_m_stick.unit = "units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_m_drum"
+end
+if WacMenu._data.replace_hcar_m_drum == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_m_drum.unit = "units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_m_standard"
+elseif WacMenu._data.replace_hcar_m_drum == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_m_drum.unit = "units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_m_stick"
+end
+if WacMenu._data.replace_hcar_codpartsdisabled == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_body_conversionkit.unit = "units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_body_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_body_conversionkit.override = nil
+elseif WacMenu._data.replace_hcar_codpartsdisabled == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_body_conversionkit.unit = "units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_body_standard"
+	tweak_data.weapon.factory.parts.wpn_fps_lmg_hcar_body_conversionkit.override = {
+		wpn_fps_lmg_hcar_m_standard = {unit = "units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_m_drum"}
+	}
+end
 if WacMenu._data.replace_mg32barrel == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_mg42_b_mg34.third_unit = "units/pd2_dlc_gage_historical/weapons/wpn_third_lmg_mg42_pts/wpn_third_lmg_mg42_b_mg42"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_mg42_b_mg34.unit = "units/pd2_dlc_gage_historical/weapons/wpn_fps_lmg_mg42_pts/wpn_fps_lmg_mg42_b_mg42"
@@ -2501,10 +2520,6 @@ elseif WacMenu._data.replace_uspmatch == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_pis_usp_b_match.third_unit = "units/payday2/weapons/wpn_third_pis_usp_pts/wpn_third_pis_usp_b_tactical"
 	tweak_data.weapon.factory.parts.wpn_fps_pis_usp_b_match.unit = "units/payday2/weapons/wpn_fps_pis_usp_pts/wpn_fps_pis_usp_b_tactical"
 end
-if WacMenu._data.replace_walterpplasergrip == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_pis_ppk_g_laser.unit = "units/pd2_dlc1/weapons/wpn_fps_pis_ppk_pts/wpn_fps_pis_ppk_g_standard"
-	tweak_data.weapon.factory.parts.wpn_fps_pis_ppk_g_laser.perks = nil
-end
 if WacMenu._data.replace_walterppslide == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_pis_ppk_b_long.adds = {"wpn_fps_pis_ppk_b_barrel_standard"}
 	tweak_data.weapon.factory.parts.wpn_fps_pis_ppk_b_long.third_unit = "units/pd2_dlc1/weapons/wpn_third_pis_ppk_pts/wpn_third_pis_ppk_b_standard"
@@ -2526,6 +2541,11 @@ elseif WacMenu._data.replace_akmsuzenit == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_fg_zenit.forbids = nil
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_fg_zenit.third_unit = "units/payday2/weapons/wpn_third_smg_akmsu_pts/wpn_third_smg_akmsu_fg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_fg_zenit.unit = "units/payday2/weapons/wpn_fps_smg_akmsu_pts/wpn_fps_smg_akmsu_fg_standard"
+end
+if WacMenu._data.replace_akmsu_x_stock == 2 then
+	table.map_append(tweak_data.weapon.factory.wpn_fps_smg_x_akmsu.adds, {wpn_fps_smg_akmsu_body_lowerreceiver = {"wpn_upg_ak_s_folding_vanilla"}})
+elseif WacMenu._data.replace_akmsu_x_stock == 3 then
+	table.map_append(tweak_data.weapon.factory.wpn_fps_smg_x_akmsu.adds, {wpn_fps_smg_akmsu_body_lowerreceiver = {"wpn_upg_ak_s_skfoldable_vanilla"}})
 end
 if WacMenu._data.replace_m119receiver == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_smg_cobray_body_lower.third_unit = "units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray_pts/wpn_third_smg_cobray_body_lower_jacket"
@@ -6047,6 +6067,15 @@ assert(loadstring(supp.tweak .. supp.bakalong .. supp.shak12unit))()
 elseif WacMenu._data.replace_microuzi_supplong == 29 then
 assert(loadstring(supp.tweak .. supp.bakalong .. supp.mk12unit))()
 end
+if WacMenu._data.replace_45delta_model == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45rds.unit = "units/pd2_dlc_mxm/weapons/wpn_fps_upg_o_piggyback/wpn_fps_upg_o_piggyback"
+end
+if WacMenu._data.replace_45t1micro_model == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45rds_v2.unit = "units/pd2_dlc_mxm/weapons/wpn_fps_upg_o_piggyback/wpn_fps_upg_o_piggyback"
+end
+if WacMenu._data.replace_dh_d45_model == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45steel.unit = "units/pd2_dlc_mxm/weapons/wpn_fps_upg_o_piggyback/wpn_fps_upg_o_piggyback"
+end
 if WacMenu._data.replace_specter_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_specter.stats.zoom = 1
 elseif WacMenu._data.replace_specter_zoom == 3 then
@@ -6240,6 +6269,13 @@ elseif WacMenu._data.replace_45t1micro_zoom == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45rds_v2.stats.gadget_zoom = 3
 elseif WacMenu._data.replace_45t1micro_zoom == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45rds_v2.stats.gadget_zoom = 4
+end
+if WacMenu._data.replace_dh_d45_zoom == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45steel.stats.gadget_zoom = 2
+elseif WacMenu._data.replace_dh_d45_zoom == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45steel.stats.gadget_zoom = 3
+elseif WacMenu._data.replace_dh_d45_zoom == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45steel.stats.gadget_zoom = 4
 end
 if WacMenu._data.replace_ta648_zoom == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_bmg.stats.zoom = 1
@@ -8514,6 +8550,20 @@ assert(loadstring(ovr_ids.p90 .. unit_list.mrksr .. parts_list.sights_mbusr .. p
 assert(loadstring(ovr_ids.p90 .. unit_list.mrksf .. parts_list.sights_mbusf .. parts_list.sights_a_of))()
 assert(loadstring(ovr_ids.p90_x .. unit_list.mrksr .. parts_list.sights_mbusr .. parts_list.sights_a_or .. parts_list.sights_p90offset))()
 assert(loadstring(ovr_ids.p90_x .. unit_list.mrksf .. parts_list.sights_mbusf .. parts_list.sights_a_of))()
+end
+if WacMenu._data.replace_p90ninjab == true then
+local p90parts = {}
+p90parts.override  = ", override = {" .. "wpn_fps_smg_p90_b_short" .. parts_list.p90ninja .. "wpn_fps_smg_p90_b_long" .. parts_list.p90ninja .. "wpn_fps_smg_p90_b_civilian" .. parts_list.p90ninja .. "}"
+p90parts.string = parts_list.dummy_unit_open .. p90parts.override .. "}"
+p90parts.stringputnik = parts_list.dummy_unit_open .. ", a_obj = \"a_os\", parent = \"barrel\"" .. p90parts.override .. "}"
+assert(loadstring(ovr_ids.p90 .. supp.suppsmall .. p90parts.string))()
+assert(loadstring(ovr_ids.p90 .. supp.suppmedium .. p90parts.string))()
+assert(loadstring(ovr_ids.p90 .. supp.supplarge .. p90parts.string))()
+assert(loadstring(ovr_ids.p90 .. supp.putnik .. p90parts.stringputnik))()
+assert(loadstring(ovr_ids.p90_x .. supp.suppsmall .. p90parts.string))()
+assert(loadstring(ovr_ids.p90_x .. supp.suppmedium .. p90parts.string))()
+assert(loadstring(ovr_ids.p90_x .. supp.supplarge .. p90parts.string))()
+assert(loadstring(ovr_ids.p90_x .. supp.putnik .. p90parts.stringputnik))()
 end
 -- SR-2
 if not tweak_data.weapon.factory.wpn_fps_smg_sr2.override then

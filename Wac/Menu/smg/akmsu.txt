@@ -153,6 +153,19 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_akmsu_x_stock",
+			"title" : "wac_replace_akimbost_title",
+			"callback" : "callback_toggle_replace_akmsu_x_stock",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_skfoldable"
+			],
+			"value" : "replace_akmsu_x_stock",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

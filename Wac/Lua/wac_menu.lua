@@ -1271,6 +1271,18 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_rpkstock2 = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_hcar_m_stick = function(self, item)
+		WacMenu._data.replace_hcar_m_stick = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_hcar_m_drum = function(self, item)
+		WacMenu._data.replace_hcar_m_drum = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_hcar_codpartsdisabled = function(self, item)
+		WacMenu._data.replace_hcar_codpartsdisabled = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_92fscomp1 = function(self, item)
 		WacMenu._data.replace_92fscomp1 = item:value()
 		WacMenu:Save()
@@ -1663,10 +1675,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_uspmatch = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_walterpplasergrip = function(self, item)
-		WacMenu._data.replace_walterpplasergrip = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_walterppslide = function(self, item)
 		WacMenu._data.replace_walterppslide = item:value()
 		WacMenu:Save()
@@ -1705,6 +1713,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_akmsustock3 = function(self, item)
 		WacMenu._data.replace_akmsustock3 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_akmsu_x_stock = function(self, item)
+		WacMenu._data.replace_akmsu_x_stock = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_akmsuupperrec = function(self, item)
@@ -2049,6 +2061,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_p90civb = function(self, item)
 		WacMenu._data.replace_p90civb = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_p90ninjab = function(self, item)
+		WacMenu._data.replace_p90ninjab = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_p90strap = function(self, item)
@@ -2615,6 +2631,18 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_snakesupp = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_45delta_model = function(self, item)
+		WacMenu._data.replace_45delta_model = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_45t1micro_model = function(self, item)
+		WacMenu._data.replace_45t1micro_model = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_dh_d45_model = function(self, item)
+		WacMenu._data.replace_dh_d45_model = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_specter_zoom = function(self, item)
 		WacMenu._data.replace_specter_zoom = item:value()
 		WacMenu:Save()
@@ -2717,6 +2745,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_45t1micro_zoom = function(self, item)
 		WacMenu._data.replace_45t1micro_zoom = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_dh_d45_zoom = function(self, item)
+		WacMenu._data.replace_dh_d45_zoom = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_g33magnifier_zoom = function(self, item)
@@ -2839,6 +2871,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/model70.txt", WacMenu, WacMenu._data)
 
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/wacmenu_lmg.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/hcar.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/m240.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/m249.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/hk21e.txt", WacMenu, WacMenu._data)
