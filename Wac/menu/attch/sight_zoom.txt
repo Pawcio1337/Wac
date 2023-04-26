@@ -1,48 +1,8 @@
 {
-	"menu_id" : "wac_menu_attch_sight",
+	"menu_id" : "wac_menu_attch_sight_zoom",
 	"parent_menu_id" : "wac_menu_attch",
-	"title" : "bm_menu_sight",
+	"title" : "wac_menu_attch_sightzoom_title",
 	"items" : [
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_45delta_model",
-			"title" : "bm_wpn_fps_upg_o_45rds",
-			"callback" : "callback_toggle_replace_45delta_model",
-			"items" : [
-				"wac_default_multi",
-				"wac_nomodel_multi"
-			],
-			"value" : "replace_45delta_model",
-			"default_value" : 1
-		},
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_45t1micro_model",
-			"title" : "bm_wpn_fps_upg_o_45rds_v2",
-			"callback" : "callback_toggle_replace_45t1micro_model",
-			"items" : [
-				"wac_default_multi",
-				"wac_nomodel_multi"
-			],
-			"value" : "replace_45t1micro_model",
-			"default_value" : 1
-		},
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_dh_d45_model",
-			"title" : "bm_wpn_fps_upg_o_45steel",
-			"callback" : "callback_toggle_replace_dh_d45_model",
-			"items" : [
-				"wac_default_multi",
-				"wac_nomodel_multi"
-			],
-			"value" : "replace_dh_d45_model",
-			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 32
-		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_specter_zoom",

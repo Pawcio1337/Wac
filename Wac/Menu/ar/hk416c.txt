@@ -18,7 +18,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk416ccomp",
-			"title" : "wac_replace_uniquebarrelext_title",
+			"title" : "wac_replace_uniquebarrelextshort_title",
 			"callback" : "callback_toggle_replace_hk416ccomp",
 			"items" : [
 				"wac_default_multi",
@@ -69,21 +69,90 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_hk416stock",
-			"title" : "wac_replace_usestnd_title",
-			"callback" : "callback_toggle_replace_hk416stock",
+			"id" : "toggle_replace_hk416stock1",
+			"title" : "bm_wp_m4_uupg_s_fold",
+			"callback" : "callback_toggle_replace_hk416stock1",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
-				"bm_wp_m4_uupg_s_fold",
 				"bm_wp_upg_m4_s_crane",
 				"bm_w_m16",
 				"bm_w_m4",
 				"bm_w_contraband",
 				"bm_wp_tti_s_vltor"
 			],
-			"value" : "replace_hk416stock",
+			"value" : "replace_hk416stock1",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_hk416stock2",
+			"title" : "bm_wp_upg_m4_s_crane",
+			"callback" : "callback_toggle_replace_hk416stock2",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_w_m16",
+				"bm_w_m4",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_hk416stock2",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_hk416stock3",
+			"title" : "bm_wp_upg_m4_s_mk46",
+			"callback" : "callback_toggle_replace_hk416stock3",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_m4",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_hk416stock3",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_hk416stock4",
+			"title" : "bm_wp_upg_m4_s_ubr",
+			"callback" : "callback_toggle_replace_hk416stock4",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_m4",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_hk416stock4",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_hk416stock5",
+			"title" : "bm_wp_tti_s_vltor",
+			"callback" : "callback_toggle_replace_hk416stock5",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_m4",
+				"bm_w_contraband"
+			],
+			"value" : "replace_hk416stock5",
 			"default_value" : 1
 		},
 		{

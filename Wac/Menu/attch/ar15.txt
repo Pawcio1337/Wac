@@ -37,7 +37,7 @@
 				"bm_wp_upg_m4_g_mgrip",
 				"bm_w_tecci",
 				"bm_wp_1911_g_standard",
-				"bm_w_tti"
+				"bm_wp_tti_g_grippy"
 			],
 			"value" : "replace_ar15sniper",
 			"default_value" : 1
@@ -54,7 +54,7 @@
 				"bm_wp_upg_m4_g_mgrip",
 				"bm_w_tecci",
 				"bm_wp_1911_g_standard",
-				"bm_w_tti"
+				"bm_wp_tti_g_grippy"
 			],
 			"value" : "replace_ar15hgrip",
 			"default_value" : 1
@@ -71,7 +71,7 @@
 				"bm_wp_upg_m4_g_hgrip",
 				"bm_w_tecci",
 				"bm_wp_1911_g_standard",
-				"bm_w_tti"
+				"bm_wp_tti_g_grippy"
 			],
 			"value" : "replace_ar15mgrip",
 			"default_value" : 1
@@ -88,9 +88,43 @@
 				"bm_wp_upg_m4_g_mgrip",
 				"bm_w_tecci",
 				"bm_wp_1911_g_standard",
-				"bm_w_tti"
+				"bm_wp_tti_g_grippy"
 			],
 			"value" : "replace_ar15skeletgrip",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_g_billet",
+			"title" : "bm_wp_m4_g_billet",
+			"callback" : "callback_toggle_replace_ar15_g_billet",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_g_ergo",
+				"bm_wp_upg_m4_g_hgrip",
+				"bm_wp_upg_m4_g_mgrip",
+				"bm_w_tecci",
+				"bm_wp_1911_g_standard",
+				"bm_wp_tti_g_grippy"
+			],
+			"value" : "replace_ar15_g_billet",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_g_mod3",
+			"title" : "bm_wp_victor_g_mod3",
+			"callback" : "callback_toggle_replace_ar15_g_mod3",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_g_ergo",
+				"bm_wp_upg_m4_g_hgrip",
+				"bm_wp_upg_m4_g_mgrip",
+				"bm_w_tecci",
+				"bm_wp_1911_g_standard",
+				"bm_wp_tti_g_grippy"
+			],
+			"value" : "replace_ar15_g_mod3",
 			"default_value" : 1
 		},
 		{
@@ -109,7 +143,6 @@
 				"bm_wp_upg_m4_m_quad",
 				"bm_wp_l85a2_m_emag",
 				"bm_wp_upg_m4_m_l5",
-				"bm_wp_aa12_mag_drum",
 				"bm_w_aug",
 				"bm_w_tecci"
 			],
@@ -128,7 +161,6 @@
 				"bm_wp_upg_m4_m_quad",
 				"bm_wp_l85a2_m_emag",
 				"bm_wp_upg_m4_m_l5",
-				"bm_wp_aa12_mag_drum",
 				"bm_w_aug",
 				"bm_w_tecci"
 			],
@@ -147,7 +179,6 @@
 				"bm_wp_upg_m4_m_quad",
 				"bm_wp_l85a2_m_emag",
 				"bm_wp_upg_m4_m_l5",
-				"bm_wp_aa12_mag_drum",
 				"bm_w_aug",
 				"bm_w_tecci"
 			],
@@ -166,7 +197,6 @@
 				"bm_wp_m4_m_pmag",
 				"bm_wp_l85a2_m_emag",
 				"bm_wp_upg_m4_m_l5",
-				"bm_wp_aa12_mag_drum",
 				"bm_w_aug",
 				"bm_w_tecci"
 			],
@@ -185,7 +215,6 @@
 				"bm_wp_m4_m_pmag",
 				"bm_wp_upg_m4_m_quad",
 				"bm_wp_upg_m4_m_l5",
-				"bm_wp_aa12_mag_drum",
 				"bm_w_aug",
 				"bm_w_tecci"
 			],
@@ -204,7 +233,6 @@
 				"bm_wp_m4_m_pmag",
 				"bm_wp_upg_m4_m_quad",
 				"bm_wp_l85a2_m_emag",
-				"bm_wp_aa12_mag_drum",
 				"bm_w_aug",
 				"bm_w_tecci"
 			],
@@ -224,11 +252,29 @@
 				"bm_wp_upg_m4_m_quad",
 				"bm_wp_l85a2_m_emag",
 				"bm_wp_upg_m4_m_l5",
-				"bm_wp_aa12_mag_drum",
 				"bm_w_aug",
 				"bm_w_tecci"
 			],
 			"value" : "replace_ar15_magpulassiststanag",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_m_strike",
+			"title" : "bm_wp_m4_uupg_m_strike",
+			"callback" : "callback_toggle_replace_ar15_m_strike",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_m_straight",
+				"bm_wp_m4_uupg_m_std",
+				"bm_wp_m4_m_pmag",
+				"bm_wp_upg_m4_m_quad",
+				"bm_wp_l85a2_m_emag",
+				"bm_wp_upg_m4_m_l5",
+				"bm_w_aug",
+				"bm_w_tecci"
+			],
+			"value" : "replace_ar15_m_strike",
 			"default_value" : 1
 		},
 		{
@@ -299,6 +345,36 @@
 				"bm_wp_tti_s_vltor"
 			],
 			"value" : "replace_m4_s_crane",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_s_zulu",
+			"title" : "bm_wp_m4_uupg_s_zulu",
+			"callback" : "callback_toggle_replace_ar15_s_zulu",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_ar15_s_zulu",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ar15_s_mod0",
+			"title" : "bm_wp_victor_s_mod0",
+			"callback" : "callback_toggle_replace_ar15_s_mod0",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_ar15_s_mod0",
 			"default_value" : 1
 		},
 		{

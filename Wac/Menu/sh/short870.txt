@@ -20,6 +20,22 @@
 			"size" : 16
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_r870_fg_small",
+			"title" : "bm_wp_r870_fg_small",
+			"callback" : "callback_toggle_replace_r870_fg_small",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_r870_fg_railed",
+			],
+			"value" : "replace_r870_fg_small",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
 			"type" : "toggle",
 			"id" : "toggle_replace_short870extmag",
 			"title" : "wac_replace_hideextmag_title",
@@ -80,11 +96,11 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shellrack",
-			"title" : "bm_wp_r870_m_extended",
+			"title" : "bm_wp_r870_body_rack",
 			"callback" : "callback_toggle_replace_shellrack",
 			"items" : [
 				"wac_default_multi",
-				"bm_wp_g18c_m_mag_17rnd"
+				"wac_nomodel_multi"
 			],
 			"value" : "replace_shellrack",
 			"default_value" : 1

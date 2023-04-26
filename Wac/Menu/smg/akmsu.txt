@@ -182,6 +182,19 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_akmsuupperrec_zenit",
+			"title" : "bm_wp_ak_upper_zenitco",
+			"callback" : "callback_toggle_replace_akmsuupperrec_zenit",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_ribcover_title",
+				"bm_wp_74_body_upperreceiver"
+			],
+			"value" : "replace_akmsuupperrec_zenit",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},

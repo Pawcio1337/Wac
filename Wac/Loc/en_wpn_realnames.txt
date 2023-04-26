@@ -37,6 +37,7 @@
 	"bm_w_m37" : "Ithaca 37",
 	"bm_w_ksg" : "KSG",
 	"bm_w_benelli" : "Benelli M4 Super 90",
+	"bm_w_supernova" : "Benelli Supernova Tactical",
 	"bm_w_m590" : "Mossberg 500 Cruiser",
 	"bm_w_r870" : "Remington Model 870",
 	"bm_w_serbu" : "Remington Model 870 Short",
@@ -54,6 +55,7 @@
 	"bm_w_x_judge" : "Akimbo Taurus Judge",
 	"bm_w_x_sko12" : "Akimbo SKO Shorty",
 
+	"bm_w_awp" : "AWP",
 	"bm_w_m95" : "Barrett M95",
 	"bm_w_sbl" : "Marlin 1895 SBL",
 	"bm_w_mosin" : "Mosin-Nagant",
@@ -75,6 +77,7 @@
 	"bm_w_m249" : "FN M249",
 	"bm_w_hcar" : "HCAR",
 	"bm_w_m60" : "M60",
+	"bm_w_kacchainsaw" : "KAC ChainSAW",
 	"bm_w_hk21" : "HK21E",
 	"bm_w_mg42" : "MG42",
 	"bm_w_rpk" : "RPK",

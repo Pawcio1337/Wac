@@ -1,0 +1,71 @@
+{
+	"menu_id" : "wac_menu_attch_sight_sec",
+	"parent_menu_id" : "wac_menu_attch",
+	"title" : "bm_menu_second_sight",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_45delta_model",
+			"title" : "bm_wpn_fps_upg_o_45rds",
+			"callback" : "callback_toggle_replace_45delta_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_45delta_model",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_45t1micro_model",
+			"title" : "bm_wpn_fps_upg_o_45rds_v2",
+			"callback" : "callback_toggle_replace_45t1micro_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_45t1micro_model",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_dh_d45_model",
+			"title" : "bm_wpn_fps_upg_o_45steel",
+			"callback" : "callback_toggle_replace_dh_d45_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_dh_d45_model",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_xpsg33_model",
+			"title" : "bm_wpn_fps_upg_o_xpsg33_magnifier",
+			"callback" : "callback_toggle_replace_xpsg33_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_xpsg33_model",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_sig_magnifier_model",
+			"title" : "bm_wpn_fps_upg_o_sig",
+			"callback" : "callback_toggle_replace_sig_magnifier_model",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_sig_magnifier_model",
+			"default_value" : 1
+		}
+	]
+}

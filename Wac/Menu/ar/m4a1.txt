@@ -44,14 +44,6 @@
 			"default_value" : 1
 		},
 		{
-			"type" : "toggle",
-			"id" : "toggle_replace_m4a1suppb",
-			"title" : "wac_replace_uniquesupp_title",
-			"callback" : "callback_toggle_replace_m4a1suppb",
-			"value" : "replace_m4a1suppb",
-			"default_value" : false
-		},
-		{
 			"type" : "divider",
 			"size" : 16
 		},
@@ -294,9 +286,45 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_m4a1stock",
-			"title" : "wac_replace_usestnd_title",
-			"callback" : "callback_toggle_replace_m4a1stock",
+			"id" : "toggle_replace_m4a1stock1",
+			"title" : "bm_wp_m4_s_pts",
+			"callback" : "callback_toggle_replace_m4a1stock1",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_tecci",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_m4a1stock1",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4a1stock2",
+			"title" : "bm_wp_upg_m4_s_crane",
+			"callback" : "callback_toggle_replace_m4a1stock2",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_w_m16",
+				"bm_w_tecci",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_m4a1stock2",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4a1stock3",
+			"title" : "bm_wp_upg_m4_s_mk46",
+			"callback" : "callback_toggle_replace_m4a1stock3",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
@@ -308,7 +336,44 @@
 				"bm_w_contraband",
 				"bm_wp_tti_s_vltor"
 			],
-			"value" : "replace_m4a1stock",
+			"value" : "replace_m4a1stock3",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4a1stock4",
+			"title" : "bm_wp_upg_m4_s_ubr",
+			"callback" : "callback_toggle_replace_m4a1stock4",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_tecci",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor"
+			],
+			"value" : "replace_m4a1stock4",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4a1stock5",
+			"title" : "bm_wp_tti_s_vltor",
+			"callback" : "callback_toggle_replace_m4a1stock5",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_tecci",
+				"bm_w_contraband"
+			],
+			"value" : "replace_m4a1stock5",
 			"default_value" : 1
 		},
 		{
