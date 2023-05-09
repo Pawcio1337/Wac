@@ -1,0 +1,32 @@
+{
+	"menu_id" : "wac_menu_sr_awp",
+	"parent_menu_id" : "wac_menu_sr",
+	"title" : "bm_w_awp",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_awp_ck_dragonlore",
+			"title" : "bm_wp_awp_conversion_dragonlore",
+			"callback" : "callback_toggle_replace_awp_ck_dragonlore",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_exclusive_nope_title",
+				"wac_replace_awpnosnd_nope_title"
+			],
+			"value" : "replace_awp_ck_dragonlore",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_awp_ck_wildlands",
+			"title" : "bm_wp_awp_conversion_wildlands",
+			"callback" : "callback_toggle_replace_awp_ck_wildlands",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_exclusive_nope_title"
+			],
+			"value" : "replace_awp_ck_wildlands",
+			"default_value" : 1
+		}
+	]
+}

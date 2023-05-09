@@ -53,7 +53,9 @@
 	"wac_replace_noextrarail_title" : "No extra rail",
 	"wac_replace_exclusive_keepboltmodel_title" : "Exclusive set - Keep unique bolt model",
 	"wac_replace_backupsightzoom_title" : " Backup sight",
+	"wac_replace_exclusive_nope_title" : "Standard model",
 	"wac_replace_hcarkitdrum_title" : "Standard with Drum Mag",
+	"wac_replace_awpnosnd_nope_title" : "Standard without sound",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",

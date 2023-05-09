@@ -1,0 +1,47 @@
+{
+	"menu_id" : "wac_menu_pis_rsh12",
+	"parent_menu_id" : "wac_menu_pis",
+	"title" : "bm_w_rsh12",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_rsh12_b_comp",
+			"title" : "bm_wp_rsh12_b_comp",
+			"callback" : "callback_toggle_replace_rsh12_b_comp",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title"
+			],
+			"value" : "replace_rsh12_b_comp",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_rsh12_b_short",
+			"title" : "bm_wp_rsh12_b_short",
+			"callback" : "callback_toggle_replace_rsh12_b_short",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title"
+			],
+			"value" : "replace_rsh12_b_short",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_rsh12_g_wood",
+			"title" : "bm_wp_rsh12_g_wood",
+			"callback" : "callback_toggle_replace_rsh12_g_wood",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_1911_g_standard"
+			],
+			"value" : "replace_rsh12_g_wood",
+			"default_value" : 1
+		}
+	]
+}

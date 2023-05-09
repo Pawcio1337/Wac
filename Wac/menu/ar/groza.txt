@@ -1,0 +1,15 @@
+{
+	"menu_id" : "wac_menu_ar_groza",
+	"parent_menu_id" : "wac_menu_ar",
+	"title" : "bm_w_groza",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_groza_grip",
+			"title" : "wac_replace_usestndgrip_title",
+			"callback" : "callback_toggle_replace_groza_grip",
+			"value" : "replace_groza_grip",
+			"default_value" : false
+		}
+	]
+}

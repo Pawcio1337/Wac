@@ -40,11 +40,23 @@
 			"callback" : "callback_toggle_replace_hcar_codpartsdisabled",
 			"items" : [
 				"wac_default_multi",
-				"wac_replace_stndupprec_title",
+				"wac_replace_exclusive_nope_title",
 				"wac_replace_hcarkitdrum_title"
 			],
 			"value" : "replace_hcar_codpartsdisabled",
 			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "toggle",
+			"id" : "toggle_replace_hcarstock",
+			"title" : "wac_replace_usestndst_title",
+			"callback" : "callback_toggle_replace_hcarstock",
+			"value" : "replace_hcarstock",
+			"default_value" : false
 		}
 	]
 }

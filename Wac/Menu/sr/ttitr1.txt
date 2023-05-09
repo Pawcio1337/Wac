@@ -47,9 +47,57 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_ttitr1stock",
-			"title" : "wac_replace_usestnd_title",
-			"callback" : "callback_toggle_replace_ttitr1stock",
+			"id" : "toggle_replace_ttitr1stock1",
+			"title" : "bm_wp_m4_uupg_s_fold",
+			"callback" : "callback_toggle_replace_ttitr1stock1",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_contraband"
+			],
+			"value" : "replace_ttitr1stock1",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ttitr1stock2",
+			"title" : "bm_wp_m4_s_pts",
+			"callback" : "callback_toggle_replace_ttitr1stock2",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_m4_s_standard",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_contraband"
+			],
+			"value" : "replace_ttitr1stock2",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ttitr1stock3",
+			"title" : "bm_wp_upg_m4_s_crane",
+			"callback" : "callback_toggle_replace_ttitr1stock3",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_w_contraband"
+			],
+			"value" : "replace_ttitr1stock3",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ttitr1stock4",
+			"title" : "bm_wp_upg_m4_s_mk46",
+			"callback" : "callback_toggle_replace_ttitr1stock4",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_tti_s_vltor",
@@ -59,7 +107,24 @@
 				"bm_wp_upg_m4_s_crane",
 				"bm_w_contraband"
 			],
-			"value" : "replace_ttitr1stock",
+			"value" : "replace_ttitr1stock4",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ttitr1stock5",
+			"title" : "bm_wp_upg_m4_s_ubr",
+			"callback" : "callback_toggle_replace_ttitr1stock5",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_contraband"
+			],
+			"value" : "replace_ttitr1stock5",
 			"default_value" : 1
 		}
 	]

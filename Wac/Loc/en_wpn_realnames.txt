@@ -55,7 +55,7 @@
 	"bm_w_x_judge" : "Akimbo Taurus Judge",
 	"bm_w_x_sko12" : "Akimbo SKO Shorty",
 
-	"bm_w_awp" : "AWP",
+	"bm_w_awp" : "AT308",
 	"bm_w_m95" : "Barrett M95",
 	"bm_w_sbl" : "Marlin 1895 SBL",
 	"bm_w_mosin" : "Mosin-Nagant",

@@ -99,6 +99,22 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak_dh_zenitco",
+			"title" : "bm_wp_ak_upg_dh_zenitco",
+			"callback" : "callback_toggle_replace_ak_dh_zenitco",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_ak_dh_zenitco",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_akhgrip",
 			"title" : "bm_wp_upg_ak_g_hgrip",
 			"callback" : "callback_toggle_replace_akhgrip",

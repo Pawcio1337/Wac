@@ -4,12 +4,16 @@
 	"title" : "bm_w_scout",
 	"items" : [
 		{
-			"type" : "toggle",
-			"id" : "toggle_replace_scout_es_keepboltmodel",
-			"title" : "wac_replace_exclusive_keepboltmodel_title",
-			"callback" : "callback_toggle_replace_scout_es_keepboltmodel",
-			"value" : "replace_scout_es_keepboltmodel",
-			"default_value" : false
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_scout_ck",
+			"title" : "bm_wp_scout_exlusive",
+			"callback" : "callback_toggle_replace_scout_ck",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_exclusive_nope_title"
+			],
+			"value" : "replace_scout_ck",
+			"default_value" : 1
 		}
 	]
 }
