@@ -1203,8 +1203,24 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ttitr1grip = (item:value() == "on" and true or false)
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_ttitr1stock = function(self, item)
-		WacMenu._data.replace_ttitr1stock = item:value()
+	MenuCallbackHandler.callback_toggle_replace_ttitr1stock1 = function(self, item)
+		WacMenu._data.replace_ttitr1stock1 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ttitr1stock2 = function(self, item)
+		WacMenu._data.replace_ttitr1stock2 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ttitr1stock3 = function(self, item)
+		WacMenu._data.replace_ttitr1stock3 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ttitr1stock4 = function(self, item)
+		WacMenu._data.replace_ttitr1stock4 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ttitr1stock5 = function(self, item)
+		WacMenu._data.replace_ttitr1stock5 = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_victor_herafg = function(self, item)
