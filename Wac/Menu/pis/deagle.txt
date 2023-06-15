@@ -76,7 +76,8 @@
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
 				"bm_w_contraband",
-				"bm_wp_hk51b_ns_jcomp"
+				"bm_wp_hk51b_ns_jcomp",
+				"bm_wp_kacchainsaw_muzzle"
 			],
 			"value" : "replace_deagle_co_long",
 			"default_value" : 1
@@ -114,7 +115,8 @@
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
 				"bm_w_contraband",
-				"bm_wp_hk51b_ns_jcomp"
+				"bm_wp_hk51b_ns_jcomp",
+				"bm_wp_kacchainsaw_muzzle"
 			],
 			"value" : "replace_deagle_co_short",
 			"default_value" : 1

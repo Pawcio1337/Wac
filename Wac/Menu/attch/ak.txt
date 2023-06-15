@@ -124,7 +124,10 @@
 				"bm_wp_upg_ak_g_wgrip",
 				"bm_wp_upg_ak_g_rk3",
 				"bm_wp_1911_g_standard",
-				"bm_w_coal"
+				"bm_w_coal",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_edg",
+				"wpn_fps_upg_ak_g_rk9"
 			],
 			"value" : "replace_akhgrip",
 			"default_value" : 1
@@ -140,7 +143,10 @@
 				"bm_wp_upg_ak_g_wgrip",
 				"bm_wp_upg_ak_g_rk3",
 				"bm_wp_1911_g_standard",
-				"bm_w_coal"
+				"bm_w_coal",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_edg",
+				"wpn_fps_upg_ak_g_rk9"
 			],
 			"value" : "replace_akpgrip",
 			"default_value" : 1
@@ -156,7 +162,10 @@
 				"bm_wp_upg_ak_g_pgrip",
 				"bm_wp_upg_ak_g_rk3",
 				"bm_wp_1911_g_standard",
-				"bm_w_coal"
+				"bm_w_coal",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_edg",
+				"wpn_fps_upg_ak_g_rk9"
 			],
 			"value" : "replace_akwgrip",
 			"default_value" : 1
@@ -172,9 +181,69 @@
 				"bm_wp_upg_ak_g_pgrip",
 				"bm_wp_upg_ak_g_wgrip",
 				"bm_wp_1911_g_standard",
-				"bm_w_coal"
+				"bm_w_coal",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_edg",
+				"wpn_fps_upg_ak_g_rk9"
 			],
 			"value" : "replace_akrk3grip",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak_g_gradus",
+			"title" : "wpn_fps_upg_ak_g_gradus",
+			"callback" : "callback_toggle_replace_ak_g_gradus",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_ak_g_hgrip",
+				"bm_wp_upg_ak_g_pgrip",
+				"bm_wp_upg_ak_g_wgrip",
+				"bm_wp_1911_g_standard",
+				"bm_w_coal",
+				"bm_wp_upg_ak_g_rk3",
+				"wpn_fps_upg_ak_g_edg",
+				"wpn_fps_upg_ak_g_rk9"
+			],
+			"value" : "replace_ak_g_gradus",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak_g_edg",
+			"title" : "wpn_fps_upg_ak_g_edg",
+			"callback" : "callback_toggle_replace_ak_g_edg",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_ak_g_hgrip",
+				"bm_wp_upg_ak_g_pgrip",
+				"bm_wp_upg_ak_g_wgrip",
+				"bm_wp_1911_g_standard",
+				"bm_w_coal",
+				"bm_wp_upg_ak_g_rk3",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_rk9"
+			],
+			"value" : "replace_ak_g_edg",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak_g_rk9",
+			"title" : "wpn_fps_upg_ak_g_rk9",
+			"callback" : "callback_toggle_replace_ak_g_rk9",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_ak_g_hgrip",
+				"bm_wp_upg_ak_g_pgrip",
+				"bm_wp_upg_ak_g_wgrip",
+				"bm_wp_1911_g_standard",
+				"bm_w_coal",
+				"bm_wp_upg_ak_g_rk3",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_edg"
+			],
+			"value" : "replace_ak_g_rk9",
 			"default_value" : 1
 		}
 	]

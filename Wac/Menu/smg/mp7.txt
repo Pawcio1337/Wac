@@ -37,7 +37,8 @@
 				"bm_wp_baka_b_midsupp",
 				"bm_wp_baka_b_longsupp",
 				"bm_wp_shak12_ns_suppressor",
-				"bm_wp_m4_upg_fg_mk12"
+				"bm_wp_m4_upg_fg_mk12",
+				"bm_wp_kacchainsaw_suppressor"
 			],
 			"value" : "replace_mp7qd_model",
 			"default_value" : 1

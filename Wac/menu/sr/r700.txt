@@ -5,6 +5,36 @@
 	"items" : [
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_r700_b_short",
+			"title" : "bm_wp_r700_b_short",
+			"callback" : "callback_toggle_replace_r700_b_short",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title",
+				"bm_wp_r700_b_medium"
+			],
+			"value" : "replace_r700_b_short",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_r700_b_med",
+			"title" : "bm_wp_r700_b_medium",
+			"callback" : "callback_toggle_replace_r700_b_med",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title",
+				"bm_wp_r700_b_short"
+			],
+			"value" : "replace_r700_b_med",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_r700_milst",
 			"title" : "bm_wp_r700_s_military",
 			"callback" : "callback_toggle_replace_r700_milst",

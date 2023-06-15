@@ -1597,6 +1597,20 @@ elseif WacMenu._data.replace_spassolidst == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_sho_s_spas12_solid.third_unit = "units/pd2_crimefest_2014/oct26/weapons/wpn_third_sho_spas12_pts/wpn_third_sho_s_spas12_nostock"
 	tweak_data.weapon.factory.parts.wpn_fps_sho_s_spas12_solid.unit = "units/pd2_crimefest_2014/oct26/weapons/wpn_fps_sho_spas12_pts/wpn_fps_sho_s_spas12_nostock"
 end
+if WacMenu._data.replace_sko12_b_long == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_sho_sko12_b_long.unit = "units/pd2_dlc_pxp2/weapons/wpn_fps_sho_sko12_pts/wpn_fps_sho_sko12_b_standard"
+elseif WacMenu._data.replace_sko12_b_long == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_sho_sko12_b_long.unit = "units/pd2_dlc_pxp2/weapons/wpn_fps_sho_sko12_pts/wpn_fps_sho_sko12_b_short"
+end
+if WacMenu._data.replace_sko12_b_short == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_sho_sko12_b_short.unit = "units/pd2_dlc_pxp2/weapons/wpn_fps_sho_sko12_pts/wpn_fps_sho_sko12_b_standard"
+elseif WacMenu._data.replace_sko12_b_short == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_sho_sko12_b_short.unit = "units/pd2_dlc_pxp2/weapons/wpn_fps_sho_sko12_pts/wpn_fps_sho_sko12_b_long"
+end
+if WacMenu._data.replace_sko12_skin == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_sho_sko12_conversion.override = nil
+	tweak_data.weapon.factory.parts.wpn_fps_sho_sko12_conversion.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+end
 if WacMenu._data.replace_spikex1saigashortfg == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_sho_basset_fg_short.third_unit = "units/pd2_dlc_dsg/weapons/wpn_third_sho_basset_pts/wpn_third_sho_basset_fg_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_sho_basset_fg_short.unit = "units/pd2_dlc_dsg/weapons/wpn_fps_sho_basset_pts/wpn_fps_sho_basset_fg_standard"
@@ -1737,6 +1751,16 @@ end
 if WacMenu._data.replace_msrwoodst == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_msr_body_wood.third_unit = "units/pd2_dlc_gage_snp/weapons/wpn_third_snp_msr_pts/wpn_third_snp_msr_body_msr"
 	tweak_data.weapon.factory.parts.wpn_fps_snp_msr_body_wood.unit = "units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_msr_pts/wpn_fps_snp_msr_body_msr"
+end
+if WacMenu._data.replace_r700_b_short == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r700_b_short.unit = "units/pd2_dlc_atw/weapons/wpn_fps_snp_r700_pts/wpn_fps_snp_r700_b_standard"
+elseif WacMenu._data.replace_r700_b_short == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r700_b_short.unit = "units/pd2_dlc_atw/weapons/wpn_fps_snp_r700_pts/wpn_fps_snp_r700_b_medium"
+end
+if WacMenu._data.replace_r700_b_med == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r700_b_medium.unit = "units/pd2_dlc_atw/weapons/wpn_fps_snp_r700_pts/wpn_fps_snp_r700_b_standard"
+elseif WacMenu._data.replace_r700_b_med == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_snp_r700_b_medium.unit = "units/pd2_dlc_atw/weapons/wpn_fps_snp_r700_pts/wpn_fps_snp_r700_b_short"
 end
 if WacMenu._data.replace_r700_milst == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_snp_r700_s_military.third_unit = "units/pd2_dlc_atw/weapons/wpn_fps_snp_r700_pts/wpn_third_snp_r700_s_tactical"
@@ -3703,68 +3727,123 @@ if WacMenu._data.replace_ak_dh_zenitco == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_dh_zenitco.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 end
 if WacMenu._data.replace_akhgrip == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_pgrip/wpn_third_upg_ak_g_pgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_pgrip/wpn_fps_upg_ak_g_pgrip"
 elseif WacMenu._data.replace_akhgrip == 3 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_wgrip/wpn_third_upg_ak_g_wgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_wgrip/wpn_fps_upg_ak_g_wgrip"
 elseif WacMenu._data.replace_akhgrip == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ak_g_rk3/wpn_third_upg_ak_g_rk3"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_g_rk3/wpn_fps_upg_ak_g_rk3"
 elseif WacMenu._data.replace_akhgrip == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.third_unit = "units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_g_standard"
 elseif WacMenu._data.replace_akhgrip == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.third_unit = "units/pd2_dlc_grv/weapons/wpn_third_smg_coal_pts/wpn_third_smg_coal_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/pd2_dlc_grv/weapons/wpn_fps_smg_coal_pts/wpn_fps_smg_coal_g_standard"
+elseif WacMenu._data.replace_akhgrip == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_gradus"
+elseif WacMenu._data.replace_akhgrip == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_edg"
+elseif WacMenu._data.replace_akhgrip == 9 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_hgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_rk9"
 end
 if WacMenu._data.replace_akpgrip == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_hgrip/wpn_third_upg_ak_g_hgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_hgrip/wpn_fps_upg_ak_g_hgrip"
 elseif WacMenu._data.replace_akpgrip == 3 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_wgrip/wpn_third_upg_ak_g_wgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_wgrip/wpn_fps_upg_ak_g_wgrip"
 elseif WacMenu._data.replace_akpgrip == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ak_g_rk3/wpn_third_upg_ak_g_rk3"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_g_rk3/wpn_fps_upg_ak_g_rk3"
 elseif WacMenu._data.replace_akpgrip == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.third_unit = "units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_g_standard"
 elseif WacMenu._data.replace_akpgrip == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.third_unit = "units/pd2_dlc_grv/weapons/wpn_third_smg_coal_pts/wpn_third_smg_coal_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/pd2_dlc_grv/weapons/wpn_fps_smg_coal_pts/wpn_fps_smg_coal_g_standard"
+elseif WacMenu._data.replace_akpgrip == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_gradus"
+elseif WacMenu._data.replace_akpgrip == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_edg"
+elseif WacMenu._data.replace_akpgrip == 9 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_pgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_rk9"
 end
 if WacMenu._data.replace_akwgrip == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_hgrip/wpn_third_upg_ak_g_hgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_hgrip/wpn_fps_upg_ak_g_hgrip"
 elseif WacMenu._data.replace_akwgrip == 3 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_pgrip/wpn_third_upg_ak_g_pgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_pgrip/wpn_fps_upg_ak_g_pgrip"
 elseif WacMenu._data.replace_akwgrip == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.third_unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ak_g_rk3/wpn_third_upg_ak_g_rk3"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_g_rk3/wpn_fps_upg_ak_g_rk3"
 elseif WacMenu._data.replace_akwgrip == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.third_unit = "units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_g_standard"
 elseif WacMenu._data.replace_akwgrip == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.third_unit = "units/pd2_dlc_grv/weapons/wpn_third_smg_coal_pts/wpn_third_smg_coal_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/pd2_dlc_grv/weapons/wpn_fps_smg_coal_pts/wpn_fps_smg_coal_g_standard"
+elseif WacMenu._data.replace_akwgrip == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_gradus"
+elseif WacMenu._data.replace_akwgrip == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_edg"
+elseif WacMenu._data.replace_akwgrip == 9 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_wgrip.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_rk9"
 end
 if WacMenu._data.replace_akrk3grip == 2 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_hgrip/wpn_third_upg_ak_g_hgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_hgrip/wpn_fps_upg_ak_g_hgrip"
 elseif WacMenu._data.replace_akrk3grip == 3 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_pgrip/wpn_third_upg_ak_g_pgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_pgrip/wpn_fps_upg_ak_g_pgrip"
 elseif WacMenu._data.replace_akrk3grip == 4 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_ak_g_wgrip/wpn_third_upg_ak_g_wgrip"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_wgrip/wpn_fps_upg_ak_g_wgrip"
 elseif WacMenu._data.replace_akrk3grip == 5 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.third_unit = "units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_g_standard"
 elseif WacMenu._data.replace_akrk3grip == 6 then
-	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.third_unit = "units/pd2_dlc_grv/weapons/wpn_third_smg_coal_pts/wpn_third_smg_coal_g_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/pd2_dlc_grv/weapons/wpn_fps_smg_coal_pts/wpn_fps_smg_coal_g_standard"
+elseif WacMenu._data.replace_akrk3grip == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_gradus"
+elseif WacMenu._data.replace_akrk3grip == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_edg"
+elseif WacMenu._data.replace_akrk3grip == 9 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk3.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_rk9"
+end
+if WacMenu._data.replace_ak_g_gradus == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_hgrip/wpn_fps_upg_ak_g_hgrip"
+elseif WacMenu._data.replace_ak_g_gradus == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_pgrip/wpn_fps_upg_ak_g_pgrip"
+elseif WacMenu._data.replace_ak_g_gradus == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_wgrip/wpn_fps_upg_ak_g_wgrip"
+elseif WacMenu._data.replace_ak_g_gradus == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_g_standard"
+elseif WacMenu._data.replace_ak_g_gradus == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/pd2_dlc_grv/weapons/wpn_fps_smg_coal_pts/wpn_fps_smg_coal_g_standard"
+elseif WacMenu._data.replace_ak_g_gradus == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_g_rk3/wpn_fps_upg_ak_g_rk3"
+elseif WacMenu._data.replace_ak_g_gradus == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_edg"
+elseif WacMenu._data.replace_ak_g_gradus == 9 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_gradus.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_rk9"
+end
+if WacMenu._data.replace_ak_g_edg == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_hgrip/wpn_fps_upg_ak_g_hgrip"
+elseif WacMenu._data.replace_ak_g_edg == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_pgrip/wpn_fps_upg_ak_g_pgrip"
+elseif WacMenu._data.replace_ak_g_edg == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_wgrip/wpn_fps_upg_ak_g_wgrip"
+elseif WacMenu._data.replace_ak_g_edg == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_g_standard"
+elseif WacMenu._data.replace_ak_g_edg == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/pd2_dlc_grv/weapons/wpn_fps_smg_coal_pts/wpn_fps_smg_coal_g_standard"
+elseif WacMenu._data.replace_ak_g_edg == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_g_rk3/wpn_fps_upg_ak_g_rk3"
+elseif WacMenu._data.replace_ak_g_edg == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_gradus"
+elseif WacMenu._data.replace_ak_g_edg == 9 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_edg.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_rk9"
+end
+if WacMenu._data.replace_ak_g_rk9 == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_hgrip/wpn_fps_upg_ak_g_hgrip"
+elseif WacMenu._data.replace_ak_g_rk9 == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_pgrip/wpn_fps_upg_ak_g_pgrip"
+elseif WacMenu._data.replace_ak_g_rk9 == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_ak_g_wgrip/wpn_fps_upg_ak_g_wgrip"
+elseif WacMenu._data.replace_ak_g_rk9 == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_g_standard"
+elseif WacMenu._data.replace_ak_g_rk9 == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/pd2_dlc_grv/weapons/wpn_fps_smg_coal_pts/wpn_fps_smg_coal_g_standard"
+elseif WacMenu._data.replace_ak_g_rk9 == 7 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_g_rk3/wpn_fps_upg_ak_g_rk3"
+elseif WacMenu._data.replace_ak_g_rk9 == 8 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_gradus"
+elseif WacMenu._data.replace_ak_g_rk9 == 9 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_g_rk9.unit = "units/pd2_dlc_pxp3/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_g_edg"
 end
 if WacMenu._data.replace_ar15sniper == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_m4_g_sniper.third_unit = "units/payday2/weapons/wpn_third_upg_m4_reusable/wpn_third_upg_m4_g_ergo"
@@ -4150,12 +4229,16 @@ elseif WacMenu._data.replace_m4_s_crane == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_m4_s_crane.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_s_vltor"
 end
 if WacMenu._data.replace_ar15_s_zulu == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.adds = {"wpn_fps_upg_m4_s_adapter"}
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_m4_s_ubr/wpn_fps_upg_m4_s_ubr"
 elseif WacMenu._data.replace_ar15_s_zulu == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.adds = {"wpn_fps_upg_m4_s_adapter"}
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.unit = "units/payday2/weapons/wpn_fps_upg_m4_reusable/wpn_fps_upg_m4_s_standard"
 elseif WacMenu._data.replace_ar15_s_zulu == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.adds = {"wpn_fps_upg_m4_s_adapter"}
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.unit = "units/payday2/weapons/wpn_fps_upg_m4_reusable/wpn_fps_upg_m4_s_pts"
 elseif WacMenu._data.replace_ar15_s_zulu == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.adds = {"wpn_fps_upg_m4_s_adapter"}
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_s_zulu.unit = "units/pd2_dlc_spa/weapons/wpn_fps_snp_tti_pts/wpn_fps_snp_tti_s_vltor"
 end
 if WacMenu._data.replace_ar15_s_mod0 == 2 then
@@ -4311,6 +4394,8 @@ barrelext.shak12_ns = "wpn_fps_ass_shak12_ns_muzzle"
 barrelext.hk51b_jcomp = "wpn_fps_lmg_hk51b_ns_jcomp"
 barrelext.deagle_co_long = "wpn_fps_pis_deagle_co_long"
 barrelext.deagle_co_short = "wpn_fps_pis_deagle_co_short"
+barrelext.kacchainsaw = "wpn_fps_lmg_kacchainsaw_ns_muzzle"
+
 barrelext.dummyunit = ".unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
 barrelext.jpriflesunit = ".unit = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_barrel_extentions/wpn_fps_upg_ass_ns_jprifles\""
 barrelext.firepigunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_firepig/wpn_fps_upg_ns_ass_smg_firepig\""
@@ -4339,6 +4424,7 @@ barrelext.tecci_specialunit = ".unit = \"units/pd2_dlc_opera/weapons/wpn_fps_ass
 barrelext.hajkunit = ".unit = \"units/pd2_dlc_born/weapons/wpn_fps_smg_hajk_pts/wpn_fps_smg_hajk_ns_standard\""
 barrelext.contrabandunit = ".unit = \"units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_ns_standard\""
 barrelext.hk51b_jcompunit = ".unit = \"units/pd2_dlc_pxp1/weapons/wpn_fps_lmg_hk51b_pts/wpn_fps_lmg_hk51b_ns_jcomp\""
+barrelext.kacchainsawunit = ".unit = \"units/pd2_dlc_pxp4/weapons/wpn_fps_lmg_kacchainsaw_pts/wpn_fps_lmg_kacchainsaw_muzzle\""
 if WacMenu._data.replace_jprifles == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.jprifles .. barrelext.dummyunit))()
 elseif WacMenu._data.replace_jprifles == 3 then
@@ -4393,6 +4479,8 @@ elseif WacMenu._data.replace_jprifles == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.jprifles .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_jprifles == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.jprifles .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_jprifles == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.jprifles .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_firepig == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.firepig .. barrelext.dummyunit))()
@@ -4448,6 +4536,8 @@ elseif WacMenu._data.replace_firepig == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.firepig .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_firepig == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.firepig .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_firepig == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.firepig .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_linear == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.linear .. barrelext.dummyunit))()
@@ -4503,6 +4593,8 @@ elseif WacMenu._data.replace_linear == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.linear .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_linear == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.linear .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_linear == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.linear .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_stubby == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.stubby .. barrelext.dummyunit))()
@@ -4558,6 +4650,8 @@ elseif WacMenu._data.replace_stubby == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.stubby .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_stubby == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.stubby .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_stubby == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.stubby .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_surefire == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.surefire .. barrelext.dummyunit))()
@@ -4613,6 +4707,8 @@ elseif WacMenu._data.replace_surefire == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.surefire .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_surefire == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.surefire .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_surefire == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.surefire .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_v6mb == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.v6 .. barrelext.dummyunit))()
@@ -4668,6 +4764,8 @@ elseif WacMenu._data.replace_v6mb == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.v6 .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_v6mb == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.v6 .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_v6mb == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.v6 .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_kingbreach == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.king .. barrelext.dummyunit))()
@@ -4723,6 +4821,8 @@ elseif WacMenu._data.replace_kingbreach == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.king .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_kingbreach == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.king .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_kingbreach == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.king .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_sharkbrake == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.shark .. barrelext.dummyunit))()
@@ -4778,6 +4878,8 @@ elseif WacMenu._data.replace_sharkbrake == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.shark .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_sharkbrake == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.shark .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_sharkbrake == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.shark .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_duckbill == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.duck .. barrelext.dummyunit))()
@@ -4833,6 +4935,8 @@ elseif WacMenu._data.replace_duckbill == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.duck .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_duckbill == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.duck .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_duckbill == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.duck .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_pisflashhider == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.pisflash .. barrelext.dummyunit))()
@@ -4888,6 +4992,8 @@ elseif WacMenu._data.replace_pisflashhider == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.pisflash .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_pisflashhider == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.pisflash .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_pisflashhider == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.pisflash .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_pistenderizer == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.meatgrinder .. barrelext.dummyunit))()
@@ -4943,6 +5049,8 @@ elseif WacMenu._data.replace_pistenderizer == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.meatgrinder .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_pistenderizer == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.meatgrinder .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_pistenderizer == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.meatgrinder .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_ipsccomp == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.ipsccomp .. barrelext.dummyunit))()
@@ -4998,6 +5106,8 @@ elseif WacMenu._data.replace_ipsccomp == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.ipsccomp .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_ipsccomp == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.ipsccomp .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_ipsccomp == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.ipsccomp .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_tk_gc == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.tk_gc .. barrelext.dummyunit))()
@@ -5053,6 +5163,8 @@ elseif WacMenu._data.replace_tk_gc == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.tk_gc .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_tk_gc == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.tk_gc .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_tk_gc == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.tk_gc .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_deagle_co_long == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.deagle_co_long .. barrelext.dummyunit))()
@@ -5108,6 +5220,8 @@ elseif WacMenu._data.replace_deagle_co_long == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.deagle_co_long .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_deagle_co_long == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.deagle_co_long .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_deagle_co_long == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.deagle_co_long .. barrelext.kacchainsawunit))()
 end
 if WacMenu._data.replace_deagle_co_short == 2 then
 assert(loadstring(barrelext.tweak .. barrelext.deagle_co_short .. barrelext.dummyunit))()
@@ -5163,6 +5277,65 @@ elseif WacMenu._data.replace_deagle_co_short == 27 then
 assert(loadstring(barrelext.tweak .. barrelext.deagle_co_short .. barrelext.contrabandunit))()
 elseif WacMenu._data.replace_deagle_co_short == 28 then
 assert(loadstring(barrelext.tweak .. barrelext.deagle_co_short .. barrelext.hk51b_jcompunit))()
+elseif WacMenu._data.replace_deagle_co_short == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.deagle_co_short .. barrelext.kacchainsawunit))()
+end
+if WacMenu._data.replace_kacchainsaw_ns == 2 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.dummyunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 3 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.pisflashunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 4 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.pistenderizerunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 5 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.ipsccompunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 6 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.tk_gcunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 7 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.jpriflesunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 8 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.tankunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 9 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.firepigunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 10 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.battleunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 11 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.linearunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 12 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.stubbyunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 13 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.v6mbunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 14 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.surefireunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 15 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.kingunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 16 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.sharkunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 17 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.duckunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 18 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.scarunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 19 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.l85a2unit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 20 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.vhsunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 21 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.cobrayunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 22 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.polymerunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 23 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.vityazunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 24 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.shak12unit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 25 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.tecci_standardunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 26 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.tecci_specialunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.hajkunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 28 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.contrabandunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns == 29 then
+assert(loadstring(barrelext.tweak .. barrelext.kacchainsaw .. barrelext.hk51b_jcompunit))()
 end
 if WacMenu._data.replace_compactlaser == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_laser.third_unit = "units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_peqbox/wpn_third_upg_fl_ass_smg_sho_peqbox"
@@ -5256,6 +5429,7 @@ supp.filter = "wpn_fps_upg_ns_ass_filter"
 supp.mp7qd = "wpn_fps_smg_mp7_b_suppressed"
 supp.mp9 = "wpn_fps_smg_mp9_b_suppressed"
 supp.bakalong = "wpn_fps_smg_baka_b_longsupp"
+supp.kacchainsaw = "wpn_fps_lmg_kacchainsaw_ns_suppressor"
 
 supp.dummyunit = ".unit = \"units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy\""
 supp.smallunit = ".unit = \"units/payday2/weapons/wpn_fps_upg_ns_ass_smg_small/wpn_fps_upg_ns_ass_smg_small\""
@@ -5286,6 +5460,7 @@ supp.baka_midunit = ".unit = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts
 supp.baka_longunit = ".unit = \"units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka_pts/wpn_fps_smg_baka_b_longsupp\""
 supp.shak12unit = ".unit = \"units/pd2_dlc_tawp/weapons/wpn_fps_ass_shak12_pts/wpn_fps_ass_shak12_ns_suppressor\""
 supp.mk12unit = ".unit = \"units/pd2_dlc_ja22/weapons/wpn_fps_m4_upg_mk12_pts/wpn_fps_m4_upg_ns_mk12\""
+supp.kacchainsawunit = ".unit = \"units/pd2_dlc_pxp4/weapons/wpn_fps_lmg_kacchainsaw_pts/wpn_fps_lmg_kacchainsaw_suppressor\""
 if WacMenu._data.replace_arsupp_bigger == 2 then
 assert(loadstring(supp.tweak .. supp.supplarge .. supp.dummyunit))()
 elseif WacMenu._data.replace_arsupp_bigger == 3 then
@@ -5342,6 +5517,8 @@ elseif WacMenu._data.replace_arsupp_bigger == 28 then
 assert(loadstring(supp.tweak .. supp.supplarge .. supp.shak12unit))()
 elseif WacMenu._data.replace_arsupp_bigger == 29 then
 assert(loadstring(supp.tweak .. supp.supplarge .. supp.mk12unit))()
+elseif WacMenu._data.replace_arsupp_bigger == 30 then
+assert(loadstring(supp.tweak .. supp.supplarge .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_arsupp_medium == 2 then
 assert(loadstring(supp.tweak .. supp.suppmedium .. supp.dummyunit))()
@@ -5399,6 +5576,8 @@ elseif WacMenu._data.replace_arsupp_medium == 28 then
 assert(loadstring(supp.tweak .. supp.suppmedium .. supp.shak12unit))()
 elseif WacMenu._data.replace_arsupp_medium == 29 then
 assert(loadstring(supp.tweak .. supp.suppmedium .. supp.mk12unit))()
+elseif WacMenu._data.replace_arsupp_medium == 30 then
+assert(loadstring(supp.tweak .. supp.suppmedium .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_arsupp_lowprofile == 2 then
 assert(loadstring(supp.tweak .. supp.suppsmall .. supp.dummyunit))()
@@ -5456,6 +5635,8 @@ elseif WacMenu._data.replace_arsupp_lowprofile == 28 then
 assert(loadstring(supp.tweak .. supp.suppsmall .. supp.shak12unit))()
 elseif WacMenu._data.replace_arsupp_lowprofile == 29 then
 assert(loadstring(supp.tweak .. supp.suppsmall .. supp.mk12unit))()
+elseif WacMenu._data.replace_arsupp_lowprofile == 30 then
+assert(loadstring(supp.tweak .. supp.suppsmall .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_supp_putnik == 2 then
 assert(loadstring(supp.tweak .. supp.putnik .. supp.dummyunit))()
@@ -5513,6 +5694,8 @@ elseif WacMenu._data.replace_supp_putnik == 28 then
 assert(loadstring(supp.tweak .. supp.putnik .. supp.shak12unit))()
 elseif WacMenu._data.replace_supp_putnik == 29 then
 assert(loadstring(supp.tweak .. supp.putnik .. supp.mk12unit))()
+elseif WacMenu._data.replace_supp_putnik == 30 then
+assert(loadstring(supp.tweak .. supp.putnik .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_supp_shak12 == 2 then
 assert(loadstring(supp.tweak .. supp.shak12 .. supp.dummyunit))()
@@ -5570,6 +5753,8 @@ elseif WacMenu._data.replace_supp_shak12 == 28 then
 assert(loadstring(supp.tweak .. supp.shak12 .. supp.baka_longunit))()
 elseif WacMenu._data.replace_supp_shak12 == 29 then
 assert(loadstring(supp.tweak .. supp.shak12 .. supp.mk12unit))()
+elseif WacMenu._data.replace_supp_shak12 == 30 then
+assert(loadstring(supp.tweak .. supp.shak12 .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_salvo12 == 2 then
 assert(loadstring(supp.tweak .. supp.salvo .. supp.dummyunit))()
@@ -5627,6 +5812,8 @@ elseif WacMenu._data.replace_salvo12 == 28 then
 assert(loadstring(supp.tweak .. supp.salvo .. supp.shak12unit))()
 elseif WacMenu._data.replace_salvo12 == 29 then
 assert(loadstring(supp.tweak .. supp.salvo .. supp.mk12unit))()
+elseif WacMenu._data.replace_salvo12 == 30 then
+assert(loadstring(supp.tweak .. supp.salvo .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_shotsupp_silent == 2 then
 assert(loadstring(supp.tweak .. supp.thick .. supp.dummyunit))()
@@ -5684,6 +5871,8 @@ elseif WacMenu._data.replace_shotsupp_silent == 28 then
 assert(loadstring(supp.tweak .. supp.thick .. supp.shak12unit))()
 elseif WacMenu._data.replace_shotsupp_silent == 29 then
 assert(loadstring(supp.tweak .. supp.thick .. supp.mk12unit))()
+elseif WacMenu._data.replace_shotsupp_silent == 30 then
+assert(loadstring(supp.tweak .. supp.thick .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_pis_medium == 2 then
 assert(loadstring(supp.tweak .. supp.pis_medium .. supp.dummyunit))()
@@ -5741,6 +5930,8 @@ elseif WacMenu._data.replace_pis_medium == 28 then
 assert(loadstring(supp.tweak .. supp.pis_medium .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_medium == 29 then
 assert(loadstring(supp.tweak .. supp.pis_medium .. supp.mk12unit))()
+elseif WacMenu._data.replace_pis_medium == 30 then
+assert(loadstring(supp.tweak .. supp.pis_medium .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_pis_medium_slim == 2 then
 assert(loadstring(supp.tweak .. supp.pis_slim .. supp.dummyunit))()
@@ -5798,6 +5989,8 @@ elseif WacMenu._data.replace_pis_medium_slim == 28 then
 assert(loadstring(supp.tweak .. supp.pis_slim .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_medium_slim == 29 then
 assert(loadstring(supp.tweak .. supp.pis_slim .. supp.mk12unit))()
+elseif WacMenu._data.replace_pis_medium_slim == 30 then
+assert(loadstring(supp.tweak .. supp.pis_slim .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_pis_medium_gem == 2 then
 assert(loadstring(supp.tweak .. supp.pis_gem .. supp.dummyunit))()
@@ -5855,6 +6048,8 @@ elseif WacMenu._data.replace_pis_medium_gem == 28 then
 assert(loadstring(supp.tweak .. supp.pis_gem .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_medium_gem == 29 then
 assert(loadstring(supp.tweak .. supp.pis_gem .. supp.mk12unit))()
+elseif WacMenu._data.replace_pis_medium_gem == 30 then
+assert(loadstring(supp.tweak .. supp.pis_gem .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_pis_large == 2 then
 assert(loadstring(supp.tweak .. supp.pis_large .. supp.dummyunit))()
@@ -5912,6 +6107,8 @@ elseif WacMenu._data.replace_pis_large == 28 then
 assert(loadstring(supp.tweak .. supp.pis_large .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_large == 29 then
 assert(loadstring(supp.tweak .. supp.pis_large .. supp.mk12unit))()
+elseif WacMenu._data.replace_pis_large == 30 then
+assert(loadstring(supp.tweak .. supp.pis_large .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_pis_large_kac == 2 then
 assert(loadstring(supp.tweak .. supp.pis_kac .. supp.dummyunit))()
@@ -5969,6 +6166,8 @@ elseif WacMenu._data.replace_pis_large_kac == 28 then
 assert(loadstring(supp.tweak .. supp.pis_kac .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_large_kac == 29 then
 assert(loadstring(supp.tweak .. supp.pis_kac .. supp.mk12unit))()
+elseif WacMenu._data.replace_pis_large_kac == 30 then
+assert(loadstring(supp.tweak .. supp.pis_kac .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_pis_small == 2 then
 assert(loadstring(supp.tweak .. supp.pis_small .. supp.dummyunit))()
@@ -6026,6 +6225,8 @@ elseif WacMenu._data.replace_pis_small == 28 then
 assert(loadstring(supp.tweak .. supp.pis_small .. supp.shak12unit))()
 elseif WacMenu._data.replace_pis_small == 29 then
 assert(loadstring(supp.tweak .. supp.pis_small .. supp.mk12unit))()
+elseif WacMenu._data.replace_pis_small == 30 then
+assert(loadstring(supp.tweak .. supp.pis_small .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_snakesupp == 2 then
 assert(loadstring(supp.tweak .. supp.snake .. supp.dummyunit))()
@@ -6083,6 +6284,8 @@ elseif WacMenu._data.replace_snakesupp == 28 then
 assert(loadstring(supp.tweak .. supp.snake .. supp.shak12unit))()
 elseif WacMenu._data.replace_snakesupp == 29 then
 assert(loadstring(supp.tweak .. supp.snake .. supp.mk12unit))()
+elseif WacMenu._data.replace_snakesupp == 30 then
+assert(loadstring(supp.tweak .. supp.snake .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_mp7qd_model == 2 then
 assert(loadstring(supp.tweak .. supp.mp7qd .. supp.dummyunit))()
@@ -6140,6 +6343,8 @@ elseif WacMenu._data.replace_mp7qd_model == 28 then
 assert(loadstring(supp.tweak .. supp.mp7qd .. supp.shak12unit))()
 elseif WacMenu._data.replace_mp7qd_model == 29 then
 assert(loadstring(supp.tweak .. supp.mp7qd .. supp.mk12unit))()
+elseif WacMenu._data.replace_mp7qd_model == 30 then
+assert(loadstring(supp.tweak .. supp.mp7qd .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_mp9supp_model == 2 then
 assert(loadstring(supp.tweak .. supp.mp9 .. supp.dummyunit))()
@@ -6197,6 +6402,8 @@ elseif WacMenu._data.replace_mp9supp_model == 28 then
 assert(loadstring(supp.tweak .. supp.mp9 .. supp.shak12unit))()
 elseif WacMenu._data.replace_mp9supp_model == 29 then
 assert(loadstring(supp.tweak .. supp.mp9 .. supp.mk12unit))()
+elseif WacMenu._data.replace_mp9supp_model == 30 then
+assert(loadstring(supp.tweak .. supp.mp9 .. supp.kacchainsawunit))()
 end
 if WacMenu._data.replace_microuzi_supplong == 2 then
 assert(loadstring(supp.tweak .. supp.bakalong .. supp.dummyunit))()
@@ -6254,6 +6461,67 @@ elseif WacMenu._data.replace_microuzi_supplong == 28 then
 assert(loadstring(supp.tweak .. supp.bakalong .. supp.shak12unit))()
 elseif WacMenu._data.replace_microuzi_supplong == 29 then
 assert(loadstring(supp.tweak .. supp.bakalong .. supp.mk12unit))()
+elseif WacMenu._data.replace_microuzi_supplong == 30 then
+assert(loadstring(supp.tweak .. supp.bakalong .. supp.kacchainsawunit))()
+end
+if WacMenu._data.replace_kacchainsaw_ns_supp == 2 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.dummyunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 3 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.smallunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 4 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.mediumunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 5 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.largeunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 6 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pbs1unit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 7 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pis_smallunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 8 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pis_mediumunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 9 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pis_largeunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 10 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pis_medium_gemunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 11 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pis_medium_slimunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 12 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pis_large_kacunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 13 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.filterunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 14 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.pis_jungleunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 15 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.thickunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 16 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.salvounit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 17 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.putnikunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 18 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.vectorunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 19 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.cobrayunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 20 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.sr2unit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 21 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.mp7unit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 22 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.gm45unit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 23 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.scorpionunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 24 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.uziunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 25 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.baka_smallunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 26 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.baka_midunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 27 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.baka_longunit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 28 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.mp9))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 29 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.shak12unit))()
+elseif WacMenu._data.replace_kacchainsaw_ns_supp == 30 then
+assert(loadstring(supp.tweak .. supp.kacchainsaw .. supp.mk12unit))()
 end
 if WacMenu._data.replace_45delta_model == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_o_45rds.unit = "units/pd2_dlc_mxm/weapons/wpn_fps_upg_o_piggyback/wpn_fps_upg_o_piggyback"
