@@ -68,7 +68,8 @@
 				"bm_wp_mp9_b_suppressed",
 				"bm_wp_shak12_ns_suppressor",
 				"bm_wp_m4_upg_fg_mk12",
-				"bm_wp_kacchainsaw_suppressor"
+				"bm_wp_kacchainsaw_suppressor",
+				"bm_wp_upg_ak_ns_tgp"
 			],
 			"value" : "replace_microuzi_supplong",
 			"default_value" : 1

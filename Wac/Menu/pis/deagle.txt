@@ -77,7 +77,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_deagle_co_long",
 			"default_value" : 1
@@ -116,7 +118,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_deagle_co_short",
 			"default_value" : 1

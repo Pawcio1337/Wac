@@ -148,6 +148,25 @@
 			"default_value" : 1
 		},
 		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4_fg_radian",
+			"title" : "bm_wp_m4_uupg_fg_radian",
+			"callback" : "callback_toggle_replace_m4_fg_radian",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndfg_title",
+				"bm_wp_m4_uupg_fg_lr300",
+				"bm_wp_upg_fg_jp",
+				"bm_wp_upg_fg_smr",
+				"bm_wp_upg_ass_m4_fg_lvoa",
+				"bm_wp_upg_ass_m4_fg_moe",
+				"bm_wp_m16_fg_railed",
+				"bm_wp_upg_ass_m16_fg_stag"
+			],
+			"value" : "replace_m4_fg_radian",
+			"default_value" : 1
+		},
+		{
 			"type" : "divider",
 			"size" : 16
 		},
@@ -279,7 +298,12 @@
 				"bm_wp_upg_m4_s_crane",
 				"bm_w_tecci",
 				"bm_w_contraband",
-				"bm_wp_tti_s_vltor"
+				"bm_wp_tti_s_vltor",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_m4_uupg_s_zulu",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
 			],
 			"value" : "replace_m4foldingst",
 			"default_value" : 1
@@ -297,7 +321,12 @@
 				"bm_w_m16",
 				"bm_w_tecci",
 				"bm_w_contraband",
-				"bm_wp_tti_s_vltor"
+				"bm_wp_tti_s_vltor",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_m4_uupg_s_zulu",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
 			],
 			"value" : "replace_m4a1stock1",
 			"default_value" : 1
@@ -315,7 +344,12 @@
 				"bm_w_m16",
 				"bm_w_tecci",
 				"bm_w_contraband",
-				"bm_wp_tti_s_vltor"
+				"bm_wp_tti_s_vltor",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_m4_uupg_s_zulu",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
 			],
 			"value" : "replace_m4a1stock2",
 			"default_value" : 1
@@ -334,7 +368,12 @@
 				"bm_w_m16",
 				"bm_w_tecci",
 				"bm_w_contraband",
-				"bm_wp_tti_s_vltor"
+				"bm_wp_tti_s_vltor",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_m4_uupg_s_zulu",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
 			],
 			"value" : "replace_m4a1stock3",
 			"default_value" : 1
@@ -353,7 +392,12 @@
 				"bm_w_m16",
 				"bm_w_tecci",
 				"bm_w_contraband",
-				"bm_wp_tti_s_vltor"
+				"bm_wp_tti_s_vltor",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_m4_uupg_s_zulu",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
 			],
 			"value" : "replace_m4a1stock4",
 			"default_value" : 1
@@ -371,9 +415,60 @@
 				"bm_wp_upg_m4_s_crane",
 				"bm_w_m16",
 				"bm_w_tecci",
-				"bm_w_contraband"
+				"bm_w_contraband",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_m4_uupg_s_zulu",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
 			],
 			"value" : "replace_m4a1stock5",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4a1stock6",
+			"title" : "bm_wp_victor_s_mod0",
+			"callback" : "callback_toggle_replace_m4a1stock6",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_tecci",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_m4_uupg_s_zulu",
+				"bm_wp_sko12_stock"
+			],
+			"value" : "replace_m4a1stock6",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_m4a1stock7",
+			"title" : "bm_wp_m4_uupg_s_zulu",
+			"callback" : "callback_toggle_replace_m4a1stock7",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_m4_uupg_s_fold",
+				"bm_wp_upg_m4_s_crane",
+				"bm_w_m16",
+				"bm_w_tecci",
+				"bm_w_contraband",
+				"bm_wp_tti_s_vltor",
+				"bm_w_olympic",
+				"bm_wp_olympic_s_short",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
+			],
+			"value" : "replace_m4a1stock7",
 			"default_value" : 1
 		},
 		{

@@ -37,7 +37,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_jprifles",
 			"default_value" : 1
@@ -76,7 +78,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_firepig",
 			"default_value" : 1
@@ -115,7 +119,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_linear",
 			"default_value" : 1
@@ -154,7 +160,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_stubby",
 			"default_value" : 1
@@ -193,7 +201,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_surefire",
 			"default_value" : 1
@@ -232,7 +242,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_v6mb",
 			"default_value" : 1
@@ -275,7 +287,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_kingbreach",
 			"default_value" : 1
@@ -314,7 +328,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_sharkbrake",
 			"default_value" : 1
@@ -353,7 +369,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_duckbill",
 			"default_value" : 1
@@ -396,7 +414,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_pisflashhider",
 			"default_value" : 1
@@ -435,7 +455,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_pistenderizer",
 			"default_value" : 1
@@ -474,7 +496,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_ipsccomp",
 			"default_value" : 1
@@ -513,7 +537,9 @@
 				"bm_w_hajk"
 				"bm_w_contraband",
 				"bm_wp_hk51b_ns_jcomp",
-				"bm_wp_kacchainsaw_muzzle"
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_tk_gc",
 			"default_value" : 1
@@ -521,7 +547,7 @@
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kacchainsaw_ns",
-			"title" : "bm_wp_upg_pis_ns_flash",
+			"title" : "bm_wp_kacchainsaw_muzzle",
 			"callback" : "callback_toggle_replace_kacchainsaw_ns",
 			"items" : [
 				"wac_default_multi",
@@ -552,9 +578,93 @@
 				"bm_wp_tecci_ns_special",
 				"bm_w_hajk"
 				"bm_w_contraband",
-				"bm_wp_hk51b_ns_jcomp"
+				"bm_wp_hk51b_ns_jcomp",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_ak_upg_ns_zenitco"
 			],
 			"value" : "replace_kacchainsaw_ns",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak_ns_jmac",
+			"title" : "bm_wp_upg_ak_ns_jmac",
+			"callback" : "callback_toggle_replace_ak_ns_jmac",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+				"bm_wp_upg_pis_ns_flash",
+				"bm_wp_upg_ns_meatgrinder",
+				"bm_wp_upg_ns_ipsccomp",
+				"bm_wp_upg_ns_typhoon",
+				"bm_wp_upg_shot_ns_king",
+				"bm_wp_ns_duck",
+				"bm_wp_upg_ns_shot_shark",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_ns_battle",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ns_ass_smg_v6",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_w_scar",
+				"bm_w_l85a2",
+				"bm_w_vhs",
+				"bm_wp_cobray_ns_barrelext",
+				"bm_wp_polymer_barrel_precision",
+				"bm_w_vityaz",
+				"bm_wp_shak12_ns_muzzle",
+				"bm_w_tecci",
+				"bm_wp_tecci_ns_special",
+				"bm_w_hajk"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp",
+				"bm_wp_kacchainsaw_muzzle",
+				"bm_wp_ak_upg_ns_zenitco"
+			],
+			"value" : "replace_ak_ns_jmac",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak_ns_zenit",
+			"title" : "bm_wp_ak_upg_ns_zenitco",
+			"callback" : "callback_toggle_replace_ak_ns_zenit",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+				"bm_wp_upg_pis_ns_flash",
+				"bm_wp_upg_ns_meatgrinder",
+				"bm_wp_upg_ns_ipsccomp",
+				"bm_wp_upg_ns_typhoon",
+				"bm_wp_upg_shot_ns_king",
+				"bm_wp_ns_duck",
+				"bm_wp_upg_ns_shot_shark",
+				"bm_wp_upg_ass_ns_jprifles",
+				"bm_wp_upg_ns_ass_smg_tank",
+				"bm_wp_upg_ns_ass_smg_firepig",
+				"bm_wp_ns_battle",
+				"bm_wp_upg_ass_ns_linear",
+				"bm_wp_upg_ns_ass_smg_stubby",
+				"bm_wp_upg_ns_ass_smg_v6",
+				"bm_wp_upg_ass_ns_surefire",
+				"bm_w_scar",
+				"bm_w_l85a2",
+				"bm_w_vhs",
+				"bm_wp_cobray_ns_barrelext",
+				"bm_wp_polymer_barrel_precision",
+				"bm_w_vityaz",
+				"bm_wp_shak12_ns_muzzle",
+				"bm_w_tecci",
+				"bm_wp_tecci_ns_special",
+				"bm_w_hajk"
+				"bm_w_contraband",
+				"bm_wp_hk51b_ns_jcomp",
+				"bm_wp_upg_ak_ns_jmac",
+				"bm_wp_kacchainsaw_muzzle"
+			],
+			"value" : "replace_ak_ns_zenit",
 			"default_value" : 1
 		}
 	]

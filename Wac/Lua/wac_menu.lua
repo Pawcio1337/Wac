@@ -503,6 +503,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_hk416stock5 = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_hk416stock6 = function(self, item)
+		WacMenu._data.replace_hk416stock6 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_hk416stock7 = function(self, item)
+		WacMenu._data.replace_hk416stock7 = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_hk416cvertgrip = function(self, item)
 		WacMenu._data.replace_hk416cvertgrip = item:value()
 		WacMenu:Save()
@@ -591,6 +599,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ar15radianfg = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_m4_fg_radian = function(self, item)
+		WacMenu._data.replace_m4_fg_radian = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_m4a1stndgrip = function(self, item)
 		WacMenu._data.replace_m4a1stndgrip = (item:value() == "on" and true or false)
 		WacMenu:Save()
@@ -643,6 +655,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_m4a1stock5 = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_m4a1stock6 = function(self, item)
+		WacMenu._data.replace_m4a1stock6 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m4a1stock7 = function(self, item)
+		WacMenu._data.replace_m4a1stock7 = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_m4single = function(self, item)
 		WacMenu._data.replace_m4single = (item:value() == "on" and true or false)
 		WacMenu:Save()
@@ -665,6 +685,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_m16ergofg = function(self, item)
 		WacMenu._data.replace_m16ergofg = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m16_fg_radian = function(self, item)
+		WacMenu._data.replace_m16_fg_radian = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_m16stndgrip = function(self, item)
@@ -709,6 +733,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_m16stock4 = function(self, item)
 		WacMenu._data.replace_m16stock4 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m16stock5 = function(self, item)
+		WacMenu._data.replace_m16stock5 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_m16stock6 = function(self, item)
+		WacMenu._data.replace_m16stock6 = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_m16single = function(self, item)
@@ -2715,6 +2747,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_kacchainsaw_ns = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_ak_ns_jmac = function(self, item)
+		WacMenu._data.replace_ak_ns_jmac = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ak_ns_zenit = function(self, item)
+		WacMenu._data.replace_ak_ns_zenit = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_compactlaser = function(self, item)
 		WacMenu._data.replace_compactlaser = item:value()
 		WacMenu:Save()
@@ -2817,6 +2857,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_kacchainsaw_ns_supp = function(self, item)
 		WacMenu._data.replace_kacchainsaw_ns_supp = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_ak_ns_tgp = function(self, item)
+		WacMenu._data.replace_ak_ns_tgp = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_45delta_model = function(self, item)

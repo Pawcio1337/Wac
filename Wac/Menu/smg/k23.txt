@@ -76,7 +76,7 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_m4_s_standard",
-				"bm_wp_m4_s_standard",
+				"bm_w_m4",
 				"bm_wp_m4_s_pts",
 				"bm_w_m16",
 				"bm_wp_upg_m4_s_crane",
@@ -95,7 +95,7 @@
 				"wac_default_multi",
 				"bm_wp_olympic_s_short",
 				"bm_wp_m4_s_standard",
-				"bm_wp_m4_s_standard",
+				"bm_w_m4",
 				"bm_wp_m4_s_pts",
 				"bm_w_m16",
 				"bm_wp_upg_m4_s_crane",
@@ -114,7 +114,7 @@
 				"wac_default_multi",
 				"bm_wp_baka_s_standard",
 				"bm_wp_m4_s_standard",
-				"bm_wp_m4_s_standard",
+				"bm_w_m4",
 				"bm_w_m16",
 				"bm_wp_upg_m4_s_ubr",
 				"bm_wp_tti_s_vltor"
