@@ -1,0 +1,81 @@
+{
+	"menu_id" : "wac_menu_lmg_kacchainsaw",
+	"parent_menu_id" : "wac_menu_lmg",
+	"title" : "bm_w_kacchainsaw",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_kacchainsaw_b_short",
+			"title" : "bm_wp_kacchainsaw_barrel_short",
+			"callback" : "callback_toggle_replace_kacchainsaw_b_short",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title",
+				"bm_wp_kacchainsaw_barrel_long"
+			],
+			"value" : "replace_kacchainsaw_b_short",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_kacchainsaw_b_long",
+			"title" : "bm_wp_kacchainsaw_barrel_long",
+			"callback" : "callback_toggle_replace_kacchainsaw_b_long",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title",
+				"bm_wp_kacchainsaw_barrel_short"
+			],
+			"value" : "replace_kacchainsaw_b_long",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_kacchainsaw_sling",
+			"title" : "bm_wp_kacchainsaw_sling",
+			"callback" : "callback_toggle_replace_kacchainsaw_sling",
+			"items" : [
+				"wac_default_multi",
+				"wac_nomodel_multi"
+			],
+			"value" : "replace_kacchainsaw_sling",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_kacchainsaw_mag_b",
+			"title" : "bm_wp_kacchainsaw_mag_b",
+			"callback" : "callback_toggle_replace_kacchainsaw_mag_b",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_g18c_m_mag_17rnd"
+			],
+			"value" : "replace_kacchainsaw_mag_b",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_kacchainsaw_ck",
+			"title" : "bm_wp_kacchainsaw_conversionkit",
+			"callback" : "callback_toggle_replace_kacchainsaw_ck",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_exclusive_nope_title"
+			],
+			"value" : "replace_kacchainsaw_ck",
+			"default_value" : 1
+		}
+	]
+}

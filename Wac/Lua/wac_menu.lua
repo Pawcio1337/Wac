@@ -1095,6 +1095,26 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ironsightsstriker = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_supernova_b_short = function(self, item)
+		WacMenu._data.replace_supernova_b_short = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_supernova_b_long = function(self, item)
+		WacMenu._data.replace_supernova_b_long = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_supernova_m_extender = function(self, item)
+		WacMenu._data.replace_supernova_m_extender = (item:value() == "on" and true or false)
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_supernova_shell_rack = function(self, item)
+		WacMenu._data.replace_supernova_shell_rack = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_supernova_ck = function(self, item)
+		WacMenu._data.replace_supernova_ck = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_judgegrip = function(self, item)
 		WacMenu._data.replace_judgegrip = item:value()
 		WacMenu:Save()
@@ -1329,6 +1349,26 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_hk51b_s_extended = function(self, item)
 		WacMenu._data.replace_hk51b_s_extended = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_kacchainsaw_b_short = function(self, item)
+		WacMenu._data.replace_kacchainsaw_b_short = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_kacchainsaw_b_long = function(self, item)
+		WacMenu._data.replace_kacchainsaw_b_long = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_kacchainsaw_sling = function(self, item)
+		WacMenu._data.replace_kacchainsaw_sling = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_kacchainsaw_mag_b = function(self, item)
+		WacMenu._data.replace_kacchainsaw_mag_b = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_kacchainsaw_ck = function(self, item)
+		WacMenu._data.replace_kacchainsaw_ck = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_m60shortb = function(self, item)
@@ -3092,6 +3132,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/spas.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/spikex1saiga.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/striker.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/supernova.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/taurus4510.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/m1887.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sh/m1897.txt", WacMenu, WacMenu._data)
@@ -3118,6 +3159,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/m240.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/m249.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/hk21e.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/kacchainsaw.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/m60.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/mg42.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/lmg/rpk.txt", WacMenu, WacMenu._data)
