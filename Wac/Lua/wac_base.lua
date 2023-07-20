@@ -4405,7 +4405,7 @@ elseif WacMenu._data.replace_ar15radianupper == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_upper_reciever_edge"
 elseif WacMenu._data.replace_ar15radianupper == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_upper_reciever_ballos/wpn_fps_upg_ass_m4_upper_reciever_ballos"
-elseif WacMenu._data.replace_ar15radianupper == 4 then
+elseif WacMenu._data.replace_ar15radianupper == 5 then
 	tweak_data.weapon.factory.parts.wpn_fps_m4_uupg_upper_radian.unit = "units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_upper_reciever_core/wpn_fps_upg_ass_m4_upper_reciever_core"
 end
 if WacMenu._data.replace_ar15radianbolt == 2 then
@@ -7446,6 +7446,7 @@ unit_list.m119stock = "wpn_fps_smg_cobray_s_standard"
 unit_list.sko12_stock = "wpn_fps_sho_sko12_stock"
 unit_list.victor_s_mod0 = "wpn_fps_snp_victor_s_mod0"
 unit_list.m4_s_zulu = "wpn_fps_m4_uupg_s_zulu"
+unit_list.ak_s_zenitco = "wpn_fps_upg_ak_s_zenitco"
 
 unit_list.ar15upperround = "wpn_fps_m4_upper_reciever_round_vanilla"
 unit_list.ak74upper = "wpn_fps_ass_74_body_upperreceiver"
@@ -7631,8 +7632,8 @@ parts_list.mpxst = " = {unit = \"units/pd2_dlc_joy/weapons/wpn_fps_smg_shepheard
 parts_list.hcarstock = " = {unit = \"units/pd2_dlc_pxp3/weapons/wpn_fps_lmg_hcar_pts/wpn_fps_lmg_hcar_s\",adds_type = {} }"
 parts_list.sko12_s_mfg = " = {unit = \"units/pd2_dlc_pxp2/weapons/wpn_fps_sho_sko12_pts/wpn_fps_sho_sko12_upg_s_mfg\""
 parts_list.victor_s_mod0 = " = {unit = \"units/pd2_dlc_savi/weapons/wpn_fps_snp_victor_pts/wpn_fps_snp_victor_s_mod0\""
-parts_list.victor_s_mod0 = " = {unit = \"units/pd2_dlc_savi/weapons/wpn_fps_snp_victor_pts/wpn_fps_snp_victor_s_mod0\""
 parts_list.m4_s_zulu = " = {unit = \"units/pd2_dlc_savi/weapons/wpn_fps_uupg_m4/wpn_fps_m4_uupg_s_zulu\",adds_type = {} }"
+parts_list.ak_s_zenitco = " = {unit = \"units/pd2_dlc_mxm/weapons/wpn_upg_ak_mod_pts/wpn_fps_upg_ak_s_zenitco\""
 
 parts_list.akmupper = " = {unit = \"units/payday2/weapons/wpn_fps_ass_akm_pts/wpn_fps_ass_akm_body_upperreceiver\",third_unit = \"units/payday2/weapons/wpn_third_ass_akm_pts/wpn_third_ass_akm_body_upperreceiver\"}"
 parts_list.ak74upper = " = {unit = \"units/payday2/weapons/wpn_fps_ass_74_pts/wpn_fps_ass_74_body_upperreceiver\",third_unit = \"units/payday2/weapons/wpn_third_ass_74_pts/wpn_third_ass_74_body_upperreceiver\"}"
@@ -7822,29 +7823,8 @@ elseif WacMenu._data.replace_ak74stock1 == 8 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.akfold .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
 elseif WacMenu._data.replace_ak74stock1 == 9 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.akfold .. parts_list.galilstndst .. "}"))()
-end
-if WacMenu._data.replace_ak74stock4 == 2 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_ak74stock4 == 3 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.akfolding .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_ak74stock4 == 4 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.pslst))()
-elseif WacMenu._data.replace_ak74stock4 == 5 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.akwoodst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_ak74stock4 == 6 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.rpkst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_ak74stock4 == 7 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.rpkwoodst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_ak74stock4 == 8 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.ar15stndst .. parts_list.ak_grip_adp))()
-elseif WacMenu._data.replace_ak74stock4 == 9 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
-elseif WacMenu._data.replace_ak74stock4 == 10 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
-elseif WacMenu._data.replace_ak74stock4 == 11 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.galilstndst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_ak74stock4 == 12 then
-assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.dummy_unit_open .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock1 == 10 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.akfold .. parts_list.ak_s_zenitco .. "}"))()
 end
 if WacMenu._data.replace_ak74stock2 == 2 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.m4mk46 .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
@@ -7868,6 +7848,8 @@ elseif WacMenu._data.replace_ak74stock2 == 11 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.m4mk46 .. parts_list.galilstndst .. parts_list.ak_grip_noadp))()
 elseif WacMenu._data.replace_ak74stock2 == 12 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.m4mk46 .. parts_list.dummy_unit_open .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock2 == 13 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4mk46 .. parts_list.ak_s_zenitco .. parts_list.ak_grip_noadp))()
 end
 if WacMenu._data.replace_ak74stock3 == 2 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.akwood .. parts_list.akskfoldable .. "}"))()
@@ -7889,6 +7871,52 @@ elseif WacMenu._data.replace_ak74stock3 == 10 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.akwood .. parts_list.galilstndst .. "}"))()
 elseif WacMenu._data.replace_ak74stock3 == 11 then
 assert(loadstring(ovr_ids.ak74 .. unit_list.akwood .. parts_list.dummy_unit_open .. "}"))()
+elseif WacMenu._data.replace_ak74stock3 == 12 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.akwood .. parts_list.ak_s_zenitco .. "}"))()
+end
+if WacMenu._data.replace_ak74stock4 == 2 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock4 == 3 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.akfolding .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock4 == 4 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.pslst))()
+elseif WacMenu._data.replace_ak74stock4 == 5 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.akwoodst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock4 == 6 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.rpkst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock4 == 7 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.rpkwoodst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock4 == 8 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.ar15stndst .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_ak74stock4 == 9 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_ak74stock4 == 10 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_ak74stock4 == 11 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.galilstndst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock4 == 12 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.dummy_unit_open .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_ak74stock4 == 13 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.m4crane .. parts_list.ak_s_zenitco .. parts_list.ak_grip_noadp))()
+end
+if WacMenu._data.replace_ak74stock5 == 2 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.akskfoldable .. "}"))()
+elseif WacMenu._data.replace_ak74stock5 == 3 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.akfolding .. "}"))()
+elseif WacMenu._data.replace_ak74stock5 == 4 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.pslst))()
+elseif WacMenu._data.replace_ak74stock5 == 5 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.akwoodst .. "}"))()
+elseif WacMenu._data.replace_ak74stock5 == 6 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.ar15stndst .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_ak74stock5 == 7 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_ak74stock5 == 8 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_ak74stock5 == 9 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.galilstndst .. "}"))()
+elseif WacMenu._data.replace_ak74stock5 == 10 then
+assert(loadstring(ovr_ids.ak74 .. unit_list.ak_s_zenitco .. parts_list.dummy_unit_open .. "}"))()
 end
 -- AKM
 if not tweak_data.weapon.factory.wpn_fps_ass_akm.override then
@@ -7972,29 +8000,8 @@ elseif WacMenu._data.replace_akmstock1 == 8 then
 assert(loadstring(ovr_ids.akm .. unit_list.akskfoldable .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
 elseif WacMenu._data.replace_akmstock1 == 9 then
 assert(loadstring(ovr_ids.akm .. unit_list.akskfoldable .. parts_list.galilstndst .. "}"))()
-end
-if WacMenu._data.replace_akmstock4 == 2 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.akfolding .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_akmstock4 == 3 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_akmstock4 == 4 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.pslst))()
-elseif WacMenu._data.replace_akmstock4 == 5 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.akwoodst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_akmstock4 == 6 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.rpkst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_akmstock4 == 7 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.rpkwoodst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_akmstock4 == 8 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.ar15stndst .. parts_list.ak_grip_adp))()
-elseif WacMenu._data.replace_akmstock4 == 9 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
-elseif WacMenu._data.replace_akmstock4 == 10 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
-elseif WacMenu._data.replace_akmstock4 == 11 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.galilstndst .. parts_list.ak_grip_noadp))()
-elseif WacMenu._data.replace_akmstock4 == 12 then
-assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.dummy_unit_open .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock1 == 10 then
+assert(loadstring(ovr_ids.akm .. unit_list.akskfoldable .. parts_list.ak_s_zenitco .. "}"))()
 end
 if WacMenu._data.replace_akmstock2 == 2 then
 assert(loadstring(ovr_ids.akm .. unit_list.m4mk46 .. parts_list.akfolding .. parts_list.ak_grip_noadp))()
@@ -8018,6 +8025,8 @@ elseif WacMenu._data.replace_akmstock2 == 11 then
 assert(loadstring(ovr_ids.akm .. unit_list.m4mk46 .. parts_list.galilstndst .. parts_list.ak_grip_noadp))()
 elseif WacMenu._data.replace_akmstock2 == 12 then
 assert(loadstring(ovr_ids.akm .. unit_list.m4mk46 .. parts_list.dummy_unit_open .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock2 == 13 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4mk46 .. parts_list.ak_s_zenitco .. parts_list.ak_grip_noadp))()
 end
 if WacMenu._data.replace_akmstock3 == 2 then
 assert(loadstring(ovr_ids.akm .. unit_list.akwood .. parts_list.akfolding .. "}"))()
@@ -8039,6 +8048,52 @@ elseif WacMenu._data.replace_akmstock3 == 10 then
 assert(loadstring(ovr_ids.akm .. unit_list.akwood .. parts_list.galilstndst .. "}"))()
 elseif WacMenu._data.replace_akmstock3 == 11 then
 assert(loadstring(ovr_ids.akm .. unit_list.akwood .. parts_list.dummy_unit_open .. "}"))()
+elseif WacMenu._data.replace_akmstock3 == 12 then
+assert(loadstring(ovr_ids.akm .. unit_list.akwood .. parts_list.ak_s_zenitco .. "}"))()
+end
+if WacMenu._data.replace_akmstock4 == 2 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.akfolding .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock4 == 3 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock4 == 4 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.pslst))()
+elseif WacMenu._data.replace_akmstock4 == 5 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.akwoodst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock4 == 6 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.rpkst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock4 == 7 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.rpkwoodst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock4 == 8 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.ar15stndst .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmstock4 == 9 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmstock4 == 10 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmstock4 == 11 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.galilstndst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock4 == 12 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.dummy_unit_open .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmstock4 == 13 then
+assert(loadstring(ovr_ids.akm .. unit_list.m4crane .. parts_list.ak_s_zenitco .. parts_list.ak_grip_noadp))()
+end
+if WacMenu._data.replace_akmstock5 == 2 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.akfolding .. "}"))()
+elseif WacMenu._data.replace_akmstock5 == 3 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.akskfoldable .. "}"))()
+elseif WacMenu._data.replace_akmstock5 == 4 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.pslst))()
+elseif WacMenu._data.replace_akmstock5 == 5 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.akwoodst .. "}"))()
+elseif WacMenu._data.replace_akmstock5 == 6 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.ar15stndst .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmstock5 == 7 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmstock5 == 8 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmstock5 == 9 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.galilstndst .. "}"))()
+elseif WacMenu._data.replace_akmstock5 == 10 then
+assert(loadstring(ovr_ids.akm .. unit_list.ak_s_zenitco .. parts_list.dummy_unit_open .. "}"))()
 end
 -- AKM Gold
 if not tweak_data.weapon.factory.wpn_fps_ass_akm_gold.override then
@@ -9553,6 +9608,8 @@ elseif WacMenu._data.replace_akmsustock1 == 7 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.akskfoldable .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
 elseif WacMenu._data.replace_akmsustock1 == 8 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.akskfoldable .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmsustock1 == 9 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.akskfoldable .. parts_list.ak_s_zenitco .. "}"))()
 end
 if WacMenu._data.replace_akmsustock2 == 2 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.m4mk46 .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
@@ -9574,6 +9631,8 @@ elseif WacMenu._data.replace_akmsustock2 == 10 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.m4mk46 .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
 elseif WacMenu._data.replace_akmsustock2 == 11 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.m4mk46 .. parts_list.dummy_unit_open .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_akmsustock2 == 12 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.m4mk46 .. parts_list.ak_s_zenitco .. parts_list.ak_grip_noadp))()
 end
 if WacMenu._data.replace_akmsustock3 == 2 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.akwood .. parts_list.akskfoldable .. "}"))()
@@ -9593,6 +9652,25 @@ elseif WacMenu._data.replace_akmsustock3 == 9 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.akwood .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
 elseif WacMenu._data.replace_akmsustock3 == 10 then
 assert(loadstring(ovr_ids.akmsu .. unit_list.akwood .. parts_list.dummy_unit_open .. "}"))()
+elseif WacMenu._data.replace_akmsustock3 == 11 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.akwood .. parts_list.ak_s_zenitco .. "}"))()
+end
+if WacMenu._data.replace_akmsustock4 == 2 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.akskfoldable .. "}"))()
+elseif WacMenu._data.replace_akmsustock4 == 3 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.akfolding .. "}"))()
+elseif WacMenu._data.replace_akmsustock4 == 4 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.pslst))()
+elseif WacMenu._data.replace_akmsustock4 == 5 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.akwoodst .. "}"))()
+elseif WacMenu._data.replace_akmsustock4 == 6 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.ar15stndst .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmsustock4 == 7 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.ar15pts .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmsustock4 == 8 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.ar15vltor .. parts_list.ak_grip_adp))()
+elseif WacMenu._data.replace_akmsustock4 == 9 then
+assert(loadstring(ovr_ids.akmsu .. unit_list.ak_s_zenitco .. parts_list.dummy_unit_open .. "}"))()
 end
 -- AKMSU Akimbo
 if not tweak_data.weapon.factory.wpn_fps_smg_x_akmsu.override.wpn_fps_upg_ak_m_quad then

@@ -103,6 +103,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ak74stock4 = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_ak74stock5 = function(self, item)
+		WacMenu._data.replace_ak74stock5 = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_ak74upperrec = function(self, item)
 		WacMenu._data.replace_ak74upperrec = item:value()
 		WacMenu:Save()
@@ -157,6 +161,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_akmstock4 = function(self, item)
 		WacMenu._data.replace_akmstock4 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_akmstock5 = function(self, item)
+		WacMenu._data.replace_akmstock5 = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_akmupperrec = function(self, item)
@@ -1909,6 +1917,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	end
 	MenuCallbackHandler.callback_toggle_replace_akmsustock3 = function(self, item)
 		WacMenu._data.replace_akmsustock3 = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_akmsustock4 = function(self, item)
+		WacMenu._data.replace_akmsustock4 = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_akmsu_x_stock = function(self, item)

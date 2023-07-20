@@ -120,7 +120,8 @@
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"bm_w_galil"
+				"bm_w_galil",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_akmstock1",
 			"default_value" : 1
@@ -142,7 +143,8 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_w_galil",
-				"bm_wp_baka_s_standard"
+				"bm_wp_baka_s_standard",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_akmstock4",
 			"default_value" : 1
@@ -164,7 +166,8 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_w_galil",
-				"bm_wp_baka_s_standard"
+				"bm_wp_baka_s_standard",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_akmstock2",
 			"default_value" : 1
@@ -185,9 +188,30 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_w_galil",
-				"bm_wp_baka_s_standard"
+				"bm_wp_baka_s_standard",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_akmstock3",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_akmstock4",
+			"title" : "bm_wp_ak_upg_s_zenitco",
+			"callback" : "callback_toggle_replace_akmstock4",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_psl",
+				"bm_wp_upg_ak_s_solidstock",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_tti_s_vltor",
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
+			],
+			"value" : "replace_akmstock4",
 			"default_value" : 1
 		},
 		{

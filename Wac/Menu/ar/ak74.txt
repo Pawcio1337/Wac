@@ -120,31 +120,10 @@
 				"bm_wp_m4_s_standard",
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
-				"bm_w_galil"
+				"bm_w_galil",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_ak74stock1",
-			"default_value" : 1
-		},
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_ak74stock4",
-			"title" : "bm_wp_upg_m4_s_crane",
-			"callback" : "callback_toggle_replace_ak74stock4",
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_ak_s_skfoldable",
-				"bm_wp_ak_s_folding",
-				"bm_wp_ak_s_psl",
-				"bm_wp_upg_ak_s_solidstock",
-				"bm_wp_rpk_s_standard",
-				"bm_w_rpk",
-				"bm_wp_m4_s_standard",
-				"bm_wp_m4_s_pts",
-				"bm_wp_tti_s_vltor",
-				"bm_w_galil",
-				"bm_wp_baka_s_standard"
-			],
-			"value" : "replace_ak74stock4",
 			"default_value" : 1
 		},
 		{
@@ -164,7 +143,8 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_w_galil",
-				"bm_wp_baka_s_standard"
+				"bm_wp_baka_s_standard",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_ak74stock2",
 			"default_value" : 1
@@ -185,9 +165,53 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_w_galil",
-				"bm_wp_baka_s_standard"
+				"bm_wp_baka_s_standard",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_ak74stock3",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak74stock4",
+			"title" : "bm_wp_upg_m4_s_crane",
+			"callback" : "callback_toggle_replace_ak74stock4",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_psl",
+				"bm_wp_upg_ak_s_solidstock",
+				"bm_wp_rpk_s_standard",
+				"bm_w_rpk",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_tti_s_vltor",
+				"bm_w_galil",
+				"bm_wp_baka_s_standard",
+				"bm_wp_ak_upg_s_zenitco"
+			],
+			"value" : "replace_ak74stock4",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_ak74stock5",
+			"title" : "bm_wp_ak_upg_s_zenitco",
+			"callback" : "callback_toggle_replace_ak74stock5",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_psl",
+				"bm_wp_upg_ak_s_solidstock",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_tti_s_vltor",
+				"bm_w_galil",
+				"bm_wp_baka_s_standard"
+			],
+			"value" : "replace_ak74stock5",
 			"default_value" : 1
 		},
 		{
