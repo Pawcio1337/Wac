@@ -21,7 +21,7 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_replace_aps_extmag",
+			"id" : "toggle_replace_aps_extmag",
 			"title" : "bm_wp_stech_m_extended",
 			"callback" : "callback_toggle_replace_aps_extmag",
 			"items" : [

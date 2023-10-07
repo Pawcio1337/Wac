@@ -607,10 +607,6 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_ar15radianfg = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_m4_fg_radian = function(self, item)
-		WacMenu._data.replace_m4_fg_radian = item:value()
-		WacMenu:Save()
-	end
 	MenuCallbackHandler.callback_toggle_replace_m4a1stndgrip = function(self, item)
 		WacMenu._data.replace_m4a1stndgrip = (item:value() == "on" and true or false)
 		WacMenu:Save()
@@ -1879,6 +1875,14 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_uspmatch = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_t33_b_long = function(self, item)
+		WacMenu._data.replace_t33_b_long = item:value()
+		WacMenu:Save()
+	end
+	MenuCallbackHandler.callback_toggle_replace_t33_m_ext = function(self, item)
+		WacMenu._data.replace_t33_m_ext = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_walterppslide = function(self, item)
 		WacMenu._data.replace_walterppslide = item:value()
 		WacMenu:Save()
@@ -2835,6 +2839,10 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_m3x = item:value()
 		WacMenu:Save()
 	end
+	MenuCallbackHandler.callback_toggle_replace_pis_perst = function(self, item)
+		WacMenu._data.replace_pis_perst = item:value()
+		WacMenu:Save()
+	end
 	MenuCallbackHandler.callback_toggle_replace_glockcrimsonlaser = function(self, item)
 		WacMenu._data.replace_glockcrimsonlaser = item:value()
 		WacMenu:Save()
@@ -3205,6 +3213,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/rsh12.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/coltssa.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/swm29.txt", WacMenu, WacMenu._data)
+	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/tt33.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/pis/waltherppk.txt", WacMenu, WacMenu._data)
 
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/wacmenu_smg.txt", WacMenu, WacMenu._data)

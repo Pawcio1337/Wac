@@ -11,7 +11,8 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_fl_ass_smg_sho_peqbox",
-				"bm_wp_upg_fl_ass_smg_sho_surefire"
+				"bm_wp_upg_fl_ass_smg_sho_surefire",
+				"wac_nomodellaser_multi"
 			],
 			"value" : "replace_compactlaser",
 			"default_value" : 1
@@ -24,7 +25,8 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_fl_ass_smg_sho_peqbox",
-				"bm_wp_upg_fl_ass_smg_sho_surefire"
+				"bm_wp_upg_fl_ass_smg_sho_surefire",
+				"wac_nomodellaser_multi"
 			],
 			"value" : "replace_peq15",
 			"default_value" : 1
@@ -38,7 +40,8 @@
 				"wac_default_multi",
 				"bm_wp_upg_fl_ass_peq15",
 				"bm_wp_upg_fl_ass_smg_sho_peqbox",
-				"bm_wp_upg_fl_ass_smg_sho_surefire"
+				"bm_wp_upg_fl_ass_smg_sho_surefire",
+				"wac_nomodellaser_multi"
 			],
 			"value" : "replace_utg",
 			"default_value" : 1
@@ -52,7 +55,8 @@
 				"wac_default_multi",
 				"bm_wp_upg_fl_ass_peq15",
 				"bm_wp_upg_fl_ass_smg_sho_peqbox",
-				"bm_wp_upg_fl_ass_smg_sho_surefire"
+				"bm_wp_upg_fl_ass_smg_sho_surefire",
+				"wac_nomodellaser_multi"
 			],
 			"value" : "replace_dbal_laser",
 			"default_value" : 1
@@ -70,7 +74,9 @@
 				"wac_default_multi",
 				"bm_wp_upg_fl_pis_laser",
 				"bm_wp_upg_fl_crimson",
-				"bm_wp_upg_fl_pis_tlr1"
+				"bm_wp_upg_fl_pis_tlr1",
+				"bm_wp_upg_fl_pis_perst",
+				"wac_nomodellaser_multi"
 			],
 			"value" : "replace_x400v",
 			"default_value" : 1
@@ -83,7 +89,9 @@
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_upg_fl_pis_laser",
-				"bm_wp_upg_fl_pis_tlr1"
+				"bm_wp_upg_fl_pis_tlr1",
+				"bm_wp_upg_fl_pis_perst",
+				"wac_nomodellaser_multi"
 			],
 			"value" : "replace_cmr201",
 			"default_value" : 1
@@ -98,6 +106,21 @@
 				"bm_wp_upg_fl_pis_tlr1"
 			],
 			"value" : "replace_m3x",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_pis_perst",
+			"title" : "bm_wp_upg_fl_pis_perst",
+			"callback" : "callback_toggle_replace_pis_perst",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_upg_fl_pis_laser",
+				"bm_wp_upg_fl_crimson",
+				"bm_wp_upg_fl_pis_tlr1",
+				"wac_nomodellaser_multi"
+			],
+			"value" : "replace_pis_perst",
 			"default_value" : 1
 		}
 	]

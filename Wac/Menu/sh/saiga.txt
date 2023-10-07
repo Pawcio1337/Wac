@@ -92,7 +92,8 @@
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_rpk_s_standard",
-				"bm_w_rpk"
+				"bm_w_rpk",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_s12kstock1",
 			"default_value" : 1
@@ -109,7 +110,8 @@
 				"bm_wp_ak_s_psl",
 				"bm_wp_upg_ak_s_solidstock",
 				"bm_wp_rpk_s_standard",
-				"bm_w_rpk"
+				"bm_w_rpk",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_s12kstock2",
 			"default_value" : 1
@@ -125,7 +127,8 @@
 				"bm_wp_ak_s_folding",
 				"bm_wp_ak_s_psl",
 				"bm_wp_rpk_s_standard",
-				"bm_w_rpk"
+				"bm_w_rpk",
+				"bm_wp_ak_upg_s_zenitco"
 			],
 			"value" : "replace_s12kstock3",
 			"default_value" : 1

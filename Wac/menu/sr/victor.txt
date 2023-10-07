@@ -12,10 +12,12 @@
 			"items" : [
 				"wac_default_multi",
 				"wac_replace_vggeneric_title",
+				"wac_replace_stubbygrip_title",
+				"wac_replace_afg2_title",
 				"bm_w_tecci",
-				"bm_w_hajk",
-				"bm_w_slap",
+				"bm_w_polymer",
 				"wac_nomodel_multi"
+				"bm_w_tti"
 			],
 			"value" : "replace_victor_herafg",
 			"default_value" : 1

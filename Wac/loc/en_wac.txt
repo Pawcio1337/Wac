@@ -59,6 +59,7 @@
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",
+	"wac_nomodellaser_multi" : "No Model (Only laser)",
 	"wac_zoom_1_def_multi" : "Zoom 1 (Default)",
 	"wac_zoom_2_def_multi" : "Zoom 2 (Default)",
 	"wac_zoom_3_def_multi" : "Zoom 3 (Default)",

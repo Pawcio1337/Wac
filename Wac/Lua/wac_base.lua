@@ -3596,6 +3596,12 @@ elseif WacMenu._data.replace_xm556shortb == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.third_unit = "units/pd2_dlc_dmg/weapons/wpn_third_lmg_shuno_pts/wpn_third_lmg_shuno_b_standard"
 	tweak_data.weapon.factory.parts.wpn_fps_lmg_shuno_b_short.unit = "units/pd2_dlc_dmg/weapons/wpn_fps_lmg_shuno_pts/wpn_fps_lmg_shuno_b_standard"
 end
+if WacMenu._data.replace_t33_b_long == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_pis_type54_b_long.unit = "units/pd2_dlc_tawp/weapons/wpn_fps_pis_type54_pts/wpn_fps_pis_type54_b_standard"
+end
+if WacMenu._data.replace_t33_m_ext == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_pis_type54_m_ext.unit = "units/pd2_dlc_tawp/weapons/wpn_fps_pis_type54_pts/wpn_fps_pis_type54_m_standard"
+end
 -- Attachments
 local ak_fg_ovr = {}
 if not wac_akfg_override_saved then
@@ -5584,6 +5590,9 @@ if WacMenu._data.replace_compactlaser == 2 then
 elseif WacMenu._data.replace_compactlaser == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_laser.third_unit = "units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_surefire/wpn_third_upg_fl_ass_smg_sho_surefire"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_laser.unit = "units/payday2/weapons/wpn_fps_upg_fl_ass_smg_sho_surefire/wpn_fps_upg_fl_ass_smg_sho_surefire"
+elseif WacMenu._data.replace_compactlaser == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_laser.adds = nil
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_laser.unit = "units/payday2_cash/safes/sputnik/weapons/wpn_fps_ass_74_rodina_pts/wpn_upg_ak_fl_legend"
 end
 if WacMenu._data.replace_peq15 == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_peq15.adds = {"wpn_fps_addon_ris"}
@@ -5593,6 +5602,9 @@ elseif WacMenu._data.replace_peq15 == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_peq15.adds = {"wpn_fps_addon_ris"}
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_peq15.third_unit = "units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_surefire/wpn_third_upg_fl_ass_smg_sho_surefire"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_peq15.unit = "units/payday2/weapons/wpn_fps_upg_fl_ass_smg_sho_surefire/wpn_fps_upg_fl_ass_smg_sho_surefire"
+elseif WacMenu._data.replace_peq15 == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_peq15.adds = nil
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_peq15.unit = "units/payday2_cash/safes/sputnik/weapons/wpn_fps_ass_74_rodina_pts/wpn_upg_ak_fl_legend"
 end
 if WacMenu._data.replace_utg == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_utg.third_unit = "units/pd2_dlc_gage_jobs/weapons/wpn_third_upg_fl_ass_peq15/wpn_third_upg_fl_ass_peq15"
@@ -5605,6 +5617,9 @@ elseif WacMenu._data.replace_utg == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_utg.adds = {"wpn_fps_addon_ris"}
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_utg.third_unit = "units/payday2/weapons/wpn_third_upg_fl_ass_smg_sho_surefire/wpn_third_upg_fl_ass_smg_sho_surefire"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_utg.unit = "units/payday2/weapons/wpn_fps_upg_fl_ass_smg_sho_surefire/wpn_fps_upg_fl_ass_smg_sho_surefire"
+elseif WacMenu._data.replace_peq15 == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_utg.adds = nil
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_ass_utg.unit = "units/payday2_cash/safes/sputnik/weapons/wpn_fps_ass_74_rodina_pts/wpn_upg_ak_fl_legend"
 end
 if WacMenu._data.replace_dbal_laser == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_dbal_laser.unit = "units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_fl_ass_peq15/wpn_fps_upg_fl_ass_peq15"
@@ -5612,6 +5627,9 @@ elseif WacMenu._data.replace_dbal_laser == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_dbal_laser.unit = "units/payday2/weapons/wpn_fps_upg_fl_ass_smg_sho_peqbox/wpn_fps_upg_fl_ass_smg_sho_peqbox"
 elseif WacMenu._data.replace_dbal_laser == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_dbal_laser.unit = "units/payday2/weapons/wpn_fps_upg_fl_ass_smg_sho_surefire/wpn_fps_upg_fl_ass_smg_sho_surefire"
+elseif WacMenu._data.replace_dbal_laser == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_dbal_laser.adds = nil
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_dbal_laser.unit = "units/payday2_cash/safes/sputnik/weapons/wpn_fps_ass_74_rodina_pts/wpn_upg_ak_fl_legend"
 end
 if WacMenu._data.replace_x400v == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.adds = {}
@@ -5625,6 +5643,12 @@ elseif WacMenu._data.replace_x400v == 4 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.adds = {}
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.third_unit = "units/payday2/weapons/wpn_third_upg_fl_pis_tlr1/wpn_third_upg_fl_pis_tlr1"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.unit = "units/payday2/weapons/wpn_fps_upg_fl_pis_tlr1/wpn_fps_upg_fl_pis_tlr1"
+elseif WacMenu._data.replace_x400v == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.adds = {}
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.unit = "units/pd2_dlc_lawp/weapons/wpn_fps_upg_fl_pis_perst/wpn_fps_upg_fl_pis_perst"
+elseif WacMenu._data.replace_x400v == 6 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.adds = {}
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_x400v.unit = "units/payday2_cash/safes/sputnik/weapons/wpn_fps_ass_74_rodina_pts/wpn_upg_ak_fl_legend"
 end
 if WacMenu._data.replace_cmr201 == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_crimson.third_unit = "units/payday2/weapons/wpn_third_upg_fl_pis_laser/wpn_third_upg_fl_pis_laser"
@@ -5632,10 +5656,23 @@ if WacMenu._data.replace_cmr201 == 2 then
 elseif WacMenu._data.replace_cmr201 == 3 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_crimson.third_unit = "units/payday2/weapons/wpn_third_upg_fl_pis_tlr1/wpn_third_upg_fl_pis_tlr1"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_crimson.unit = "units/payday2/weapons/wpn_fps_upg_fl_pis_tlr1/wpn_fps_upg_fl_pis_tlr1"
+elseif WacMenu._data.replace_cmr201 == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_crimson.unit = "units/pd2_dlc_lawp/weapons/wpn_fps_upg_fl_pis_perst/wpn_fps_upg_fl_pis_perst"
+elseif WacMenu._data.replace_cmr201 == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_crimson.unit = "units/payday2_cash/safes/sputnik/weapons/wpn_fps_ass_74_rodina_pts/wpn_upg_ak_fl_legend"
 end
 if WacMenu._data.replace_m3x == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_m3x.third_unit = "units/payday2/weapons/wpn_third_upg_fl_pis_tlr1/wpn_third_upg_fl_pis_tlr1"
 	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_m3x.unit = "units/payday2/weapons/wpn_fps_upg_fl_pis_tlr1/wpn_fps_upg_fl_pis_tlr1"
+end
+if WacMenu._data.replace_pis_perst == 2 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_perst.unit = "units/payday2/weapons/wpn_fps_upg_fl_pis_laser/wpn_fps_upg_fl_pis_laser"
+elseif WacMenu._data.replace_pis_perst == 3 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_perst.unit = "units/pd2_crimefest_2014/oct22/weapons/wpn_fps_upg_fl_pis_crimson/wpn_fps_upg_fl_pis_crimson"
+elseif WacMenu._data.replace_pis_perst == 4 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_perst.unit = "units/payday2/weapons/wpn_fps_upg_fl_pis_tlr1/wpn_fps_upg_fl_pis_tlr1"
+elseif WacMenu._data.replace_pis_perst == 5 then
+	tweak_data.weapon.factory.parts.wpn_fps_upg_fl_pis_perst.unit = "units/payday2_cash/safes/sputnik/weapons/wpn_fps_ass_74_rodina_pts/wpn_upg_ak_fl_legend"
 end
 if WacMenu._data.replace_glockcrimsonlaser == 2 then
 	tweak_data.weapon.factory.parts.wpn_fps_pis_g26_g_laser.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
@@ -8460,23 +8497,6 @@ assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15beowulf .. parts_list.ar15longb)
 elseif WacMenu._data.replace_m4a1dmrb == 4 then
 assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15beowulf .. parts_list.ar15shortb .. "}"))()
 end
-if WacMenu._data.replace_m4_fg_radian == 2 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_rail))()
-elseif WacMenu._data.replace_m4_fg_radian == 3 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_lr300))()
-elseif WacMenu._data.replace_m4_fg_radian == 4 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_jp))()
-elseif WacMenu._data.replace_m4_fg_radian == 5 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_smr))()
-elseif WacMenu._data.replace_m4_fg_radian == 6 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_lvoa))()
-elseif WacMenu._data.replace_m4_fg_radian == 7 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_moe))()
-elseif WacMenu._data.replace_m4_fg_radian == 8 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m16_fg_railed))()
-elseif WacMenu._data.replace_m4_fg_radian == 9 then
-assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m16_fg_stag))()
-end
 if WacMenu._data.replace_m4a1stndgrip == true then
 assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15ergogrip .. parts_list.ar15gripstnd))()
 assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15snpgrip .. parts_list.ar15gripstnd))()
@@ -9272,6 +9292,8 @@ elseif WacMenu._data.replace_s12kstock1 == 6 then
 assert(loadstring(ovr_ids.s12k .. unit_list.akskfoldable .. parts_list.rpkst .. "}"))()
 elseif WacMenu._data.replace_s12kstock1 == 7 then
 assert(loadstring(ovr_ids.s12k .. unit_list.akskfoldable .. parts_list.rpkwoodst .. "}"))()
+elseif WacMenu._data.replace_s12kstock1 == 8 then
+assert(loadstring(ovr_ids.s12k .. unit_list.akskfoldable .. parts_list.ak_s_zenitco .. "}"))()
 end
 if WacMenu._data.replace_s12kstock2 == 2 then
 assert(loadstring(ovr_ids.s12k .. unit_list.m4mk46 .. parts_list.akskfoldable .. parts_list.ak_grip_noadp))()
@@ -9285,6 +9307,8 @@ elseif WacMenu._data.replace_s12kstock2 == 6 then
 assert(loadstring(ovr_ids.s12k .. unit_list.m4mk46 .. parts_list.rpkst .. parts_list.ak_grip_noadp))()
 elseif WacMenu._data.replace_s12kstock2 == 7 then
 assert(loadstring(ovr_ids.s12k .. unit_list.m4mk46 .. parts_list.rpkwoodst .. parts_list.ak_grip_noadp))()
+elseif WacMenu._data.replace_s12kstock2 == 8 then
+assert(loadstring(ovr_ids.s12k .. unit_list.m4mk46 .. parts_list.ak_s_zenitco .. parts_list.ak_grip_noadp))()
 end
 if WacMenu._data.replace_s12kstock3 == 2 then
 assert(loadstring(ovr_ids.s12k .. unit_list.akwood .. parts_list.akskfoldable .. "}"))()
@@ -9296,6 +9320,8 @@ elseif WacMenu._data.replace_s12kstock3 == 5 then
 assert(loadstring(ovr_ids.s12k .. unit_list.akwood .. parts_list.rpkst .. "}"))()
 elseif WacMenu._data.replace_s12kstock3 == 6 then
 assert(loadstring(ovr_ids.s12k .. unit_list.akwood .. parts_list.rpkwoodst .. "}"))()
+elseif WacMenu._data.replace_s12kstock3 == 7 then
+assert(loadstring(ovr_ids.s12k .. unit_list.akwood .. parts_list.ak_s_zenitco .. "}"))()
 end
 -- Short 870
 if not tweak_data.weapon.factory.wpn_fps_shot_serbu.override then

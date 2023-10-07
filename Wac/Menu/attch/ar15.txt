@@ -5,28 +5,6 @@
 	"items" : [
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_ar15radianfg",
-			"title" : "bm_wp_m4_uupg_fg_radian",
-			"callback" : "callback_toggle_replace_ar15radianfg",
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_upg_fg_jp",
-				"bm_wp_upg_fg_smr",
-				"bm_wp_m4_uupg_fg_lr300",
-				"bm_wp_upg_ass_m4_fg_lvoa",
-				"bm_wp_upg_ass_m4_fg_moe",
-				"bm_wp_m16_fg_railed",
-				"bm_wp_upg_ass_m16_fg_stag"
-			],
-			"value" : "replace_ar15radianfg",
-			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "multiple_choice",
 			"id" : "toggle_replace_ar15sniper",
 			"title" : "bm_wp_m4_g_sniper",
 			"callback" : "callback_toggle_replace_ar15sniper",
@@ -313,7 +291,7 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_wp_sko12_stock",
-				"wpn_fps_snp_victor_s_mod0"
+				"bm_w_victor"
 			],
 			"value" : "replace_m4_s_ubr",
 			"default_value" : 1
@@ -331,7 +309,7 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_wp_sko12_stock",
-				"wpn_fps_snp_victor_s_mod0"
+				"bm_w_victor"
 			],
 			"value" : "replace_m4_s_mk46",
 			"default_value" : 1
@@ -348,7 +326,7 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_wp_sko12_stock",
-				"wpn_fps_snp_victor_s_mod0"
+				"bm_w_victor"
 			],
 			"value" : "replace_m4_s_crane",
 			"default_value" : 1
@@ -365,7 +343,7 @@
 				"bm_wp_m4_s_pts",
 				"bm_wp_tti_s_vltor",
 				"bm_wp_sko12_stock",
-				"wpn_fps_snp_victor_s_mod0"
+				"bm_w_victor"
 			],
 			"value" : "replace_ar15_s_zulu",
 			"default_value" : 1

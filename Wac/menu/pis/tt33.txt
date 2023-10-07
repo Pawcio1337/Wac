@@ -1,0 +1,35 @@
+{
+	"menu_id" : "wac_menu_pis_tt33",
+	"parent_menu_id" : "wac_menu_tt33",
+	"title" : "bm_w_type54",
+	"items" : [
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_replace_t33_b_long",
+			"title" : "bm_wp_type54_b_long",
+			"callback" : "callback_toggle_replace_t33_b_long",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_stndb_title"
+			],
+			"value" : "replace_t33_b_long",
+			"default_value" : 1
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_t33_m_ext",
+			"title" : "bm_wp_type54_m_ext",
+			"callback" : "callback_toggle_replace_t33_m_ext",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_g18c_m_mag_17rnd"
+			],
+			"value" : "replace_t33_m_ext",
+			"default_value" : 1
+		}
+	]
+}
