@@ -7386,6 +7386,8 @@ if WacMenu._data.fixes == true then
 	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_ass_asval_b_standard, {forbids = {"wpn_fps_addon_ris"}})
 	tweak_data.weapon.factory.parts.wpn_fps_aug_ris_special.third_unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
 	tweak_data.weapon.factory.parts.wpn_fps_aug_ris_special.unit = "units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_fg_moe, {forbids = {"wpn_fps_addon_ris"}})
+	table.map_append(tweak_data.weapon.factory.parts.wpn_fps_upg_ass_m4_fg_lvoa, {forbids = {"wpn_fps_addon_ris"}})
 -- OVK moment fixes
 	tweak_data.weapon.factory.parts.wpn_fps_uupg_fg_radian.forbids = nil
 	tweak_data.weapon.factory.parts.wpn_fps_upg_ak_body_upperreceiver_zenitco.forbids = nil
@@ -7570,15 +7572,16 @@ parts_list.akgoldfg = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusabl
 parts_list.akstndfg = " = {unit = \"units/payday2/weapons/wpn_fps_upg_ak_reusable/wpn_upg_ak_fg_standard\",third_unit = \"units/payday2/weapons/wpn_third_upg_ak_reusable/wpn_third_upg_ak_fg_standard\",forbids = {} }"
 parts_list.akkrebs = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_fg_krebs/wpn_fps_upg_ak_fg_krebs\",third_unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ak_fg_krebs/wpn_third_upg_ak_fg_krebs\"}"
 parts_list.aktraxx = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ak_fg_trax/wpn_fps_upg_ak_fg_trax\",third_unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_third_upg_ak_fg_trax/wpn_third_upg_ak_fg_trax\"}"
-parts_list.m4_fg_rail = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_rail\"}"
-parts_list.m4_fg_lr300 = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_lr300\",forbids = {} }"
+parts_list.m4_fg_rail = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_rail\",forbids = {\"wpn_fps_addon_ris\"}"
+parts_list.m4_fg_rail_block = ",adds = { \"wpn_fps_m4_uupg_fg_rail_ext\" } }"
+parts_list.m4_fg_lr300 = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m4_pts/wpn_fps_m4_uupg_fg_lr300\",forbids = {\"wpn_fps_addon_ris\"} }"
 parts_list.m4_fg_jp = " = {unit = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_fg_jp/wpn_fps_upg_fg_jp\",forbids = {} }"
 parts_list.m4_fg_smr = " = {unit = \"units/pd2_dlc_gage_jobs/weapons/wpn_fps_upg_fg_smr/wpn_fps_upg_fg_smr\"}"
-parts_list.m4_fg_lvoa = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_lvoa/wpn_fps_upg_ass_m4_fg_lvoa\"}"
-parts_list.m4_fg_moe = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_moe/wpn_fps_upg_ass_m4_fg_moe\"}"
-parts_list.m16_fg_amcar = " = {unit = \"units/payday2/weapons/wpn_fps_ass_amcar_pts/wpn_fps_amcar_uupg_fg_amcar\",forbids = {} }"
+parts_list.m4_fg_lvoa = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_lvoa/wpn_fps_upg_ass_m4_fg_lvoa\",forbids = {\"wpn_fps_addon_ris\"} }"
+parts_list.m4_fg_moe = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m4_fg_moe/wpn_fps_upg_ass_m4_fg_moe\",forbids = {\"wpn_fps_addon_ris\"} }"
+parts_list.m16_fg_amcar = " = {unit = \"units/payday2/weapons/wpn_fps_ass_amcar_pts/wpn_fps_amcar_uupg_fg_amcar\"}"
 parts_list.m16_fg_standard = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_fg_standard\",forbids = {} }"
-parts_list.m16_fg_railed = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_fg_railed\"}"
+parts_list.m16_fg_railed = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_fg_railed\",forbids = {\"wpn_fps_addon_ris\"} }"
 parts_list.m16_fg_vietnam = " = {unit = \"units/payday2/weapons/wpn_fps_ass_m16_pts/wpn_fps_m16_fg_vietnam\",forbids = {} }"
 parts_list.m16_fg_stag = " = {unit = \"units/pd2_dlc_akm4_modpack/weapons/wpn_fps_upg_ass_m16_fg_stag/wpn_fps_upg_ass_m16_fg_stag\"}"
 
@@ -8497,6 +8500,23 @@ assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15beowulf .. parts_list.ar15longb)
 elseif WacMenu._data.replace_m4a1dmrb == 4 then
 assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15beowulf .. parts_list.ar15shortb .. "}"))()
 end
+if WacMenu._data.replace_m4_fg_radian == 2 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_rail .. parts_list.m4_fg_rail_block))()
+elseif WacMenu._data.replace_m4_fg_radian == 3 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_lr300))()
+elseif WacMenu._data.replace_m4_fg_radian == 4 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_jp))()
+elseif WacMenu._data.replace_m4_fg_radian == 5 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_smr))()
+elseif WacMenu._data.replace_m4_fg_radian == 6 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_lvoa))()
+elseif WacMenu._data.replace_m4_fg_radian == 7 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_moe))()
+elseif WacMenu._data.replace_m4_fg_radian == 8 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m16_fg_railed))()
+elseif WacMenu._data.replace_m4_fg_radian == 9 then
+assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15_fg_radian .. parts_list.m16_fg_stag))()
+end
 if WacMenu._data.replace_m4a1stndgrip == true then
 assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15ergogrip .. parts_list.ar15gripstnd))()
 assert(loadstring(ovr_ids.m4a1 .. unit_list.ar15snpgrip .. parts_list.ar15gripstnd))()
@@ -8815,7 +8835,7 @@ assert(loadstring(ovr_ids.m16 .. unit_list.ar15_fg_radian .. parts_list.m16_fg_s
 elseif WacMenu._data.replace_m16_fg_radian == 6 then
 assert(loadstring(ovr_ids.m16 .. unit_list.ar15_fg_radian .. parts_list.m16_fg_amcar))()
 elseif WacMenu._data.replace_m16_fg_radian == 7 then
-assert(loadstring(ovr_ids.m16 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_rail))()
+assert(loadstring(ovr_ids.m16 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_rail .. "}"))()
 elseif WacMenu._data.replace_m16_fg_radian == 8 then
 assert(loadstring(ovr_ids.m16 .. unit_list.ar15_fg_radian .. parts_list.m4_fg_lr300))()
 elseif WacMenu._data.replace_m16_fg_radian == 9 then

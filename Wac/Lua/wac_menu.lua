@@ -603,8 +603,8 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 		WacMenu._data.replace_m4moefg = item:value()
 		WacMenu:Save()
 	end
-	MenuCallbackHandler.callback_toggle_replace_ar15radianfg = function(self, item)
-		WacMenu._data.replace_ar15radianfg = item:value()
+	MenuCallbackHandler.callback_toggle_replace_m4_fg_radian = function(self, item)
+		WacMenu._data.replace_m4_fg_radian = item:value()
 		WacMenu:Save()
 	end
 	MenuCallbackHandler.callback_toggle_replace_m4a1stndgrip = function(self, item)
