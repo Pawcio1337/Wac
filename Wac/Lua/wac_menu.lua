@@ -3169,7 +3169,7 @@ Hooks:Add("MenuManagerInitialize", "MenuManagerInitialize_WacMenu", function(men
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/scout.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/srs.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/svd.txt", WacMenu, WacMenu._data)
-	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/victor.txt", WacMenu, WacMenu._data)
+--	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/victor.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/wa2000.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/winchesterm1873.txt", WacMenu, WacMenu._data)
 	MenuHelper:LoadFromJsonFile(WacMenu._path .. "menu/sr/model70.txt", WacMenu, WacMenu._data)

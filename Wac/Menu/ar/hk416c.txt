@@ -230,28 +230,6 @@
 			],
 			"value" : "replace_hk416stock7",
 			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_hk416cvertgrip",
-			"title" : "wac_replace_stndvg_title",
-			"desc" : "wac_vgnomodel_desc",
-			"callback" : "callback_toggle_replace_hk416cvertgrip",
-			"items" : [
-				"wac_default_multi",
-				"wac_replace_stubbygrip_title",
-				"wac_replace_vggeneric_title",
-				"wac_replace_afg2_title",
-				"bm_w_polymer",
-				"wac_nomodel_multi",
-				"bm_w_tti"
-			],
-			"value" : "replace_hk416cvertgrip",
-			"default_value" : 1
 		}
 	]
 }

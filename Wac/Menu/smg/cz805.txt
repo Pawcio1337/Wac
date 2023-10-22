@@ -69,27 +69,6 @@
 			],
 			"value" : "replace_cz805st",
 			"default_value" : 1
-		},{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_cz805vertgrip",
-			"title" : "wac_replace_stndvg_title",
-			"desc" : "wac_vgnomodel_desc",
-			"callback" : "callback_toggle_replace_cz805vertgrip",
-			"items" : [
-				"wac_default_multi",
-				"wac_replace_stubbygrip_title",
-				"wac_replace_vggeneric_title",
-				"afg2_multi",
-				"bm_w_tecci",
-				"bm_w_polymer",
-				"wac_nomodel_multi"
-			],
-			"value" : "replace_cz805vertgrip",
-			"default_value" : 1
 		},
 		{
 			"type" : "divider",

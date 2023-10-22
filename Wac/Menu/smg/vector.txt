@@ -24,23 +24,6 @@
 			"size" : 16
 		},
 		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_vectorvertgrip",
-			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_vectorvertgrip",
-			"items" : [
-				"wac_default_multi",
-				"bm_w_tecci",
-				"wac_nomodel_multi"
-			],
-			"value" : "replace_vectorvertgrip",
-			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
 			"type" : "toggle",
 			"id" : "toggle_replace_vectorstock",
 			"title" : "wac_replace_usestndst_title",

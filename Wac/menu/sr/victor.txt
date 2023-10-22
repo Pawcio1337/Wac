@@ -3,24 +3,5 @@
 	"parent_menu_id" : "wac_menu_sr",
 	"title" : "bm_w_victor",
 	"items" : [
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_victor_herafg",
-			"title" : "wac_replace_stndvg_title",
-			"desc" : "wac_vgnomodel_desc",
-			"callback" : "callback_toggle_replace_victor_herafg",
-			"items" : [
-				"wac_default_multi",
-				"wac_replace_vggeneric_title",
-				"wac_replace_stubbygrip_title",
-				"wac_replace_afg2_title",
-				"bm_w_tecci",
-				"bm_w_polymer",
-				"wac_nomodel_multi"
-				"bm_w_tti"
-			],
-			"value" : "replace_victor_herafg",
-			"default_value" : 1
-		}
 	]
 }

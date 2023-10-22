@@ -46,28 +46,6 @@
 		},
 		{
 			"type" : "multiple_choice",
-			"id" : "toggle_replace_afg2",
-			"title" : "wac_replace_afg2_title",
-			"desc" : "wac_vgnomodel_desc",
-			"callback" : "callback_toggle_replace_afg2",
-			"items" : [
-				"wac_default_multi",
-				"wac_replace_stubbygrip_title",
-				"wac_replace_vggeneric_title",
-				"bm_w_tecci",
-				"bm_w_polymer",
-				"wac_nomodel_multi",
-				"bm_w_tti"
-			],
-			"value" : "replace_afg2",
-			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "multiple_choice",
 			"id" : "toggle_replace_scarhsnipstock",
 			"title" : "bm_wp_scar_s_sniper",
 			"callback" : "callback_toggle_replace_scarhsnipstock",

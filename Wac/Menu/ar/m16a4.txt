@@ -97,7 +97,6 @@
 			"value" : "replace_m16ergofg",
 			"default_value" : 1
 		},
-
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m16_fg_radian",

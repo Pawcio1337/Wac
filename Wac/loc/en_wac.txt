@@ -18,7 +18,7 @@
 	"wac_singlefiremode_desc" : "Weapon default fire mode will be set to single fire.",
 	"wac_restartreloadneeded_desc" : "To apply this option reload map or restart the game.",
 	"wac_pd2jankcode_desc" : "Warning: Due how attachment is coded there can be some bugs after enabling this option.",
-	"wac_vgnomodel_desc" : "Note: Using No Model option will result in left hand floating in air.",
+	"wac_replace_hajk_vg_moe_desc" : "This vertical grip is used by following weapons: FN F2000 (Corgi), CZ 805 BREN A1 (Hajk) and SIX12 (Rota).",
 
 	"wac_replace_stndb_title" : "Standard Barrel",
 	"wac_replace_stndfg_title" : "Standard Foregrip",
@@ -56,6 +56,8 @@
 	"wac_replace_exclusive_nope_title" : "Standard model",
 	"wac_replace_hcarkitdrum_title" : "Standard with Drum Mag",
 	"wac_replace_awpnosnd_nope_title" : "Standard without sound",
+	"wac_replace_hajk_vg_moe_title" : "MOE Vertical Grip",
+	"wac_replace_nobackupsight_title" : "Remove iron sights",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",
