@@ -95,26 +95,6 @@
 			],
 			"value" : "replace_mp7foldst",
 			"default_value" : 1
-		},
-		{
-			"type" : "divider",
-			"size" : 16
-		},
-		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_mp7vertgrip",
-			"title" : "wac_replace_stndvg_title",
-			"callback" : "callback_toggle_replace_mp7vertgrip",
-			"items" : [
-				"wac_default_multi",
-				"wac_replace_vggeneric_title",
-				"bm_w_tecci",
-				"bm_w_hajk",
-				"bm_w_slap",
-				"wac_nomodel_multi"
-			],
-			"value" : "replace_mp7vertgrip",
-			"default_value" : 1
 		}
 	]
 }

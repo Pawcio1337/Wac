@@ -64,6 +64,24 @@
 		},
 		{
 			"type" : "multiple_choice",
+			"id" : "toggle_replace_mp7vertgrip",
+			"title" : "bm_w_mp7",
+			"callback" : "callback_toggle_replace_mp7vertgrip",
+			"items" : [
+				"wac_default_multi",
+				"wac_replace_vggeneric_title",
+				"bm_w_polymer",
+				"wac_replace_afg2_title",
+				"bm_w_tecci",
+				"wac_replace_hajk_vg_moe_title",
+				"bm_w_tti",
+				"bm_w_slap"
+			],
+			"value" : "replace_mp7vertgrip",
+			"default_value" : 1
+		},
+		{
+			"type" : "multiple_choice",
 			"id" : "toggle_replace_vectorvertgrip",
 			"title" : "bm_w_polymer",
 			"callback" : "callback_toggle_replace_vectorvertgrip",
