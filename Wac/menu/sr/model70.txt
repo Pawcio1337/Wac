@@ -4,9 +4,14 @@
 	"title" : "bm_w_model70",
 	"items" : [
 		{
+			"title" : "bm_wp_model70_ns_suppressor",
+			"id" : "text_bm_wp_model70_ns_suppressor",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_model70_supp",
-			"title" : "bm_wp_model70_ns_suppressor",
+			"title" : "",
 			"callback" : "callback_toggle_replace_model70_supp",
 			"items" : [
 				"wac_default_multi",

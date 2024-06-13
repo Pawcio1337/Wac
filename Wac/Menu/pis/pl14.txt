@@ -4,9 +4,14 @@
 	"title" : "bm_w_pl14",
 	"items" : [
 		{
+			"title" : "bm_wp_pl14_b_comp",
+			"id" : "text_bm_wp_pl14_b_comp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pl14protob",
-			"title" : "bm_wp_pl14_b_comp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_pl14protob",
 			"items" : [
 				"wac_default_multi",
@@ -18,7 +23,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

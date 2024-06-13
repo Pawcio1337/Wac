@@ -4,9 +4,14 @@
 	"title" : "bm_w_vhs",
 	"items" : [
 		{
+			"title" : "bm_wp_vhs_b_short",
+			"id" : "text_bm_wp_vhs_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vhsshortb",
-			"title" : "bm_wp_vhs_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_vhsshortb",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_vhs_b_sniper",
+			"id" : "text_bm_wp_vhs_b_sniper",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vhslongb",
-			"title" : "bm_wp_vhs_b_sniper",
+			"title" : "",
 			"callback" : "callback_toggle_replace_vhslongb",
 			"items" : [
 				"wac_default_multi",
@@ -47,7 +57,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

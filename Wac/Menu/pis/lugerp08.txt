@@ -4,9 +4,14 @@
 	"title" : "bm_w_breech",
 	"items" : [
 		{
+			"title" : "bm_wp_breech_b_reinforced",
+			"id" : "text_bm_wp_breech_b_reinforced",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_lugerp08_reinforcedb",
-			"title" : "bm_wp_breech_b_reinforced",
+			"title" : "",
 			"callback" : "callback_toggle_replace_lugerp08_reinforcedb",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_breech_b_short",
+			"id" : "text_bm_wp_breech_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_lugerp08_shortb",
-			"title" : "bm_wp_breech_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_lugerp08_shortb",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_hk51b",
 	"items" : [
 		{
+			"title" : "bm_wp_hk51b_b_fluted",
+			"id" : "text_bm_wp_hk51b_b_fluted",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk51b_b_fluted",
-			"title" : "bm_wp_hk51b_b_fluted",
+			"title" : "",
 			"callback" : "callback_toggle_replace_hk51b_b_fluted",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_hk51b_fg_railed",
+			"id" : "text_bm_wp_hk51b_fg_railed",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk51b_fg_railed",
-			"title" : "bm_wp_hk51b_fg_railed",
+			"title" : "",
 			"callback" : "callback_toggle_replace_hk51b_fg_railed",
 			"items" : [
 				"wac_default_multi",
@@ -33,12 +43,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_hk51b_s_extended",
+			"id" : "text_bm_wp_hk51b_s_extended",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk51b_s_extended",
-			"title" : "bm_wp_hk51b_s_extended",
+			"title" : "",
 			"callback" : "callback_toggle_replace_hk51b_s_extended",
 			"items" : [
 				"wac_default_multi",

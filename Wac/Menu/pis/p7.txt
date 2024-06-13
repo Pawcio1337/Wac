@@ -4,9 +4,14 @@
 	"title" : "bm_w_legacy",
 	"items" : [
 		{
+			"title" : "bm_wp_legacy_b_threaded",
+			"id" : "text_bm_wp_legacy_b_threaded",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_p7threadb",
-			"title" : "bm_wp_legacy_b_threaded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_p7threadb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_legacy_g_wood",
+			"id" : "text_bm_wp_legacy_g_wood",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p7gripwood",
-			"title" : "bm_wp_legacy_g_wood",
+			"title" : "",
 			"callback" : "callback_toggle_replace_p7gripwood",
 			"items" : [
 				"wac_default_multi",

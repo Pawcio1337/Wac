@@ -4,9 +4,14 @@
 	"title" : "bm_w_par",
 	"items" : [
 		{
+			"title" : "bm_wp_par_b_short",
+			"id" : "text_bm_wp_par_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m240shortb",
-			"title" : "bm_wp_par_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m240shortb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_par_s_plastic",
+			"id" : "text_bm_wp_par_s_plastic",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m240plasticst",
-			"title" : "bm_wp_par_s_plastic",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m240plasticst",
 			"items" : [
 				"wac_default_multi",

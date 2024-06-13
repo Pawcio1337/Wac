@@ -21,7 +21,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -33,12 +33,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_upg_ak_m_quad",
+			"id" : "text_bm_wp_upg_ak_m_quad",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12quad",
-			"title" : "bm_wp_upg_ak_m_quad",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak12quad",
 			"items" : [
 				"wac_default_multi",
@@ -53,9 +58,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ak_m_uspalm",
+			"id" : "text_bm_wp_upg_ak_m_uspalm",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12uspalm",
-			"title" : "bm_wp_upg_ak_m_uspalm",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak12uspalm",
 			"items" : [
 				"wac_default_multi",
@@ -67,9 +77,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_ak_m_quick",
+			"id" : "text_bm_wp_ak_m_quick",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak12magpulassist",
-			"title" : "bm_wp_ak_m_quick",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak12magpulassist",
 			"items" : [
 				"wac_default_multi",
@@ -84,7 +99,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

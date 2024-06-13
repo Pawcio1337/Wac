@@ -4,9 +4,14 @@
 	"title" : "bm_w_r870",
 	"items" : [
 		{
+			"title" : "bm_wp_r870_fg_wood",
+			"id" : "text_bm_wp_r870_fg_wood",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870zhpump",
-			"title" : "bm_wp_r870_fg_wood",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r870zhpump",
 			"items" : [
 				"wac_default_multi",
@@ -19,7 +24,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -31,12 +36,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_r870_s_nostock",
+			"id" : "text_bm_wp_r870_s_nostock",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870stock1",
-			"title" : "bm_wp_r870_s_nostock",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r870stock1",
 			"items" : [
 				"wac_default_multi",
@@ -48,9 +58,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_r870_s_solid_big",
+			"id" : "text_bm_wp_r870_s_solid_big",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870stock2",
-			"title" : "bm_wp_r870_s_solid_big",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r870stock2",
 			"items" : [
 				"wac_default_multi",
@@ -62,9 +77,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_m4_s_mk46",
+			"id" : "text_bm_wp_upg_m4_s_mk46",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870stock3",
-			"title" : "bm_wp_upg_m4_s_mk46",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r870stock3",
 			"items" : [
 				"wac_default_multi",
@@ -78,12 +98,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_r870_body_rack",
+			"id" : "text_bm_wp_r870_body_rack",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shellrack",
-			"title" : "bm_wp_r870_body_rack",
+			"title" : "",
 			"callback" : "callback_toggle_replace_shellrack",
 			"items" : [
 				"wac_default_multi",

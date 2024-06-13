@@ -4,9 +4,14 @@
 	"title" : "bm_w_sterling",
 	"items" : [
 		{
+			"title" : "bm_wp_sterling_b_long",
+			"id" : "text_bm_wp_sterling_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l2a1longb",
-			"title" : "bm_wp_sterling_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l2a1longb",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_sterling_b_short",
+			"id" : "text_bm_wp_sterling_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l2a1shortb",
-			"title" : "bm_wp_sterling_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l2a1shortb",
 			"items" : [
 				"wac_default_multi",
@@ -31,12 +41,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_sterling_m_long",
+			"id" : "text_bm_wp_sterling_m_long",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l2a1extmag",
-			"title" : "bm_wp_sterling_m_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l2a1extmag",
 			"items" : [
 				"wac_default_multi",
@@ -46,9 +61,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_sterling_m_short",
+			"id" : "text_bm_wp_sterling_m_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l2a1smallmag",
-			"title" : "bm_wp_sterling_m_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l2a1smallmag",
 			"items" : [
 				"wac_default_multi",
@@ -59,12 +79,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_sterling_s_solid",
+			"id" : "text_bm_wp_sterling_s_solid",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l2a1solidstock",
-			"title" : "bm_wp_sterling_s_solid",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l2a1solidstock",
 			"items" : [
 				"wac_default_multi",
@@ -76,9 +101,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_akimbost_title",
+			"id" : "text_wac_replace_akimbost_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l2a1x_st",
-			"title" : "wac_replace_akimbost_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l2a1x_st",
 			"items" : [
 				"wac_default_multi",

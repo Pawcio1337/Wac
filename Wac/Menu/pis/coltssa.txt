@@ -4,9 +4,14 @@
 	"title" : "bm_w_peacemaker",
 	"items" : [
 		{
+			"title" : "bm_wp_peacemaker_barrel_long",
+			"id" : "text_bm_wp_peacemaker_barrel_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltbuntlineb",
-			"title" : "bm_wp_peacemaker_barrel_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_coltbuntlineb",
 			"items" : [
 				"wac_default_multi",
@@ -18,12 +23,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_peacemaker_handle_bling",
+			"id" : "text_bm_wp_peacemaker_handle_bling",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltssabling",
-			"title" : "bm_wp_peacemaker_handle_bling",
+			"title" : "",
 			"callback" : "callback_toggle_replace_coltssabling",
 			"items" : [
 				"wac_default_multi",
@@ -34,12 +44,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_peacemaker_rifle_stock",
+			"id" : "text_bm_wp_peacemaker_rifle_stock",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltsaastock",
-			"title" : "bm_wp_peacemaker_rifle_stock",
+			"title" : "",
 			"callback" : "callback_toggle_replace_coltsaastock",
 			"items" : [
 				"wac_default_multi",

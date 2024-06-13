@@ -13,12 +13,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_m4_s_standard",
+			"id" : "text_bm_wp_m4_s_standard",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk417stndst",
-			"title" : "bm_wp_m4_s_standard",
+			"title" : "",
 			"callback" : "callback_toggle_replace_hk417stndst",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_rota",
 	"items" : [
 		{
+			"title" : "bm_wp_rota_b_standard",
+			"id" : "text_bm_wp_rota_b_standard",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cyresix12shortb",
-			"title" : "bm_wp_rota_b_standard",
+			"title" : "",
 			"callback" : "callback_toggle_replace_cyresix12shortb",
 			"items" : [
 				"wac_default_multi",

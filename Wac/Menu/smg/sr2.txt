@@ -13,12 +13,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_sr2_m_quick",
+			"id" : "text_bm_wp_sr2_m_quick",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sr2magpulassist",
-			"title" : "bm_wp_sr2_m_quick",
+			"title" : "",
 			"callback" : "callback_toggle_replace_sr2magpulassist",
 			"items" : [
 				"wac_default_multi",
@@ -29,12 +34,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_sr2_s_unfolded",
+			"id" : "text_bm_wp_sr2_s_unfolded",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sr2unfoldst",
-			"title" : "bm_wp_sr2_s_unfolded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_sr2unfoldst",
 			"items" : [
 				"wac_default_multi",

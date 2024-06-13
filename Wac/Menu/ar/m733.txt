@@ -4,9 +4,14 @@
 	"title" : "bm_w_amcar",
 	"items" : [
 		{
+			"title" : "wac_replace_stndfg_title",
+			"id" : "text_wac_replace_stndfg_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733fg",
-			"title" : "wac_replace_stndfg_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m733fg",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "wac_replace_usestndgrip_title",
+			"id" : "text_wac_replace_usestndgrip_title",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733grip",
-			"title" : "wac_replace_usestndgrip_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m733grip",
 			"items" : [
 				"wac_default_multi",
@@ -36,12 +46,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "wac_replace_usestnd_title",
+			"id" : "text_wac_replace_usestnd_title",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733stock",
-			"title" : "wac_replace_usestnd_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m733stock",
 			"items" : [
 				"wac_default_multi",
@@ -58,12 +73,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_menu_lower_reciever",
+			"id" : "text_bm_menu_lower_reciever",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733lower",
-			"title" : "bm_menu_lower_reciever",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m733lower",
 			"items" : [
 				"wac_default_multi",
@@ -73,9 +93,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_menu_upper_reciever",
+			"id" : "text_bm_menu_upper_reciever",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733upper",
-			"title" : "bm_menu_upper_reciever",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m733upper",
 			"items" : [
 				"wac_default_multi",
@@ -87,9 +112,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_ar15bolt_title",
+			"id" : "text_wac_replace_ar15bolt_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733bolt",
-			"title" : "wac_replace_ar15bolt_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m733bolt",
 			"items" : [
 				"wac_default_multi",
@@ -101,9 +131,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_ar15handle_title",
+			"id" : "text_wac_replace_ar15handle_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m733handle",
-			"title" : "wac_replace_ar15handle_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m733handle",
 			"items" : [
 				"wac_default_multi",

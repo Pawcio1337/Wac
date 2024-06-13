@@ -19,6 +19,7 @@
 	"wac_restartreloadneeded_desc" : "To apply this option reload map or restart the game.",
 	"wac_pd2jankcode_desc" : "Warning: Due how attachment is coded there can be some bugs after enabling this option.",
 	"wac_replace_hajk_vg_moe_desc" : "This vertical grip is used by following weapons: FN F2000 (Corgi), CZ 805 BREN A1 (Hajk) and SIX12 (Rota).",
+	"wac_k23_m4a1sight_desc" : "Replace handle sight with M4A1 iron sights when using handguards options that can't use front post.",
 
 	"wac_replace_stndb_title" : "Standard Barrel",
 	"wac_replace_stndfg_title" : "Standard Foregrip",
@@ -58,6 +59,7 @@
 	"wac_replace_awpnosnd_nope_title" : "Standard without sound",
 	"wac_replace_hajk_vg_moe_title" : "MOE Vertical Grip",
 	"wac_replace_nobackupsight_title" : "Remove iron sights",
+	"wac_replace_hidemarksman_title" : "Hide Marksman Sight model",
 
 	"wac_default_multi" : "Default",
 	"wac_nomodel_multi" : "No Model",

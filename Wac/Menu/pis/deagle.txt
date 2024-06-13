@@ -4,9 +4,14 @@
 	"title" : "bm_w_deagle",
 	"items" : [
 		{
+			"title" : "wac_replace_stndb_title",
+			"id" : "text_wac_replace_stndb_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deaglestndb",
-			"title" : "wac_replace_stndb_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_deaglestndb",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_deagle_b_long",
+			"id" : "text_bm_wp_deagle_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deaglelongb",
-			"title" : "bm_wp_deagle_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_deaglelongb",
 			"items" : [
 				"wac_default_multi",
@@ -28,9 +38,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_deagle_b_modern",
+			"id" : "text_bm_wp_deagle_b_modern",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deaglel6b",
-			"title" : "bm_wp_deagle_b_modern",
+			"title" : "",
 			"callback" : "callback_toggle_replace_deaglel6b",
 			"items" : [
 				"wac_default_multi",
@@ -41,12 +56,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_deagle_co_long",
+			"id" : "text_bm_wp_deagle_co_long",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deagle_co_long",
-			"title" : "bm_wp_deagle_co_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_deagle_co_long",
 			"items" : [
 				"wac_default_multi",
@@ -85,9 +105,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_deagle_co_short",
+			"id" : "text_bm_wp_deagle_co_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deagle_co_short",
-			"title" : "bm_wp_deagle_co_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_deagle_co_short",
 			"items" : [
 				"wac_default_multi",
@@ -127,12 +152,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_deagle_g_ergo",
+			"id" : "text_bm_wp_deagle_g_ergo",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deagleergogrip",
-			"title" : "bm_wp_deagle_g_ergo",
+			"title" : "",
 			"callback" : "callback_toggle_replace_deagleergogrip",
 			"items" : [
 				"wac_default_multi",
@@ -143,9 +173,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_deagle_g_bling",
+			"id" : "text_bm_wp_deagle_g_bling",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_deagleblinggrip",
-			"title" : "bm_wp_deagle_g_bling",
+			"title" : "",
 			"callback" : "callback_toggle_replace_deagleblinggrip",
 			"items" : [
 				"wac_default_multi",
@@ -157,7 +192,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

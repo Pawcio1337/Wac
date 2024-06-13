@@ -4,9 +4,14 @@
 	"title" : "bm_w_vityaz",
 	"items" : [
 		{
+			"title" : "bm_wp_vityaz_b_long",
+			"id" : "text_bm_wp_vityaz_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vityaz_b_long",
-			"title" : "bm_wp_vityaz_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_vityaz_b_long",
 			"items" : [
 				"wac_default_multi",
@@ -25,7 +30,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -37,12 +42,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_vityaz_s_short",
+			"id" : "text_bm_wp_vityaz_s_short",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vityaz_s_short",
-			"title" : "bm_wp_vityaz_s_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_vityaz_s_short",
 			"items" : [
 				"wac_default_multi",

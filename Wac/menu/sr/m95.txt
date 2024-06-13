@@ -4,9 +4,14 @@
 	"title" : "bm_w_m95",
 	"items" : [
 		{
+			"title" : "wac_replace_stndb_title",
+			"id" : "text_wac_replace_stndb_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m95_bstnd",
-			"title" : "wac_replace_stndb_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m95_bstnd",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_m95_b_barrel_short",
+			"id" : "text_bm_wp_m95_b_barrel_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m95_bshort",
-			"title" : "bm_wp_m95_b_barrel_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m95_bshort",
 			"items" : [
 				"wac_default_multi",
@@ -30,9 +40,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_m95_b_barrel_long",
+			"id" : "text_bm_wp_m95_b_barrel_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m95_blong",
-			"title" : "bm_wp_m95_b_barrel_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m95_blong",
 			"items" : [
 				"wac_default_multi",

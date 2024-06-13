@@ -4,9 +4,14 @@
 	"title" : "bm_w_czech",
 	"items" : [
 		{
+			"title" : "bm_wp_czech_m_extended",
+			"id" : "text_bm_wp_czech_m_extended",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_cz_as2_magext",
-			"title" : "bm_wp_czech_m_extended",
+			"title" : "",
 			"callback" : "callback_toggle_replace_cz_as2_magext",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_czech_s_standard",
+			"id" : "text_bm_wp_czech_s_standard",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_replace_cz_as2_stock",
-			"title" : "bm_wp_czech_s_standard",
+			"title" : "",
 			"callback" : "callback_toggle_replace_cz_as2_stock",
 			"items" : [
 				"wac_default_multi",

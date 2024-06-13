@@ -4,9 +4,14 @@
 	"title" : "bm_w_saiga",
 	"items" : [
 		{
+			"title" : "bm_wp_saiga_b_short",
+			"id" : "text_bm_wp_saiga_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kshortb",
-			"title" : "bm_wp_saiga_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12kshortb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "wac_replace_stndfg_title",
+			"id" : "text_wac_replace_stndfg_title",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kfg",
-			"title" : "wac_replace_stndfg_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12kfg",
 			"items" : [
 				"wac_default_multi",
@@ -33,9 +43,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_saiga_fg_lowerrail",
+			"id" : "text_bm_wp_saiga_fg_lowerrail",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12ktacrail",
-			"title" : "bm_wp_saiga_fg_lowerrail",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12ktacrail",
 			"items" : [
 				"wac_default_multi",
@@ -46,9 +61,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_saiga_fg_holy",
+			"id" : "text_bm_wp_saiga_fg_holy",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12fuglystickcobra",
-			"title" : "bm_wp_saiga_fg_holy",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12fuglystickcobra",
 			"items" : [
 				"wac_default_multi",
@@ -61,12 +81,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_basset_m_extended",
+			"id" : "text_bm_wp_basset_m_extended",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kextmag",
-			"title" : "bm_wp_basset_m_extended",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12kextmag",
 			"items" : [
 				"wac_default_multi",
@@ -78,12 +103,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_ak_s_skfoldable",
+			"id" : "text_bm_wp_ak_s_skfoldable",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kstock1",
-			"title" : "bm_wp_ak_s_skfoldable",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12kstock1",
 			"items" : [
 				"wac_default_multi",
@@ -99,9 +129,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_m4_s_mk46",
+			"id" : "text_bm_wp_upg_m4_s_mk46",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kstock2",
-			"title" : "bm_wp_upg_m4_s_mk46",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12kstock2",
 			"items" : [
 				"wac_default_multi",
@@ -117,9 +152,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ak_s_solidstock",
+			"id" : "text_bm_wp_upg_ak_s_solidstock",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kstock3",
-			"title" : "bm_wp_upg_ak_s_solidstock",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12kstock3",
 			"items" : [
 				"wac_default_multi",
@@ -135,12 +175,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_menu_upper_reciever",
+			"id" : "text_bm_menu_upper_reciever",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_s12kupperrec",
-			"title" : "bm_menu_upper_reciever",
+			"title" : "",
 			"callback" : "callback_toggle_replace_s12kupperrec",
 			"items" : [
 				"wac_default_multi",
@@ -151,12 +196,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_model70_iron_sight",
+			"id" : "text_bm_wp_model70_iron_sight",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ironsightssaiga",
-			"title" : "bm_wp_model70_iron_sight",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ironsightssaiga",
 			"items" : [
 				"wac_default_multi",

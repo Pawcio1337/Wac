@@ -4,9 +4,14 @@
 	"title" : "bm_w_sub2000",
 	"items" : [
 		{
+			"title" : "bm_wp_sub2000_fg_gen2",
+			"id" : "text_bm_wp_sub2000_fg_gen2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sub2kgen2fg",
-			"title" : "bm_wp_sub2000_fg_gen2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_sub2kgen2fg",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_sub2000_fg_railed",
+			"id" : "text_bm_wp_sub2000_fg_railed",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sub2krailfg",
-			"title" : "bm_wp_sub2000_fg_railed",
+			"title" : "",
 			"callback" : "callback_toggle_replace_sub2krailfg",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_arbiter",
 	"items" : [
 		{
+			"title" : "bm_wp_arbiter_b_comp",
+			"id" : "text_bm_wp_arbiter_b_comp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm25comp",
-			"title" : "bm_wp_arbiter_b_comp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_xm25comp",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_arbiter_b_long",
+			"id" : "text_bm_wp_arbiter_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xm25longb",
-			"title" : "bm_wp_arbiter_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_xm25longb",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_ak5",
 	"items" : [
 		{
+			"title" : "bm_wp_ak5_b_short",
+			"id" : "text_bm_wp_ak5_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak5shortb",
-			"title" : "bm_wp_ak5_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak5shortb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_ak5_fg_ak5c",
+			"id" : "text_bm_wp_ak5_fg_ak5c",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak5cfg",
-			"title" : "bm_wp_ak5_fg_ak5c",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak5cfg",
 			"items" : [
 				"wac_default_multi",
@@ -33,9 +43,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_ak5_fg_fnc",
+			"id" : "text_bm_wp_ak5_fg_fnc",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fncfg",
-			"title" : "bm_wp_ak5_fg_fnc",
+			"title" : "",
 			"callback" : "callback_toggle_replace_fncfg",
 			"items" : [
 				"wac_default_multi",
@@ -47,12 +62,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_ak5_s_ak5b",
+			"id" : "text_bm_wp_ak5_s_ak5b",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak5bstock",
-			"title" : "bm_wp_ak5_s_ak5b",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak5bstock",
 			"items" : [
 				"wac_default_multi",
@@ -63,9 +83,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_ak5_s_ak5c",
+			"id" : "text_bm_wp_ak5_s_ak5c",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak5cstock",
-			"title" : "bm_wp_ak5_s_ak5c",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak5cstock",
 			"items" : [
 				"wac_default_multi",

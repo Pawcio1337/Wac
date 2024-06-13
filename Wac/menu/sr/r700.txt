@@ -4,9 +4,14 @@
 	"title" : "bm_w_r700",
 	"items" : [
 		{
+			"title" : "bm_wp_r700_b_short",
+			"id" : "text_bm_wp_r700_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r700_b_short",
-			"title" : "bm_wp_r700_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r700_b_short",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_r700_b_medium",
+			"id" : "text_bm_wp_r700_b_medium",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r700_b_med",
-			"title" : "bm_wp_r700_b_medium",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r700_b_med",
 			"items" : [
 				"wac_default_multi",
@@ -31,12 +41,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_r700_s_military",
+			"id" : "text_bm_wp_r700_s_military",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r700_milst",
-			"title" : "bm_wp_r700_s_military",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r700_milst",
 			"items" : [
 				"wac_default_multi",
@@ -47,9 +62,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_r700_s_tactical",
+			"id" : "text_bm_wp_r700_s_tactical",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r700_tactst",
-			"title" : "bm_wp_r700_s_tactical",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r700_tactst",
 			"items" : [
 				"wac_default_multi",

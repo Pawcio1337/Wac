@@ -4,9 +4,14 @@
 	"title" : "bm_w_m14",
 	"items" : [
 		{
+			"title" : "bm_wp_m14_body_ebr",
+			"id" : "text_bm_wp_m14_body_ebr",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1a_ebr",
-			"title" : "bm_wp_m14_body_ebr",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m1a_ebr",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_m14_body_jae",
+			"id" : "text_bm_wp_m14_body_jae",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1a_jagerstock",
-			"title" : "bm_wp_m14_body_jae",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m1a_jagerstock",
 			"items" : [
 				"wac_default_multi",
@@ -30,9 +40,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_m14_body_ruger",
+			"id" : "text_bm_wp_m14_body_ruger",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1a_rugerst",
-			"title" : "bm_wp_m14_body_ruger",
+			"title" : "",
 			"description" : "wac_pd2jankcode_desc",
 			"callback" : "callback_toggle_replace_m1a_rugerst",
 			"items" : [

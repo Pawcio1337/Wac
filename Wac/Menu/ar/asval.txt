@@ -4,9 +4,14 @@
 	"title" : "bm_w_asval",
 	"items" : [
 		{
+			"title" : "bm_wp_asval_b_proto",
+			"id" : "text_bm_wp_asval_b_proto",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_asvalprotob",
-			"title" : "bm_wp_asval_b_proto",
+			"title" : "",
 			"callback" : "callback_toggle_replace_asvalprotob",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "wac_replace_usestnd_title",
+			"id" : "text_wac_replace_usestnd_title",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_asvalstock",
-			"title" : "wac_replace_usestnd_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_asvalstock",
 			"items" : [
 				"wac_default_multi",
@@ -35,7 +45,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_g22c",
 	"items" : [
 		{
+			"title" : "bm_wp_g18c_co_comp_2",
+			"id" : "text_bm_wp_g18c_co_comp_2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockcomp2",
-			"title" : "bm_wp_g18c_co_comp_2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_glockcomp2",
 			"items" : [
 				"wac_default_multi",
@@ -19,7 +24,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -31,12 +36,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_g22c_b_long",
+			"id" : "text_bm_wp_g22c_b_long",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g22clong",
-			"title" : "bm_wp_g22c_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g22clong",
 			"items" : [
 				"wac_default_multi",

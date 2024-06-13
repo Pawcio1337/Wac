@@ -4,9 +4,14 @@
 	"title" : "bm_w_baka",
 	"items" : [
 		{
+			"title" : "bm_wp_baka_b_comp",
+			"id" : "text_bm_wp_baka_b_comp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzicomp",
-			"title" : "bm_wp_baka_b_comp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_microuzicomp",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "wac_replace_uniquesupp_title",
+			"id" : "text_wac_replace_uniquesupp_title",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzisupp",
-			"title" : "wac_replace_uniquesupp_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_microuzisupp",
 			"items" : [
 				"wac_default_multi",
@@ -34,9 +44,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_baka_b_longsupp",
+			"id" : "text_bm_wp_baka_b_longsupp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzi_supplong",
-			"title" : "bm_wp_baka_b_longsupp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_microuzi_supplong",
 			"items" : [
 				"wac_default_multi",
@@ -76,12 +91,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_m4_s_standard",
+			"id" : "text_bm_wp_m4_s_standard",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzifoldedst",
-			"title" : "bm_wp_m4_s_standard",
+			"title" : "",
 			"callback" : "callback_toggle_replace_microuzifoldedst",
 			"items" : [
 				"wac_default_multi",
@@ -92,9 +112,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_spas12_s_no",
+			"id" : "text_bm_wp_spas12_s_no",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzinost",
-			"title" : "bm_wp_spas12_s_no",
+			"title" : "",
 			"callback" : "callback_toggle_replace_microuzinost",
 			"items" : [
 				"wac_default_multi",
@@ -105,9 +130,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_baka_s_unfolded",
+			"id" : "text_bm_wp_baka_s_unfolded",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzinunfoldst",
-			"title" : "bm_wp_baka_s_unfolded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_microuzinunfoldst",
 			"items" : [
 				"wac_default_multi",
@@ -118,9 +148,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_akimbost_title",
+			"id" : "text_wac_replace_akimbost_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_microuzix_st",
-			"title" : "wac_replace_akimbost_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_microuzix_st",
 			"items" : [
 				"wac_default_multi",

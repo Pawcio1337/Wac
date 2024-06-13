@@ -4,9 +4,14 @@
 	"title" : "bm_w_c96",
 	"items" : [
 		{
+			"title" : "bm_wp_c96_b_long",
+			"id" : "text_bm_wp_c96_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_c96longb",
-			"title" : "bm_wp_c96_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_c96longb",
 			"items" : [
 				"wac_default_multi",
@@ -25,7 +30,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -37,12 +42,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_c96_s_solid",
+			"id" : "text_bm_wp_c96_s_solid",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_c96holster",
-			"title" : "bm_wp_c96_s_solid",
+			"title" : "",
 			"callback" : "callback_toggle_replace_c96holster",
 			"items" : [
 				"wac_default_multi",

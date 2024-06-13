@@ -13,12 +13,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_m4_m_straight",
+			"id" : "text_bm_wp_m4_m_straight",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_x95_stanag20",
-			"title" : "bm_wp_m4_m_straight",
+			"title" : "",
 			"callback" : "callback_toggle_replace_x95_stanag20",
 			"items" : [
 				"wac_default_multi",
@@ -32,9 +37,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_m4_m_pmag",
+			"id" : "text_bm_wp_m4_m_pmag",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_x95_pmag",
-			"title" : "bm_wp_m4_m_pmag",
+			"title" : "",
 			"callback" : "callback_toggle_replace_x95_pmag",
 			"items" : [
 				"wac_default_multi",
@@ -48,9 +58,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_m4_m_quad",
+			"id" : "text_bm_wp_upg_m4_m_quad",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_x95_mag5",
-			"title" : "bm_wp_upg_m4_m_quad",
+			"title" : "",
 			"callback" : "callback_toggle_replace_x95_mag5",
 			"items" : [
 				"wac_default_multi",
@@ -64,9 +79,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_l85a2_m_emag",
+			"id" : "text_bm_wp_l85a2_m_emag",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_x95_emag",
-			"title" : "bm_wp_l85a2_m_emag",
+			"title" : "",
 			"callback" : "callback_toggle_replace_x95_emag",
 			"items" : [
 				"wac_default_multi",
@@ -80,9 +100,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_m4_m_l5",
+			"id" : "text_bm_wp_upg_m4_m_l5",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_x95_l5awm",
-			"title" : "bm_wp_upg_m4_m_l5",
+			"title" : "",
 			"callback" : "callback_toggle_replace_x95_l5awm",
 			"items" : [
 				"wac_default_multi",
@@ -96,9 +121,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_m4_m_quick",
+			"id" : "text_bm_wp_m4_m_quick",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_x95_stanagmagpul",
-			"title" : "bm_wp_m4_m_quick",
+			"title" : "",
 			"callback" : "callback_toggle_replace_x95_stanagmagpul",
 			"items" : [
 				"wac_default_multi",

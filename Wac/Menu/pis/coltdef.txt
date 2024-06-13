@@ -4,9 +4,14 @@
 	"title" : "bm_w_shrew",
 	"items" : [
 		{
+			"title" : "bm_wp_shrew_g_bling",
+			"id" : "text_bm_wp_shrew_g_bling",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltdefblinggrip",
-			"title" : "bm_wp_shrew_g_bling",
+			"title" : "",
 			"callback" : "callback_toggle_replace_coltdefblinggrip",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_shrew_g_ergo",
+			"id" : "text_bm_wp_shrew_g_ergo",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltdefergogrip",
-			"title" : "bm_wp_shrew_g_ergo",
+			"title" : "",
 			"callback" : "callback_toggle_replace_coltdefergogrip",
 			"items" : [
 				"wac_default_multi",
@@ -29,7 +39,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -41,12 +51,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_shrew_sl_milled",
+			"id" : "text_bm_wp_shrew_sl_milled",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_coltdefmilledsl",
-			"title" : "bm_wp_shrew_sl_milled",
+			"title" : "",
 			"callback" : "callback_toggle_replace_coltdefmilledsl",
 			"items" : [
 				"wac_default_multi",

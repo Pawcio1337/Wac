@@ -4,9 +4,14 @@
 	"title" : "bm_w_ppk",
 	"items" : [
 		{
+			"title" : "bm_wp_pis_ppk_b_long",
+			"id" : "text_bm_wp_pis_ppk_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_walterppslide",
-			"title" : "bm_wp_pis_ppk_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_walterppslide",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_menu_barrel_ext",
 	"items" : [
 		{
+			"title" : "bm_wp_upg_ass_ns_jprifles",
+			"id" : "text_bm_wp_upg_ass_ns_jprifles",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jprifles",
-			"title" : "bm_wp_upg_ass_ns_jprifles",
+			"title" : "",
 			"callback" : "callback_toggle_replace_jprifles",
 			"items" : [
 				"wac_default_multi",
@@ -45,9 +50,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_ass_smg_firepig",
+			"id" : "text_bm_wp_upg_ns_ass_smg_firepig",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_firepig",
-			"title" : "bm_wp_upg_ns_ass_smg_firepig",
+			"title" : "",
 			"callback" : "callback_toggle_replace_firepig",
 			"items" : [
 				"wac_default_multi",
@@ -86,9 +96,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ass_ns_linear",
+			"id" : "text_bm_wp_upg_ass_ns_linear",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_linear",
-			"title" : "bm_wp_upg_ass_ns_linear",
+			"title" : "",
 			"callback" : "callback_toggle_replace_linear",
 			"items" : [
 				"wac_default_multi",
@@ -127,9 +142,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_ass_smg_stubby",
+			"id" : "text_bm_wp_upg_ns_ass_smg_stubby",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_stubby",
-			"title" : "bm_wp_upg_ns_ass_smg_stubby",
+			"title" : "",
 			"callback" : "callback_toggle_replace_stubby",
 			"items" : [
 				"wac_default_multi",
@@ -168,9 +188,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ass_ns_surefire",
+			"id" : "text_bm_wp_upg_ass_ns_surefire",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_surefire",
-			"title" : "bm_wp_upg_ass_ns_surefire",
+			"title" : "",
 			"callback" : "callback_toggle_replace_surefire",
 			"items" : [
 				"wac_default_multi",
@@ -209,9 +234,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_ass_smg_v6",
+			"id" : "text_bm_wp_upg_ns_ass_smg_v6",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_v6mb",
-			"title" : "bm_wp_upg_ns_ass_smg_v6",
+			"title" : "",
 			"callback" : "callback_toggle_replace_v6mb",
 			"items" : [
 				"wac_default_multi",
@@ -251,12 +281,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_upg_shot_ns_king",
+			"id" : "text_bm_wp_upg_shot_ns_king",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kingbreach",
-			"title" : "bm_wp_upg_shot_ns_king",
+			"title" : "",
 			"callback" : "callback_toggle_replace_kingbreach",
 			"items" : [
 				"wac_default_multi",
@@ -295,9 +330,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_shot_shark",
+			"id" : "text_bm_wp_upg_ns_shot_shark",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sharkbrake",
-			"title" : "bm_wp_upg_ns_shot_shark",
+			"title" : "",
 			"callback" : "callback_toggle_replace_sharkbrake",
 			"items" : [
 				"wac_default_multi",
@@ -336,9 +376,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_ns_duck",
+			"id" : "text_bm_wp_ns_duck",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_duckbill",
-			"title" : "bm_wp_ns_duck",
+			"title" : "",
 			"callback" : "callback_toggle_replace_duckbill",
 			"items" : [
 				"wac_default_multi",
@@ -378,12 +423,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_upg_pis_ns_flash",
+			"id" : "text_bm_wp_upg_pis_ns_flash",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pisflashhider",
-			"title" : "bm_wp_upg_pis_ns_flash",
+			"title" : "",
 			"callback" : "callback_toggle_replace_pisflashhider",
 			"items" : [
 				"wac_default_multi",
@@ -422,9 +472,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_meatgrinder",
+			"id" : "text_bm_wp_upg_ns_meatgrinder",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pistenderizer",
-			"title" : "bm_wp_upg_ns_meatgrinder",
+			"title" : "",
 			"callback" : "callback_toggle_replace_pistenderizer",
 			"items" : [
 				"wac_default_multi",
@@ -463,9 +518,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_ipsccomp",
+			"id" : "text_bm_wp_upg_ns_ipsccomp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ipsccomp",
-			"title" : "bm_wp_upg_ns_ipsccomp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ipsccomp",
 			"items" : [
 				"wac_default_multi",
@@ -504,9 +564,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_typhoon",
+			"id" : "text_bm_wp_upg_ns_typhoon",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_tk_gc",
-			"title" : "bm_wp_upg_ns_typhoon",
+			"title" : "",
 			"callback" : "callback_toggle_replace_tk_gc",
 			"items" : [
 				"wac_default_multi",
@@ -545,9 +610,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_kacchainsaw_muzzle",
+			"id" : "text_bm_wp_kacchainsaw_muzzle",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kacchainsaw_ns",
-			"title" : "bm_wp_kacchainsaw_muzzle",
+			"title" : "",
 			"callback" : "callback_toggle_replace_kacchainsaw_ns",
 			"items" : [
 				"wac_default_multi",
@@ -586,9 +656,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ak_ns_jmac",
+			"id" : "text_bm_wp_upg_ak_ns_jmac",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak_ns_jmac",
-			"title" : "bm_wp_upg_ak_ns_jmac",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak_ns_jmac",
 			"items" : [
 				"wac_default_multi",
@@ -627,9 +702,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_ak_upg_ns_zenitco",
+			"id" : "text_bm_wp_ak_upg_ns_zenitco",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ak_ns_zenit",
-			"title" : "bm_wp_ak_upg_ns_zenitco",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ak_ns_zenit",
 			"items" : [
 				"wac_default_multi",

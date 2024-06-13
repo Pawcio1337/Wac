@@ -4,9 +4,14 @@
 	"title" : "bm_w_scout",
 	"items" : [
 		{
+			"title" : "bm_wp_scout_exlusive",
+			"id" : "text_bm_wp_scout_exlusive",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_scout_ck",
-			"title" : "bm_wp_scout_exlusive",
+			"title" : "",
 			"callback" : "callback_toggle_replace_scout_ck",
 			"items" : [
 				"wac_default_multi",

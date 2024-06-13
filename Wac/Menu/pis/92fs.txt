@@ -4,9 +4,14 @@
 	"title" : "bm_w_b92fs",
 	"items" : [
 		{
+			"title" : "bm_wp_beretta_co_co1",
+			"id" : "text_bm_wp_beretta_co_co1",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fscomp1",
-			"title" : "bm_wp_beretta_co_co1",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fscomp1",
 			"items" : [
 				"wac_default_multi",
@@ -20,9 +25,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_beretta_co_co2",
+			"id" : "text_bm_wp_beretta_co_co2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fscomp2",
-			"title" : "bm_wp_beretta_co_co2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fscomp2",
 			"items" : [
 				"wac_default_multi",
@@ -36,9 +46,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_ipsccomp",
+			"id" : "text_bm_wp_upg_ns_ipsccomp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_ipsccomp",
-			"title" : "bm_wp_upg_ns_ipsccomp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fs_ipsccomp",
 			"items" : [
 				"wac_default_multi",
@@ -52,9 +67,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_meatgrinder",
+			"id" : "text_bm_wp_upg_ns_meatgrinder",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_meatgrinder",
-			"title" : "bm_wp_upg_ns_meatgrinder",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fs_meatgrinder",
 			"items" : [
 				"wac_default_multi",
@@ -68,9 +88,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_pis_ns_flash",
+			"id" : "text_bm_wp_upg_pis_ns_flash",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fs_pisflash",
-			"title" : "bm_wp_upg_pis_ns_flash",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fs_pisflash",
 			"items" : [
 				"wac_default_multi",
@@ -85,12 +110,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_beretta_g_ergo",
+			"id" : "text_bm_wp_beretta_g_ergo",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fsergogrip",
-			"title" : "bm_wp_beretta_g_ergo",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fsergogrip",
 			"items" : [
 				"wac_default_multi",
@@ -100,9 +130,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_beretta_g_engraved",
+			"id" : "text_bm_wp_beretta_g_engraved",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fsengravedgrip",
-			"title" : "bm_wp_beretta_g_engraved",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fsengravedgrip",
 			"items" : [
 				"wac_default_multi",
@@ -113,7 +148,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -125,12 +160,17 @@
 		},
 				{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_beretta_sl_brigadier",
+			"id" : "text_bm_wp_beretta_sl_brigadier",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_92fselite2",
-			"title" : "bm_wp_beretta_sl_brigadier",
+			"title" : "",
 			"callback" : "callback_toggle_replace_92fselite2",
 			"items" : [
 				"wac_default_multi",

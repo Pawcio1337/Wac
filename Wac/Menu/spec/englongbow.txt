@@ -4,9 +4,14 @@
 	"title" : "bm_w_long",
 	"items" : [
 		{
+			"title" : "bm_wp_bow_long_explosion",
+			"id" : "text_bm_wp_bow_long_explosion",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_longbowexplosive",
-			"title" : "bm_wp_bow_long_explosion",
+			"title" : "",
 			"callback" : "callback_toggle_replace_longbowexplosive",
 			"items" : [
 				"wac_default_multi",

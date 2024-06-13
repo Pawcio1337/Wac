@@ -13,7 +13,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		}
 	]
 }

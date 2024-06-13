@@ -4,9 +4,14 @@
 	"title" : "bm_w_desertfox",
 	"items" : [
 		{
+			"title" : "wac_replace_stndb_title",
+			"id" : "text_wac_replace_stndb_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_srsshortb",
-			"title" : "wac_replace_stndb_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_srsshortb",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_desertfox_b_long",
+			"id" : "text_bm_wp_desertfox_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_srslongb",
-			"title" : "bm_wp_desertfox_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_srslongb",
 			"items" : [
 				"wac_default_multi",

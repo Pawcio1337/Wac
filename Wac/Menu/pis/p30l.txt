@@ -13,7 +13,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -25,12 +25,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_packrat_o_expert",
+			"id" : "text_bm_wp_packrat_o_expert",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p30lfibersights",
-			"title" : "bm_wp_packrat_o_expert",
+			"title" : "",
 			"callback" : "callback_toggle_replace_p30lfibersights",
 			"items" : [
 				"wac_default_multi",

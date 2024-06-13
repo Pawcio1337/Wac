@@ -4,9 +4,14 @@
 	"title" : "bm_w_awp",
 	"items" : [
 		{
+			"title" : "bm_wp_awp_conversion_dragonlore",
+			"id" : "text_bm_wp_awp_conversion_dragonlore",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_awp_ck_dragonlore",
-			"title" : "bm_wp_awp_conversion_dragonlore",
+			"title" : "",
 			"callback" : "callback_toggle_replace_awp_ck_dragonlore",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_awp_conversion_wildlands",
+			"id" : "text_bm_wp_awp_conversion_wildlands",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_awp_ck_wildlands",
-			"title" : "bm_wp_awp_conversion_wildlands",
+			"title" : "",
 			"callback" : "callback_toggle_replace_awp_ck_wildlands",
 			"items" : [
 				"wac_default_multi",

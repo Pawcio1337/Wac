@@ -4,9 +4,14 @@
 	"title" : "bm_menu_second_sight",
 	"items" : [
 		{
+			"title" : "bm_wpn_fps_upg_o_45rds",
+			"id" : "text_bm_wpn_fps_upg_o_45rds",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_45delta_model",
-			"title" : "bm_wpn_fps_upg_o_45rds",
+			"title" : "",
 			"callback" : "callback_toggle_replace_45delta_model",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wpn_fps_upg_o_45rds_v2",
+			"id" : "text_bm_wpn_fps_upg_o_45rds_v2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_45t1micro_model",
-			"title" : "bm_wpn_fps_upg_o_45rds_v2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_45t1micro_model",
 			"items" : [
 				"wac_default_multi",
@@ -28,9 +38,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wpn_fps_upg_o_45steel",
+			"id" : "text_bm_wpn_fps_upg_o_45steel",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_dh_d45_model",
-			"title" : "bm_wpn_fps_upg_o_45steel",
+			"title" : "",
 			"callback" : "callback_toggle_replace_dh_d45_model",
 			"items" : [
 				"wac_default_multi",
@@ -41,12 +56,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wpn_fps_upg_o_xpsg33_magnifier",
+			"id" : "text_bm_wpn_fps_upg_o_xpsg33_magnifier",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_xpsg33_model",
-			"title" : "bm_wpn_fps_upg_o_xpsg33_magnifier",
+			"title" : "",
 			"callback" : "callback_toggle_replace_xpsg33_model",
 			"items" : [
 				"wac_default_multi",
@@ -56,9 +76,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wpn_fps_upg_o_sig",
+			"id" : "text_bm_wpn_fps_upg_o_sig",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_sig_magnifier_model",
-			"title" : "bm_wpn_fps_upg_o_sig",
+			"title" : "",
 			"callback" : "callback_toggle_replace_sig_magnifier_model",
 			"items" : [
 				"wac_default_multi",

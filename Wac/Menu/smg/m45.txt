@@ -4,9 +4,14 @@
 	"title" : "bm_w_m45",
 	"items" : [
 		{
+			"title" : "bm_wp_smg_m45_g_ergo",
+			"id" : "text_bm_wp_smg_m45_g_ergo",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45ergogrip",
-			"title" : "bm_wp_smg_m45_g_ergo",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m45ergogrip",
 			"items" : [
 				"wac_default_multi",
@@ -26,12 +31,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_m4_s_standard",
+			"id" : "text_bm_wp_m4_s_standard",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45stndst",
-			"title" : "bm_wp_m4_s_standard",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m45stndst",
 			"items" : [
 				"wac_default_multi",
@@ -42,9 +52,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_smg_m45_s_folded",
+			"id" : "text_bm_wp_smg_m45_s_folded",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45foldst",
-			"title" : "bm_wp_smg_m45_s_folded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m45foldst",
 			"items" : [
 				"wac_default_multi",
@@ -55,9 +70,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_akimbost_title",
+			"id" : "text_wac_replace_akimbost_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m45x_st",
-			"title" : "wac_replace_akimbost_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m45x_st",
 			"items" : [
 				"wac_default_multi",

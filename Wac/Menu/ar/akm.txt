@@ -4,9 +4,14 @@
 	"title" : "bm_w_akm",
 	"items" : [
 		{
+			"title" : "bm_wp_upg_ak_b_draco",
+			"id" : "text_bm_wp_upg_ak_b_draco",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmdracob",
-			"title" : "bm_wp_upg_ak_b_draco",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmdracob",
 			"items" : [
 				"wac_default_multi",
@@ -18,9 +23,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ak_b_ak105",
+			"id" : "text_bm_wp_upg_ak_b_ak105",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmmodernb",
-			"title" : "bm_wp_upg_ak_b_ak105",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmmodernb",
 			"items" : [
 				"wac_default_multi",
@@ -33,9 +43,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ass_ak_b_zastava",
+			"id" : "text_bm_wp_upg_ass_ak_b_zastava",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmzastava",
-			"title" : "bm_wp_upg_ass_ak_b_zastava",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmzastava",
 			"items" : [
 				"wac_default_multi",
@@ -56,12 +71,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_upg_ak_m_quad",
+			"id" : "text_bm_wp_upg_ak_m_quad",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmquad",
-			"title" : "bm_wp_upg_ak_m_quad",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmquad",
 			"items" : [
 				"wac_default_multi",
@@ -75,9 +95,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ak_m_uspalm",
+			"id" : "text_bm_wp_upg_ak_m_uspalm",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmuspalm",
-			"title" : "bm_wp_upg_ak_m_uspalm",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmuspalm",
 			"items" : [
 				"wac_default_multi",
@@ -88,9 +113,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_ak_m_quick",
+			"id" : "text_bm_wp_ak_m_quick",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmmagpulassist",
-			"title" : "bm_wp_ak_m_quick",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmmagpulassist",
 			"items" : [
 				"wac_default_multi",
@@ -104,12 +134,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_ak_s_skfoldable",
+			"id" : "text_bm_wp_ak_s_skfoldable",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmstock1",
-			"title" : "bm_wp_ak_s_skfoldable",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmstock1",
 			"items" : [
 				"wac_default_multi",
@@ -127,32 +162,14 @@
 			"default_value" : 1
 		},
 		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_akmstock4",
-			"title" : "bm_wp_upg_m4_s_crane",
-			"callback" : "callback_toggle_replace_akmstock4",
-			"items" : [
-				"wac_default_multi",
-				"bm_wp_ak_s_folding",
-				"bm_wp_ak_s_skfoldable",
-				"bm_wp_ak_s_psl",
-				"bm_wp_upg_ak_s_solidstock",
-				"bm_wp_rpk_s_standard",
-				"bm_w_rpk",
-				"bm_wp_m4_s_standard",
-				"bm_wp_m4_s_pts",
-				"bm_wp_tti_s_vltor",
-				"bm_w_galil",
-				"bm_wp_baka_s_standard",
-				"bm_wp_ak_upg_s_zenitco"
-			],
-			"value" : "replace_akmstock4",
-			"default_value" : 1
+			"title" : "bm_wp_upg_m4_s_mk46",
+			"id" : "text_bm_wp_upg_m4_s_mk46",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmstock2",
-			"title" : "bm_wp_upg_m4_s_mk46",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmstock2",
 			"items" : [
 				"wac_default_multi",
@@ -173,10 +190,43 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_m4_s_crane",
+			"id" : "text_bm_wp_upg_m4_s_crane",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmstock3",
-			"title" : "bm_wp_upg_ak_s_solidstock",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmstock3",
+			"items" : [
+				"wac_default_multi",
+				"bm_wp_ak_s_folding",
+				"bm_wp_ak_s_skfoldable",
+				"bm_wp_ak_s_psl",
+				"bm_wp_upg_ak_s_solidstock",
+				"bm_wp_rpk_s_standard",
+				"bm_w_rpk",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_tti_s_vltor",
+				"bm_w_galil",
+				"bm_wp_baka_s_standard",
+				"bm_wp_ak_upg_s_zenitco"
+			],
+			"value" : "replace_akmstock3",
+			"default_value" : 1
+		},
+		{
+			"title" : "bm_wp_upg_ak_s_solidstock",
+			"id" : "text_bm_wp_upg_ak_s_solidstock",
+			"type" : "button"
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_akmstock4",
+			"title" : "",
+			"callback" : "callback_toggle_replace_akmstock4",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_folding",
@@ -191,14 +241,19 @@
 				"bm_wp_baka_s_standard",
 				"bm_wp_ak_upg_s_zenitco"
 			],
-			"value" : "replace_akmstock3",
+			"value" : "replace_akmstock4",
 			"default_value" : 1
 		},
 		{
-			"type" : "multiple_choice",
-			"id" : "toggle_replace_akmstock4",
 			"title" : "bm_wp_ak_upg_s_zenitco",
-			"callback" : "callback_toggle_replace_akmstock4",
+			"id" : "text_bm_wp_ak_upg_s_zenitco",
+			"type" : "button"
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "toggle_replace_akmstock5",
+			"title" : "",
+			"callback" : "callback_toggle_replace_akmstock5",
 			"items" : [
 				"wac_default_multi",
 				"bm_wp_ak_s_folding",
@@ -211,17 +266,22 @@
 				"bm_w_galil",
 				"bm_wp_baka_s_standard"
 			],
-			"value" : "replace_akmstock4",
+			"value" : "replace_akmstock5",
 			"default_value" : 1
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_menu_upper_reciever",
+			"id" : "text_bm_menu_upper_reciever",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmupperrec",
-			"title" : "bm_menu_upper_reciever",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmupperrec",
 			"items" : [
 				"wac_default_multi",
@@ -231,9 +291,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_ak_upper_zenitco",
+			"id" : "text_bm_wp_ak_upper_zenitco",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_akmupperrec_zenit",
-			"title" : "bm_wp_ak_upper_zenitco",
+			"title" : "",
 			"callback" : "callback_toggle_replace_akmupperrec_zenit",
 			"items" : [
 				"wac_default_multi",
@@ -245,7 +310,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

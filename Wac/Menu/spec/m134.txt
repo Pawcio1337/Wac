@@ -4,9 +4,14 @@
 	"title" : "bm_w_m134",
 	"items" : [
 		{
+			"title" : "bm_wp_m134_barrel_extreme",
+			"id" : "text_bm_wp_m134_barrel_extreme",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m134aab",
-			"title" : "bm_wp_m134_barrel_extreme",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m134aab",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_m134_barrel_short",
+			"id" : "text_bm_wp_m134_barrel_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m134shortb",
-			"title" : "bm_wp_m134_barrel_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m134shortb",
 			"items" : [
 				"wac_default_multi",

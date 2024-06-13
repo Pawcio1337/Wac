@@ -4,9 +4,14 @@
 	"title" : "bm_menu_vertical_grip",
 	"items" : [
 		{
+			"title" : "wac_replace_vggeneric_title",
+			"id" : "text_wac_replace_vggeneric_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vertgrip",
-			"title" : "wac_replace_vggeneric_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_vertgrip",
 			"items" : [
 				"wac_default_multi",
@@ -22,9 +27,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_afg2_title",
+			"id" : "text_wac_replace_afg2_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_afg2",
-			"title" : "wac_replace_afg2_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_afg2",
 			"items" : [
 				"wac_default_multi",
@@ -40,9 +50,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_hajk_vg_moe_title",
+			"id" : "text_wac_replace_hajk_vg_moe_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_cz805vertgrip",
-			"title" : "wac_replace_hajk_vg_moe_title",
+			"title" : "",
 			"description" : "wac_replace_hajk_vg_moe_desc",
 			"callback" : "callback_toggle_replace_cz805vertgrip",
 			"items" : [
@@ -60,12 +75,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_w_mp7",
+			"id" : "text_bm_w_mp7",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp7vertgrip",
-			"title" : "bm_w_mp7",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mp7vertgrip",
 			"items" : [
 				"wac_default_multi",
@@ -81,9 +101,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_w_polymer",
+			"id" : "text_bm_w_polymer",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_vectorvertgrip",
-			"title" : "bm_w_polymer",
+			"title" : "",
 			"callback" : "callback_toggle_replace_vectorvertgrip",
 			"items" : [
 				"wac_default_multi",
@@ -99,9 +124,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_w_tecci",
+			"id" : "text_bm_w_tecci",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hk416cvertgrip",
-			"title" : "bm_w_tecci",
+			"title" : "",
 			"callback" : "callback_toggle_replace_hk416cvertgrip",
 			"items" : [
 				"wac_default_multi",
@@ -117,9 +147,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_w_slap",
+			"id" : "text_bm_w_slap",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m320_vertgrip",
-			"title" : "bm_w_slap",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m320_vertgrip",
 			"items" : [
 				"wac_default_multi",
@@ -135,9 +170,14 @@
 			"default_value" : 1
 		}
 		{
+			"title" : "bm_w_victor",
+			"id" : "text_bm_w_victor",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_victor_herafg",
-			"title" : "bm_w_victor",
+			"title" : "",
 			"callback" : "callback_toggle_replace_victor_herafg",
 			"items" : [
 				"wac_default_multi",

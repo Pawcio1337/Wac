@@ -4,9 +4,14 @@
 	"title" : "bm_w_colt_1911",
 	"items" : [
 		{
+			"title" : "bm_wp_1911_co_2",
+			"id" : "text_bm_wp_1911_co_2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911aggressorcomp",
-			"title" : "bm_wp_1911_co_2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911aggressorcomp",
 			"items" : [
 				"wac_default_multi",
@@ -19,9 +24,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_ipsccomp",
+			"id" : "text_bm_wp_upg_ns_ipsccomp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911_ipsccomp",
-			"title" : "bm_wp_upg_ns_ipsccomp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911_ipsccomp",
 			"items" : [
 				"wac_default_multi",
@@ -35,9 +45,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_ns_meatgrinder",
+			"id" : "text_bm_wp_upg_ns_meatgrinder",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911_meatgrinder",
-			"title" : "bm_wp_upg_ns_meatgrinder",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911_meatgrinder",
 			"items" : [
 				"wac_default_multi",
@@ -51,9 +66,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_pis_ns_flash",
+			"id" : "text_bm_wp_upg_pis_ns_flash",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911_pisflash",
-			"title" : "bm_wp_upg_pis_ns_flash",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911_pisflash",
 			"items" : [
 				"wac_default_multi",
@@ -68,12 +88,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_1911_g_ergo",
+			"id" : "text_bm_wp_1911_g_ergo",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911ergogrip",
-			"title" : "bm_wp_1911_g_ergo",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911ergogrip",
 			"items" : [
 				"wac_default_multi",
@@ -85,9 +110,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_1911_g_bling",
+			"id" : "text_bm_wp_1911_g_bling",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911woodgrip",
-			"title" : "bm_wp_1911_g_bling",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911woodgrip",
 			"items" : [
 				"wac_default_multi",
@@ -98,9 +128,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_1911_g_engraved",
+			"id" : "text_bm_wp_1911_g_engraved",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911engravedgrip",
-			"title" : "bm_wp_1911_g_engraved",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911engravedgrip",
 			"items" : [
 				"wac_default_multi",
@@ -112,12 +147,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_1911_m_extended",
+			"id" : "text_bm_wp_1911_m_extended",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911extmag",
-			"title" : "bm_wp_1911_m_extended",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911extmag",
 			"items" : [
 				"wac_default_multi",
@@ -128,9 +168,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_1911_m_big",
+			"id" : "text_bm_wp_1911_m_big",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911bigmag",
-			"title" : "bm_wp_1911_m_big",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911bigmag",
 			"items" : [
 				"wac_default_multi",
@@ -142,12 +187,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_1911_b_vented",
+			"id" : "text_bm_wp_1911_b_vented",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911vent",
-			"title" : "bm_wp_1911_b_vented",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911vent",
 			"items" : [
 				"wac_default_multi",
@@ -157,9 +207,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_1911_b_long",
+			"id" : "text_bm_wp_1911_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_1911ventlong",
-			"title" : "bm_wp_1911_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_1911ventlong",
 			"items" : [
 				"wac_default_multi",

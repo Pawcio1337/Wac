@@ -4,9 +4,14 @@
 	"title" : "bm_w_b682",
 	"items" : [
 		{
+			"title" : "bm_wp_b682_b_short",
+			"id" : "text_bm_wp_b682_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_bs09shortb",
-			"title" : "bm_wp_b682_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_bs09shortb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_b682_s_short",
+			"id" : "text_bm_wp_b682_s_short",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_bs09shortst",
-			"title" : "bm_wp_b682_s_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_bs09shortst",
 			"items" : [
 				"wac_default_multi",
@@ -33,9 +43,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_b682_s_ammopouch",
+			"id" : "text_bm_wp_b682_s_ammopouch",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_bs09ammopouch",
-			"title" : "bm_wp_b682_s_ammopouch",
+			"title" : "",
 			"callback" : "callback_toggle_replace_bs09ammopouch",
 			"items" : [
 				"wac_default_multi",

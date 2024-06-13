@@ -4,9 +4,14 @@
 	"title" : "bm_w_spas12",
 	"items" : [
 		{
+			"title" : "bm_wp_spas12_s_folded",
+			"id" : "text_bm_wp_spas12_s_folded",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spasfoldst",
-			"title" : "bm_wp_spas12_s_folded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_spasfoldst",
 			"items" : [
 				"wac_default_multi",
@@ -18,9 +23,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_spas12_s_solid",
+			"id" : "text_bm_wp_spas12_s_solid",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spassolidst",
-			"title" : "bm_wp_spas12_s_solid",
+			"title" : "",
 			"callback" : "callback_toggle_replace_spassolidst",
 			"items" : [
 				"wac_default_multi",

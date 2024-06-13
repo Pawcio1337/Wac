@@ -4,9 +4,14 @@
 	"title" : "wac_menu_attch_pis_title",
 	"items" : [
 		{
+			"title" : "bm_wp_pis_g_laser",
+			"id" : "text_bm_wp_pis_g_laser",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockcrimsonlaser",
-			"title" : "bm_wp_pis_g_laser",
+			"title" : "",
 			"callback" : "callback_toggle_replace_glockcrimsonlaser",
 			"items" : [
 				"wac_default_multi",
@@ -16,9 +21,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_pis_g_beavertail",
+			"id" : "text_bm_wp_pis_g_beavertail",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockgripcytec",
-			"title" : "bm_wp_pis_g_beavertail",
+			"title" : "",
 			"callback" : "callback_toggle_replace_glockgripcytec",
 			"items" : [
 				"wac_default_multi",
@@ -28,9 +38,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_g18c_g_ergo",
+			"id" : "text_bm_wp_g18c_g_ergo",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockgriphogue",
-			"title" : "bm_wp_g18c_g_ergo",
+			"title" : "",
 			"callback" : "callback_toggle_replace_glockgriphogue",
 			"items" : [
 				"wac_default_multi",
@@ -41,12 +56,12 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
 			"id" : "toggle_replace_hidemarksman",
-			"title" : "wac_replace_stndsight_title",
+			"title" : "wac_replace_hidemarksman_title",
 			"callback" : "callback_toggle_replace_hidemarksman",
 			"value" : "replace_hidemarksman",
 			"default_value" : false

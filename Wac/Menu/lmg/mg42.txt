@@ -4,9 +4,14 @@
 	"title" : "bm_w_mg42",
 	"items" : [
 		{
+			"title" : "bm_wp_mg42_b_mg34",
+			"id" : "text_bm_wp_mg42_b_mg34",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mg32barrel",
-			"title" : "bm_wp_mg42_b_mg34",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mg32barrel",
 			"items" : [
 				"wac_default_multi",

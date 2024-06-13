@@ -4,9 +4,14 @@
 	"title" : "bm_w_saw",
 	"items" : [
 		{
+			"title" : "bm_wp_saw_body_silent",
+			"id" : "text_bm_wp_saw_body_silent",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ove9ksilentmotor",
-			"title" : "bm_wp_saw_body_silent",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ove9ksilentmotor",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_saw_body_speed",
+			"id" : "text_bm_wp_saw_body_speed",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ove9kbainmotor",
-			"title" : "bm_wp_saw_body_speed",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ove9kbainmotor",
 			"items" : [
 				"wac_default_multi",
@@ -31,12 +41,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_saw_m_blade_durable",
+			"id" : "text_bm_wp_saw_m_blade_durable",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ovk9kdurableblade",
-			"title" : "bm_wp_saw_m_blade_durable",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ovk9kdurableblade",
 			"items" : [
 				"wac_default_multi",
@@ -47,9 +62,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_saw_m_blade_sharp",
+			"id" : "text_bm_wp_saw_m_blade_sharp",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ovk9ksharpblade",
-			"title" : "bm_wp_saw_m_blade_sharp",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ovk9ksharpblade",
 			"items" : [
 				"wac_default_multi",

@@ -21,7 +21,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -33,12 +33,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_mac10_m_extended",
+			"id" : "text_bm_wp_mac10_m_extended",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10extmag",
-			"title" : "bm_wp_mac10_m_extended",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mac10extmag",
 			"items" : [
 				"wac_default_multi",
@@ -48,9 +53,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_mac10_m_quick",
+			"id" : "text_bm_wp_mac10_m_quick",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10magpulassist",
-			"title" : "bm_wp_mac10_m_quick",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mac10magpulassist",
 			"items" : [
 				"wac_default_multi",
@@ -62,12 +72,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_m4_s_standard",
+			"id" : "text_bm_wp_m4_s_standard",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10_stndst",
-			"title" : "bm_wp_m4_s_standard",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mac10_stndst",
 			"items" : [
 				"wac_default_multi",
@@ -81,9 +96,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_mac10_s_skel",
+			"id" : "text_bm_wp_mac10_s_skel",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mac10skelst",
-			"title" : "bm_wp_mac10_s_skel",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mac10skelst",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_tec9",
 	"items" : [
 		{
+			"title" : "bm_wp_tec9_b_standard",
+			"id" : "text_bm_wp_tec9_b_standard",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_tec9_ab10",
-			"title" : "bm_wp_tec9_b_standard",
+			"title" : "",
 			"callback" : "callback_toggle_replace_tec9_ab10",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_tec9_ns_ext",
+			"id" : "text_bm_wp_tec9_ns_ext",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_tec9longb",
-			"title" : "bm_wp_tec9_ns_ext",
+			"title" : "",
 			"callback" : "callback_toggle_replace_tec9longb",
 			"items" : [
 				"wac_default_multi",
@@ -31,7 +41,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -43,12 +53,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_tec9_s_unfolded",
+			"id" : "text_bm_wp_tec9_s_unfolded",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_tec9stock",
-			"title" : "bm_wp_tec9_s_unfolded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_tec9stock",
 			"items" : [
 				"wac_default_multi",

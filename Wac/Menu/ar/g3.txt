@@ -4,9 +4,14 @@
 	"title" : "bm_w_g3",
 	"items" : [
 		{
+			"title" : "bm_wp_g3_b_short",
+			"id" : "text_bm_wp_g3_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3barrelshort",
-			"title" : "bm_wp_g3_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3barrelshort",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_aug_b_long",
+			"id" : "text_bm_wp_aug_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3barrel",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3barrel",
 			"items" : [
 				"wac_default_multi",
@@ -29,9 +39,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_stndb_title",
+			"id" : "text_wac_replace_stndb_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3barrel",
-			"title" : "wac_replace_stndb_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3barrel",
 			"items" : [
 				"wac_default_multi",
@@ -39,11 +54,16 @@
 			],
 			"value" : "replace_g3barrel",
 			"default_value" : 1
+		},
+		{
+			"title" : "bm_wp_g3_b_sniper",
+			"id" : "text_bm_wp_g3_b_sniper",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3barreldmr",
-			"title" : "bm_wp_g3_b_sniper",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3barreldmr",
 			"items" : [
 				"wac_default_multi",
@@ -55,12 +75,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_g3_fg_psg",
+			"id" : "text_bm_wp_g3_fg_psg",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3foregripprecision",
-			"title" : "bm_wp_g3_fg_psg",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3foregripprecision",
 			"items" : [
 				"wac_default_multi",
@@ -73,9 +98,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_g3_fg_railed",
+			"id" : "text_bm_wp_g3_fg_railed",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3foregriptactical",
-			"title" : "bm_wp_g3_fg_railed",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3foregriptactical",
 			"items" : [
 				"wac_default_multi",
@@ -88,9 +118,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_g3_fg_retro",
+			"id" : "text_bm_wp_g3_fg_retro",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3foregripwooden",
-			"title" : "bm_wp_g3_fg_retro",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3foregripwooden",
 			"items" : [
 				"wac_default_multi",
@@ -103,9 +138,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_g3_fg_retro_plastic",
+			"id" : "text_bm_wp_g3_fg_retro_plastic",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3handguardplastic",
-			"title" : "bm_wp_g3_fg_retro_plastic",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3handguardplastic",
 			"items" : [
 				"wac_default_multi",
@@ -119,12 +159,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_g3_g_sniper",
+			"id" : "text_bm_wp_g3_g_sniper",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3psg1grip",
-			"title" : "bm_wp_g3_g_sniper",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3psg1grip",
 			"items" : [
 				"wac_default_multi",
@@ -135,9 +180,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_g3_g_retro",
+			"id" : "text_bm_wp_g3_g_retro",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3retrogrip",
-			"title" : "bm_wp_g3_g_retro",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3retrogrip",
 			"items" : [
 				"wac_default_multi",
@@ -149,12 +199,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_g3_s_sniper",
+			"id" : "text_bm_wp_g3_s_sniper",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3sniperstock",
-			"title" : "bm_wp_g3_s_sniper",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3sniperstock",
 			"items" : [
 				"wac_default_multi",
@@ -165,9 +220,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_g3_s_wood",
+			"id" : "text_bm_wp_g3_s_wood",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g3woodstock",
-			"title" : "bm_wp_g3_s_wood",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g3woodstock",
 			"items" : [
 				"wac_default_multi",
@@ -179,7 +239,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_chinchilla",
 	"items" : [
 		{
+			"title" : "bm_wp_chinchilla_b_satan",
+			"id" : "text_bm_wp_chinchilla_b_satan",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_swm29_devilb",
-			"title" : "bm_wp_chinchilla_b_satan",
+			"title" : "",
 			"callback" : "callback_toggle_replace_swm29_devilb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_chinchilla_g_black",
+			"id" : "text_bm_wp_chinchilla_g_black",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_swm29_blackgrip",
-			"title" : "bm_wp_chinchilla_g_black",
+			"title" : "",
 			"callback" : "callback_toggle_replace_swm29_blackgrip",
 			"items" : [
 				"wac_default_multi",
@@ -33,9 +43,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_chinchilla_g_death",
+			"id" : "text_bm_wp_chinchilla_g_death",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_swm29_ripgrip",
-			"title" : "bm_wp_chinchilla_g_death",
+			"title" : "",
 			"callback" : "callback_toggle_replace_swm29_ripgrip",
 			"items" : [
 				"wac_default_multi",

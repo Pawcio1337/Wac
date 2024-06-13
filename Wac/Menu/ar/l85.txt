@@ -4,9 +4,14 @@
 	"title" : "bm_w_l85a2",
 	"items" : [
 		{
+			"title" : "bm_wp_l85a2_b_long",
+			"id" : "text_bm_wp_l85a2_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l85longb",
-			"title" : "bm_wp_l85a2_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l85longb",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_l85a2_b_short",
+			"id" : "text_bm_wp_l85a2_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l85shortb",
-			"title" : "bm_wp_l85a2_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l85shortb",
 			"items" : [
 				"wac_default_multi",
@@ -39,12 +49,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_l85a2_fg_short",
+			"id" : "text_bm_wp_l85a2_fg_short",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l85railfg",
-			"title" : "bm_wp_l85a2_fg_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l85railfg",
 			"items" : [
 				"wac_default_multi",
@@ -55,12 +70,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_l85a2_g_worn",
+			"id" : "text_bm_wp_l85a2_g_worn",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_l85worngrip",
-			"title" : "bm_wp_l85a2_g_worn",
+			"title" : "",
 			"callback" : "callback_toggle_replace_l85worngrip",
 			"items" : [
 				"wac_default_multi",

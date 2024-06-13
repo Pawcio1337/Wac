@@ -4,9 +4,14 @@
 	"title" : "bm_w_ching",
 	"items" : [
 		{
+			"title" : "bm_wp_ching_b_short",
+			"id" : "text_bm_wp_ching_b_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1garand_shortb",
-			"title" : "bm_wp_ching_b_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m1garand_shortb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_ching_s_pouch",
+			"id" : "text_bm_wp_ching_s_pouch",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m1garand_ammopouch",
-			"title" : "bm_wp_ching_s_pouch",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m1garand_ammopouch",
 			"items" : [
 				"wac_default_multi",

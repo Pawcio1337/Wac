@@ -4,9 +4,14 @@
 	"title" : "bm_w_glock_18c",
 	"items" : [
 		{
+			"title" : "bm_wp_g18c_co_comp_2",
+			"id" : "text_bm_wp_g18c_co_comp_2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_glockcomp2",
-			"title" : "bm_wp_g18c_co_comp_2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_glockcomp2",
 			"items" : [
 				"wac_default_multi",
@@ -19,7 +24,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -31,12 +36,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_g18c_s_stock",
+			"id" : "text_bm_wp_g18c_s_stock",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_g18c_glr440",
-			"title" : "bm_wp_g18c_s_stock",
+			"title" : "",
 			"callback" : "callback_toggle_replace_g18c_glr440",
 			"items" : [
 				"wac_default_multi",
@@ -47,7 +57,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

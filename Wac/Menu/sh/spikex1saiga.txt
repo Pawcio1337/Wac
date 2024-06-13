@@ -4,9 +4,14 @@
 	"title" : "bm_w_basset",
 	"items" : [
 		{
+			"title" : "bm_wp_basset_fg_short",
+			"id" : "text_bm_wp_basset_fg_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spikex1saigashortfg",
-			"title" : "bm_wp_basset_fg_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_spikex1saigashortfg",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_basset_m_extended",
+			"id" : "text_bm_wp_basset_m_extended",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_spikex1saigaextmag",
-			"title" : "bm_wp_basset_m_extended",
+			"title" : "",
 			"callback" : "callback_toggle_replace_spikex1saigaextmag",
 			"items" : [
 				"wac_default_multi",

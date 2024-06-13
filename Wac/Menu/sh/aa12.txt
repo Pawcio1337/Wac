@@ -4,9 +4,14 @@
 	"title" : "bm_w_aa12",
 	"items" : [
 		{
+			"title" : "bm_wp_aa12_barrel_long",
+			"id" : "text_bm_wp_aa12_barrel_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_aa12b",
-			"title" : "bm_wp_aa12_barrel_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_aa12b",
 			"items" : [
 				"wac_default_multi",
@@ -25,7 +30,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

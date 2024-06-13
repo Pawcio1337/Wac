@@ -3,5 +3,6 @@
 	"parent_menu_id" : "wac_menu_sr",
 	"title" : "bm_w_victor",
 	"items" : [
+
 	]
 }

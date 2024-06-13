@@ -4,9 +4,14 @@
 	"title" : "bm_w_usp",
 	"items" : [
 		{
+			"title" : "bm_wp_usp_co_comp_2",
+			"id" : "text_bm_wp_usp_co_comp_2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspcomp2",
-			"title" : "bm_wp_usp_co_comp_2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_uspcomp2",
 			"items" : [
 				"wac_default_multi",
@@ -18,7 +23,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -30,12 +35,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_pis_usp_b_expert",
+			"id" : "text_bm_wp_pis_usp_b_expert",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspexpert",
-			"title" : "bm_wp_pis_usp_b_expert",
+			"title" : "",
 			"callback" : "callback_toggle_replace_uspexpert",
 			"items" : [
 				"wac_default_multi",
@@ -46,9 +56,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_pis_usp_b_match",
+			"id" : "text_bm_wp_pis_usp_b_match",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_uspmatch",
-			"title" : "bm_wp_pis_usp_b_match",
+			"title" : "",
 			"callback" : "callback_toggle_replace_uspmatch",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_aug",
 	"items" : [
 		{
+			"title" : "bm_wp_aug_b_long",
+			"id" : "text_bm_wp_aug_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_auglongb",
-			"title" : "bm_wp_aug_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_auglongb",
 			"items" : [
 				"wac_default_multi",
@@ -18,12 +23,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_aug_fg_a3",
+			"id" : "text_bm_wp_aug_fg_a3",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_augextrarail",
-			"title" : "bm_wp_aug_fg_a3",
+			"title" : "",
 			"callback" : "callback_toggle_replace_augextrarail",
 			"items" : [
 				"wac_default_multi",
@@ -34,12 +44,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_aug_body_f90",
+			"id" : "text_bm_wp_aug_body_f90",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_augf90body",
-			"title" : "bm_wp_aug_body_f90",
+			"title" : "",
 			"callback" : "callback_toggle_replace_augf90body",
 			"items" : [
 				"wac_default_multi",
@@ -50,12 +65,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_aug_m_quick",
+			"id" : "text_bm_wp_aug_m_quick",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_augmagpulassist",
-			"title" : "bm_wp_aug_m_quick",
+			"title" : "",
 			"callback" : "callback_toggle_replace_augmagpulassist",
 			"items" : [
 				"wac_default_multi",
@@ -66,12 +86,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_model70_iron_sight",
+			"id" : "text_bm_wp_model70_iron_sight",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ironsightsaug",
-			"title" : "bm_wp_model70_iron_sight",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ironsightsaug",
 			"items" : [
 				"wac_default_multi",

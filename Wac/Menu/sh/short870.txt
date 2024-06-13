@@ -4,9 +4,14 @@
 	"title" : "bm_w_serbu",
 	"items" : [
 		{
+			"title" : "wac_replace_stndb_title",
+			"id" : "text_wac_replace_stndb_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870b",
-			"title" : "wac_replace_stndb_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_short870b",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_r870_fg_small",
+			"id" : "text_bm_wp_r870_fg_small",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_r870_fg_small",
-			"title" : "bm_wp_r870_fg_small",
+			"title" : "",
 			"callback" : "callback_toggle_replace_r870_fg_small",
 			"items" : [
 				"wac_default_multi",
@@ -33,7 +43,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -45,12 +55,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_serbu_s_solid_short",
+			"id" : "text_bm_wp_serbu_s_solid_short",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870stock1",
-			"title" : "bm_wp_serbu_s_solid_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_short870stock1",
 			"items" : [
 				"wac_default_multi",
@@ -62,9 +77,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_serbu_s_nostock_short",
+			"id" : "text_bm_wp_serbu_s_nostock_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870stock2",
-			"title" : "bm_wp_serbu_s_nostock_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_short870stock2",
 			"items" : [
 				"wac_default_multi",
@@ -76,9 +96,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_upg_m4_s_mk46",
+			"id" : "text_bm_wp_upg_m4_s_mk46",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_short870stock3",
-			"title" : "bm_wp_upg_m4_s_mk46",
+			"title" : "",
 			"callback" : "callback_toggle_replace_short870stock3",
 			"items" : [
 				"wac_default_multi",
@@ -91,12 +116,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_r870_body_rack",
+			"id" : "text_bm_wp_r870_body_rack",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_shellrack",
-			"title" : "bm_wp_r870_body_rack",
+			"title" : "",
 			"callback" : "callback_toggle_replace_shellrack",
 			"items" : [
 				"wac_default_multi",

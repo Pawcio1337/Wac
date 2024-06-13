@@ -4,9 +4,14 @@
 	"title" : "bm_w_china",
 	"items" : [
 		{
+			"title" : "bm_wp_china_stock_short",
+			"id" : "text_bm_wp_china_stock_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_chinasawoffst",
-			"title" : "bm_wp_china_stock_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_chinasawoffst",
 			"items" : [
 				"wac_default_multi",

@@ -4,9 +4,14 @@
 	"title" : "bm_w_fmg9",
 	"items" : [
 		{
+			"title" : "bm_wp_fmg9_grip_tape",
+			"id" : "text_bm_wp_fmg9_grip_tape",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fmg9_grip_tape",
-			"title" : "bm_wp_fmg9_grip_tape",
+			"title" : "",
 			"callback" : "callback_toggle_replace_fmg9_grip_tape",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_fmg9_m_speed",
+			"id" : "text_bm_wp_fmg9_m_speed",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fmg9_m_speed",
-			"title" : "bm_wp_fmg9_m_speed",
+			"title" : "",
 			"callback" : "callback_toggle_replace_fmg9_m_speed",
 			"items" : [
 				"wac_default_multi",
@@ -33,12 +43,17 @@
 		}
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_fmg9_stock_padded",
+			"id" : "text_bm_wp_fmg9_stock_padded",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_fmg9_stock_padded",
-			"title" : "bm_wp_fmg9_stock_padded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_fmg9_stock_padded",
 			"items" : [
 				"wac_default_multi",

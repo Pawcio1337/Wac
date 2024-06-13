@@ -4,9 +4,14 @@
 	"title" : "bm_w_pm9",
 	"items" : [
 		{
+			"title" : "bm_wp_pm9_s_tactical",
+			"id" : "text_bm_wp_pm9_s_tactical",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_pm9_s_tact",
-			"title" : "bm_wp_pm9_s_tactical",
+			"title" : "",
 			"callback" : "callback_toggle_replace_pm9_s_tact",
 			"items" : [
 				"wac_default_multi",

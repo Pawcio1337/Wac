@@ -4,9 +4,14 @@
 	"title" : "bm_w_gre_m79",
 	"items" : [
 		{
+			"title" : "bm_wp_m79_barrel_short",
+			"id" : "text_bm_wp_m79_barrel_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m79sawoffb",
-			"title" : "bm_wp_m79_barrel_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m79sawoffb",
 			"items" : [
 				"wac_default_multi",
@@ -17,12 +22,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_gre_m79_s_leather",
+			"id" : "text_bm_wp_gre_m79_s_leather",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_m79sawoffst",
-			"title" : "bm_wp_gre_m79_s_leather",
+			"title" : "",
 			"callback" : "callback_toggle_replace_m79sawoffst",
 			"items" : [
 				"wac_default_multi",

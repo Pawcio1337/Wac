@@ -4,9 +4,14 @@
 	"title" : "bm_w_kacchainsaw",
 	"items" : [
 		{
+			"title" : "bm_wp_kacchainsaw_barrel_short",
+			"id" : "text_bm_wp_kacchainsaw_barrel_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kacchainsaw_b_short",
-			"title" : "bm_wp_kacchainsaw_barrel_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_kacchainsaw_b_short",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_kacchainsaw_barrel_long",
+			"id" : "text_bm_wp_kacchainsaw_barrel_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kacchainsaw_b_long",
-			"title" : "bm_wp_kacchainsaw_barrel_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_kacchainsaw_b_long",
 			"items" : [
 				"wac_default_multi",
@@ -31,12 +41,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_kacchainsaw_sling",
+			"id" : "text_bm_wp_kacchainsaw_sling",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kacchainsaw_sling",
-			"title" : "bm_wp_kacchainsaw_sling",
+			"title" : "",
 			"callback" : "callback_toggle_replace_kacchainsaw_sling",
 			"items" : [
 				"wac_default_multi",
@@ -47,12 +62,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_kacchainsaw_mag_b",
+			"id" : "text_bm_wp_kacchainsaw_mag_b",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kacchainsaw_mag_b",
-			"title" : "bm_wp_kacchainsaw_mag_b",
+			"title" : "",
 			"callback" : "callback_toggle_replace_kacchainsaw_mag_b",
 			"items" : [
 				"wac_default_multi",
@@ -63,12 +83,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_kacchainsaw_conversionkit",
+			"id" : "text_bm_wp_kacchainsaw_conversionkit",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_kacchainsaw_ck",
-			"title" : "bm_wp_kacchainsaw_conversionkit",
+			"title" : "",
 			"callback" : "callback_toggle_replace_kacchainsaw_ck",
 			"items" : [
 				"wac_default_multi",

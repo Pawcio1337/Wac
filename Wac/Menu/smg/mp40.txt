@@ -13,12 +13,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_erma_s_folded",
+			"id" : "text_bm_wp_erma_s_folded",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp40_foldedst",
-			"title" : "bm_wp_erma_s_folded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mp40_foldedst",
 			"items" : [
 				"wac_default_multi",
@@ -28,9 +33,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_akimbost_title",
+			"id" : "text_wac_replace_akimbost_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_mp40x_st",
-			"title" : "wac_replace_akimbost_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_mp40x_st",
 			"items" : [
 				"wac_default_multi",

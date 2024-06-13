@@ -4,9 +4,14 @@
 	"title" : "bm_w_p226",
 	"items" : [
 		{
+			"title" : "bm_wp_p226_co_comp_2",
+			"id" : "text_bm_wp_p226_co_comp_2",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rcomp2",
-			"title" : "bm_wp_p226_co_comp_2",
+			"title" : "",
 			"callback" : "callback_toggle_replace_p226rcomp2",
 			"items" : [
 				"wac_default_multi",
@@ -18,12 +23,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_p226_g_ergo",
+			"id" : "text_bm_wp_p226_g_ergo",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rergogrip",
-			"title" : "bm_wp_p226_g_ergo",
+			"title" : "",
 			"callback" : "callback_toggle_replace_p226rergogrip",
 			"items" : [
 				"wac_default_multi",
@@ -34,7 +44,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",
@@ -46,12 +56,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_p226_b_equinox",
+			"id" : "text_bm_wp_p226_b_equinox",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226requinox",
-			"title" : "bm_wp_p226_b_equinox",
+			"title" : "",
 			"callback" : "callback_toggle_replace_p226requinox",
 			"items" : [
 				"wac_default_multi",
@@ -62,9 +77,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_p226_b_long",
+			"id" : "text_bm_wp_p226_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_p226rlong",
-			"title" : "bm_wp_p226_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_p226rlong",
 			"items" : [
 				"wac_default_multi",

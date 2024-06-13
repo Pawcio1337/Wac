@@ -4,9 +4,14 @@
 	"title" : "bm_w_wa2000",
 	"items" : [
 		{
+			"title" : "bm_wp_wa2000_b_long",
+			"id" : "text_bm_wp_wa2000_b_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000longb",
-			"title" : "bm_wp_wa2000_b_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_wa2000longb",
 			"items" : [
 				"wac_default_multi",
@@ -17,9 +22,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_wa2000_b_suppressed",
+			"id" : "text_bm_wp_wa2000_b_suppressed",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000suppb",
-			"title" : "bm_wp_wa2000_b_suppressed",
+			"title" : "",
 			"callback" : "callback_toggle_replace_wa2000suppb",
 			"items" : [
 				"wac_default_multi",
@@ -31,12 +41,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_wa2000_g_light",
+			"id" : "text_bm_wp_wa2000_g_light",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000lightgrip",
-			"title" : "bm_wp_wa2000_g_light",
+			"title" : "",
 			"callback" : "callback_toggle_replace_wa2000lightgrip",
 			"items" : [
 				"wac_default_multi",
@@ -48,9 +63,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_wa2000_g_stealth",
+			"id" : "text_bm_wp_wa2000_g_stealth",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000stealthgrip",
-			"title" : "bm_wp_wa2000_g_stealth",
+			"title" : "",
 			"callback" : "callback_toggle_replace_wa2000stealthgrip",
 			"items" : [
 				"wac_default_multi",
@@ -62,9 +82,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_wa2000_g_walnut",
+			"id" : "text_bm_wp_wa2000_g_walnut",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_wa2000walnutgrip",
-			"title" : "bm_wp_wa2000_g_walnut",
+			"title" : "",
 			"callback" : "callback_toggle_replace_wa2000walnutgrip",
 			"items" : [
 				"wac_default_multi",

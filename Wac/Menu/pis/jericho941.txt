@@ -13,12 +13,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_sparrow_g_cowboy",
+			"id" : "text_bm_wp_sparrow_g_cowboy",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jericho941grip",
-			"title" : "bm_wp_sparrow_g_cowboy",
+			"title" : "",
 			"callback" : "callback_toggle_replace_jericho941grip",
 			"items" : [
 				"wac_default_multi",
@@ -29,12 +34,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_sparrow_body_941",
+			"id" : "text_bm_wp_sparrow_body_941",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_jericho941body",
-			"title" : "bm_wp_sparrow_body_941",
+			"title" : "",
 			"callback" : "callback_toggle_replace_jericho941body",
 			"items" : [
 				"wac_default_multi",

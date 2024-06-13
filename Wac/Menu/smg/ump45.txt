@@ -4,9 +4,14 @@
 	"title" : "bm_w_schakal",
 	"items" : [
 		{
+			"title" : "bm_wp_schakal_b_civil",
+			"id" : "text_bm_wp_schakal_b_civil",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_usc45b",
-			"title" : "bm_wp_schakal_b_civil",
+			"title" : "",
 			"callback" : "callback_toggle_replace_usc45b",
 			"items" : [
 				"wac_default_multi",
@@ -25,12 +30,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_schakal_m_long",
+			"id" : "text_bm_wp_schakal_m_long",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45extmag",
-			"title" : "bm_wp_schakal_m_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ump45extmag",
 			"items" : [
 				"wac_default_multi",
@@ -41,9 +51,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_schakal_m_short",
+			"id" : "text_bm_wp_schakal_m_short",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45shortmag",
-			"title" : "bm_wp_schakal_m_short",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ump45shortmag",
 			"items" : [
 				"wac_default_multi",
@@ -54,12 +69,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_schakal_s_civil",
+			"id" : "text_bm_wp_schakal_s_civil",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_usc45st",
-			"title" : "bm_wp_schakal_s_civil",
+			"title" : "",
 			"callback" : "callback_toggle_replace_usc45st",
 			"items" : [
 				"wac_default_multi",
@@ -71,9 +91,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_schakal_s_folded",
+			"id" : "text_bm_wp_schakal_s_folded",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45foldedst",
-			"title" : "bm_wp_schakal_s_folded",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ump45foldedst",
 			"items" : [
 				"wac_default_multi",
@@ -84,9 +109,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "wac_replace_akimbost_title",
+			"id" : "text_wac_replace_akimbost_title",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_ump45x_st",
-			"title" : "wac_replace_akimbost_title",
+			"title" : "",
 			"callback" : "callback_toggle_replace_ump45x_st",
 			"items" : [
 				"wac_default_multi",
@@ -99,7 +129,7 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
 		},
 		{
 			"type" : "toggle",

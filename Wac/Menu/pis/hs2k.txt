@@ -13,12 +13,17 @@
 		},
 		{
 			"type" : "divider",
-			"size" : 16
+			"size" : 32
+		},
+		{
+			"title" : "bm_wp_hs2000_sl_custom",
+			"id" : "text_bm_wp_hs2000_sl_custom",
+			"type" : "button"
 		},
 		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hs2kcustom",
-			"title" : "bm_wp_hs2000_sl_custom",
+			"title" : "",
 			"callback" : "callback_toggle_replace_hs2kcustom",
 			"items" : [
 				"wac_default_multi",
@@ -29,9 +34,14 @@
 			"default_value" : 1
 		},
 		{
+			"title" : "bm_wp_hs2000_sl_long",
+			"id" : "text_bm_wp_hs2000_sl_long",
+			"type" : "button"
+		},
+		{
 			"type" : "multiple_choice",
 			"id" : "toggle_replace_hs2klong",
-			"title" : "bm_wp_hs2000_sl_long",
+			"title" : "",
 			"callback" : "callback_toggle_replace_hs2klong",
 			"items" : [
 				"wac_default_multi",
